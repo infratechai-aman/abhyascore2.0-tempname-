@@ -1,11 +1,19 @@
 import React, { useState } from 'react';
-import { User, Shield, Sword, Trophy, Target, Zap, Edit2, Lock, Check } from 'lucide-react';
+import { User, Shield, Sword, Trophy, Target, Zap, Edit2, Lock, Check, Eye, EyeOff } from 'lucide-react';
 
 const AVATARS = [
-    { id: 'op', label: 'Operator', color: 'from-blue-500 to-indigo-600' },
-    { id: 'fox', label: 'Cyber Fox', color: 'from-orange-500 to-red-600' },
-    { id: 'bot', label: 'Mecha Bot', color: 'from-emerald-500 to-teal-600' },
-    { id: 'void', label: 'Void Walker', color: 'from-purple-500 to-violet-600' },
+    { id: 'MCharcter1', label: 'Rogue', src: '/Avatars/MCharcter1.png' },
+    { id: 'MCharcter2', label: 'Sentinal', src: '/Avatars/MCharcter2.png' },
+    { id: 'MCharcter3', label: 'Mage', src: '/Avatars/MCharcter3.png' },
+    { id: 'MCharcter4', label: 'Druid', src: '/Avatars/MCharcter4.png' },
+    { id: 'MCharcter5', label: 'Fighter', src: '/Avatars/MCharcter5.png' },
+    { id: 'MCharcter6', label: 'Assassin', src: '/Avatars/MCharcter6.png' },
+    { id: 'FCharacter1', label: 'Sorceress', src: '/Avatars/FCharacter1.png' },
+    { id: 'FCharacter2', label: 'Huntress', src: '/Avatars/FCharacter2.png' },
+    { id: 'FCharacter3', label: 'Cleric', src: '/Avatars/FCharacter3.png' },
+    { id: 'FCharacter4', label: 'Mystic', src: '/Avatars/FCharacter4.png' },
+    { id: 'FCharacter5', label: 'Warlock', src: '/Avatars/FCharacter5.png' },
+    { id: 'FCharacter6', label: 'Paladin', src: '/Avatars/FCharacter6.png' },
 ];
 
 const ACHIEVEMENTS = [
@@ -15,7 +23,7 @@ const ACHIEVEMENTS = [
     { id: 4, title: 'Veteran', desc: 'Reach Level 10', icon: <Shield size={20} />, unlocked: true },
 ];
 
-const ProfileSection = ({ stats, assets, onAvatarSelect, onClose }) => {
+const ProfileSection = ({ stats, assets, onAvatarSelect, onClose, devMode, setDevMode }) => {
     const [activeTab, setActiveTab] = useState('overview'); // overview, avatars, badges
 
     return (
@@ -107,6 +115,24 @@ const ProfileSection = ({ stats, assets, onAvatarSelect, onClose }) => {
                             <p className="text-white/40 text-[10px] font-black uppercase tracking-widest mb-2">COLLECTIBLES</p>
                             <p className="text-2xl font-black text-purple-400">5/24</p>
                         </div>
+                        {/* Dev Mode Toggle */}
+                        <div className="col-span-2 bg-[#16161c] border border-white/5 p-4 rounded-2xl">
+                            <div className="flex items-center justify-between">
+                                <div className="flex items-center gap-3">
+                                    {devMode ? <Eye className="text-green-400" size={20} /> : <EyeOff className="text-white/40" size={20} />}
+                                    <div>
+                                        <p className="text-sm font-bold text-white">Dev Mode</p>
+                                        <p className="text-[10px] text-white/40 font-medium">Enable developer features</p>
+                                    </div>
+                                </div>
+                                <button
+                                    onClick={() => setDevMode(!devMode)}
+                                    className={`w-12 h-6 rounded-full transition-colors relative ${devMode ? 'bg-green-500' : 'bg-white/10'}`}
+                                >
+                                    <div className={`absolute top-1 left-1 w-4 h-4 rounded-full bg-white transition-transform ${devMode ? 'translate-x-6' : 'translate-x-0'}`} />
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 )}
 
@@ -116,15 +142,26 @@ const ProfileSection = ({ stats, assets, onAvatarSelect, onClose }) => {
                             <div
                                 key={avatar.id}
                                 onClick={() => onAvatarSelect(avatar)}
-                                className="aspect-square rounded-2xl bg-[#16161c] border border-white/10 p-4 flex flex-col items-center justify-center gap-3 cursor-pointer hover:border-blue-500/50 hover:bg-white/5 transition-all group relative overflow-hidden"
+                                className={`aspect-square rounded-2xl bg-[#16161c] border p-2 flex flex-col items-center justify-center gap-2 cursor-pointer transition-all group relative overflow-hidden
+                                    ${assets.avatarId === avatar.id ? 'border-blue-500 shadow-[0_0_15px_rgba(59,130,246,0.5)]' : 'border-white/10 hover:border-white/30 hover:bg-white/5'}
+                                `}
                             >
-                                <div className={`w-16 h-16 rounded-full bg-gradient-to-br ${avatar.color} flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform`}>
-                                    <User size={24} className="text-white/80" />
+                                <div className="w-full h-full rounded-xl overflow-hidden relative">
+                                    <img
+                                        src={avatar.src}
+                                        alt={avatar.label}
+                                        className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80" />
                                 </div>
-                                <span className="text-xs font-bold text-white/60 tracking-wider uppercase group-hover:text-white">{avatar.label}</span>
+
+                                <span className="absolute bottom-3 text-[10px] font-black tracking-widest uppercase text-white drop-shadow-md z-10">
+                                    {avatar.label}
+                                </span>
+
                                 {assets.avatarId === avatar.id && (
-                                    <div className="absolute top-2 right-2 p-1 bg-green-500 rounded-full">
-                                        <Check size={12} className="text-black" />
+                                    <div className="absolute top-2 right-2 p-1 bg-blue-500 rounded-full shadow-lg z-20">
+                                        <Check size={10} className="text-white" />
                                     </div>
                                 )}
                             </div>
@@ -149,14 +186,39 @@ const ProfileSection = ({ stats, assets, onAvatarSelect, onClose }) => {
                 )}
             </div>
 
+            {/* Developer Options Toggle */}
+            <div className="mt-4 px-1">
+                <div className="bg-white/5 border border-white/10 p-3 rounded-xl flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                        {devMode ? <Eye className="text-green-400" size={16} /> : <EyeOff className="text-white/40" size={16} />}
+                        <div>
+                            <p className="text-xs font-bold text-white uppercase tracking-wider">Dev Mode: Answers</p>
+                        </div>
+                    </div>
+                    <button
+                        onClick={() => setDevMode(!devMode)}
+                        className={`w-10 h-5 rounded-full transition-colors relative ${devMode ? 'bg-green-500' : 'bg-white/10'}`}
+                    >
+                        <div className={`absolute top-1 left-1 w-3 h-3 rounded-full bg-white transition-transform ${devMode ? 'translate-x-5' : 'translate-x-0'}`} />
+                    </button>
+                </div>
+            </div>
+
             {/* Admin Access (Hidden/Subtle) */}
-            <div className="mt-8 pt-8 border-t border-white/5 flex justify-center">
+            <div className="mt-8 pt-8 border-t border-white/5 flex justify-center gap-4">
                 <button
                     onClick={() => onClose('admin')}
-                    className="flex items-center gap-2 px-4 py-2 rounded-lg bg-red-500/10 hover:bg-red-500/20 text-red-400 text-xs font-bold uppercase tracking-widest transition-colors"
+                    className="flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/10 hover:bg-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest transition-colors"
                 >
                     <Shield size={14} />
                     Admin Panel
+                </button>
+                <button
+                    onClick={() => onClose('logout')}
+                    className="flex items-center gap-2 px-4 py-2 rounded-lg bg-red-500/10 hover:bg-red-500/20 text-red-400 text-xs font-bold uppercase tracking-widest transition-colors"
+                >
+                    <Lock size={14} />
+                    Logout
                 </button>
             </div>
         </div>

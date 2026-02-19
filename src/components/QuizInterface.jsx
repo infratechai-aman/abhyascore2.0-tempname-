@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Timer, ArrowRight } from 'lucide-react';
 
-const QuizInterface = ({ questions, subject, onComplete, onExit }) => {
+const QuizInterface = ({ questions, subject, onComplete, onExit, devMode }) => {
     const [currentQIndex, setCurrentQIndex] = useState(0);
     const [answers, setAnswers] = useState({}); // { questionId: optionId }
     const [timeLeft, setTimeLeft] = useState(25 * 60); // 25 minutes for 25 questions
@@ -90,6 +90,8 @@ const QuizInterface = ({ questions, subject, onComplete, onExit }) => {
                         <div className="grid gap-3 sm:gap-4 w-full">
                             {currentQ.options.map((opt, idx) => {
                                 const isSelected = answers[currentQ.id] === opt.id;
+                                const isCorrect = opt.id === (currentQ.correctAnswer || currentQ.answer);
+
                                 return (
                                     <button
                                         key={opt.id}
@@ -97,15 +99,21 @@ const QuizInterface = ({ questions, subject, onComplete, onExit }) => {
                                         className={`w-full p-3 sm:p-4 rounded-xl border text-left transition-all duration-200 active:scale-[0.98] group relative overflow-hidden flex items-center min-h-[50px] sm:min-h-[60px]
                                             ${isSelected
                                                 ? 'bg-blue-600 border-blue-400 shadow-[0_0_20px_rgba(37,99,235,0.4)]'
-                                                : 'bg-white/5 border-white/10 hover:bg-white/10 hover:border-white/20'
+                                                : devMode && isCorrect
+                                                    ? 'bg-green-500/20 border-green-500/50 hover:bg-green-500/30'
+                                                    : 'bg-white/5 border-white/10 hover:bg-white/10 hover:border-white/20'
                                             }`}
                                     >
                                         <div className={`w-7 h-7 sm:w-8 sm:h-8 rounded-lg flex items-center justify-center text-xs sm:text-sm font-black mr-3 sm:mr-4 shrink-0 transition-colors
-                                            ${isSelected ? 'bg-white text-blue-600' : 'bg-black/40 text-white/50 group-hover:bg-white/10 group-hover:text-white'}`}>
+                                            ${isSelected
+                                                ? 'bg-white text-blue-600'
+                                                : devMode && isCorrect
+                                                    ? 'bg-green-500 text-black'
+                                                    : 'bg-black/40 text-white/50 group-hover:bg-white/10 group-hover:text-white'}`}>
                                             {String.fromCharCode(65 + idx)}
                                         </div>
-                                        <span className={`text-sm sm:text-base font-medium leading-snug ${isSelected ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
-                                            {opt.text}
+                                        <span className={`text-sm sm:text-base font-medium leading-snug ${isSelected ? 'text-white' : 'text-slate-300 group-hover:text-white'} ${devMode && isCorrect ? 'text-green-400' : ''}`}>
+                                            {opt.text} {devMode && isCorrect && "(CORRECT)"}
                                         </span>
                                     </button>
                                 );

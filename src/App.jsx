@@ -11,11 +11,11 @@ import AuthScreen from './components/AuthScreen';
 import ClassSelectionModal from './components/ClassSelectionModal';
 import AdminUpload from './components/AdminUpload';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
-import { startTestSession, calculateResults } from './utils/gameLogic';
+import { startTestSession, calculateResults, saveQuizResult, getUserProgress, saveChapterProgress } from './utils/gameLogic';
 import { Zap, Beaker, Calculator, Dna, Brain } from 'lucide-react';
 
 const MainContent = () => {
-  const { currentUser, userData, logout } = useAuth();
+  const { currentUser, userData, logout, updateUserStats } = useAuth();
 
   const [view, setView] = useState('home');
   const [selectedSub, setSelectedSub] = useState(null);
@@ -24,6 +24,7 @@ const MainContent = () => {
   const [showLevelSelector, setShowLevelSelector] = useState(false);
   const [showClassSelector, setShowClassSelector] = useState(false);
   const [selectedClass, setSelectedClass] = useState(null); // 11 or 12
+  const [devMode, setDevMode] = useState(false);
 
   // Quiz State
   const [quizQuestions, setQuizQuestions] = useState([]);
@@ -158,10 +159,10 @@ const MainContent = () => {
     { id: 319, name: 'PLANT GROWTH', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'bio' },
   ]);
 
-  const [avatarId, setAvatarId] = useState('op');
+  const [avatarId, setAvatarId] = useState('MCharcter1');
 
   const assets = {
-    avatar: null, // In a real app, this would map avatarId to an image URL
+    avatar: `/Avatars/${avatarId}.png`, // Dynamic path based on ID
     avatarId: avatarId, // For selection state
     bg: '/GameBG.png',
     phy: '/PhysicsCard.png',
@@ -179,6 +180,73 @@ const MainContent = () => {
     const timer = setTimeout(() => setLoading(false), 1500);
     return () => clearTimeout(timer);
   }, []);
+
+  // Load User Chapter Progress
+  useEffect(() => {
+    if (currentUser) {
+      getUserProgress(currentUser.uid).then(progressMap => {
+        if (Object.keys(progressMap).length > 0) {
+          setChapters(prev => prev.map(ch => {
+            const prog = progressMap[ch.id];
+            if (prog) {
+              return { ...ch, ...prog };
+            }
+            return ch;
+          }));
+        }
+      });
+    }
+  }, [currentUser]);
+
+  // Enforce Locking Logic (Sequence Enforcement)
+  useEffect(() => {
+    let changed = false;
+    const newChapters = [...chapters];
+
+    // Group by Subject & Class to handle sequences independently
+    const groups = {};
+    newChapters.forEach(ch => {
+      const key = `${ch.subject}-${ch.class}`;
+      if (!groups[key]) groups[key] = [];
+      groups[key].push(ch);
+    });
+
+    Object.values(groups).forEach(group => {
+      // Sort by ID to ensure sequence (1, 2, 3...)
+      group.sort((a, b) => a.id - b.id);
+
+      group.forEach((ch, index) => {
+        let shouldBeLocked = false;
+
+        if (index === 0) {
+          // First chapter always unlocked
+          shouldBeLocked = false;
+        } else {
+          // Check previous chapter's stars
+          const prevChapter = group[index - 1];
+          if (prevChapter.stars < 5) {
+            shouldBeLocked = true;
+          } else {
+            shouldBeLocked = false;
+          }
+        }
+
+        // Update if different
+        if (ch.locked !== shouldBeLocked) {
+          // Find index in main array
+          const mainIndex = newChapters.findIndex(c => c.id === ch.id);
+          if (mainIndex !== -1) {
+            newChapters[mainIndex] = { ...newChapters[mainIndex], locked: shouldBeLocked };
+            changed = true;
+          }
+        }
+      });
+    });
+
+    if (changed) {
+      setChapters(newChapters);
+    }
+  }, [chapters]);
 
   const handleSubjectClick = (subject) => {
     setSelectedSub(subject);
@@ -213,17 +281,103 @@ const MainContent = () => {
     // Calculate results to determine stars
     const results = calculateResults(quizQuestions, answers);
 
+    // --- Persistence Logic ---
+    if (currentUser) {
+      // 1. Save Result to History
+      saveQuizResult(currentUser.uid, {
+        subject: selectedSub.id,
+        chapterId: selectedChapter.id,
+        chapterName: selectedChapter.name,
+        difficulty: currentDifficulty,
+        ...results
+      });
+
+      // 2. Calculate Rewards
+      // XP: 10 per star + 1 per correct answer
+      const xpEarned = (results.stars * 10) + results.correct;
+      // Gold: 5 per correct answer
+      const goldEarned = results.correct * 5;
+
+      // 3. Update User Stats
+      const today = new Date().toDateString();
+      const lastActive = userData?.stats?.lastActive || null;
+      let newStreak = userData?.stats?.streak || 0;
+
+      // Streak Logic
+      if (lastActive !== today) {
+        const yesterday = new Date();
+        yesterday.setDate(yesterday.getDate() - 1);
+
+        if (lastActive === yesterday.toDateString()) {
+          newStreak += 1; // Contentinous streak
+        } else {
+          newStreak = 1; // Reset or Start new (if gap > 1 day or first time)
+          // Note: If it's the very first time (lastActive null), it becomes 1.
+        }
+      }
+
+      const newXp = (userData?.stats?.xp || 0) + xpEarned;
+      const currentLvl = userData?.stats?.lvl || 1;
+      const nextXpThreshold = currentLvl * 100; // Simple level curve
+
+      let newLvl = currentLvl;
+      let newNextXp = nextXpThreshold;
+
+      // Level Up Logic
+      if (newXp >= nextXpThreshold) {
+        newLvl += 1;
+        newNextXp = newLvl * 100;
+        // Could add level up modal trigger here
+      }
+
+      updateUserStats({
+        xp: newXp,
+        lvl: newLvl,
+        nextXp: newNextXp,
+        gold: (userData?.stats?.gold || 0) + goldEarned,
+        totalTests: (userData?.stats?.totalTests || 0) + 1,
+        totalQuestions: (userData?.stats?.totalQuestions || 0) + results.totalQuestions,
+        correctAnswers: (userData?.stats?.correctAnswers || 0) + results.correct,
+        streak: newStreak,
+        lastActive: today
+      });
+    }
+    // -------------------------
+
     // Update stars and completed modes for the chapter
     setChapters(prev => prev.map(ch => {
       if (ch.id === selectedChapter.id) {
+        // Initialize starMap if missing (for migration)
+        const currentStarMap = ch.starMap || { easy: 0, medium: 0, hard: 0 };
+
+        // Update stars for current difficulty (only if higher)
+        const newStarMap = {
+          ...currentStarMap,
+          [currentDifficulty]: Math.max(currentStarMap[currentDifficulty] || 0, results.stars)
+        };
+
+        // Calculate total stars (Sum of all difficulties) -> Max 9
+        const totalStars = Object.values(newStarMap).reduce((a, b) => a + b, 0);
+
         // Add current difficulty to completedModes if passed (stars > 0)
         const newCompletedModes = results.stars > 0 && !ch.completedModes.includes(currentDifficulty)
           ? [...ch.completedModes, currentDifficulty]
           : ch.completedModes;
 
+        // --- Persistence: Save Progress ---
+        if (currentUser) {
+          saveChapterProgress(currentUser.uid, ch.id, {
+            stars: totalStars,
+            starMap: newStarMap,
+            completedModes: newCompletedModes
+          });
+        }
+        // ----------------------------------
+
         return {
           ...ch,
-          stars: Math.max(ch.stars, results.stars),
+          stars: totalStars, // Now represents TOTAL sum (0-9)
+          starMap: newStarMap,
           completedModes: newCompletedModes
         };
       }
@@ -263,6 +417,8 @@ const MainContent = () => {
     (!selectedSub || ch.subject === selectedSub.id)
   );
 
+
+
   return (
     <div className="min-h-screen bg-[#050507] text-slate-100 p-4 pb-28 overflow-hidden select-none font-sans relative">
       <div className="fixed inset-0 opacity-20 pointer-events-none"
@@ -281,6 +437,7 @@ const MainContent = () => {
           subject={selectedSub}
           onComplete={handleQuizComplete}
           onExit={() => setView('map')}
+          devMode={devMode}
         />
       )}
 
@@ -325,7 +482,15 @@ const MainContent = () => {
             stats={stats}
             assets={assets}
             onAvatarSelect={handleAvatarSelect}
-            onClose={(action) => setView(action === 'admin' ? 'admin' : 'home')}
+            devMode={devMode}
+            setDevMode={setDevMode}
+            onClose={(action) => {
+              if (action === 'logout') {
+                logout();
+              } else {
+                setView(action === 'admin' ? 'admin' : 'home');
+              }
+            }}
           />
         ) : view === 'admin' ? (
           <AdminUpload onBack={() => setView('home')} />

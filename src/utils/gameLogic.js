@@ -1,5 +1,5 @@
 import { db } from '../firebase';
-import { doc, getDoc } from 'firebase/firestore';
+import { doc, getDoc, collection, setDoc, getDocs } from 'firebase/firestore';
 import { generateQuestionPool } from '../data/questions';
 
 // Fisher-Yates shuffle algorithm
@@ -81,4 +81,51 @@ export const calculateResults = (questions, userAnswers) => {
         percentage,
         stars
     };
+};
+
+// Save Quiz Result to Firestore
+export const saveQuizResult = async (userId, resultData) => {
+    try {
+        const resultRef = doc(collection(db, "quiz_results")); // Auto-ID
+        await setDoc(resultRef, {
+            userId,
+            ...resultData,
+            timestamp: new Date()
+        });
+        console.log("Quiz result saved:", resultRef.id);
+    } catch (error) {
+        console.error("Error saving quiz result:", error);
+    }
+};
+
+// Save Chapter Progress (Stars, Completes)
+export const saveChapterProgress = async (userId, chapterId, progressData) => {
+    try {
+        // We store progress in a subcollection 'chapterProgress' for the user
+        // user -> chapterProgress -> chapterId
+        const progRef = doc(db, "users", userId, "chapterProgress", String(chapterId));
+        await setDoc(progRef, progressData, { merge: true });
+        console.log(`Progress saved for Chapter ${chapterId}`);
+    } catch (error) {
+        console.error("Error saving chapter progress:", error);
+    }
+};
+
+// Get All Chapter Progress
+export const getUserProgress = async (userId) => {
+    try {
+        const progressRef = collection(db, "users", userId, "chapterProgress");
+        const snapshot = await getDocs(progressRef);
+        const progressMap = {};
+
+        if (!snapshot.empty) {
+            snapshot.forEach(doc => {
+                progressMap[doc.id] = doc.data();
+            });
+        }
+        return progressMap;
+    } catch (error) {
+        console.error("Error fetching progress:", error);
+        return {};
+    }
 };

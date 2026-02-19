@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Sword, Skull, X } from 'lucide-react';
+import { Shield, Sword, Skull, X, Star } from 'lucide-react';
 import { DIFFICULTY_REWARDS } from '../data/questions';
 
 const LevelSelector = ({ subject, chapter, onClose, onStart }) => {
@@ -64,12 +64,24 @@ const LevelSelector = ({ subject, chapter, onClose, onStart }) => {
                                     <p className="text-[9px] sm:text-[10px] font-medium opacity-60 uppercase tracking-wide leading-tight">{lvl.desc}</p>
                                 </div>
                                 <div className="flex flex-col items-end gap-1">
-                                    <span className="text-[8px] sm:text-[9px] font-bold bg-black/40 px-1.5 sm:px-2 py-0.5 rounded text-white/60 border border-white/5">
-                                        +{DIFFICULTY_REWARDS[lvl.id].xp} XP
-                                    </span>
-                                    <span className="text-[8px] sm:text-[9px] font-bold bg-black/40 px-1.5 sm:px-2 py-0.5 rounded text-yellow-500/80 border border-white/5">
-                                        +{DIFFICULTY_REWARDS[lvl.id].gold} G
-                                    </span>
+                                    {/* Star Rating */}
+                                    <div className="flex gap-0.5 mb-1">
+                                        {[1, 2, 3].map(i => (
+                                            <Star
+                                                key={i}
+                                                size={10}
+                                                className={`${i <= (chapter?.starMap?.[lvl.id] || 0) ? 'fill-yellow-400 text-yellow-400' : 'text-white/20'}`}
+                                            />
+                                        ))}
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <span className="text-[8px] sm:text-[9px] font-bold bg-black/40 px-1.5 sm:px-2 py-0.5 rounded text-white/60 border border-white/5">
+                                            +{DIFFICULTY_REWARDS[lvl.id].xp} XP
+                                        </span>
+                                        <span className="text-[8px] sm:text-[9px] font-bold bg-black/40 px-1.5 sm:px-2 py-0.5 rounded text-yellow-500/80 border border-white/5">
+                                            +{DIFFICULTY_REWARDS[lvl.id].gold} G
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>

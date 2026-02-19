@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
-import { auth, db } from '../firebase';
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged } from 'firebase/auth';
-import { doc, setDoc, getDoc } from 'firebase/firestore';
+import { auth, db, googleProvider } from '../firebase';
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, signInWithPopup } from 'firebase/auth';
+import { doc, setDoc, getDoc, updateDoc } from 'firebase/firestore';
 
 const AuthContext = createContext();
 
@@ -43,6 +43,44 @@ export const AuthProvider = ({ children }) => {
         return signInWithEmailAndPassword(auth, email, password);
     };
 
+    // Google Login
+    const googleLogin = async (selectedStream = 'JEE') => {
+        try {
+            const result = await signInWithPopup(auth, googleProvider);
+            const user = result.user;
+
+            // Check if user doc exists
+            const docRef = doc(db, "users", user.uid);
+            const docSnap = await getDoc(docRef);
+
+            if (!docSnap.exists()) {
+                // Create new user doc
+                const newUser = {
+                    name: user.displayName,
+                    email: user.email,
+                    stream: selectedStream,
+                    createdAt: new Date(),
+                    stats: {
+                        lvl: 1,
+                        xp: 0,
+                        nextXp: 100,
+                        gold: 0,
+                        gems: 0,
+                        streak: 0
+                    }
+                };
+                await setDoc(docRef, newUser);
+                setUserData(newUser);
+            } else {
+                setUserData(docSnap.data());
+            }
+            return user;
+        } catch (error) {
+            console.error("Google Login Error:", error);
+            throw error;
+        }
+    };
+
     // Guest Login (Bypass)
     const guestLogin = (selectedStream = 'JEE') => {
         const mockUser = { uid: 'guest123', email: 'guest@system.local' };
@@ -70,6 +108,27 @@ export const AuthProvider = ({ children }) => {
             // If firebase signout fails (e.g. guest mode), just clear local state
             setCurrentUser(null);
         });
+    };
+
+    // Update User Stats
+    const updateUserStats = async (newStats) => {
+        if (!currentUser) return;
+
+        // Update local state
+        setUserData(prev => ({
+            ...prev,
+            stats: { ...prev.stats, ...newStats }
+        }));
+
+        // Update Firestore
+        const userRef = doc(db, "users", currentUser.uid);
+        try {
+            await updateDoc(userRef, {
+                "stats": newStats
+            });
+        } catch (err) {
+            console.error("Error updating stats:", err);
+        }
     };
 
     // Load User Data
@@ -101,8 +160,10 @@ export const AuthProvider = ({ children }) => {
         userData,
         signup,
         login,
+        googleLogin,
         guestLogin,
-        logout
+        logout,
+        updateUserStats
     };
 
     return (

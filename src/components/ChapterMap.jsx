@@ -1,13 +1,25 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { ChevronLeft, Settings, Lock } from 'lucide-react';
 
 const ChapterMap = ({ selectedSub, chapters, setView, onChapterClick, assets }) => {
+    const scrollRef = useRef(null);
+
+    // Auto-scroll to bottom on mount (Start at Level 1)
+    useEffect(() => {
+        if (scrollRef.current) {
+            scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
+        }
+    }, [chapters, selectedSub]);
+
     return (
-        <div className="relative pt-4 pb-20 animate-in slide-in-from-right duration-300 min-h-[70vh]">
-            <div className="flex items-center justify-between mb-10 px-2">
+        <div
+            ref={scrollRef}
+            className="relative pb-20 animate-in slide-in-from-right duration-300 h-[calc(100vh-140px)] overflow-y-auto no-scrollbar scroll-smooth"
+        >
+            <div className="flex items-center justify-between px-4 sticky top-0 z-50 bg-[#050507]/95 backdrop-blur-xl border-b border-white/5 py-2 shadow-2xl">
                 <button
                     onClick={() => setView('home')}
-                    className="p-2 bg-white/5 rounded-xl border border-white/10 text-white hover:bg-white/10 transition-colors active:scale-95"
+                    className="p-2 bg-white/5 rounded-xl border border-white/10 text-white hover:bg-white/10 transition-colors active:scale-95 backdrop-blur-md"
                 >
                     <ChevronLeft size={20} />
                 </button>
@@ -15,15 +27,15 @@ const ChapterMap = ({ selectedSub, chapters, setView, onChapterClick, assets }) 
                     <h2 className="text-lg font-black italic text-white uppercase tracking-tighter drop-shadow-md">{selectedSub?.title}</h2>
                     <div className={`h-1 w-12 mx-auto mt-1 rounded-full shadow-[0_0_15px_currentColor] ${selectedSub?.color}`} />
                 </div>
-                <button className="p-2 bg-white/5 rounded-xl border border-white/10 text-white hover:bg-white/10 transition-colors active:scale-95">
+                <button className="p-2 bg-white/5 rounded-xl border border-white/10 text-white hover:bg-white/10 transition-colors active:scale-95 backdrop-blur-md">
                     <Settings size={20} />
                 </button>
             </div>
 
             <div className="absolute left-1/2 top-32 bottom-20 w-1 bg-white/5 -translate-x-1/2 rounded-full" />
 
-            <div className="space-y-16 sm:space-y-20 relative mt-8 flex flex-col-reverse">
-                {chapters.map((ch) => (
+            <div className="space-y-16 sm:space-y-20 relative mt-8 flex flex-col-reverse pb-32">
+                {chapters.map((ch, index) => (
                     <div key={ch.id} className={`flex flex-col items-center relative transition-transform ${ch.pos === 'left' ? '-translate-x-10 sm:-translate-x-12' : ch.pos === 'right' ? 'translate-x-10 sm:translate-x-12' : ''}`}>
                         <div className="relative group">
                             <div
@@ -44,7 +56,7 @@ const ChapterMap = ({ selectedSub, chapters, setView, onChapterClick, assets }) 
                                 {/* Chapter ID Overlay */}
                                 {!ch.locked && (
                                     <div className="relative z-20 font-black text-2xl sm:text-3xl italic text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] pb-1">
-                                        {ch.id}
+                                        {index + 1}
                                     </div>
                                 )}
 
@@ -56,7 +68,7 @@ const ChapterMap = ({ selectedSub, chapters, setView, onChapterClick, assets }) 
                                         {[1, 2, 3].map(i => (
                                             <div
                                                 key={i}
-                                                className={`w-3 h-3 sm:w-4 sm:h-4 rounded-full border-2 border-[#050507] shadow-lg ${i <= ch.stars ? 'bg-yellow-400 shadow-[0_0_10px_yellow]' : 'bg-slate-800'}`}
+                                                className={`w-3 h-3 sm:w-4 sm:h-4 rounded-full border-2 border-[#050507] shadow-lg ${i <= (ch.completedModes?.length || 0) ? 'bg-yellow-400 shadow-[0_0_10px_yellow]' : 'bg-slate-800'}`}
                                             />
                                         ))}
                                     </div>
