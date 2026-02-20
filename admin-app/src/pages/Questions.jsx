@@ -16,40 +16,39 @@ const CHAPTERS_BY_SUBJECT = {
     Biology: [310, 311, 312, 313, 314, 315, 316, 317, 318, 319],
 };
 
-const DIFFICULTY_CLS = {
-    Easy: 'bg-emerald-50 text-emerald-600',
-    Medium: 'bg-amber-50  text-amber-600',
-    Hard: 'bg-red-50    text-red-500',
+const DIFFICULTY_BADGE = {
+    Easy: 'badge-success',
+    Medium: 'badge-warning',
+    Hard: 'badge-danger',
 };
-const SUBJECT_CLS = {
-    Physics: 'bg-blue-50    text-blue-600',
-    Chemistry: 'bg-purple-50  text-purple-600',
-    Biology: 'bg-green-50   text-green-600',
-    Maths: 'bg-indigo-50  text-indigo-600',
-    Zoology: 'bg-teal-50    text-teal-600',
+const SUBJECT_BADGE = {
+    Physics: 'badge-primary',
+    Chemistry: 'badge-info',
+    Biology: 'badge-success',
+    Maths: 'badge-warning',
+    Zoology: 'badge-indigo',
 };
 
 // ─── Sub-components ───────────────────────────────────────────────────────────
 
 const Skeleton = () => (
-    <div className="animate-pulse space-y-3 p-4">
+    <div style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.625rem' }}>
         {[...Array(5)].map((_, i) => (
-            <div key={i} className="h-14 bg-slate-100 rounded-xl" />
+            <div key={i} className="skeleton" style={{ height: '3.5rem', borderRadius: '0.5rem' }} />
         ))}
     </div>
 );
 
 function FilterSelect({ id, label, value, onChange, options, placeholder }) {
     return (
-        <div className="flex flex-col gap-1 min-w-[140px]">
-            <label htmlFor={id} className="text-[10px] font-semibold uppercase tracking-wide text-slate-400">
-                {label}
-            </label>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem', minWidth: '10rem' }}>
+            <label htmlFor={id} className="form-label">{label}</label>
             <select
                 id={id}
                 value={value}
                 onChange={(e) => onChange(e.target.value)}
-                className="text-sm border border-slate-200 bg-white rounded-xl px-3 py-2 text-slate-700 focus:outline-none focus:ring-2 focus:ring-indigo-300 transition cursor-pointer"
+                className="form-select"
+                style={{ cursor: 'pointer' }}
             >
                 <option value="">{placeholder}</option>
                 {options.map((o) => (
@@ -65,15 +64,15 @@ function FilterSelect({ id, label, value, onChange, options, placeholder }) {
 function ActiveBadge({ isActive }) {
     if (isActive === false) {
         return (
-            <span className="inline-flex items-center gap-1 text-xs font-semibold px-2 py-0.5 rounded-full bg-slate-100 text-slate-400">
-                <span className="w-1.5 h-1.5 rounded-full bg-slate-300" />
+            <span className="badge badge-gray">
+                <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: 'var(--text-muted)', marginRight: '0.25rem', flexShrink: 0 }} />
                 Inactive
             </span>
         );
     }
     return (
-        <span className="inline-flex items-center gap-1 text-xs font-semibold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-600">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
+        <span className="badge badge-success">
+            <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: 'rgb(var(--success-rgb))', marginRight: '0.25rem', flexShrink: 0 }} />
             Active
         </span>
     );
@@ -87,6 +86,8 @@ export default function Questions() {
     const [filterSubject, setFilterSubject] = useState('');
     const [filterDifficulty, setFilterDifficulty] = useState('');
     const [filterChapterId, setFilterChapterId] = useState('');
+    const [filterStatus, setFilterStatus] = useState(''); // '' | 'active' | 'inactive'
+    const [pageSize, setPageSize] = useState(20); // 20 | 50 | 100 | 0 (All)
 
     const filters = {
         ...(filterSubject ? { subject: filterSubject } : {}),
@@ -95,10 +96,19 @@ export default function Questions() {
     };
 
     const {
-        questions,
+        questions: rawQuestions,
+        totalCount,
         loading, loadingMore, error, hasMore,
         loadMore, addQuestion, editQuestion, removeQuestion, bulkSetActiveQuestions,
-    } = useQuestions(filters);
+    } = useQuestions(filters, pageSize);
+
+    // Client-side status filter applied on top of hook results
+    const questions = filterStatus === 'active'
+        ? rawQuestions.filter((q) => q.isActive !== false)
+        : filterStatus === 'inactive'
+            ? rawQuestions.filter((q) => q.isActive === false)
+            : rawQuestions;
+
 
     // ── Chapter options (static) ────────────────────────────────────────────────
     const chapterOptions = filterSubject
@@ -167,27 +177,30 @@ export default function Questions() {
         setFilterSubject('');
         setFilterDifficulty('');
         setFilterChapterId('');
+        setFilterStatus('');
     };
 
-    const hasActiveFilter = filterSubject || filterDifficulty || filterChapterId;
+    const hasActiveFilter = filterSubject || filterDifficulty || filterChapterId || filterStatus;
 
     return (
-        <div className="p-6 sm:p-8 space-y-6">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
 
             {/* ── Header ──────────────────────────────────────────────────── */}
-            <div className="flex items-center justify-between flex-wrap gap-4">
-                <div>
-                    <h1 className="text-2xl font-bold text-slate-800">Questions</h1>
-                    <p className="text-slate-500 text-sm mt-1">
-                        {questions.length} question{questions.length !== 1 ? 's' : ''} shown
-                        {hasActiveFilter && ' (filtered)'}
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '0.75rem' }}>
+                <div className="page-header" style={{ marginBottom: 0 }}>
+                    <div className="breadcrumb">
+                        <span>Admin</span><span>/</span><span>Questions</span>
+                    </div>
+                    <h1>Questions</h1>
+                    <p>
+                        {hasActiveFilter
+                            ? <>{questions.length} of {totalCount ?? rawQuestions.length} question{(totalCount ?? rawQuestions.length) !== 1 ? 's' : ''} <span style={{ color: 'var(--primary)', fontWeight: 600 }}>(filtered)</span></>
+                            : <>{totalCount !== null ? totalCount : rawQuestions.length} question{(totalCount ?? rawQuestions.length) !== 1 ? 's' : ''} total</>
+                        }
                     </p>
                 </div>
-                <button
-                    onClick={openAdd}
-                    className="flex items-center gap-2 px-4 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold rounded-xl transition-colors shadow-sm"
-                >
-                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <button onClick={openAdd} className="btn btn-primary">
+                    <svg style={{ width: '0.875rem', height: '0.875rem' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
                     </svg>
                     Add Question
@@ -195,8 +208,8 @@ export default function Questions() {
             </div>
 
             {/* ── Filter Bar ──────────────────────────────────────────────── */}
-            <div className="bg-white border border-slate-200 rounded-2xl px-5 py-4">
-                <div className="flex flex-wrap items-end gap-4">
+            <div className="card" style={{ padding: '1rem 1.25rem' }}>
+                <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', gap: '0.875rem' }}>
                     <FilterSelect
                         id="filter-subject"
                         label="Subject"
@@ -221,12 +234,20 @@ export default function Questions() {
                         options={chapterOptions}
                         placeholder="All chapters"
                     />
+                    <FilterSelect
+                        id="filter-status"
+                        label="Status"
+                        value={filterStatus}
+                        onChange={setFilterStatus}
+                        options={[
+                            { value: 'active', label: '🟢 Active' },
+                            { value: 'inactive', label: '⚫ Inactive' },
+                        ]}
+                        placeholder="All statuses"
+                    />
                     {hasActiveFilter && (
-                        <button
-                            onClick={clearFilters}
-                            className="mt-5 flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-slate-500 hover:text-red-500 bg-slate-100 hover:bg-red-50 rounded-xl transition-colors"
-                        >
-                            <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <button onClick={clearFilters} className="btn btn-danger btn-sm" style={{ alignSelf: 'flex-end' }}>
+                            <svg style={{ width: '0.75rem', height: '0.75rem' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                             </svg>
                             Clear
@@ -235,176 +256,135 @@ export default function Questions() {
                 </div>
 
                 {hasActiveFilter && (
-                    <div className="flex flex-wrap gap-2 mt-3 pt-3 border-t border-slate-100">
-                        {filterSubject && (
-                            <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${SUBJECT_CLS[filterSubject] ?? 'bg-slate-100 text-slate-600'}`}>
-                                {filterSubject}
-                            </span>
-                        )}
-                        {filterDifficulty && (
-                            <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${DIFFICULTY_CLS[filterDifficulty] ?? 'bg-slate-100 text-slate-600'}`}>
-                                {filterDifficulty}
-                            </span>
-                        )}
-                        {filterChapterId && (
-                            <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-slate-100 text-slate-700">
-                                Ch. {filterChapterId}
-                            </span>
-                        )}
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginTop: '0.75rem', paddingTop: '0.75rem', borderTop: '1px solid var(--card-border)' }}>
+                        {filterSubject && <span className={`badge ${SUBJECT_BADGE[filterSubject] ?? 'badge-gray'}`}>{filterSubject}</span>}
+                        {filterDifficulty && <span className={`badge ${DIFFICULTY_BADGE[filterDifficulty] ?? 'badge-gray'}`}>{filterDifficulty}</span>}
+                        {filterChapterId && <span className="badge badge-gray">Ch. {filterChapterId}</span>}
+                        {filterStatus && <span className={`badge ${filterStatus === 'active' ? 'badge-success' : 'badge-gray'}`}>
+                            {filterStatus === 'active' ? '🟢 Active only' : '⚫ Inactive only'}
+                        </span>}
                     </div>
                 )}
             </div>
 
-            {/* ── Bulk Toolbar (visible when rows are selected) ────────────── */}
+            {/* ── Bulk Toolbar ─────────────────────────────────────────────── */}
             {someSelected && (
-                <div className="flex items-center gap-3 bg-indigo-50 border border-indigo-100 rounded-2xl px-5 py-3 flex-wrap">
-                    <span className="text-sm font-semibold text-indigo-700">
+                <div style={{
+                    display: 'flex', alignItems: 'center', gap: '0.75rem', flexWrap: 'wrap',
+                    background: 'var(--primary-01)', border: '1px solid var(--primary-02)',
+                    borderRadius: '0.625rem', padding: '0.75rem 1rem'
+                }}>
+                    <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)' }}>
                         {selected.size} selected
                     </span>
-                    <div className="flex items-center gap-2 ml-auto flex-wrap">
-                        <button
-                            onClick={() => handleBulkActive(true)}
-                            disabled={bulkWorking}
-                            className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-emerald-700 bg-emerald-100 hover:bg-emerald-200 rounded-lg disabled:opacity-50 transition-colors"
-                        >
-                            <span className="w-2 h-2 rounded-full bg-emerald-500" />
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginLeft: 'auto', flexWrap: 'wrap' }}>
+                        <button onClick={() => handleBulkActive(true)} disabled={bulkWorking} className="btn btn-sm badge-success" style={{ background: 'rgba(var(--success-rgb),0.12)', color: 'rgb(var(--success-rgb))', border: 'none', cursor: 'pointer' }}>
+                            <span style={{ width: '7px', height: '7px', borderRadius: '50%', background: 'rgb(var(--success-rgb))' }} />
                             Activate
                         </button>
-                        <button
-                            onClick={() => handleBulkActive(false)}
-                            disabled={bulkWorking}
-                            className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-slate-600 bg-slate-200 hover:bg-slate-300 rounded-lg disabled:opacity-50 transition-colors"
-                        >
-                            <span className="w-2 h-2 rounded-full bg-slate-400" />
+                        <button onClick={() => handleBulkActive(false)} disabled={bulkWorking} className="btn btn-outline btn-sm">
+                            <span style={{ width: '7px', height: '7px', borderRadius: '50%', background: 'var(--text-muted)' }} />
                             Deactivate
                         </button>
-                        <button
-                            onClick={clearSelection}
-                            className="px-3 py-1.5 text-xs font-semibold text-slate-400 hover:text-slate-600 transition-colors"
-                        >
-                            Cancel
-                        </button>
+                        <button onClick={clearSelection} className="btn btn-outline btn-sm">Cancel</button>
                     </div>
-                    {bulkWorking && (
-                        <div className="w-4 h-4 border-2 border-indigo-300 border-t-indigo-600 rounded-full animate-spin" />
-                    )}
                 </div>
             )}
 
             {/* ── Error ───────────────────────────────────────────────────── */}
             {(error || actionError) && (
-                <div className="bg-red-50 border border-red-200 text-red-600 text-sm rounded-xl px-4 py-3">
+                <div style={{ background: 'rgba(230,83,60,0.08)', border: '1px solid rgba(230,83,60,0.25)', borderRadius: '0.625rem', padding: '0.75rem 1rem', fontSize: '0.8125rem', color: 'rgb(var(--danger-rgb))' }}>
                     ⚠️ {error || actionError}
                 </div>
             )}
 
             {/* ── Table ───────────────────────────────────────────────────── */}
-            <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden">
+            <div className="card" style={{ overflow: 'hidden' }}>
                 {loading ? (
                     <Skeleton />
                 ) : questions.length === 0 ? (
-                    <div className="py-20 text-center">
-                        <svg className="w-12 h-12 text-slate-200 mx-auto mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
+                    <div className="empty-state">
+                        <div className="empty-state-icon">
+                            <svg style={{ width: '1.5rem', height: '1.5rem' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
                         {hasActiveFilter ? (
                             <>
-                                <p className="text-slate-500 text-sm font-medium mb-2">No questions match these filters</p>
-                                <button onClick={clearFilters} className="text-xs text-indigo-600 font-semibold hover:underline">
-                                    Clear filters
-                                </button>
+                                <p style={{ fontWeight: 500 }}>No questions match these filters</p>
+                                <button onClick={clearFilters} className="btn btn-outline btn-sm" style={{ marginTop: '0.5rem' }}>Clear filters</button>
                             </>
                         ) : (
                             <>
-                                <p className="text-slate-500 text-sm font-medium mb-3">No questions yet</p>
-                                <button onClick={openAdd} className="text-xs text-indigo-600 font-semibold hover:underline">
-                                    Add your first question
-                                </button>
+                                <p style={{ fontWeight: 500 }}>No questions yet</p>
+                                <button onClick={openAdd} className="btn btn-primary btn-sm" style={{ marginTop: '0.5rem' }}>Add your first question</button>
                             </>
                         )}
                     </div>
                 ) : (
-                    <div className="overflow-x-auto">
-                        <table className="w-full text-sm">
+                    <div className="table-wrapper">
+                        <table className="data-table">
                             <thead>
-                                <tr className="bg-slate-50 border-b border-slate-200">
-                                    {/* Select-all checkbox */}
-                                    <th className="px-4 py-4 w-10">
+                                <tr>
+                                    <th style={{ width: '2.5rem' }}>
                                         <input
                                             type="checkbox"
                                             checked={allSelected}
                                             onChange={toggleAll}
-                                            className="w-4 h-4 rounded border-slate-300 text-indigo-600 cursor-pointer accent-indigo-600"
+                                            style={{ width: '1rem', height: '1rem', accentColor: 'var(--primary)', cursor: 'pointer' }}
                                         />
                                     </th>
-                                    <th className="text-left text-xs font-semibold text-slate-500 uppercase tracking-wide px-4 py-4">Status</th>
-                                    <th className="text-left text-xs font-semibold text-slate-500 uppercase tracking-wide px-4 py-4">Subject</th>
-                                    <th className="text-left text-xs font-semibold text-slate-500 uppercase tracking-wide px-4 py-4">Difficulty</th>
-                                    <th className="text-left text-xs font-semibold text-slate-500 uppercase tracking-wide px-4 py-4 hidden sm:table-cell">Ch.</th>
-                                    <th className="text-left text-xs font-semibold text-slate-500 uppercase tracking-wide px-4 py-4">Question Preview</th>
-                                    <th className="text-right text-xs font-semibold text-slate-500 uppercase tracking-wide px-4 py-4">Actions</th>
+                                    <th>Status</th>
+                                    <th>Subject</th>
+                                    <th>Difficulty</th>
+                                    <th>Ch.</th>
+                                    <th>Question Preview</th>
+                                    <th style={{ textAlign: 'right' }}>Actions</th>
                                 </tr>
                             </thead>
-                            <tbody className="divide-y divide-slate-100">
+                            <tbody>
                                 {questions.map((q) => {
                                     const isTemp = q.id?.startsWith('temp_');
                                     const isSelected = selected.has(q.id);
                                     return (
                                         <tr
                                             key={q.id}
-                                            className={`transition-colors ${isSelected ? 'bg-indigo-50/60' : 'hover:bg-slate-50'} ${isTemp ? 'opacity-60' : ''} ${q.isActive === false ? 'opacity-50' : ''}`}
+                                            style={{
+                                                background: isSelected ? 'var(--primary-005)' : undefined,
+                                                opacity: (isTemp || q.isActive === false) ? 0.6 : 1
+                                            }}
                                         >
-                                            {/* Checkbox */}
-                                            <td className="px-4 py-4">
+                                            <td>
                                                 <input
                                                     type="checkbox"
                                                     checked={isSelected}
                                                     disabled={isTemp}
                                                     onChange={() => toggleOne(q.id)}
-                                                    className="w-4 h-4 rounded border-slate-300 cursor-pointer accent-indigo-600 disabled:opacity-40"
+                                                    style={{ width: '1rem', height: '1rem', accentColor: 'var(--primary)', cursor: 'pointer' }}
                                                 />
                                             </td>
-                                            {/* Active status */}
-                                            <td className="px-4 py-4">
-                                                <ActiveBadge isActive={q.isActive} />
+                                            <td><ActiveBadge isActive={q.isActive} /></td>
+                                            <td>
+                                                <span className={`badge ${SUBJECT_BADGE[q.subject] ?? 'badge-gray'}`}>{q.subject}</span>
                                             </td>
-                                            <td className="px-4 py-4">
-                                                <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${SUBJECT_CLS[q.subject] ?? 'bg-slate-100 text-slate-600'}`}>
-                                                    {q.subject}
-                                                </span>
+                                            <td>
+                                                <span className={`badge ${DIFFICULTY_BADGE[q.difficulty] ?? 'badge-gray'}`}>{q.difficulty}</span>
                                             </td>
-                                            <td className="px-4 py-4">
-                                                <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${DIFFICULTY_CLS[q.difficulty] ?? 'bg-slate-100 text-slate-600'}`}>
-                                                    {q.difficulty}
-                                                </span>
-                                            </td>
-                                            <td className="px-4 py-4 hidden sm:table-cell text-slate-400 text-xs font-mono">
+                                            <td style={{ color: 'var(--text-muted)', fontFamily: 'monospace', fontSize: '0.75rem' }}>
                                                 {q.chapterId ?? '—'}
                                             </td>
-                                            <td className="px-4 py-4 text-slate-600 max-w-xs">
-                                                <p className="truncate">{q.question}</p>
+                                            <td style={{ maxWidth: '20rem' }}>
+                                                <p style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{q.question}</p>
                                                 {q.options?.length > 0 && (
-                                                    <p className="text-xs text-slate-400 mt-0.5">
+                                                    <p style={{ fontSize: '0.6875rem', color: 'var(--text-muted)', marginTop: '0.125rem' }}>
                                                         {q.options.length} options · Ans: {q.correctAnswer}
                                                     </p>
                                                 )}
                                             </td>
-                                            <td className="px-4 py-4">
-                                                <div className="flex items-center justify-end gap-2">
-                                                    <button
-                                                        onClick={() => openEdit(q)}
-                                                        disabled={isTemp}
-                                                        className="px-3 py-1.5 text-xs font-semibold text-indigo-600 bg-indigo-50 hover:bg-indigo-100 rounded-lg transition-colors disabled:opacity-40"
-                                                    >
-                                                        Edit
-                                                    </button>
-                                                    <button
-                                                        onClick={() => setDeleteTarget(q)}
-                                                        disabled={isTemp}
-                                                        className="px-3 py-1.5 text-xs font-semibold text-red-500 bg-red-50 hover:bg-red-100 rounded-lg transition-colors disabled:opacity-40"
-                                                    >
-                                                        Delete
-                                                    </button>
+                                            <td>
+                                                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: '0.375rem' }}>
+                                                    <button onClick={() => openEdit(q)} disabled={isTemp} className="btn btn-sm badge-primary" style={{ background: 'var(--primary-01)', color: 'var(--primary)', border: 'none', cursor: 'pointer', opacity: isTemp ? 0.4 : 1 }}>Edit</button>
+                                                    <button onClick={() => setDeleteTarget(q)} disabled={isTemp} className="btn btn-danger btn-sm" style={{ opacity: isTemp ? 0.4 : 1 }}>Delete</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -416,21 +396,37 @@ export default function Questions() {
                 )}
 
                 {/* Footer */}
-                <div className="px-6 py-4 bg-slate-50 border-t border-slate-100 flex items-center justify-between flex-wrap gap-3">
-                    <p className="text-xs text-slate-400">
-                        Showing {questions.length} question{questions.length !== 1 ? 's' : ''}
-                        {hasActiveFilter && ' · filtered'}
-                        {someSelected && ` · ${selected.size} selected`}
-                    </p>
-                    {hasMore && !hasActiveFilter && (
-                        <button
-                            onClick={loadMore}
-                            disabled={loadingMore}
-                            className="flex items-center gap-2 px-4 py-2 text-xs font-semibold text-indigo-600 bg-indigo-50 hover:bg-indigo-100 rounded-lg disabled:opacity-50 transition-colors"
-                        >
-                            {loadingMore ? (
-                                <><div className="w-3 h-3 border-2 border-indigo-300 border-t-indigo-600 rounded-full animate-spin" /> Loading...</>
-                            ) : 'Load more'}
+                <div style={{
+                    padding: '0.75rem 1rem', borderTop: '1px solid var(--card-border)',
+                    background: 'rgba(var(--primary-rgb),0.02)',
+                    display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '0.75rem'
+                }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap' }}>
+                        <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>Show</span>
+                        <div style={{ display: 'flex', gap: '0.25rem' }}>
+                            {[20, 50, 100, 0].map((size) => (
+                                <button
+                                    key={size}
+                                    onClick={() => setPageSize(size)}
+                                    style={{
+                                        padding: '0.2rem 0.55rem', fontSize: '0.6875rem', fontWeight: 600, borderRadius: '0.375rem',
+                                        border: '1px solid', cursor: 'pointer', transition: 'all 0.15s',
+                                        background: pageSize === size ? 'var(--primary)' : 'transparent',
+                                        color: pageSize === size ? '#fff' : 'var(--text-muted)',
+                                        borderColor: pageSize === size ? 'var(--primary)' : 'var(--card-border)'
+                                    }}
+                                >
+                                    {size === 0 ? 'All' : size}
+                                </button>
+                            ))}
+                        </div>
+                        <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+                            Showing {rawQuestions.length}{totalCount !== null && rawQuestions.length < totalCount ? ` of ${totalCount}` : ''}{someSelected ? ` · ${selected.size} selected` : ''}
+                        </span>
+                    </div>
+                    {hasMore && pageSize !== 0 && (
+                        <button onClick={loadMore} disabled={loadingMore} className="btn btn-outline btn-sm">
+                            {loadingMore ? 'Loading…' : 'Load more'}
                         </button>
                     )}
                 </div>

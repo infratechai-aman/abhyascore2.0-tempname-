@@ -8,27 +8,38 @@ const navItems = [
     {
         to: '/dashboard',
         label: 'Dashboard',
+        color: 'rgb(var(--primary-rgb))',       /* blue */
+        activeBg: 'rgba(var(--primary-rgb), 0.15)',
         icon: (
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
+                    d="M4 5a1 1 0 011-1h4a1 1 0 011 1v5a1 1 0 01-1 1H5a1 1 0 01-1-1V5zm10 0a1 1 0 011-1h4a1 1 0 011 1v2a1 1 0 01-1 1h-4a1 1 0 01-1-1V5zM4 15a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1v-4zm10-3a1 1 0 011-1h4a1 1 0 011 1v7a1 1 0 01-1 1h-4a1 1 0 01-1-1v-7z" />
             </svg>
         ),
     },
     {
         to: '/users',
         label: 'Users',
+        color: 'rgb(207, 102, 121)',             /* rose/pink */
+        activeBg: 'rgba(207, 102, 121, 0.15)',
         icon: (
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
+                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
             </svg>
         ),
     },
     {
         to: '/questions',
         label: 'Questions',
+        color: 'rgb(251, 140, 0)',               /* orange */
+        activeBg: 'rgba(251, 140, 0, 0.15)',
         icon: (
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
+                    d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
+                    d="M12 12v4m0 0h.01M12 8h.01" opacity="0.6" />
             </svg>
         ),
     },
@@ -36,6 +47,8 @@ const navItems = [
 
 export default function Sidebar({ open, onClose }) {
     const navigate = useNavigate();
+    const user = auth.currentUser;
+    const initial = user?.email?.[0]?.toUpperCase() ?? 'A';
 
     const handleLogout = async () => {
         await signOut(auth);
@@ -44,65 +57,81 @@ export default function Sidebar({ open, onClose }) {
 
     return (
         <>
-            {/* Mobile overlay */}
-            {open && (
-                <div
-                    className="fixed inset-0 bg-black/50 z-20 lg:hidden"
-                    onClick={onClose}
-                />
-            )}
+            {open && <div className="sidebar-overlay" onClick={onClose} />}
 
-            {/* Sidebar */}
-            <aside
-                className={`fixed top-0 left-0 h-full w-64 bg-slate-900 text-white flex flex-col z-30 transition-transform duration-300
-          ${open ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 lg:static lg:z-auto`}
-            >
-                {/* Brand */}
-                <div className="flex items-center gap-3 px-6 py-5 border-b border-slate-700/60">
-                    <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center shrink-0">
-                        <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+            <aside className={`app-sidebar ${open ? 'open' : ''}`}>
+
+                {/* ── Brand ──────────────────────────────────────────── */}
+                <div className="sidebar-brand">
+                    <div className="sidebar-brand-icon">
+                        <svg style={{ width: '1.125rem', height: '1.125rem', color: '#fff' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                         </svg>
                     </div>
                     <div>
-                        <p className="text-sm font-bold text-white leading-tight">AbhyaScore</p>
-                        <p className="text-xs text-slate-400">Admin Console</p>
+                        <p className="sidebar-brand-name">AbhyaScore</p>
+                        <p className="sidebar-brand-sub">Admin Console</p>
                     </div>
                 </div>
 
-                {/* Nav */}
-                <nav className="flex-1 px-3 py-4 space-y-1 overflow-y-auto">
+                {/* ── Navigation ─────────────────────────────────────── */}
+                <nav className="sidebar-nav">
+                    <p className="sidebar-section-label">Home</p>
+
                     {navItems.map((item) => (
                         <NavLink
                             key={item.to}
                             to={item.to}
                             onClick={onClose}
-                            className={({ isActive }) =>
-                                `flex items-center gap-3 px-4 py-2.5 rounded-xl text-sm font-medium transition-colors
-                ${isActive
-                                    ? 'bg-indigo-600 text-white shadow-sm'
-                                    : 'text-slate-400 hover:bg-slate-800 hover:text-white'
-                                }`
-                            }
+                            className="sidebar-item-wrapper"
                         >
-                            {item.icon}
-                            {item.label}
+                            {({ isActive }) => (
+                                <span
+                                    className="sidebar-item"
+                                    style={isActive ? {
+                                        background: item.activeBg,
+                                        color: item.color,
+                                    } : {}}
+                                >
+                                    {/* Icon box */}
+                                    <span
+                                        className="sidebar-icon-box"
+                                        style={isActive ? {
+                                            borderColor: item.color,
+                                            color: item.color,
+                                            background: item.activeBg,
+                                        } : {}}
+                                    >
+                                        {item.icon}
+                                    </span>
+                                    <span className="sidebar-item-label">{item.label}</span>
+                                </span>
+                            )}
                         </NavLink>
                     ))}
                 </nav>
 
-                {/* Logout */}
-                <div className="px-3 py-4 border-t border-slate-700/60">
+                {/* ── Bottom Profile Card ─────────────────────────────── */}
+                <div className="sidebar-profile-card">
+                    <div className="sidebar-profile-avatar">{initial}</div>
+                    <div className="sidebar-profile-info">
+                        <p className="sidebar-profile-name">Admin</p>
+                        <p className="sidebar-profile-role">{user?.email?.split('@')[0] ?? 'admin'}</p>
+                    </div>
                     <button
+                        className="sidebar-profile-logout"
                         onClick={handleLogout}
-                        className="w-full flex items-center gap-3 px-4 py-2.5 rounded-xl text-sm font-medium text-slate-400 hover:bg-red-500/10 hover:text-red-400 transition-colors"
+                        title="Logout"
+                        aria-label="Logout"
                     >
-                        <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
                         </svg>
-                        Logout
                     </button>
                 </div>
+
             </aside>
         </>
     );

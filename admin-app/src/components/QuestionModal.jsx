@@ -102,45 +102,42 @@ export default function QuestionModal({ isOpen, question, onClose, onSubmit }) {
     };
 
     const inputCls = (field) =>
-        `w-full px-3 py-2.5 text-sm border rounded-xl bg-white text-slate-800 focus:outline-none focus:ring-2 transition-colors ${errors[field]
-            ? 'border-red-300 focus:ring-red-200'
-            : 'border-slate-200 focus:ring-indigo-200 focus:border-indigo-400'
-        }`;
+        `form-input${errors[field] ? ' error' : ''}`;
 
     const chapters = CHAPTERS_BY_SUBJECT[form.subject] ?? [];
 
     return (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/40 backdrop-blur-sm">
-            <div className="bg-white rounded-2xl shadow-2xl w-full max-w-xl max-h-[90vh] overflow-y-auto">
+        <div className="modal-overlay">
+            <div className="modal-panel" style={{ maxWidth: '36rem' }}>
                 {/* Header */}
-                <div className="flex items-center justify-between px-6 py-5 border-b border-slate-100">
-                    <h2 className="text-lg font-bold text-slate-800">
+                <div className="card-header">
+                    <h2 className="card-title" style={{ fontSize: '1rem' }}>
                         {question ? 'Edit Question' : 'Add Question'}
                     </h2>
-                    <button onClick={onClose} className="p-2 rounded-lg text-slate-400 hover:bg-slate-100 transition-colors">
-                        <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <button onClick={onClose} className="header-icon-btn">
+                        <svg style={{ width: '1rem', height: '1rem' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                         </svg>
                     </button>
                 </div>
 
-                <form onSubmit={handleSubmit} className="p-6 space-y-5">
+                <form onSubmit={handleSubmit} style={{ padding: '1.25rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                     {/* Row 1: Subject + Difficulty */}
-                    <div className="grid grid-cols-2 gap-4">
-                        <div>
-                            <label className="block text-xs font-semibold text-slate-600 mb-1.5">Subject</label>
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.875rem' }}>
+                        <div className="form-group" style={{ marginBottom: 0 }}>
+                            <label className="form-label">Subject</label>
                             <select
-                                className={inputCls('subject')}
+                                className="form-select"
                                 value={form.subject}
                                 onChange={(e) => handleSubjectChange(e.target.value)}
                             >
                                 {SUBJECTS.map((s) => <option key={s}>{s}</option>)}
                             </select>
                         </div>
-                        <div>
-                            <label className="block text-xs font-semibold text-slate-600 mb-1.5">Difficulty</label>
+                        <div className="form-group" style={{ marginBottom: 0 }}>
+                            <label className="form-label">Difficulty</label>
                             <select
-                                className={inputCls('difficulty')}
+                                className="form-select"
                                 value={form.difficulty}
                                 onChange={(e) => setForm((f) => ({ ...f, difficulty: e.target.value }))}
                             >
@@ -150,13 +147,14 @@ export default function QuestionModal({ isOpen, question, onClose, onSubmit }) {
                     </div>
 
                     {/* Row 2: Chapter ID */}
-                    <div>
-                        <label className="block text-xs font-semibold text-slate-600 mb-1.5">
+                    <div className="form-group" style={{ marginBottom: 0 }}>
+                        <label className="form-label">
                             Chapter
-                            <span className="ml-1.5 text-slate-400 font-normal">(required for student app)</span>
+                            <span style={{ marginLeft: '0.375rem', color: 'var(--text-muted)', fontWeight: 400 }}>(required for student app)</span>
                         </label>
                         <select
-                            className={inputCls('chapterId')}
+                            className={`form-select${errors.chapterId ? ' error' : ''}`}
+                            style={errors.chapterId ? { borderColor: 'rgb(var(--danger-rgb))' } : {}}
                             value={form.chapterId}
                             onChange={(e) => setForm((f) => ({ ...f, chapterId: Number(e.target.value) }))}
                         >
@@ -165,48 +163,51 @@ export default function QuestionModal({ isOpen, question, onClose, onSubmit }) {
                                 <option key={id} value={id}>Chapter {id}</option>
                             ))}
                         </select>
-                        {errors.chapterId && <p className="text-red-500 text-xs mt-1">{errors.chapterId}</p>}
+                        {errors.chapterId && <p style={{ color: 'rgb(var(--danger-rgb))', fontSize: '0.6875rem', marginTop: '0.25rem' }}>{errors.chapterId}</p>}
                     </div>
 
                     {/* Question */}
-                    <div>
-                        <label className="block text-xs font-semibold text-slate-600 mb-1.5">Question</label>
+                    <div className="form-group" style={{ marginBottom: 0 }}>
+                        <label className="form-label">Question</label>
                         <textarea
                             rows={3}
-                            className={inputCls('question')}
-                            placeholder="Enter the question text..."
+                            className={`form-textarea${errors.question ? ' error' : ''}`}
+                            style={errors.question ? { borderColor: 'rgb(var(--danger-rgb))' } : {}}
+                            placeholder="Enter the question text…"
                             value={form.question}
                             onChange={(e) => setForm((f) => ({ ...f, question: e.target.value }))}
                         />
-                        {errors.question && <p className="text-red-500 text-xs mt-1">{errors.question}</p>}
+                        {errors.question && <p style={{ color: 'rgb(var(--danger-rgb))', fontSize: '0.6875rem', marginTop: '0.25rem' }}>{errors.question}</p>}
                     </div>
 
                     {/* Options */}
                     <div>
-                        <div className="flex items-center justify-between mb-1.5">
-                            <label className="text-xs font-semibold text-slate-600">Options</label>
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
+                            <label className="form-label" style={{ marginBottom: 0 }}>Options</label>
                             {form.options.length < 4 && (
-                                <button type="button" onClick={addOption} className="text-xs text-indigo-600 font-semibold hover:underline">
+                                <button type="button" onClick={addOption}
+                                    style={{ fontSize: '0.75rem', color: 'var(--primary)', fontWeight: 600, background: 'none', border: 'none', cursor: 'pointer' }}>
                                     + Add option
                                 </button>
                             )}
                         </div>
-                        <div className="space-y-2">
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                             {form.options.map((opt, i) => (
-                                <div key={i} className="flex items-center gap-2">
-                                    <span className="text-xs font-semibold text-slate-400 w-5 shrink-0">
+                                <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                                    <span style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--text-muted)', width: '1.25rem', flexShrink: 0 }}>
                                         {String.fromCharCode(65 + i)}.
                                     </span>
                                     <input
                                         type="text"
-                                        className={`flex-1 px-3 py-2 text-sm border rounded-xl bg-white text-slate-800 focus:outline-none focus:ring-2 transition-colors ${errors.options ? 'border-red-300 focus:ring-red-200' : 'border-slate-200 focus:ring-indigo-200 focus:border-indigo-400'}`}
+                                        className={`form-input${errors.options ? ' error' : ''}`}
+                                        style={errors.options ? { borderColor: 'rgb(var(--danger-rgb))' } : {}}
                                         placeholder={`Option ${String.fromCharCode(65 + i)}`}
                                         value={opt}
                                         onChange={(e) => updateOption(i, e.target.value)}
                                     />
                                     {form.options.length > 2 && (
-                                        <button type="button" onClick={() => removeOption(i)} className="p-1.5 text-slate-400 hover:text-red-400 transition-colors">
-                                            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <button type="button" onClick={() => removeOption(i)} className="header-icon-btn">
+                                            <svg style={{ width: '0.875rem', height: '0.875rem' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                                             </svg>
                                         </button>
@@ -214,14 +215,15 @@ export default function QuestionModal({ isOpen, question, onClose, onSubmit }) {
                                 </div>
                             ))}
                         </div>
-                        {errors.options && <p className="text-red-500 text-xs mt-1">{errors.options}</p>}
+                        {errors.options && <p style={{ color: 'rgb(var(--danger-rgb))', fontSize: '0.6875rem', marginTop: '0.25rem' }}>{errors.options}</p>}
                     </div>
 
                     {/* Correct Answer */}
-                    <div>
-                        <label className="block text-xs font-semibold text-slate-600 mb-1.5">Correct Answer</label>
+                    <div className="form-group" style={{ marginBottom: 0 }}>
+                        <label className="form-label">Correct Answer</label>
                         <select
-                            className={inputCls('correctAnswer')}
+                            className={`form-select${errors.correctAnswer ? ' error' : ''}`}
+                            style={errors.correctAnswer ? { borderColor: 'rgb(var(--danger-rgb))' } : {}}
                             value={form.correctAnswer}
                             onChange={(e) => setForm((f) => ({ ...f, correctAnswer: e.target.value }))}
                         >
@@ -232,45 +234,37 @@ export default function QuestionModal({ isOpen, question, onClose, onSubmit }) {
                                 </option>
                             ))}
                         </select>
-                        {errors.correctAnswer && <p className="text-red-500 text-xs mt-1">{errors.correctAnswer}</p>}
+                        {errors.correctAnswer && <p style={{ color: 'rgb(var(--danger-rgb))', fontSize: '0.6875rem', marginTop: '0.25rem' }}>{errors.correctAnswer}</p>}
                     </div>
 
                     {/* Explanation (optional) */}
-                    <div>
-                        <label className="block text-xs font-semibold text-slate-600 mb-1.5">
-                            Explanation <span className="text-slate-400 font-normal">(optional)</span>
+                    <div className="form-group" style={{ marginBottom: 0 }}>
+                        <label className="form-label">
+                            Explanation <span style={{ color: 'var(--text-muted)', fontWeight: 400 }}>(optional)</span>
                         </label>
                         <textarea
                             rows={2}
-                            className={inputCls('explanation')}
-                            placeholder="Brief solution or hint shown after the quiz..."
+                            className="form-textarea"
+                            placeholder="Brief solution or hint shown after the quiz…"
                             value={form.explanation}
                             onChange={(e) => setForm((f) => ({ ...f, explanation: e.target.value }))}
                         />
                     </div>
 
                     {errors.form && (
-                        <div className="bg-red-50 border border-red-200 text-red-600 text-xs rounded-xl p-3">
+                        <div style={{ background: 'rgba(var(--danger-rgb),0.08)', border: '1px solid rgba(var(--danger-rgb),0.25)', borderRadius: '0.5rem', padding: '0.625rem 0.875rem', fontSize: '0.75rem', color: 'rgb(var(--danger-rgb))' }}>
                             {errors.form}
                         </div>
                     )}
 
                     {/* Actions */}
-                    <div className="flex gap-3 pt-2">
-                        <button
-                            type="button"
-                            onClick={onClose}
-                            className="flex-1 py-2.5 border border-slate-200 text-slate-600 text-sm font-semibold rounded-xl hover:bg-slate-50 transition-colors"
-                        >
+                    <div style={{ display: 'flex', gap: '0.75rem', paddingTop: '0.375rem' }}>
+                        <button type="button" onClick={onClose} className="btn btn-outline" style={{ flex: 1 }}>
                             Cancel
                         </button>
-                        <button
-                            type="submit"
-                            disabled={submitting}
-                            className="flex-1 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-60 text-white text-sm font-semibold rounded-xl transition-colors flex items-center justify-center gap-2"
-                        >
+                        <button type="submit" disabled={submitting} className="btn btn-primary" style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.375rem' }}>
                             {submitting ? (
-                                <><div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />Saving...</>
+                                <><div style={{ width: '1rem', height: '1rem', borderRadius: '50%', border: '2px solid rgba(255,255,255,0.3)', borderTopColor: '#fff', animation: 'spin 0.7s linear infinite' }} />Saving…</>
                             ) : (
                                 question ? 'Save Changes' : 'Add Question'
                             )}

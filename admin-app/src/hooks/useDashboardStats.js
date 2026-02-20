@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { fetchDashboardStats } from '../services/firestoreService';
+import { fetchDashboardAnalytics } from '../services/firestoreService';
 
 export function useDashboardStats() {
     const [stats, setStats] = useState(null);
@@ -11,9 +11,9 @@ export function useDashboardStats() {
         let cancelled = false;
         setLoading(true);
         setError(null);
-        fetchDashboardStats()
+        fetchDashboardAnalytics()
             .then((data) => { if (!cancelled) setStats(data); })
-            .catch((err) => { if (!cancelled) setError(err.message ?? 'Failed to load stats'); })
+            .catch((err) => { if (!cancelled) setError(err.message ?? 'Failed to load analytics'); })
             .finally(() => { if (!cancelled) setLoading(false); });
         return () => { cancelled = true; };
     }, [refreshKey]);

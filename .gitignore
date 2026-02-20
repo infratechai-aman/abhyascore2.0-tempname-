@@ -14,3 +14,4 @@ student-app/.env
 student-app/.env.local
 admin-app/.env
 admin-app/.env.local
+theme/

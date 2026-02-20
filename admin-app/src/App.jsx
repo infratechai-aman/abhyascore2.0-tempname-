@@ -12,11 +12,11 @@ function AdminLayout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className="flex h-screen bg-slate-50 overflow-hidden">
+    <div className="app-shell">
       <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
-      <div className="flex-1 flex flex-col min-w-0 overflow-hidden">
+      <div className="app-main-wrapper">
         <Navbar onMenuToggle={() => setSidebarOpen((prev) => !prev)} />
-        <main className="flex-1 overflow-y-auto">
+        <main className="app-main-content">
           {children}
         </main>
       </div>
