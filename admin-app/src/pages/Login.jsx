@@ -35,76 +35,115 @@ export default function Login() {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-950 flex items-center justify-center p-4">
-            {/* Background glow */}
-            <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <div className="absolute -top-40 -right-40 w-96 h-96 bg-indigo-600/20 rounded-full blur-3xl" />
-                <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl" />
-            </div>
+        <div style={{
+            minHeight: '100vh',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            background: 'rgb(11, 19, 33)', // SpikeAdmin Deep Navy
+            padding: '1.5rem',
+            position: 'relative',
+            overflow: 'hidden',
+        }}>
+            {/* Background Decorative Elements */}
+            <div style={{
+                position: 'absolute', top: '-10%', right: '-5%',
+                width: '30rem', height: '30rem',
+                background: 'radial-gradient(circle, rgba(0, 133, 219, 0.08) 0%, transparent 70%)',
+                borderRadius: '50%', pointerEvents: 'none',
+            }} />
+            <div style={{
+                position: 'absolute', bottom: '-10%', left: '-5%',
+                width: '25rem', height: '25rem',
+                background: 'radial-gradient(circle, rgba(135, 99, 218, 0.05) 0%, transparent 70%)',
+                borderRadius: '50%', pointerEvents: 'none',
+            }} />
 
-            <div className="w-full max-w-md relative">
-                {/* Card */}
-                <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-8 shadow-2xl">
-                    {/* Logo */}
-                    <div className="flex items-center gap-3 mb-8">
-                        <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center shadow-lg shadow-indigo-600/30">
-                            <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+            <div style={{ width: '100%', maxWidth: '420px', position: 'relative' }}>
+                <div className="card" style={{ padding: '2.5rem 2rem', boxShadow: '0 20px 50px rgba(0,0,0,0.5)' }}>
+                    {/* Header / Logo Section */}
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.875rem', marginBottom: '2rem' }}>
+                        <div style={{
+                            width: '42px', height: '42px',
+                            background: 'linear-gradient(135deg, rgb(0, 133, 219) 0%, rgb(0, 90, 185) 100%)',
+                            borderRadius: '12px',
+                            display: 'flex', alignItems: 'center', justifyContent: 'center',
+                            boxShadow: '0 4px 12px rgba(0, 133, 219, 0.3)',
+                        }}>
+                            <svg style={{ width: '1.375rem', height: '1.375rem', color: '#fff' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                             </svg>
                         </div>
                         <div>
-                            <h1 className="text-white font-bold text-lg leading-tight">AbhyaScore</h1>
-                            <p className="text-slate-400 text-xs">Admin Console</p>
+                            <h1 style={{ color: 'var(--text-heading)', fontSize: '1.25rem', fontWeight: 800, letterSpacing: '-0.02em', margin: 0 }}>AbhyaScore</h1>
+                            <p style={{ color: 'var(--text-muted)', fontSize: '0.75rem', fontWeight: 600, margin: 0 }}>ADMIN PORTAL</p>
                         </div>
                     </div>
 
-                    <h2 className="text-white text-2xl font-bold mb-1">Welcome back</h2>
-                    <p className="text-slate-400 text-sm mb-8">Sign in to access the admin panel.</p>
+                    <h2 style={{ color: 'var(--text-heading)', fontSize: '1.5rem', fontWeight: 800, marginBottom: '0.5rem', letterSpacing: '-0.02em' }}>Welcome Back</h2>
+                    <p style={{ color: 'var(--text-muted)', fontSize: '0.875rem', marginBottom: '2rem' }}>Please authentication to access the dashboard</p>
 
-                    <form onSubmit={handleLogin} className="space-y-5">
-                        <div>
-                            <label className="block text-xs font-semibold text-slate-300 mb-1.5">Email address</label>
+                    <form onSubmit={handleLogin} style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
+                        <div className="form-group">
+                            <label className="form-label" style={{ fontWeight: 700, fontSize: '0.75rem' }}>EMAIL ADDRESS</label>
                             <input
                                 type="email"
                                 required
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
-                                placeholder="admin@example.com"
-                                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-slate-500 text-sm focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-colors"
+                                placeholder="admin@abhyascore.com"
+                                className="form-input"
+                                style={{ padding: '0.75rem 1rem' }}
                             />
                         </div>
 
-                        <div>
-                            <label className="block text-xs font-semibold text-slate-300 mb-1.5">Password</label>
+                        <div className="form-group">
+                            <label className="form-label" style={{ fontWeight: 700, fontSize: '0.75rem' }}>PASSWORD</label>
                             <input
                                 type="password"
                                 required
                                 value={password}
                                 onChange={(e) => setPassword(e.target.value)}
                                 placeholder="••••••••"
-                                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-slate-500 text-sm focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-colors"
+                                className="form-input"
+                                style={{ padding: '0.75rem 1rem' }}
                             />
                         </div>
 
                         {error && (
-                            <div className="flex items-start gap-2 bg-red-500/10 border border-red-500/20 rounded-xl p-3">
-                                <svg className="w-4 h-4 text-red-400 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" />
+                            <div style={{
+                                background: 'rgba(207, 102, 121, 0.1)',
+                                border: '1px solid rgba(207, 102, 121, 0.2)',
+                                borderRadius: '8px',
+                                padding: '0.75rem',
+                                display: 'flex', gap: '0.5rem',
+                                color: 'rgb(207, 102, 121)', fontSize: '0.8125rem',
+                            }}>
+                                <svg style={{ width: '1rem', height: '1rem', shrink: 0 }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
-                                <p className="text-red-400 text-xs">{error}</p>
+                                <span>{error}</span>
                             </div>
                         )}
 
                         <button
                             type="submit"
                             disabled={loading}
-                            className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-60 disabled:cursor-not-allowed text-white font-semibold rounded-xl transition-colors flex items-center justify-center gap-2 shadow-lg shadow-indigo-600/20"
+                            className="btn btn-primary"
+                            style={{
+                                padding: '0.875rem',
+                                justifyContent: 'center',
+                                fontSize: '0.9375rem',
+                                fontWeight: 700,
+                                marginTop: '0.5rem',
+                                boxShadow: '0 8px 24px rgba(0, 133, 219, 0.3)',
+                            }}
                         >
                             {loading ? (
-                                <>
-                                    <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                                    Signing in...
-                                </>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '0.625rem' }}>
+                                    <div style={{ width: '1.125rem', height: '1.125rem', border: '2.5px solid rgba(255,255,255,0.3)', borderTopColor: '#fff', borderRadius: '50%', animation: 'spin 0.6s linear infinite' }} />
+                                    <span>Verifying...</span>
+                                </div>
                             ) : (
                                 'Sign In'
                             )}
@@ -112,10 +151,19 @@ export default function Login() {
                     </form>
                 </div>
 
-                <p className="text-center text-slate-600 text-xs mt-6">
-                    AbhyaScore Admin Panel — Restricted Access
-                </p>
+                <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
+                    <p style={{ color: 'var(--text-muted)', fontSize: '0.75rem', fontWeight: 600 }}>
+                        &copy; {new Date().getFullYear()} AbhyaScore Systems &bull; All Rights Reserved
+                    </p>
+                </div>
             </div>
+
+            {/* In-page style for the spinning animation since we aren't using a CSS module here */}
+            <style>{`
+                @keyframes spin {
+                    to { transform: rotate(360deg); }
+                }
+            `}</style>
         </div>
     );
 }
