@@ -4,57 +4,46 @@ import { auth } from '../firebase/firebase';
 import { signOut } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
 
-const sections = [
+const navItems = [
     {
-        title: 'HOME',
-        items: [
-            {
-                to: '/dashboard',
-                label: 'Dashboard',
-                icon: (
-                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
-                            d="M4 5a1 1 0 011-1h4a1 1 0 011 1v5a1 1 0 01-1 1H5a1 1 0 01-1-1V5zm10 0a1 1 0 011-1h4a1 1 0 011 1v2a1 1 0 01-1 1h-4a1 1 0 01-1-1V5zM4 15a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1v-4zm10-3a1 1 0 011-1h4a1 1 0 011 1v7a1 1 0 01-1 1h-4a1 1 0 01-1-1v-7z" />
-                    </svg>
-                ),
-            },
-        ],
+        to: '/dashboard',
+        label: 'Dashboard',
+        color: 'rgb(var(--primary-rgb))',       /* blue */
+        activeBg: 'rgba(var(--primary-rgb), 0.15)',
+        icon: (
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
+                    d="M4 5a1 1 0 011-1h4a1 1 0 011 1v5a1 1 0 01-1 1H5a1 1 0 01-1-1V5zm10 0a1 1 0 011-1h4a1 1 0 011 1v2a1 1 0 01-1 1h-4a1 1 0 01-1-1V5zM4 15a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1v-4zm10-3a1 1 0 011-1h4a1 1 0 011 1v7a1 1 0 01-1 1h-4a1 1 0 01-1-1v-7z" />
+            </svg>
+        ),
     },
     {
-        title: 'APPS',
-        items: [
-            {
-                to: '/users',
-                label: 'Users Profile',
-                icon: (
-                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
-                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                    </svg>
-                ),
-            },
-            {
-                to: '/questions',
-                label: 'Questions',
-                icon: (
-                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
-                            d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                ),
-            },
-        ],
+        to: '/users',
+        label: 'Users',
+        color: 'rgb(207, 102, 121)',             /* rose/pink */
+        activeBg: 'rgba(207, 102, 121, 0.15)',
+        icon: (
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
+                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+        ),
+    },
+    {
+        to: '/questions',
+        label: 'Questions',
+        color: 'rgb(251, 140, 0)',               /* orange */
+        activeBg: 'rgba(251, 140, 0, 0.15)',
+        icon: (
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
+                    d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
+                    d="M12 12v4m0 0h.01M12 8h.01" opacity="0.6" />
+            </svg>
+        ),
     },
 ];
-
-const RocketIcon = () => (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
-        <path d="M12 15l-3.5-3.5" />
-        <path d="M21.5 14.5c.3-1.4 0-4-2-6-2.1-2.1-4.7-2.4-6.1-2.1l-.6.6c-1.5.1-4.1.3-6.4 1.8l-.5.3s.1 1.7.5 2.1l.6.6c.1 1.5.3 4.1 1.8 6.4l.3.5s1.7-.1 2.1-.5l.6-.6c.3 1.4.6 4 2.1 6.1 2 2 4.6 2.3 6 2l.6-.6z" />
-        <path d="M15 9l-1 1" />
-    </svg>
-);
 
 export default function Sidebar({ open, onClose }) {
     const navigate = useNavigate();
@@ -67,68 +56,83 @@ export default function Sidebar({ open, onClose }) {
     };
 
     return (
-        <aside className={`app-sidebar ${open ? 'open' : ''}`}>
-            {/* Logo Section */}
-            <div className="sidebar-brand">
-                <div style={{ color: 'rgb(0, 133, 219)', display: 'flex' }}>
-                    <RocketIcon />
-                </div>
-                <h1 className="sidebar-brand-name" style={{ color: '#fff', fontSize: '1.25rem', margin: 0 }}>Spike Admin</h1>
-            </div>
+        <>
+            {open && <div className="sidebar-overlay" onClick={onClose} />}
 
-            {/* Navigation Menu */}
-            <nav className="sidebar-nav" style={{ padding: '0.5rem 1rem' }}>
-                {sections.map((section) => (
-                    <React.Fragment key={section.title}>
-                        <div className="sidebar-section-label">{section.title}</div>
-                        {section.items.map((item) => (
-                            <NavLink
-                                key={item.to}
-                                to={item.to}
-                                onClick={onClose}
-                                className={({ isActive }) => `sidebar-item ${isActive ? 'active' : ''}`}
-                                style={{ textDecoration: 'none' }}
-                            >
-                                <div className="sidebar-icon-box">{item.icon}</div>
-                                <span className="sidebar-item-label">{item.label}</span>
-                            </NavLink>
-                        ))}
-                    </React.Fragment>
-                ))}
-            </nav>
+            <aside className={`app-sidebar ${open ? 'open' : ''}`}>
 
-            {/* Profile Section */}
-            <div className="sidebar-profile-card">
-                <div style={{
-                    width: '40px', height: '40px', borderRadius: '50%',
-                    overflow: 'hidden', background: '#334155', display: 'flex',
-                    alignItems: 'center', justifyContent: 'center'
-                }}>
-                    <img
-                        src={`https://ui-avatars.com/api/?name=${user?.email?.split('@')[0] ?? 'Admin'}&background=3b82f6&color=fff`}
-                        alt="Avatar"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                    />
+                {/* ── Brand ──────────────────────────────────────────── */}
+                <div className="sidebar-brand">
+                    <div className="sidebar-brand-icon">
+                        <svg style={{ width: '1.125rem', height: '1.125rem', color: '#fff' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <p className="sidebar-brand-name">AbhyaScore</p>
+                        <p className="sidebar-brand-sub">Admin Console</p>
+                    </div>
                 </div>
-                <div style={{ flex: 1, minWidth: 0 }}>
-                    <p style={{ color: '#fff', fontSize: '0.875rem', fontWeight: 700, margin: 0, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-                        {user?.email?.split('@')[0] ?? 'Mike Nielsen'}
-                    </p>
-                    <p style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.75rem', margin: 0 }}>Admin</p>
+
+                {/* ── Navigation ─────────────────────────────────────── */}
+                <nav className="sidebar-nav">
+                    <p className="sidebar-section-label">Home</p>
+
+                    {navItems.map((item) => (
+                        <NavLink
+                            key={item.to}
+                            to={item.to}
+                            onClick={onClose}
+                            className="sidebar-item-wrapper"
+                        >
+                            {({ isActive }) => (
+                                <span
+                                    className="sidebar-item"
+                                    style={isActive ? {
+                                        background: item.activeBg,
+                                        color: item.color,
+                                    } : {}}
+                                >
+                                    {/* Icon box */}
+                                    <span
+                                        className="sidebar-icon-box"
+                                        style={isActive ? {
+                                            borderColor: item.color,
+                                            color: item.color,
+                                            background: item.activeBg,
+                                        } : {}}
+                                    >
+                                        {item.icon}
+                                    </span>
+                                    <span className="sidebar-item-label">{item.label}</span>
+                                </span>
+                            )}
+                        </NavLink>
+                    ))}
+                </nav>
+
+                {/* ── Bottom Profile Card ─────────────────────────────── */}
+                <div className="sidebar-profile-card">
+                    <div className="sidebar-profile-avatar">{initial}</div>
+                    <div className="sidebar-profile-info">
+                        <p className="sidebar-profile-name">Admin</p>
+                        <p className="sidebar-profile-role">{user?.email?.split('@')[0] ?? 'admin'}</p>
+                    </div>
+                    <button
+                        className="sidebar-profile-logout"
+                        onClick={handleLogout}
+                        title="Logout"
+                        aria-label="Logout"
+                    >
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                        </svg>
+                    </button>
                 </div>
-                <button
-                    onClick={handleLogout}
-                    style={{
-                        background: 'none', border: 'none', color: 'rgb(0, 133, 219)',
-                        cursor: 'pointer', padding: '0.25rem', display: 'flex'
-                    }}
-                    title="Logout"
-                >
-                    <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7" />
-                    </svg>
-                </button>
-            </div>
-        </aside>
+
+            </aside>
+        </>
     );
 }
