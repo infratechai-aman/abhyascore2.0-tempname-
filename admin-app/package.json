@@ -1,0 +1,6 @@
+{
+    "name": "abhyascore-admin",
+    "private": true,
+    "version": "0.0.0",
+    "description": "Admin panel for AbhyaScore 2.0"
+}
