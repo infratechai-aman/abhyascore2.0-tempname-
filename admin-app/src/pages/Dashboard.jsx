@@ -590,7 +590,7 @@ export default function Dashboard() {
             <div className="card">
                 <div className="card-header">
                     <h2 className="card-title">Recent Activity</h2>
-                    <span className="badge badge-primary">{s?.recentActivity?.length ?? 0} records</span>
+                    <span className="badge badge-primary">{s?.recentResults?.length ?? 0} records</span>
                 </div>
                 {loading ? (
                     <div style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
