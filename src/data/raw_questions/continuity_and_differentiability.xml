@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="219" name="Continuity and Differentiability">
+    <easy>
+        <question>
+            <text>Identify the basic property or definition related to Mean Value Theorem.</text>
+            <option id="A">Option A related to Mean Value Theorem</option>
+            <option id="B">Option B related to Mean Value Theorem</option>
+            <option id="C">Option C related to Mean Value Theorem</option>
+            <option id="D">Option D related to Mean Value Theorem</option>
+            <answer>A</answer>
+            <explanation>Mean Value Theorem is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Differentiability.</text>
+            <option id="A">Option A related to Differentiability</option>
+            <option id="B">Option B related to Differentiability</option>
+            <option id="C">Option C related to Differentiability</option>
+            <option id="D">Option D related to Differentiability</option>
+            <answer>A</answer>
+            <explanation>Differentiability is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Derivatives of Inverse Trig Functions.</text>
+            <option id="A">Option A related to Derivatives of Inverse Trig Functions</option>
+            <option id="B">Option B related to Derivatives of Inverse Trig Functions</option>
+            <option id="C">Option C related to Derivatives of Inverse Trig Functions</option>
+            <option id="D">Option D related to Derivatives of Inverse Trig Functions</option>
+            <answer>A</answer>
+            <explanation>Derivatives of Inverse Trig Functions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Derivatives of Inverse Trig Functions.</text>
+            <option id="A">Option A related to Derivatives of Inverse Trig Functions</option>
+            <option id="B">Option B related to Derivatives of Inverse Trig Functions</option>
+            <option id="C">Option C related to Derivatives of Inverse Trig Functions</option>
+            <option id="D">Option D related to Derivatives of Inverse Trig Functions</option>
+            <answer>A</answer>
+            <explanation>Derivatives of Inverse Trig Functions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Algebra of Continuous Functions.</text>
+            <option id="A">Option A related to Algebra of Continuous Functions</option>
+            <option id="B">Option B related to Algebra of Continuous Functions</option>
+            <option id="C">Option C related to Algebra of Continuous Functions</option>
+            <option id="D">Option D related to Algebra of Continuous Functions</option>
+            <answer>A</answer>
+            <explanation>Algebra of Continuous Functions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Chain Rule.</text>
+            <option id="A">Option A related to Chain Rule</option>
+            <option id="B">Option B related to Chain Rule</option>
+            <option id="C">Option C related to Chain Rule</option>
+            <option id="D">Option D related to Chain Rule</option>
+            <answer>A</answer>
+            <explanation>Chain Rule is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Mean Value Theorem.</text>
+            <option id="A">Option A related to Mean Value Theorem</option>
+            <option id="B">Option B related to Mean Value Theorem</option>
+            <option id="C">Option C related to Mean Value Theorem</option>
+            <option id="D">Option D related to Mean Value Theorem</option>
+            <answer>A</answer>
+            <explanation>Mean Value Theorem is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Differentiability.</text>
+            <option id="A">Option A related to Differentiability</option>
+            <option id="B">Option B related to Differentiability</option>
+            <option id="C">Option C related to Differentiability</option>
+            <option id="D">Option D related to Differentiability</option>
+            <answer>A</answer>
+            <explanation>Differentiability is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Continuity at a Point.</text>
+            <option id="A">Option A related to Continuity at a Point</option>
+            <option id="B">Option B related to Continuity at a Point</option>
+            <option id="C">Option C related to Continuity at a Point</option>
+            <option id="D">Option D related to Continuity at a Point</option>
+            <answer>A</answer>
+            <explanation>Continuity at a Point is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Algebra of Continuous Functions.</text>
+            <option id="A">Option A related to Algebra of Continuous Functions</option>
+            <option id="B">Option B related to Algebra of Continuous Functions</option>
+            <option id="C">Option C related to Algebra of Continuous Functions</option>
+            <option id="D">Option D related to Algebra of Continuous Functions</option>
+            <answer>A</answer>
+            <explanation>Algebra of Continuous Functions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Chain Rule.</text>
+            <option id="A">Option A related to Chain Rule</option>
+            <option id="B">Option B related to Chain Rule</option>
+            <option id="C">Option C related to Chain Rule</option>
+            <option id="D">Option D related to Chain Rule</option>
+            <answer>A</answer>
+            <explanation>Chain Rule is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Differentiability.</text>
+            <option id="A">Option A related to Differentiability</option>
+            <option id="B">Option B related to Differentiability</option>
+            <option id="C">Option C related to Differentiability</option>
+            <option id="D">Option D related to Differentiability</option>
+            <answer>A</answer>
+            <explanation>Differentiability is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Differentiability.</text>
+            <option id="A">Option A related to Differentiability</option>
+            <option id="B">Option B related to Differentiability</option>
+            <option id="C">Option C related to Differentiability</option>
+            <option id="D">Option D related to Differentiability</option>
+            <answer>A</answer>
+            <explanation>Differentiability is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Derivatives of Inverse Trig Functions.</text>
+            <option id="A">Option A related to Derivatives of Inverse Trig Functions</option>
+            <option id="B">Option B related to Derivatives of Inverse Trig Functions</option>
+            <option id="C">Option C related to Derivatives of Inverse Trig Functions</option>
+            <option id="D">Option D related to Derivatives of Inverse Trig Functions</option>
+            <answer>A</answer>
+            <explanation>Derivatives of Inverse Trig Functions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Parametric Forms.</text>
+            <option id="A">Option A related to Parametric Forms</option>
+            <option id="B">Option B related to Parametric Forms</option>
+            <option id="C">Option C related to Parametric Forms</option>
+            <option id="D">Option D related to Parametric Forms</option>
+            <answer>A</answer>
+            <explanation>Parametric Forms is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Differentiability.</text>
+            <option id="A">Option A related to Differentiability</option>
+            <option id="B">Option B related to Differentiability</option>
+            <option id="C">Option C related to Differentiability</option>
+            <option id="D">Option D related to Differentiability</option>
+            <answer>A</answer>
+            <explanation>Differentiability is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Continuity at a Point.</text>
+            <option id="A">Option A related to Continuity at a Point</option>
+            <option id="B">Option B related to Continuity at a Point</option>
+            <option id="C">Option C related to Continuity at a Point</option>
+            <option id="D">Option D related to Continuity at a Point</option>
+            <answer>A</answer>
+            <explanation>Continuity at a Point is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Mean Value Theorem.</text>
+            <option id="A">Option A related to Mean Value Theorem</option>
+            <option id="B">Option B related to Mean Value Theorem</option>
+            <option id="C">Option C related to Mean Value Theorem</option>
+            <option id="D">Option D related to Mean Value Theorem</option>
+            <answer>A</answer>
+            <explanation>Mean Value Theorem is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Second Order Derivative.</text>
+            <option id="A">Option A related to Second Order Derivative</option>
+            <option id="B">Option B related to Second Order Derivative</option>
+            <option id="C">Option C related to Second Order Derivative</option>
+            <option id="D">Option D related to Second Order Derivative</option>
+            <answer>A</answer>
+            <explanation>Second Order Derivative is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Derivatives of Implicit Functions.</text>
+            <option id="A">Option A related to Derivatives of Implicit Functions</option>
+            <option id="B">Option B related to Derivatives of Implicit Functions</option>
+            <option id="C">Option C related to Derivatives of Implicit Functions</option>
+            <option id="D">Option D related to Derivatives of Implicit Functions</option>
+            <answer>A</answer>
+            <explanation>Derivatives of Implicit Functions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Continuity at a Point.</text>
+            <option id="A">Option A related to Continuity at a Point</option>
+            <option id="B">Option B related to Continuity at a Point</option>
+            <option id="C">Option C related to Continuity at a Point</option>
+            <option id="D">Option D related to Continuity at a Point</option>
+            <answer>A</answer>
+            <explanation>Continuity at a Point is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Chain Rule.</text>
+            <option id="A">Option A related to Chain Rule</option>
+            <option id="B">Option B related to Chain Rule</option>
+            <option id="C">Option C related to Chain Rule</option>
+            <option id="D">Option D related to Chain Rule</option>
+            <answer>A</answer>
+            <explanation>Chain Rule is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Parametric Forms.</text>
+            <option id="A">Option A related to Parametric Forms</option>
+            <option id="B">Option B related to Parametric Forms</option>
+            <option id="C">Option C related to Parametric Forms</option>
+            <option id="D">Option D related to Parametric Forms</option>
+            <answer>A</answer>
+            <explanation>Parametric Forms is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Mean Value Theorem.</text>
+            <option id="A">Option A related to Mean Value Theorem</option>
+            <option id="B">Option B related to Mean Value Theorem</option>
+            <option id="C">Option C related to Mean Value Theorem</option>
+            <option id="D">Option D related to Mean Value Theorem</option>
+            <answer>A</answer>
+            <explanation>Mean Value Theorem is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Parametric Forms.</text>
+            <option id="A">Option A related to Parametric Forms</option>
+            <option id="B">Option B related to Parametric Forms</option>
+            <option id="C">Option C related to Parametric Forms</option>
+            <option id="D">Option D related to Parametric Forms</option>
+            <answer>A</answer>
+            <explanation>Parametric Forms is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Derivatives of Implicit Functions.</text>
+            <option id="A">Option A related to Derivatives of Implicit Functions</option>
+            <option id="B">Option B related to Derivatives of Implicit Functions</option>
+            <option id="C">Option C related to Derivatives of Implicit Functions</option>
+            <option id="D">Option D related to Derivatives of Implicit Functions</option>
+            <answer>A</answer>
+            <explanation>Derivatives of Implicit Functions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Derivatives of Implicit Functions.</text>
+            <option id="A">Option A related to Derivatives of Implicit Functions</option>
+            <option id="B">Option B related to Derivatives of Implicit Functions</option>
+            <option id="C">Option C related to Derivatives of Implicit Functions</option>
+            <option id="D">Option D related to Derivatives of Implicit Functions</option>
+            <answer>A</answer>
+            <explanation>Derivatives of Implicit Functions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Derivatives of Inverse Trig Functions.</text>
+            <option id="A">Option A related to Derivatives of Inverse Trig Functions</option>
+            <option id="B">Option B related to Derivatives of Inverse Trig Functions</option>
+            <option id="C">Option C related to Derivatives of Inverse Trig Functions</option>
+            <option id="D">Option D related to Derivatives of Inverse Trig Functions</option>
+            <answer>A</answer>
+            <explanation>Derivatives of Inverse Trig Functions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Continuity at a Point.</text>
+            <option id="A">Option A related to Continuity at a Point</option>
+            <option id="B">Option B related to Continuity at a Point</option>
+            <option id="C">Option C related to Continuity at a Point</option>
+            <option id="D">Option D related to Continuity at a Point</option>
+            <answer>A</answer>
+            <explanation>Continuity at a Point is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Derivatives of Implicit Functions.</text>
+            <option id="A">Option A related to Derivatives of Implicit Functions</option>
+            <option id="B">Option B related to Derivatives of Implicit Functions</option>
+            <option id="C">Option C related to Derivatives of Implicit Functions</option>
+            <option id="D">Option D related to Derivatives of Implicit Functions</option>
+            <answer>A</answer>
+            <explanation>Derivatives of Implicit Functions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Mean Value Theorem.</text>
+            <option id="A">Option A related to Mean Value Theorem</option>
+            <option id="B">Option B related to Mean Value Theorem</option>
+            <option id="C">Option C related to Mean Value Theorem</option>
+            <option id="D">Option D related to Mean Value Theorem</option>
+            <answer>A</answer>
+            <explanation>Mean Value Theorem is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Parametric Forms.</text>
+            <option id="A">Option A related to Parametric Forms</option>
+            <option id="B">Option B related to Parametric Forms</option>
+            <option id="C">Option C related to Parametric Forms</option>
+            <option id="D">Option D related to Parametric Forms</option>
+            <answer>A</answer>
+            <explanation>Parametric Forms is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Logarithmic Differentiation.</text>
+            <option id="A">Option A related to Logarithmic Differentiation</option>
+            <option id="B">Option B related to Logarithmic Differentiation</option>
+            <option id="C">Option C related to Logarithmic Differentiation</option>
+            <option id="D">Option D related to Logarithmic Differentiation</option>
+            <answer>A</answer>
+            <explanation>Logarithmic Differentiation is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Logarithmic Differentiation.</text>
+            <option id="A">Option A related to Logarithmic Differentiation</option>
+            <option id="B">Option B related to Logarithmic Differentiation</option>
+            <option id="C">Option C related to Logarithmic Differentiation</option>
+            <option id="D">Option D related to Logarithmic Differentiation</option>
+            <answer>A</answer>
+            <explanation>Logarithmic Differentiation is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Parametric Forms.</text>
+            <option id="A">Option A related to Parametric Forms</option>
+            <option id="B">Option B related to Parametric Forms</option>
+            <option id="C">Option C related to Parametric Forms</option>
+            <option id="D">Option D related to Parametric Forms</option>
+            <answer>A</answer>
+            <explanation>Parametric Forms is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Derivatives of Inverse Trig Functions.</text>
+            <option id="A">Option A related to Derivatives of Inverse Trig Functions</option>
+            <option id="B">Option B related to Derivatives of Inverse Trig Functions</option>
+            <option id="C">Option C related to Derivatives of Inverse Trig Functions</option>
+            <option id="D">Option D related to Derivatives of Inverse Trig Functions</option>
+            <answer>A</answer>
+            <explanation>Derivatives of Inverse Trig Functions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Mean Value Theorem.</text>
+            <option id="A">Option A related to Mean Value Theorem</option>
+            <option id="B">Option B related to Mean Value Theorem</option>
+            <option id="C">Option C related to Mean Value Theorem</option>
+            <option id="D">Option D related to Mean Value Theorem</option>
+            <answer>A</answer>
+            <explanation>Mean Value Theorem is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Derivatives of Implicit Functions.</text>
+            <option id="A">Option A related to Derivatives of Implicit Functions</option>
+            <option id="B">Option B related to Derivatives of Implicit Functions</option>
+            <option id="C">Option C related to Derivatives of Implicit Functions</option>
+            <option id="D">Option D related to Derivatives of Implicit Functions</option>
+            <answer>A</answer>
+            <explanation>Derivatives of Implicit Functions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Chain Rule.</text>
+            <option id="A">Option A related to Chain Rule</option>
+            <option id="B">Option B related to Chain Rule</option>
+            <option id="C">Option C related to Chain Rule</option>
+            <option id="D">Option D related to Chain Rule</option>
+            <answer>A</answer>
+            <explanation>Chain Rule is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Second Order Derivative.</text>
+            <option id="A">Option A related to Second Order Derivative</option>
+            <option id="B">Option B related to Second Order Derivative</option>
+            <option id="C">Option C related to Second Order Derivative</option>
+            <option id="D">Option D related to Second Order Derivative</option>
+            <answer>A</answer>
+            <explanation>Second Order Derivative is defined by specific conditions that must be met.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Solve the following problem involving Differentiability using standard formulas.</text>
+            <option id="A">Option A related to Differentiability</option>
+            <option id="B">Option B related to Differentiability</option>
+            <option id="C">Option C related to Differentiability</option>
+            <option id="D">Option D related to Differentiability</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Differentiability yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Logarithmic Differentiation using standard formulas.</text>
+            <option id="A">Option A related to Logarithmic Differentiation</option>
+            <option id="B">Option B related to Logarithmic Differentiation</option>
+            <option id="C">Option C related to Logarithmic Differentiation</option>
+            <option id="D">Option D related to Logarithmic Differentiation</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Logarithmic Differentiation yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Chain Rule using standard formulas.</text>
+            <option id="A">Option A related to Chain Rule</option>
+            <option id="B">Option B related to Chain Rule</option>
+            <option id="C">Option C related to Chain Rule</option>
+            <option id="D">Option D related to Chain Rule</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Chain Rule yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Parametric Forms using standard formulas.</text>
+            <option id="A">Option A related to Parametric Forms</option>
+            <option id="B">Option B related to Parametric Forms</option>
+            <option id="C">Option C related to Parametric Forms</option>
+            <option id="D">Option D related to Parametric Forms</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Parametric Forms yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Derivatives of Inverse Trig Functions using standard formulas.</text>
+            <option id="A">Option A related to Derivatives of Inverse Trig Functions</option>
+            <option id="B">Option B related to Derivatives of Inverse Trig Functions</option>
+            <option id="C">Option C related to Derivatives of Inverse Trig Functions</option>
+            <option id="D">Option D related to Derivatives of Inverse Trig Functions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Derivatives of Inverse Trig Functions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Derivatives of Implicit Functions using standard formulas.</text>
+            <option id="A">Option A related to Derivatives of Implicit Functions</option>
+            <option id="B">Option B related to Derivatives of Implicit Functions</option>
+            <option id="C">Option C related to Derivatives of Implicit Functions</option>
+            <option id="D">Option D related to Derivatives of Implicit Functions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Derivatives of Implicit Functions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Parametric Forms using standard formulas.</text>
+            <option id="A">Option A related to Parametric Forms</option>
+            <option id="B">Option B related to Parametric Forms</option>
+            <option id="C">Option C related to Parametric Forms</option>
+            <option id="D">Option D related to Parametric Forms</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Parametric Forms yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Mean Value Theorem using standard formulas.</text>
+            <option id="A">Option A related to Mean Value Theorem</option>
+            <option id="B">Option B related to Mean Value Theorem</option>
+            <option id="C">Option C related to Mean Value Theorem</option>
+            <option id="D">Option D related to Mean Value Theorem</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Mean Value Theorem yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Logarithmic Differentiation using standard formulas.</text>
+            <option id="A">Option A related to Logarithmic Differentiation</option>
+            <option id="B">Option B related to Logarithmic Differentiation</option>
+            <option id="C">Option C related to Logarithmic Differentiation</option>
+            <option id="D">Option D related to Logarithmic Differentiation</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Logarithmic Differentiation yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Differentiability using standard formulas.</text>
+            <option id="A">Option A related to Differentiability</option>
+            <option id="B">Option B related to Differentiability</option>
+            <option id="C">Option C related to Differentiability</option>
+            <option id="D">Option D related to Differentiability</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Differentiability yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Mean Value Theorem using standard formulas.</text>
+            <option id="A">Option A related to Mean Value Theorem</option>
+            <option id="B">Option B related to Mean Value Theorem</option>
+            <option id="C">Option C related to Mean Value Theorem</option>
+            <option id="D">Option D related to Mean Value Theorem</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Mean Value Theorem yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Algebra of Continuous Functions using standard formulas.</text>
+            <option id="A">Option A related to Algebra of Continuous Functions</option>
+            <option id="B">Option B related to Algebra of Continuous Functions</option>
+            <option id="C">Option C related to Algebra of Continuous Functions</option>
+            <option id="D">Option D related to Algebra of Continuous Functions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Algebra of Continuous Functions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Logarithmic Differentiation using standard formulas.</text>
+            <option id="A">Option A related to Logarithmic Differentiation</option>
+            <option id="B">Option B related to Logarithmic Differentiation</option>
+            <option id="C">Option C related to Logarithmic Differentiation</option>
+            <option id="D">Option D related to Logarithmic Differentiation</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Logarithmic Differentiation yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Algebra of Continuous Functions using standard formulas.</text>
+            <option id="A">Option A related to Algebra of Continuous Functions</option>
+            <option id="B">Option B related to Algebra of Continuous Functions</option>
+            <option id="C">Option C related to Algebra of Continuous Functions</option>
+            <option id="D">Option D related to Algebra of Continuous Functions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Algebra of Continuous Functions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Chain Rule using standard formulas.</text>
+            <option id="A">Option A related to Chain Rule</option>
+            <option id="B">Option B related to Chain Rule</option>
+            <option id="C">Option C related to Chain Rule</option>
+            <option id="D">Option D related to Chain Rule</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Chain Rule yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Logarithmic Differentiation using standard formulas.</text>
+            <option id="A">Option A related to Logarithmic Differentiation</option>
+            <option id="B">Option B related to Logarithmic Differentiation</option>
+            <option id="C">Option C related to Logarithmic Differentiation</option>
+            <option id="D">Option D related to Logarithmic Differentiation</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Logarithmic Differentiation yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Derivatives of Inverse Trig Functions using standard formulas.</text>
+            <option id="A">Option A related to Derivatives of Inverse Trig Functions</option>
+            <option id="B">Option B related to Derivatives of Inverse Trig Functions</option>
+            <option id="C">Option C related to Derivatives of Inverse Trig Functions</option>
+            <option id="D">Option D related to Derivatives of Inverse Trig Functions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Derivatives of Inverse Trig Functions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Logarithmic Differentiation using standard formulas.</text>
+            <option id="A">Option A related to Logarithmic Differentiation</option>
+            <option id="B">Option B related to Logarithmic Differentiation</option>
+            <option id="C">Option C related to Logarithmic Differentiation</option>
+            <option id="D">Option D related to Logarithmic Differentiation</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Logarithmic Differentiation yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Second Order Derivative using standard formulas.</text>
+            <option id="A">Option A related to Second Order Derivative</option>
+            <option id="B">Option B related to Second Order Derivative</option>
+            <option id="C">Option C related to Second Order Derivative</option>
+            <option id="D">Option D related to Second Order Derivative</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Second Order Derivative yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Algebra of Continuous Functions using standard formulas.</text>
+            <option id="A">Option A related to Algebra of Continuous Functions</option>
+            <option id="B">Option B related to Algebra of Continuous Functions</option>
+            <option id="C">Option C related to Algebra of Continuous Functions</option>
+            <option id="D">Option D related to Algebra of Continuous Functions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Algebra of Continuous Functions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Chain Rule using standard formulas.</text>
+            <option id="A">Option A related to Chain Rule</option>
+            <option id="B">Option B related to Chain Rule</option>
+            <option id="C">Option C related to Chain Rule</option>
+            <option id="D">Option D related to Chain Rule</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Chain Rule yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Algebra of Continuous Functions using standard formulas.</text>
+            <option id="A">Option A related to Algebra of Continuous Functions</option>
+            <option id="B">Option B related to Algebra of Continuous Functions</option>
+            <option id="C">Option C related to Algebra of Continuous Functions</option>
+            <option id="D">Option D related to Algebra of Continuous Functions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Algebra of Continuous Functions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Mean Value Theorem using standard formulas.</text>
+            <option id="A">Option A related to Mean Value Theorem</option>
+            <option id="B">Option B related to Mean Value Theorem</option>
+            <option id="C">Option C related to Mean Value Theorem</option>
+            <option id="D">Option D related to Mean Value Theorem</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Mean Value Theorem yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Parametric Forms using standard formulas.</text>
+            <option id="A">Option A related to Parametric Forms</option>
+            <option id="B">Option B related to Parametric Forms</option>
+            <option id="C">Option C related to Parametric Forms</option>
+            <option id="D">Option D related to Parametric Forms</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Parametric Forms yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Second Order Derivative using standard formulas.</text>
+            <option id="A">Option A related to Second Order Derivative</option>
+            <option id="B">Option B related to Second Order Derivative</option>
+            <option id="C">Option C related to Second Order Derivative</option>
+            <option id="D">Option D related to Second Order Derivative</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Second Order Derivative yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Chain Rule using standard formulas.</text>
+            <option id="A">Option A related to Chain Rule</option>
+            <option id="B">Option B related to Chain Rule</option>
+            <option id="C">Option C related to Chain Rule</option>
+            <option id="D">Option D related to Chain Rule</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Chain Rule yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Differentiability using standard formulas.</text>
+            <option id="A">Option A related to Differentiability</option>
+            <option id="B">Option B related to Differentiability</option>
+            <option id="C">Option C related to Differentiability</option>
+            <option id="D">Option D related to Differentiability</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Differentiability yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Differentiability using standard formulas.</text>
+            <option id="A">Option A related to Differentiability</option>
+            <option id="B">Option B related to Differentiability</option>
+            <option id="C">Option C related to Differentiability</option>
+            <option id="D">Option D related to Differentiability</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Differentiability yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Parametric Forms using standard formulas.</text>
+            <option id="A">Option A related to Parametric Forms</option>
+            <option id="B">Option B related to Parametric Forms</option>
+            <option id="C">Option C related to Parametric Forms</option>
+            <option id="D">Option D related to Parametric Forms</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Parametric Forms yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Derivatives of Inverse Trig Functions using standard formulas.</text>
+            <option id="A">Option A related to Derivatives of Inverse Trig Functions</option>
+            <option id="B">Option B related to Derivatives of Inverse Trig Functions</option>
+            <option id="C">Option C related to Derivatives of Inverse Trig Functions</option>
+            <option id="D">Option D related to Derivatives of Inverse Trig Functions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Derivatives of Inverse Trig Functions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Differentiability using standard formulas.</text>
+            <option id="A">Option A related to Differentiability</option>
+            <option id="B">Option B related to Differentiability</option>
+            <option id="C">Option C related to Differentiability</option>
+            <option id="D">Option D related to Differentiability</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Differentiability yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Algebra of Continuous Functions using standard formulas.</text>
+            <option id="A">Option A related to Algebra of Continuous Functions</option>
+            <option id="B">Option B related to Algebra of Continuous Functions</option>
+            <option id="C">Option C related to Algebra of Continuous Functions</option>
+            <option id="D">Option D related to Algebra of Continuous Functions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Algebra of Continuous Functions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Second Order Derivative using standard formulas.</text>
+            <option id="A">Option A related to Second Order Derivative</option>
+            <option id="B">Option B related to Second Order Derivative</option>
+            <option id="C">Option C related to Second Order Derivative</option>
+            <option id="D">Option D related to Second Order Derivative</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Second Order Derivative yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Logarithmic Differentiation using standard formulas.</text>
+            <option id="A">Option A related to Logarithmic Differentiation</option>
+            <option id="B">Option B related to Logarithmic Differentiation</option>
+            <option id="C">Option C related to Logarithmic Differentiation</option>
+            <option id="D">Option D related to Logarithmic Differentiation</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Logarithmic Differentiation yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Algebra of Continuous Functions using standard formulas.</text>
+            <option id="A">Option A related to Algebra of Continuous Functions</option>
+            <option id="B">Option B related to Algebra of Continuous Functions</option>
+            <option id="C">Option C related to Algebra of Continuous Functions</option>
+            <option id="D">Option D related to Algebra of Continuous Functions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Algebra of Continuous Functions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Mean Value Theorem using standard formulas.</text>
+            <option id="A">Option A related to Mean Value Theorem</option>
+            <option id="B">Option B related to Mean Value Theorem</option>
+            <option id="C">Option C related to Mean Value Theorem</option>
+            <option id="D">Option D related to Mean Value Theorem</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Mean Value Theorem yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Second Order Derivative using standard formulas.</text>
+            <option id="A">Option A related to Second Order Derivative</option>
+            <option id="B">Option B related to Second Order Derivative</option>
+            <option id="C">Option C related to Second Order Derivative</option>
+            <option id="D">Option D related to Second Order Derivative</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Second Order Derivative yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Second Order Derivative using standard formulas.</text>
+            <option id="A">Option A related to Second Order Derivative</option>
+            <option id="B">Option B related to Second Order Derivative</option>
+            <option id="C">Option C related to Second Order Derivative</option>
+            <option id="D">Option D related to Second Order Derivative</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Second Order Derivative yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Logarithmic Differentiation using standard formulas.</text>
+            <option id="A">Option A related to Logarithmic Differentiation</option>
+            <option id="B">Option B related to Logarithmic Differentiation</option>
+            <option id="C">Option C related to Logarithmic Differentiation</option>
+            <option id="D">Option D related to Logarithmic Differentiation</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Logarithmic Differentiation yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Derivatives of Inverse Trig Functions using standard formulas.</text>
+            <option id="A">Option A related to Derivatives of Inverse Trig Functions</option>
+            <option id="B">Option B related to Derivatives of Inverse Trig Functions</option>
+            <option id="C">Option C related to Derivatives of Inverse Trig Functions</option>
+            <option id="D">Option D related to Derivatives of Inverse Trig Functions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Derivatives of Inverse Trig Functions yields the correct value.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Analyze and solve the complex problem involving Parametric Forms with multiple steps.</text>
+            <option id="A">Option A related to Parametric Forms</option>
+            <option id="B">Option B related to Parametric Forms</option>
+            <option id="C">Option C related to Parametric Forms</option>
+            <option id="D">Option D related to Parametric Forms</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Parametric Forms are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Second Order Derivative with multiple steps.</text>
+            <option id="A">Option A related to Second Order Derivative</option>
+            <option id="B">Option B related to Second Order Derivative</option>
+            <option id="C">Option C related to Second Order Derivative</option>
+            <option id="D">Option D related to Second Order Derivative</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Second Order Derivative are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Continuity at a Point with multiple steps.</text>
+            <option id="A">Option A related to Continuity at a Point</option>
+            <option id="B">Option B related to Continuity at a Point</option>
+            <option id="C">Option C related to Continuity at a Point</option>
+            <option id="D">Option D related to Continuity at a Point</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Continuity at a Point are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Mean Value Theorem with multiple steps.</text>
+            <option id="A">Option A related to Mean Value Theorem</option>
+            <option id="B">Option B related to Mean Value Theorem</option>
+            <option id="C">Option C related to Mean Value Theorem</option>
+            <option id="D">Option D related to Mean Value Theorem</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Mean Value Theorem are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Differentiability with multiple steps.</text>
+            <option id="A">Option A related to Differentiability</option>
+            <option id="B">Option B related to Differentiability</option>
+            <option id="C">Option C related to Differentiability</option>
+            <option id="D">Option D related to Differentiability</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Differentiability are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Derivatives of Inverse Trig Functions with multiple steps.</text>
+            <option id="A">Option A related to Derivatives of Inverse Trig Functions</option>
+            <option id="B">Option B related to Derivatives of Inverse Trig Functions</option>
+            <option id="C">Option C related to Derivatives of Inverse Trig Functions</option>
+            <option id="D">Option D related to Derivatives of Inverse Trig Functions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Derivatives of Inverse Trig Functions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Derivatives of Implicit Functions with multiple steps.</text>
+            <option id="A">Option A related to Derivatives of Implicit Functions</option>
+            <option id="B">Option B related to Derivatives of Implicit Functions</option>
+            <option id="C">Option C related to Derivatives of Implicit Functions</option>
+            <option id="D">Option D related to Derivatives of Implicit Functions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Derivatives of Implicit Functions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Chain Rule with multiple steps.</text>
+            <option id="A">Option A related to Chain Rule</option>
+            <option id="B">Option B related to Chain Rule</option>
+            <option id="C">Option C related to Chain Rule</option>
+            <option id="D">Option D related to Chain Rule</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Chain Rule are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Algebra of Continuous Functions with multiple steps.</text>
+            <option id="A">Option A related to Algebra of Continuous Functions</option>
+            <option id="B">Option B related to Algebra of Continuous Functions</option>
+            <option id="C">Option C related to Algebra of Continuous Functions</option>
+            <option id="D">Option D related to Algebra of Continuous Functions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Algebra of Continuous Functions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Parametric Forms with multiple steps.</text>
+            <option id="A">Option A related to Parametric Forms</option>
+            <option id="B">Option B related to Parametric Forms</option>
+            <option id="C">Option C related to Parametric Forms</option>
+            <option id="D">Option D related to Parametric Forms</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Parametric Forms are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Algebra of Continuous Functions with multiple steps.</text>
+            <option id="A">Option A related to Algebra of Continuous Functions</option>
+            <option id="B">Option B related to Algebra of Continuous Functions</option>
+            <option id="C">Option C related to Algebra of Continuous Functions</option>
+            <option id="D">Option D related to Algebra of Continuous Functions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Algebra of Continuous Functions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Derivatives of Implicit Functions with multiple steps.</text>
+            <option id="A">Option A related to Derivatives of Implicit Functions</option>
+            <option id="B">Option B related to Derivatives of Implicit Functions</option>
+            <option id="C">Option C related to Derivatives of Implicit Functions</option>
+            <option id="D">Option D related to Derivatives of Implicit Functions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Derivatives of Implicit Functions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Derivatives of Implicit Functions with multiple steps.</text>
+            <option id="A">Option A related to Derivatives of Implicit Functions</option>
+            <option id="B">Option B related to Derivatives of Implicit Functions</option>
+            <option id="C">Option C related to Derivatives of Implicit Functions</option>
+            <option id="D">Option D related to Derivatives of Implicit Functions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Derivatives of Implicit Functions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Second Order Derivative with multiple steps.</text>
+            <option id="A">Option A related to Second Order Derivative</option>
+            <option id="B">Option B related to Second Order Derivative</option>
+            <option id="C">Option C related to Second Order Derivative</option>
+            <option id="D">Option D related to Second Order Derivative</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Second Order Derivative are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Mean Value Theorem with multiple steps.</text>
+            <option id="A">Option A related to Mean Value Theorem</option>
+            <option id="B">Option B related to Mean Value Theorem</option>
+            <option id="C">Option C related to Mean Value Theorem</option>
+            <option id="D">Option D related to Mean Value Theorem</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Mean Value Theorem are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Chain Rule with multiple steps.</text>
+            <option id="A">Option A related to Chain Rule</option>
+            <option id="B">Option B related to Chain Rule</option>
+            <option id="C">Option C related to Chain Rule</option>
+            <option id="D">Option D related to Chain Rule</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Chain Rule are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Derivatives of Implicit Functions with multiple steps.</text>
+            <option id="A">Option A related to Derivatives of Implicit Functions</option>
+            <option id="B">Option B related to Derivatives of Implicit Functions</option>
+            <option id="C">Option C related to Derivatives of Implicit Functions</option>
+            <option id="D">Option D related to Derivatives of Implicit Functions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Derivatives of Implicit Functions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Mean Value Theorem with multiple steps.</text>
+            <option id="A">Option A related to Mean Value Theorem</option>
+            <option id="B">Option B related to Mean Value Theorem</option>
+            <option id="C">Option C related to Mean Value Theorem</option>
+            <option id="D">Option D related to Mean Value Theorem</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Mean Value Theorem are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Second Order Derivative with multiple steps.</text>
+            <option id="A">Option A related to Second Order Derivative</option>
+            <option id="B">Option B related to Second Order Derivative</option>
+            <option id="C">Option C related to Second Order Derivative</option>
+            <option id="D">Option D related to Second Order Derivative</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Second Order Derivative are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Continuity at a Point with multiple steps.</text>
+            <option id="A">Option A related to Continuity at a Point</option>
+            <option id="B">Option B related to Continuity at a Point</option>
+            <option id="C">Option C related to Continuity at a Point</option>
+            <option id="D">Option D related to Continuity at a Point</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Continuity at a Point are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Logarithmic Differentiation with multiple steps.</text>
+            <option id="A">Option A related to Logarithmic Differentiation</option>
+            <option id="B">Option B related to Logarithmic Differentiation</option>
+            <option id="C">Option C related to Logarithmic Differentiation</option>
+            <option id="D">Option D related to Logarithmic Differentiation</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Logarithmic Differentiation are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Chain Rule with multiple steps.</text>
+            <option id="A">Option A related to Chain Rule</option>
+            <option id="B">Option B related to Chain Rule</option>
+            <option id="C">Option C related to Chain Rule</option>
+            <option id="D">Option D related to Chain Rule</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Chain Rule are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Logarithmic Differentiation with multiple steps.</text>
+            <option id="A">Option A related to Logarithmic Differentiation</option>
+            <option id="B">Option B related to Logarithmic Differentiation</option>
+            <option id="C">Option C related to Logarithmic Differentiation</option>
+            <option id="D">Option D related to Logarithmic Differentiation</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Logarithmic Differentiation are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Second Order Derivative with multiple steps.</text>
+            <option id="A">Option A related to Second Order Derivative</option>
+            <option id="B">Option B related to Second Order Derivative</option>
+            <option id="C">Option C related to Second Order Derivative</option>
+            <option id="D">Option D related to Second Order Derivative</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Second Order Derivative are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Differentiability with multiple steps.</text>
+            <option id="A">Option A related to Differentiability</option>
+            <option id="B">Option B related to Differentiability</option>
+            <option id="C">Option C related to Differentiability</option>
+            <option id="D">Option D related to Differentiability</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Differentiability are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Differentiability with multiple steps.</text>
+            <option id="A">Option A related to Differentiability</option>
+            <option id="B">Option B related to Differentiability</option>
+            <option id="C">Option C related to Differentiability</option>
+            <option id="D">Option D related to Differentiability</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Differentiability are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Continuity at a Point with multiple steps.</text>
+            <option id="A">Option A related to Continuity at a Point</option>
+            <option id="B">Option B related to Continuity at a Point</option>
+            <option id="C">Option C related to Continuity at a Point</option>
+            <option id="D">Option D related to Continuity at a Point</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Continuity at a Point are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Differentiability with multiple steps.</text>
+            <option id="A">Option A related to Differentiability</option>
+            <option id="B">Option B related to Differentiability</option>
+            <option id="C">Option C related to Differentiability</option>
+            <option id="D">Option D related to Differentiability</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Differentiability are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Logarithmic Differentiation with multiple steps.</text>
+            <option id="A">Option A related to Logarithmic Differentiation</option>
+            <option id="B">Option B related to Logarithmic Differentiation</option>
+            <option id="C">Option C related to Logarithmic Differentiation</option>
+            <option id="D">Option D related to Logarithmic Differentiation</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Logarithmic Differentiation are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Differentiability with multiple steps.</text>
+            <option id="A">Option A related to Differentiability</option>
+            <option id="B">Option B related to Differentiability</option>
+            <option id="C">Option C related to Differentiability</option>
+            <option id="D">Option D related to Differentiability</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Differentiability are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Chain Rule with multiple steps.</text>
+            <option id="A">Option A related to Chain Rule</option>
+            <option id="B">Option B related to Chain Rule</option>
+            <option id="C">Option C related to Chain Rule</option>
+            <option id="D">Option D related to Chain Rule</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Chain Rule are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Mean Value Theorem with multiple steps.</text>
+            <option id="A">Option A related to Mean Value Theorem</option>
+            <option id="B">Option B related to Mean Value Theorem</option>
+            <option id="C">Option C related to Mean Value Theorem</option>
+            <option id="D">Option D related to Mean Value Theorem</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Mean Value Theorem are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Chain Rule with multiple steps.</text>
+            <option id="A">Option A related to Chain Rule</option>
+            <option id="B">Option B related to Chain Rule</option>
+            <option id="C">Option C related to Chain Rule</option>
+            <option id="D">Option D related to Chain Rule</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Chain Rule are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Continuity at a Point with multiple steps.</text>
+            <option id="A">Option A related to Continuity at a Point</option>
+            <option id="B">Option B related to Continuity at a Point</option>
+            <option id="C">Option C related to Continuity at a Point</option>
+            <option id="D">Option D related to Continuity at a Point</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Continuity at a Point are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Mean Value Theorem with multiple steps.</text>
+            <option id="A">Option A related to Mean Value Theorem</option>
+            <option id="B">Option B related to Mean Value Theorem</option>
+            <option id="C">Option C related to Mean Value Theorem</option>
+            <option id="D">Option D related to Mean Value Theorem</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Mean Value Theorem are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Parametric Forms with multiple steps.</text>
+            <option id="A">Option A related to Parametric Forms</option>
+            <option id="B">Option B related to Parametric Forms</option>
+            <option id="C">Option C related to Parametric Forms</option>
+            <option id="D">Option D related to Parametric Forms</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Parametric Forms are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Derivatives of Inverse Trig Functions with multiple steps.</text>
+            <option id="A">Option A related to Derivatives of Inverse Trig Functions</option>
+            <option id="B">Option B related to Derivatives of Inverse Trig Functions</option>
+            <option id="C">Option C related to Derivatives of Inverse Trig Functions</option>
+            <option id="D">Option D related to Derivatives of Inverse Trig Functions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Derivatives of Inverse Trig Functions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Algebra of Continuous Functions with multiple steps.</text>
+            <option id="A">Option A related to Algebra of Continuous Functions</option>
+            <option id="B">Option B related to Algebra of Continuous Functions</option>
+            <option id="C">Option C related to Algebra of Continuous Functions</option>
+            <option id="D">Option D related to Algebra of Continuous Functions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Algebra of Continuous Functions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Parametric Forms with multiple steps.</text>
+            <option id="A">Option A related to Parametric Forms</option>
+            <option id="B">Option B related to Parametric Forms</option>
+            <option id="C">Option C related to Parametric Forms</option>
+            <option id="D">Option D related to Parametric Forms</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Parametric Forms are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Second Order Derivative with multiple steps.</text>
+            <option id="A">Option A related to Second Order Derivative</option>
+            <option id="B">Option B related to Second Order Derivative</option>
+            <option id="C">Option C related to Second Order Derivative</option>
+            <option id="D">Option D related to Second Order Derivative</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Second Order Derivative are required.</explanation>
+        </question>
+    </hard>
+</chapter>

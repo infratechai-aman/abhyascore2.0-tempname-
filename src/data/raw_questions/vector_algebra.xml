@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="224" name="Vector Algebra">
+    <easy>
+        <question>
+            <text>Identify the basic property or definition related to Multiplication by Scalar.</text>
+            <option id="A">Option A related to Multiplication by Scalar</option>
+            <option id="B">Option B related to Multiplication by Scalar</option>
+            <option id="C">Option C related to Multiplication by Scalar</option>
+            <option id="D">Option D related to Multiplication by Scalar</option>
+            <answer>A</answer>
+            <explanation>Multiplication by Scalar is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Types of Vectors.</text>
+            <option id="A">Option A related to Types of Vectors</option>
+            <option id="B">Option B related to Types of Vectors</option>
+            <option id="C">Option C related to Types of Vectors</option>
+            <option id="D">Option D related to Types of Vectors</option>
+            <answer>A</answer>
+            <explanation>Types of Vectors is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Unit Vector.</text>
+            <option id="A">Option A related to Unit Vector</option>
+            <option id="B">Option B related to Unit Vector</option>
+            <option id="C">Option C related to Unit Vector</option>
+            <option id="D">Option D related to Unit Vector</option>
+            <answer>A</answer>
+            <explanation>Unit Vector is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Unit Vector.</text>
+            <option id="A">Option A related to Unit Vector</option>
+            <option id="B">Option B related to Unit Vector</option>
+            <option id="C">Option C related to Unit Vector</option>
+            <option id="D">Option D related to Unit Vector</option>
+            <answer>A</answer>
+            <explanation>Unit Vector is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Unit Vector.</text>
+            <option id="A">Option A related to Unit Vector</option>
+            <option id="B">Option B related to Unit Vector</option>
+            <option id="C">Option C related to Unit Vector</option>
+            <option id="D">Option D related to Unit Vector</option>
+            <answer>A</answer>
+            <explanation>Unit Vector is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Vector (Cross) Product.</text>
+            <option id="A">Option A related to Vector (Cross) Product</option>
+            <option id="B">Option B related to Vector (Cross) Product</option>
+            <option id="C">Option C related to Vector (Cross) Product</option>
+            <option id="D">Option D related to Vector (Cross) Product</option>
+            <answer>A</answer>
+            <explanation>Vector (Cross) Product is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Types of Vectors.</text>
+            <option id="A">Option A related to Types of Vectors</option>
+            <option id="B">Option B related to Types of Vectors</option>
+            <option id="C">Option C related to Types of Vectors</option>
+            <option id="D">Option D related to Types of Vectors</option>
+            <answer>A</answer>
+            <explanation>Types of Vectors is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Section Formula.</text>
+            <option id="A">Option A related to Section Formula</option>
+            <option id="B">Option B related to Section Formula</option>
+            <option id="C">Option C related to Section Formula</option>
+            <option id="D">Option D related to Section Formula</option>
+            <answer>A</answer>
+            <explanation>Section Formula is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Projection of Vector.</text>
+            <option id="A">Option A related to Projection of Vector</option>
+            <option id="B">Option B related to Projection of Vector</option>
+            <option id="C">Option C related to Projection of Vector</option>
+            <option id="D">Option D related to Projection of Vector</option>
+            <answer>A</answer>
+            <explanation>Projection of Vector is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Direction Cosines.</text>
+            <option id="A">Option A related to Direction Cosines</option>
+            <option id="B">Option B related to Direction Cosines</option>
+            <option id="C">Option C related to Direction Cosines</option>
+            <option id="D">Option D related to Direction Cosines</option>
+            <answer>A</answer>
+            <explanation>Direction Cosines is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Addition of Vectors.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>A</answer>
+            <explanation>Addition of Vectors is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Multiplication by Scalar.</text>
+            <option id="A">Option A related to Multiplication by Scalar</option>
+            <option id="B">Option B related to Multiplication by Scalar</option>
+            <option id="C">Option C related to Multiplication by Scalar</option>
+            <option id="D">Option D related to Multiplication by Scalar</option>
+            <answer>A</answer>
+            <explanation>Multiplication by Scalar is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Multiplication by Scalar.</text>
+            <option id="A">Option A related to Multiplication by Scalar</option>
+            <option id="B">Option B related to Multiplication by Scalar</option>
+            <option id="C">Option C related to Multiplication by Scalar</option>
+            <option id="D">Option D related to Multiplication by Scalar</option>
+            <answer>A</answer>
+            <explanation>Multiplication by Scalar is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Scalar (Dot) Product.</text>
+            <option id="A">Option A related to Scalar (Dot) Product</option>
+            <option id="B">Option B related to Scalar (Dot) Product</option>
+            <option id="C">Option C related to Scalar (Dot) Product</option>
+            <option id="D">Option D related to Scalar (Dot) Product</option>
+            <answer>A</answer>
+            <explanation>Scalar (Dot) Product is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Vector (Cross) Product.</text>
+            <option id="A">Option A related to Vector (Cross) Product</option>
+            <option id="B">Option B related to Vector (Cross) Product</option>
+            <option id="C">Option C related to Vector (Cross) Product</option>
+            <option id="D">Option D related to Vector (Cross) Product</option>
+            <answer>A</answer>
+            <explanation>Vector (Cross) Product is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Direction Cosines.</text>
+            <option id="A">Option A related to Direction Cosines</option>
+            <option id="B">Option B related to Direction Cosines</option>
+            <option id="C">Option C related to Direction Cosines</option>
+            <option id="D">Option D related to Direction Cosines</option>
+            <answer>A</answer>
+            <explanation>Direction Cosines is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Vector (Cross) Product.</text>
+            <option id="A">Option A related to Vector (Cross) Product</option>
+            <option id="B">Option B related to Vector (Cross) Product</option>
+            <option id="C">Option C related to Vector (Cross) Product</option>
+            <option id="D">Option D related to Vector (Cross) Product</option>
+            <answer>A</answer>
+            <explanation>Vector (Cross) Product is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Magnitude and Direction.</text>
+            <option id="A">Option A related to Magnitude and Direction</option>
+            <option id="B">Option B related to Magnitude and Direction</option>
+            <option id="C">Option C related to Magnitude and Direction</option>
+            <option id="D">Option D related to Magnitude and Direction</option>
+            <answer>A</answer>
+            <explanation>Magnitude and Direction is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Direction Cosines.</text>
+            <option id="A">Option A related to Direction Cosines</option>
+            <option id="B">Option B related to Direction Cosines</option>
+            <option id="C">Option C related to Direction Cosines</option>
+            <option id="D">Option D related to Direction Cosines</option>
+            <answer>A</answer>
+            <explanation>Direction Cosines is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Scalar (Dot) Product.</text>
+            <option id="A">Option A related to Scalar (Dot) Product</option>
+            <option id="B">Option B related to Scalar (Dot) Product</option>
+            <option id="C">Option C related to Scalar (Dot) Product</option>
+            <option id="D">Option D related to Scalar (Dot) Product</option>
+            <answer>A</answer>
+            <explanation>Scalar (Dot) Product is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Direction Cosines.</text>
+            <option id="A">Option A related to Direction Cosines</option>
+            <option id="B">Option B related to Direction Cosines</option>
+            <option id="C">Option C related to Direction Cosines</option>
+            <option id="D">Option D related to Direction Cosines</option>
+            <answer>A</answer>
+            <explanation>Direction Cosines is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Direction Cosines.</text>
+            <option id="A">Option A related to Direction Cosines</option>
+            <option id="B">Option B related to Direction Cosines</option>
+            <option id="C">Option C related to Direction Cosines</option>
+            <option id="D">Option D related to Direction Cosines</option>
+            <answer>A</answer>
+            <explanation>Direction Cosines is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Multiplication by Scalar.</text>
+            <option id="A">Option A related to Multiplication by Scalar</option>
+            <option id="B">Option B related to Multiplication by Scalar</option>
+            <option id="C">Option C related to Multiplication by Scalar</option>
+            <option id="D">Option D related to Multiplication by Scalar</option>
+            <answer>A</answer>
+            <explanation>Multiplication by Scalar is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Addition of Vectors.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>A</answer>
+            <explanation>Addition of Vectors is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Types of Vectors.</text>
+            <option id="A">Option A related to Types of Vectors</option>
+            <option id="B">Option B related to Types of Vectors</option>
+            <option id="C">Option C related to Types of Vectors</option>
+            <option id="D">Option D related to Types of Vectors</option>
+            <answer>A</answer>
+            <explanation>Types of Vectors is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Unit Vector.</text>
+            <option id="A">Option A related to Unit Vector</option>
+            <option id="B">Option B related to Unit Vector</option>
+            <option id="C">Option C related to Unit Vector</option>
+            <option id="D">Option D related to Unit Vector</option>
+            <answer>A</answer>
+            <explanation>Unit Vector is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Types of Vectors.</text>
+            <option id="A">Option A related to Types of Vectors</option>
+            <option id="B">Option B related to Types of Vectors</option>
+            <option id="C">Option C related to Types of Vectors</option>
+            <option id="D">Option D related to Types of Vectors</option>
+            <answer>A</answer>
+            <explanation>Types of Vectors is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Multiplication by Scalar.</text>
+            <option id="A">Option A related to Multiplication by Scalar</option>
+            <option id="B">Option B related to Multiplication by Scalar</option>
+            <option id="C">Option C related to Multiplication by Scalar</option>
+            <option id="D">Option D related to Multiplication by Scalar</option>
+            <answer>A</answer>
+            <explanation>Multiplication by Scalar is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Addition of Vectors.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>A</answer>
+            <explanation>Addition of Vectors is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Addition of Vectors.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>A</answer>
+            <explanation>Addition of Vectors is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Addition of Vectors.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>A</answer>
+            <explanation>Addition of Vectors is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Types of Vectors.</text>
+            <option id="A">Option A related to Types of Vectors</option>
+            <option id="B">Option B related to Types of Vectors</option>
+            <option id="C">Option C related to Types of Vectors</option>
+            <option id="D">Option D related to Types of Vectors</option>
+            <answer>A</answer>
+            <explanation>Types of Vectors is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Unit Vector.</text>
+            <option id="A">Option A related to Unit Vector</option>
+            <option id="B">Option B related to Unit Vector</option>
+            <option id="C">Option C related to Unit Vector</option>
+            <option id="D">Option D related to Unit Vector</option>
+            <answer>A</answer>
+            <explanation>Unit Vector is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Scalar (Dot) Product.</text>
+            <option id="A">Option A related to Scalar (Dot) Product</option>
+            <option id="B">Option B related to Scalar (Dot) Product</option>
+            <option id="C">Option C related to Scalar (Dot) Product</option>
+            <option id="D">Option D related to Scalar (Dot) Product</option>
+            <answer>A</answer>
+            <explanation>Scalar (Dot) Product is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Addition of Vectors.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>A</answer>
+            <explanation>Addition of Vectors is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Unit Vector.</text>
+            <option id="A">Option A related to Unit Vector</option>
+            <option id="B">Option B related to Unit Vector</option>
+            <option id="C">Option C related to Unit Vector</option>
+            <option id="D">Option D related to Unit Vector</option>
+            <answer>A</answer>
+            <explanation>Unit Vector is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Section Formula.</text>
+            <option id="A">Option A related to Section Formula</option>
+            <option id="B">Option B related to Section Formula</option>
+            <option id="C">Option C related to Section Formula</option>
+            <option id="D">Option D related to Section Formula</option>
+            <answer>A</answer>
+            <explanation>Section Formula is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Section Formula.</text>
+            <option id="A">Option A related to Section Formula</option>
+            <option id="B">Option B related to Section Formula</option>
+            <option id="C">Option C related to Section Formula</option>
+            <option id="D">Option D related to Section Formula</option>
+            <answer>A</answer>
+            <explanation>Section Formula is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Unit Vector.</text>
+            <option id="A">Option A related to Unit Vector</option>
+            <option id="B">Option B related to Unit Vector</option>
+            <option id="C">Option C related to Unit Vector</option>
+            <option id="D">Option D related to Unit Vector</option>
+            <answer>A</answer>
+            <explanation>Unit Vector is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Direction Cosines.</text>
+            <option id="A">Option A related to Direction Cosines</option>
+            <option id="B">Option B related to Direction Cosines</option>
+            <option id="C">Option C related to Direction Cosines</option>
+            <option id="D">Option D related to Direction Cosines</option>
+            <answer>A</answer>
+            <explanation>Direction Cosines is defined by specific conditions that must be met.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Solve the following problem involving Types of Vectors using standard formulas.</text>
+            <option id="A">Option A related to Types of Vectors</option>
+            <option id="B">Option B related to Types of Vectors</option>
+            <option id="C">Option C related to Types of Vectors</option>
+            <option id="D">Option D related to Types of Vectors</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Types of Vectors yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Unit Vector using standard formulas.</text>
+            <option id="A">Option A related to Unit Vector</option>
+            <option id="B">Option B related to Unit Vector</option>
+            <option id="C">Option C related to Unit Vector</option>
+            <option id="D">Option D related to Unit Vector</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Unit Vector yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Types of Vectors using standard formulas.</text>
+            <option id="A">Option A related to Types of Vectors</option>
+            <option id="B">Option B related to Types of Vectors</option>
+            <option id="C">Option C related to Types of Vectors</option>
+            <option id="D">Option D related to Types of Vectors</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Types of Vectors yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Multiplication by Scalar using standard formulas.</text>
+            <option id="A">Option A related to Multiplication by Scalar</option>
+            <option id="B">Option B related to Multiplication by Scalar</option>
+            <option id="C">Option C related to Multiplication by Scalar</option>
+            <option id="D">Option D related to Multiplication by Scalar</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Multiplication by Scalar yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Unit Vector using standard formulas.</text>
+            <option id="A">Option A related to Unit Vector</option>
+            <option id="B">Option B related to Unit Vector</option>
+            <option id="C">Option C related to Unit Vector</option>
+            <option id="D">Option D related to Unit Vector</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Unit Vector yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Projection of Vector using standard formulas.</text>
+            <option id="A">Option A related to Projection of Vector</option>
+            <option id="B">Option B related to Projection of Vector</option>
+            <option id="C">Option C related to Projection of Vector</option>
+            <option id="D">Option D related to Projection of Vector</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Projection of Vector yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Unit Vector using standard formulas.</text>
+            <option id="A">Option A related to Unit Vector</option>
+            <option id="B">Option B related to Unit Vector</option>
+            <option id="C">Option C related to Unit Vector</option>
+            <option id="D">Option D related to Unit Vector</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Unit Vector yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Section Formula using standard formulas.</text>
+            <option id="A">Option A related to Section Formula</option>
+            <option id="B">Option B related to Section Formula</option>
+            <option id="C">Option C related to Section Formula</option>
+            <option id="D">Option D related to Section Formula</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Section Formula yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Section Formula using standard formulas.</text>
+            <option id="A">Option A related to Section Formula</option>
+            <option id="B">Option B related to Section Formula</option>
+            <option id="C">Option C related to Section Formula</option>
+            <option id="D">Option D related to Section Formula</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Section Formula yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Addition of Vectors using standard formulas.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Addition of Vectors yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Addition of Vectors using standard formulas.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Addition of Vectors yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Section Formula using standard formulas.</text>
+            <option id="A">Option A related to Section Formula</option>
+            <option id="B">Option B related to Section Formula</option>
+            <option id="C">Option C related to Section Formula</option>
+            <option id="D">Option D related to Section Formula</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Section Formula yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Direction Cosines using standard formulas.</text>
+            <option id="A">Option A related to Direction Cosines</option>
+            <option id="B">Option B related to Direction Cosines</option>
+            <option id="C">Option C related to Direction Cosines</option>
+            <option id="D">Option D related to Direction Cosines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Direction Cosines yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Addition of Vectors using standard formulas.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Addition of Vectors yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Addition of Vectors using standard formulas.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Addition of Vectors yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Multiplication by Scalar using standard formulas.</text>
+            <option id="A">Option A related to Multiplication by Scalar</option>
+            <option id="B">Option B related to Multiplication by Scalar</option>
+            <option id="C">Option C related to Multiplication by Scalar</option>
+            <option id="D">Option D related to Multiplication by Scalar</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Multiplication by Scalar yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Types of Vectors using standard formulas.</text>
+            <option id="A">Option A related to Types of Vectors</option>
+            <option id="B">Option B related to Types of Vectors</option>
+            <option id="C">Option C related to Types of Vectors</option>
+            <option id="D">Option D related to Types of Vectors</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Types of Vectors yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Scalar (Dot) Product using standard formulas.</text>
+            <option id="A">Option A related to Scalar (Dot) Product</option>
+            <option id="B">Option B related to Scalar (Dot) Product</option>
+            <option id="C">Option C related to Scalar (Dot) Product</option>
+            <option id="D">Option D related to Scalar (Dot) Product</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Scalar (Dot) Product yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Section Formula using standard formulas.</text>
+            <option id="A">Option A related to Section Formula</option>
+            <option id="B">Option B related to Section Formula</option>
+            <option id="C">Option C related to Section Formula</option>
+            <option id="D">Option D related to Section Formula</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Section Formula yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Unit Vector using standard formulas.</text>
+            <option id="A">Option A related to Unit Vector</option>
+            <option id="B">Option B related to Unit Vector</option>
+            <option id="C">Option C related to Unit Vector</option>
+            <option id="D">Option D related to Unit Vector</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Unit Vector yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Scalar (Dot) Product using standard formulas.</text>
+            <option id="A">Option A related to Scalar (Dot) Product</option>
+            <option id="B">Option B related to Scalar (Dot) Product</option>
+            <option id="C">Option C related to Scalar (Dot) Product</option>
+            <option id="D">Option D related to Scalar (Dot) Product</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Scalar (Dot) Product yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Scalar (Dot) Product using standard formulas.</text>
+            <option id="A">Option A related to Scalar (Dot) Product</option>
+            <option id="B">Option B related to Scalar (Dot) Product</option>
+            <option id="C">Option C related to Scalar (Dot) Product</option>
+            <option id="D">Option D related to Scalar (Dot) Product</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Scalar (Dot) Product yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Direction Cosines using standard formulas.</text>
+            <option id="A">Option A related to Direction Cosines</option>
+            <option id="B">Option B related to Direction Cosines</option>
+            <option id="C">Option C related to Direction Cosines</option>
+            <option id="D">Option D related to Direction Cosines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Direction Cosines yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Addition of Vectors using standard formulas.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Addition of Vectors yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Types of Vectors using standard formulas.</text>
+            <option id="A">Option A related to Types of Vectors</option>
+            <option id="B">Option B related to Types of Vectors</option>
+            <option id="C">Option C related to Types of Vectors</option>
+            <option id="D">Option D related to Types of Vectors</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Types of Vectors yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Direction Cosines using standard formulas.</text>
+            <option id="A">Option A related to Direction Cosines</option>
+            <option id="B">Option B related to Direction Cosines</option>
+            <option id="C">Option C related to Direction Cosines</option>
+            <option id="D">Option D related to Direction Cosines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Direction Cosines yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Multiplication by Scalar using standard formulas.</text>
+            <option id="A">Option A related to Multiplication by Scalar</option>
+            <option id="B">Option B related to Multiplication by Scalar</option>
+            <option id="C">Option C related to Multiplication by Scalar</option>
+            <option id="D">Option D related to Multiplication by Scalar</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Multiplication by Scalar yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Unit Vector using standard formulas.</text>
+            <option id="A">Option A related to Unit Vector</option>
+            <option id="B">Option B related to Unit Vector</option>
+            <option id="C">Option C related to Unit Vector</option>
+            <option id="D">Option D related to Unit Vector</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Unit Vector yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Magnitude and Direction using standard formulas.</text>
+            <option id="A">Option A related to Magnitude and Direction</option>
+            <option id="B">Option B related to Magnitude and Direction</option>
+            <option id="C">Option C related to Magnitude and Direction</option>
+            <option id="D">Option D related to Magnitude and Direction</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Magnitude and Direction yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Direction Cosines using standard formulas.</text>
+            <option id="A">Option A related to Direction Cosines</option>
+            <option id="B">Option B related to Direction Cosines</option>
+            <option id="C">Option C related to Direction Cosines</option>
+            <option id="D">Option D related to Direction Cosines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Direction Cosines yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Magnitude and Direction using standard formulas.</text>
+            <option id="A">Option A related to Magnitude and Direction</option>
+            <option id="B">Option B related to Magnitude and Direction</option>
+            <option id="C">Option C related to Magnitude and Direction</option>
+            <option id="D">Option D related to Magnitude and Direction</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Magnitude and Direction yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Addition of Vectors using standard formulas.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Addition of Vectors yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Projection of Vector using standard formulas.</text>
+            <option id="A">Option A related to Projection of Vector</option>
+            <option id="B">Option B related to Projection of Vector</option>
+            <option id="C">Option C related to Projection of Vector</option>
+            <option id="D">Option D related to Projection of Vector</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Projection of Vector yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Types of Vectors using standard formulas.</text>
+            <option id="A">Option A related to Types of Vectors</option>
+            <option id="B">Option B related to Types of Vectors</option>
+            <option id="C">Option C related to Types of Vectors</option>
+            <option id="D">Option D related to Types of Vectors</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Types of Vectors yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Scalar (Dot) Product using standard formulas.</text>
+            <option id="A">Option A related to Scalar (Dot) Product</option>
+            <option id="B">Option B related to Scalar (Dot) Product</option>
+            <option id="C">Option C related to Scalar (Dot) Product</option>
+            <option id="D">Option D related to Scalar (Dot) Product</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Scalar (Dot) Product yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Magnitude and Direction using standard formulas.</text>
+            <option id="A">Option A related to Magnitude and Direction</option>
+            <option id="B">Option B related to Magnitude and Direction</option>
+            <option id="C">Option C related to Magnitude and Direction</option>
+            <option id="D">Option D related to Magnitude and Direction</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Magnitude and Direction yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Unit Vector using standard formulas.</text>
+            <option id="A">Option A related to Unit Vector</option>
+            <option id="B">Option B related to Unit Vector</option>
+            <option id="C">Option C related to Unit Vector</option>
+            <option id="D">Option D related to Unit Vector</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Unit Vector yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Scalar (Dot) Product using standard formulas.</text>
+            <option id="A">Option A related to Scalar (Dot) Product</option>
+            <option id="B">Option B related to Scalar (Dot) Product</option>
+            <option id="C">Option C related to Scalar (Dot) Product</option>
+            <option id="D">Option D related to Scalar (Dot) Product</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Scalar (Dot) Product yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Types of Vectors using standard formulas.</text>
+            <option id="A">Option A related to Types of Vectors</option>
+            <option id="B">Option B related to Types of Vectors</option>
+            <option id="C">Option C related to Types of Vectors</option>
+            <option id="D">Option D related to Types of Vectors</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Types of Vectors yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Direction Cosines using standard formulas.</text>
+            <option id="A">Option A related to Direction Cosines</option>
+            <option id="B">Option B related to Direction Cosines</option>
+            <option id="C">Option C related to Direction Cosines</option>
+            <option id="D">Option D related to Direction Cosines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Direction Cosines yields the correct value.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Analyze and solve the complex problem involving Vector (Cross) Product with multiple steps.</text>
+            <option id="A">Option A related to Vector (Cross) Product</option>
+            <option id="B">Option B related to Vector (Cross) Product</option>
+            <option id="C">Option C related to Vector (Cross) Product</option>
+            <option id="D">Option D related to Vector (Cross) Product</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Vector (Cross) Product are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Scalar (Dot) Product with multiple steps.</text>
+            <option id="A">Option A related to Scalar (Dot) Product</option>
+            <option id="B">Option B related to Scalar (Dot) Product</option>
+            <option id="C">Option C related to Scalar (Dot) Product</option>
+            <option id="D">Option D related to Scalar (Dot) Product</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Scalar (Dot) Product are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Direction Cosines with multiple steps.</text>
+            <option id="A">Option A related to Direction Cosines</option>
+            <option id="B">Option B related to Direction Cosines</option>
+            <option id="C">Option C related to Direction Cosines</option>
+            <option id="D">Option D related to Direction Cosines</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Direction Cosines are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Magnitude and Direction with multiple steps.</text>
+            <option id="A">Option A related to Magnitude and Direction</option>
+            <option id="B">Option B related to Magnitude and Direction</option>
+            <option id="C">Option C related to Magnitude and Direction</option>
+            <option id="D">Option D related to Magnitude and Direction</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Magnitude and Direction are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Addition of Vectors with multiple steps.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Addition of Vectors are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Direction Cosines with multiple steps.</text>
+            <option id="A">Option A related to Direction Cosines</option>
+            <option id="B">Option B related to Direction Cosines</option>
+            <option id="C">Option C related to Direction Cosines</option>
+            <option id="D">Option D related to Direction Cosines</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Direction Cosines are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Direction Cosines with multiple steps.</text>
+            <option id="A">Option A related to Direction Cosines</option>
+            <option id="B">Option B related to Direction Cosines</option>
+            <option id="C">Option C related to Direction Cosines</option>
+            <option id="D">Option D related to Direction Cosines</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Direction Cosines are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Projection of Vector with multiple steps.</text>
+            <option id="A">Option A related to Projection of Vector</option>
+            <option id="B">Option B related to Projection of Vector</option>
+            <option id="C">Option C related to Projection of Vector</option>
+            <option id="D">Option D related to Projection of Vector</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Projection of Vector are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Addition of Vectors with multiple steps.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Addition of Vectors are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Magnitude and Direction with multiple steps.</text>
+            <option id="A">Option A related to Magnitude and Direction</option>
+            <option id="B">Option B related to Magnitude and Direction</option>
+            <option id="C">Option C related to Magnitude and Direction</option>
+            <option id="D">Option D related to Magnitude and Direction</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Magnitude and Direction are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Scalar (Dot) Product with multiple steps.</text>
+            <option id="A">Option A related to Scalar (Dot) Product</option>
+            <option id="B">Option B related to Scalar (Dot) Product</option>
+            <option id="C">Option C related to Scalar (Dot) Product</option>
+            <option id="D">Option D related to Scalar (Dot) Product</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Scalar (Dot) Product are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Projection of Vector with multiple steps.</text>
+            <option id="A">Option A related to Projection of Vector</option>
+            <option id="B">Option B related to Projection of Vector</option>
+            <option id="C">Option C related to Projection of Vector</option>
+            <option id="D">Option D related to Projection of Vector</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Projection of Vector are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Magnitude and Direction with multiple steps.</text>
+            <option id="A">Option A related to Magnitude and Direction</option>
+            <option id="B">Option B related to Magnitude and Direction</option>
+            <option id="C">Option C related to Magnitude and Direction</option>
+            <option id="D">Option D related to Magnitude and Direction</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Magnitude and Direction are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Section Formula with multiple steps.</text>
+            <option id="A">Option A related to Section Formula</option>
+            <option id="B">Option B related to Section Formula</option>
+            <option id="C">Option C related to Section Formula</option>
+            <option id="D">Option D related to Section Formula</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Section Formula are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Magnitude and Direction with multiple steps.</text>
+            <option id="A">Option A related to Magnitude and Direction</option>
+            <option id="B">Option B related to Magnitude and Direction</option>
+            <option id="C">Option C related to Magnitude and Direction</option>
+            <option id="D">Option D related to Magnitude and Direction</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Magnitude and Direction are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Unit Vector with multiple steps.</text>
+            <option id="A">Option A related to Unit Vector</option>
+            <option id="B">Option B related to Unit Vector</option>
+            <option id="C">Option C related to Unit Vector</option>
+            <option id="D">Option D related to Unit Vector</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Unit Vector are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Addition of Vectors with multiple steps.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Addition of Vectors are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Scalar (Dot) Product with multiple steps.</text>
+            <option id="A">Option A related to Scalar (Dot) Product</option>
+            <option id="B">Option B related to Scalar (Dot) Product</option>
+            <option id="C">Option C related to Scalar (Dot) Product</option>
+            <option id="D">Option D related to Scalar (Dot) Product</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Scalar (Dot) Product are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Section Formula with multiple steps.</text>
+            <option id="A">Option A related to Section Formula</option>
+            <option id="B">Option B related to Section Formula</option>
+            <option id="C">Option C related to Section Formula</option>
+            <option id="D">Option D related to Section Formula</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Section Formula are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Scalar (Dot) Product with multiple steps.</text>
+            <option id="A">Option A related to Scalar (Dot) Product</option>
+            <option id="B">Option B related to Scalar (Dot) Product</option>
+            <option id="C">Option C related to Scalar (Dot) Product</option>
+            <option id="D">Option D related to Scalar (Dot) Product</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Scalar (Dot) Product are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Addition of Vectors with multiple steps.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Addition of Vectors are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Scalar (Dot) Product with multiple steps.</text>
+            <option id="A">Option A related to Scalar (Dot) Product</option>
+            <option id="B">Option B related to Scalar (Dot) Product</option>
+            <option id="C">Option C related to Scalar (Dot) Product</option>
+            <option id="D">Option D related to Scalar (Dot) Product</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Scalar (Dot) Product are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Direction Cosines with multiple steps.</text>
+            <option id="A">Option A related to Direction Cosines</option>
+            <option id="B">Option B related to Direction Cosines</option>
+            <option id="C">Option C related to Direction Cosines</option>
+            <option id="D">Option D related to Direction Cosines</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Direction Cosines are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Magnitude and Direction with multiple steps.</text>
+            <option id="A">Option A related to Magnitude and Direction</option>
+            <option id="B">Option B related to Magnitude and Direction</option>
+            <option id="C">Option C related to Magnitude and Direction</option>
+            <option id="D">Option D related to Magnitude and Direction</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Magnitude and Direction are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Vector (Cross) Product with multiple steps.</text>
+            <option id="A">Option A related to Vector (Cross) Product</option>
+            <option id="B">Option B related to Vector (Cross) Product</option>
+            <option id="C">Option C related to Vector (Cross) Product</option>
+            <option id="D">Option D related to Vector (Cross) Product</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Vector (Cross) Product are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Vector (Cross) Product with multiple steps.</text>
+            <option id="A">Option A related to Vector (Cross) Product</option>
+            <option id="B">Option B related to Vector (Cross) Product</option>
+            <option id="C">Option C related to Vector (Cross) Product</option>
+            <option id="D">Option D related to Vector (Cross) Product</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Vector (Cross) Product are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Unit Vector with multiple steps.</text>
+            <option id="A">Option A related to Unit Vector</option>
+            <option id="B">Option B related to Unit Vector</option>
+            <option id="C">Option C related to Unit Vector</option>
+            <option id="D">Option D related to Unit Vector</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Unit Vector are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Types of Vectors with multiple steps.</text>
+            <option id="A">Option A related to Types of Vectors</option>
+            <option id="B">Option B related to Types of Vectors</option>
+            <option id="C">Option C related to Types of Vectors</option>
+            <option id="D">Option D related to Types of Vectors</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Types of Vectors are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Multiplication by Scalar with multiple steps.</text>
+            <option id="A">Option A related to Multiplication by Scalar</option>
+            <option id="B">Option B related to Multiplication by Scalar</option>
+            <option id="C">Option C related to Multiplication by Scalar</option>
+            <option id="D">Option D related to Multiplication by Scalar</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Multiplication by Scalar are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Addition of Vectors with multiple steps.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Addition of Vectors are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Magnitude and Direction with multiple steps.</text>
+            <option id="A">Option A related to Magnitude and Direction</option>
+            <option id="B">Option B related to Magnitude and Direction</option>
+            <option id="C">Option C related to Magnitude and Direction</option>
+            <option id="D">Option D related to Magnitude and Direction</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Magnitude and Direction are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Section Formula with multiple steps.</text>
+            <option id="A">Option A related to Section Formula</option>
+            <option id="B">Option B related to Section Formula</option>
+            <option id="C">Option C related to Section Formula</option>
+            <option id="D">Option D related to Section Formula</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Section Formula are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Addition of Vectors with multiple steps.</text>
+            <option id="A">Option A related to Addition of Vectors</option>
+            <option id="B">Option B related to Addition of Vectors</option>
+            <option id="C">Option C related to Addition of Vectors</option>
+            <option id="D">Option D related to Addition of Vectors</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Addition of Vectors are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Direction Cosines with multiple steps.</text>
+            <option id="A">Option A related to Direction Cosines</option>
+            <option id="B">Option B related to Direction Cosines</option>
+            <option id="C">Option C related to Direction Cosines</option>
+            <option id="D">Option D related to Direction Cosines</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Direction Cosines are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Vector (Cross) Product with multiple steps.</text>
+            <option id="A">Option A related to Vector (Cross) Product</option>
+            <option id="B">Option B related to Vector (Cross) Product</option>
+            <option id="C">Option C related to Vector (Cross) Product</option>
+            <option id="D">Option D related to Vector (Cross) Product</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Vector (Cross) Product are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Magnitude and Direction with multiple steps.</text>
+            <option id="A">Option A related to Magnitude and Direction</option>
+            <option id="B">Option B related to Magnitude and Direction</option>
+            <option id="C">Option C related to Magnitude and Direction</option>
+            <option id="D">Option D related to Magnitude and Direction</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Magnitude and Direction are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Multiplication by Scalar with multiple steps.</text>
+            <option id="A">Option A related to Multiplication by Scalar</option>
+            <option id="B">Option B related to Multiplication by Scalar</option>
+            <option id="C">Option C related to Multiplication by Scalar</option>
+            <option id="D">Option D related to Multiplication by Scalar</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Multiplication by Scalar are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Unit Vector with multiple steps.</text>
+            <option id="A">Option A related to Unit Vector</option>
+            <option id="B">Option B related to Unit Vector</option>
+            <option id="C">Option C related to Unit Vector</option>
+            <option id="D">Option D related to Unit Vector</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Unit Vector are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Vector (Cross) Product with multiple steps.</text>
+            <option id="A">Option A related to Vector (Cross) Product</option>
+            <option id="B">Option B related to Vector (Cross) Product</option>
+            <option id="C">Option C related to Vector (Cross) Product</option>
+            <option id="D">Option D related to Vector (Cross) Product</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Vector (Cross) Product are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Vector (Cross) Product with multiple steps.</text>
+            <option id="A">Option A related to Vector (Cross) Product</option>
+            <option id="B">Option B related to Vector (Cross) Product</option>
+            <option id="C">Option C related to Vector (Cross) Product</option>
+            <option id="D">Option D related to Vector (Cross) Product</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Vector (Cross) Product are required.</explanation>
+        </question>
+    </hard>
+</chapter>

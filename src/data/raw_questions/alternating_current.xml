@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="20" name="Alternating Current">
+    <easy>
+        <question>
+            <text>What is the fundamental concept behind Resonance?</text>
+            <option id="A">Option A related to Resonance</option>
+            <option id="B">Option B related to Resonance</option>
+            <option id="C">Option C related to Resonance</option>
+            <option id="D">Option D related to Resonance</option>
+            <answer>A</answer>
+            <explanation>Resonance is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Transformers?</text>
+            <option id="A">Option A related to Transformers</option>
+            <option id="B">Option B related to Transformers</option>
+            <option id="C">Option C related to Transformers</option>
+            <option id="D">Option D related to Transformers</option>
+            <answer>A</answer>
+            <explanation>Transformers is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind LC Oscillations?</text>
+            <option id="A">Option A related to LC Oscillations</option>
+            <option id="B">Option B related to LC Oscillations</option>
+            <option id="C">Option C related to LC Oscillations</option>
+            <option id="D">Option D related to LC Oscillations</option>
+            <answer>A</answer>
+            <explanation>LC Oscillations is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind RMS Value?</text>
+            <option id="A">Option A related to RMS Value</option>
+            <option id="B">Option B related to RMS Value</option>
+            <option id="C">Option C related to RMS Value</option>
+            <option id="D">Option D related to RMS Value</option>
+            <answer>A</answer>
+            <explanation>RMS Value is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind LCR Circuit?</text>
+            <option id="A">Option A related to LCR Circuit</option>
+            <option id="B">Option B related to LCR Circuit</option>
+            <option id="C">Option C related to LCR Circuit</option>
+            <option id="D">Option D related to LCR Circuit</option>
+            <answer>A</answer>
+            <explanation>LCR Circuit is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind RMS Value?</text>
+            <option id="A">Option A related to RMS Value</option>
+            <option id="B">Option B related to RMS Value</option>
+            <option id="C">Option C related to RMS Value</option>
+            <option id="D">Option D related to RMS Value</option>
+            <answer>A</answer>
+            <explanation>RMS Value is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Phasor Diagram?</text>
+            <option id="A">Option A related to Phasor Diagram</option>
+            <option id="B">Option B related to Phasor Diagram</option>
+            <option id="C">Option C related to Phasor Diagram</option>
+            <option id="D">Option D related to Phasor Diagram</option>
+            <answer>A</answer>
+            <explanation>Phasor Diagram is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Q-Factor?</text>
+            <option id="A">Option A related to Q-Factor</option>
+            <option id="B">Option B related to Q-Factor</option>
+            <option id="C">Option C related to Q-Factor</option>
+            <option id="D">Option D related to Q-Factor</option>
+            <answer>A</answer>
+            <explanation>Q-Factor is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Transformers?</text>
+            <option id="A">Option A related to Transformers</option>
+            <option id="B">Option B related to Transformers</option>
+            <option id="C">Option C related to Transformers</option>
+            <option id="D">Option D related to Transformers</option>
+            <answer>A</answer>
+            <explanation>Transformers is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind LCR Circuit?</text>
+            <option id="A">Option A related to LCR Circuit</option>
+            <option id="B">Option B related to LCR Circuit</option>
+            <option id="C">Option C related to LCR Circuit</option>
+            <option id="D">Option D related to LCR Circuit</option>
+            <answer>A</answer>
+            <explanation>LCR Circuit is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind LC Oscillations?</text>
+            <option id="A">Option A related to LC Oscillations</option>
+            <option id="B">Option B related to LC Oscillations</option>
+            <option id="C">Option C related to LC Oscillations</option>
+            <option id="D">Option D related to LC Oscillations</option>
+            <answer>A</answer>
+            <explanation>LC Oscillations is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind LCR Circuit?</text>
+            <option id="A">Option A related to LCR Circuit</option>
+            <option id="B">Option B related to LCR Circuit</option>
+            <option id="C">Option C related to LCR Circuit</option>
+            <option id="D">Option D related to LCR Circuit</option>
+            <answer>A</answer>
+            <explanation>LCR Circuit is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind LCR Circuit?</text>
+            <option id="A">Option A related to LCR Circuit</option>
+            <option id="B">Option B related to LCR Circuit</option>
+            <option id="C">Option C related to LCR Circuit</option>
+            <option id="D">Option D related to LCR Circuit</option>
+            <answer>A</answer>
+            <explanation>LCR Circuit is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Power Factor?</text>
+            <option id="A">Option A related to Power Factor</option>
+            <option id="B">Option B related to Power Factor</option>
+            <option id="C">Option C related to Power Factor</option>
+            <option id="D">Option D related to Power Factor</option>
+            <answer>A</answer>
+            <explanation>Power Factor is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Resonance?</text>
+            <option id="A">Option A related to Resonance</option>
+            <option id="B">Option B related to Resonance</option>
+            <option id="C">Option C related to Resonance</option>
+            <option id="D">Option D related to Resonance</option>
+            <answer>A</answer>
+            <explanation>Resonance is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind RMS Value?</text>
+            <option id="A">Option A related to RMS Value</option>
+            <option id="B">Option B related to RMS Value</option>
+            <option id="C">Option C related to RMS Value</option>
+            <option id="D">Option D related to RMS Value</option>
+            <answer>A</answer>
+            <explanation>RMS Value is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Phasor Diagram?</text>
+            <option id="A">Option A related to Phasor Diagram</option>
+            <option id="B">Option B related to Phasor Diagram</option>
+            <option id="C">Option C related to Phasor Diagram</option>
+            <option id="D">Option D related to Phasor Diagram</option>
+            <answer>A</answer>
+            <explanation>Phasor Diagram is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Q-Factor?</text>
+            <option id="A">Option A related to Q-Factor</option>
+            <option id="B">Option B related to Q-Factor</option>
+            <option id="C">Option C related to Q-Factor</option>
+            <option id="D">Option D related to Q-Factor</option>
+            <answer>A</answer>
+            <explanation>Q-Factor is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind LC Oscillations?</text>
+            <option id="A">Option A related to LC Oscillations</option>
+            <option id="B">Option B related to LC Oscillations</option>
+            <option id="C">Option C related to LC Oscillations</option>
+            <option id="D">Option D related to LC Oscillations</option>
+            <answer>A</answer>
+            <explanation>LC Oscillations is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Power Factor?</text>
+            <option id="A">Option A related to Power Factor</option>
+            <option id="B">Option B related to Power Factor</option>
+            <option id="C">Option C related to Power Factor</option>
+            <option id="D">Option D related to Power Factor</option>
+            <answer>A</answer>
+            <explanation>Power Factor is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Power Factor?</text>
+            <option id="A">Option A related to Power Factor</option>
+            <option id="B">Option B related to Power Factor</option>
+            <option id="C">Option C related to Power Factor</option>
+            <option id="D">Option D related to Power Factor</option>
+            <answer>A</answer>
+            <explanation>Power Factor is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Resonance?</text>
+            <option id="A">Option A related to Resonance</option>
+            <option id="B">Option B related to Resonance</option>
+            <option id="C">Option C related to Resonance</option>
+            <option id="D">Option D related to Resonance</option>
+            <answer>A</answer>
+            <explanation>Resonance is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Power Factor?</text>
+            <option id="A">Option A related to Power Factor</option>
+            <option id="B">Option B related to Power Factor</option>
+            <option id="C">Option C related to Power Factor</option>
+            <option id="D">Option D related to Power Factor</option>
+            <answer>A</answer>
+            <explanation>Power Factor is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Resonance?</text>
+            <option id="A">Option A related to Resonance</option>
+            <option id="B">Option B related to Resonance</option>
+            <option id="C">Option C related to Resonance</option>
+            <option id="D">Option D related to Resonance</option>
+            <answer>A</answer>
+            <explanation>Resonance is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Q-Factor?</text>
+            <option id="A">Option A related to Q-Factor</option>
+            <option id="B">Option B related to Q-Factor</option>
+            <option id="C">Option C related to Q-Factor</option>
+            <option id="D">Option D related to Q-Factor</option>
+            <answer>A</answer>
+            <explanation>Q-Factor is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Power Factor?</text>
+            <option id="A">Option A related to Power Factor</option>
+            <option id="B">Option B related to Power Factor</option>
+            <option id="C">Option C related to Power Factor</option>
+            <option id="D">Option D related to Power Factor</option>
+            <answer>A</answer>
+            <explanation>Power Factor is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Transformers?</text>
+            <option id="A">Option A related to Transformers</option>
+            <option id="B">Option B related to Transformers</option>
+            <option id="C">Option C related to Transformers</option>
+            <option id="D">Option D related to Transformers</option>
+            <answer>A</answer>
+            <explanation>Transformers is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind LCR Circuit?</text>
+            <option id="A">Option A related to LCR Circuit</option>
+            <option id="B">Option B related to LCR Circuit</option>
+            <option id="C">Option C related to LCR Circuit</option>
+            <option id="D">Option D related to LCR Circuit</option>
+            <answer>A</answer>
+            <explanation>LCR Circuit is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Impedance?</text>
+            <option id="A">Option A related to Impedance</option>
+            <option id="B">Option B related to Impedance</option>
+            <option id="C">Option C related to Impedance</option>
+            <option id="D">Option D related to Impedance</option>
+            <answer>A</answer>
+            <explanation>Impedance is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Q-Factor?</text>
+            <option id="A">Option A related to Q-Factor</option>
+            <option id="B">Option B related to Q-Factor</option>
+            <option id="C">Option C related to Q-Factor</option>
+            <option id="D">Option D related to Q-Factor</option>
+            <answer>A</answer>
+            <explanation>Q-Factor is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Power Factor?</text>
+            <option id="A">Option A related to Power Factor</option>
+            <option id="B">Option B related to Power Factor</option>
+            <option id="C">Option C related to Power Factor</option>
+            <option id="D">Option D related to Power Factor</option>
+            <answer>A</answer>
+            <explanation>Power Factor is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Impedance?</text>
+            <option id="A">Option A related to Impedance</option>
+            <option id="B">Option B related to Impedance</option>
+            <option id="C">Option C related to Impedance</option>
+            <option id="D">Option D related to Impedance</option>
+            <answer>A</answer>
+            <explanation>Impedance is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Transformers?</text>
+            <option id="A">Option A related to Transformers</option>
+            <option id="B">Option B related to Transformers</option>
+            <option id="C">Option C related to Transformers</option>
+            <option id="D">Option D related to Transformers</option>
+            <answer>A</answer>
+            <explanation>Transformers is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Wattless Current?</text>
+            <option id="A">Option A related to Wattless Current</option>
+            <option id="B">Option B related to Wattless Current</option>
+            <option id="C">Option C related to Wattless Current</option>
+            <option id="D">Option D related to Wattless Current</option>
+            <answer>A</answer>
+            <explanation>Wattless Current is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Power Factor?</text>
+            <option id="A">Option A related to Power Factor</option>
+            <option id="B">Option B related to Power Factor</option>
+            <option id="C">Option C related to Power Factor</option>
+            <option id="D">Option D related to Power Factor</option>
+            <answer>A</answer>
+            <explanation>Power Factor is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind LCR Circuit?</text>
+            <option id="A">Option A related to LCR Circuit</option>
+            <option id="B">Option B related to LCR Circuit</option>
+            <option id="C">Option C related to LCR Circuit</option>
+            <option id="D">Option D related to LCR Circuit</option>
+            <answer>A</answer>
+            <explanation>LCR Circuit is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Phasor Diagram?</text>
+            <option id="A">Option A related to Phasor Diagram</option>
+            <option id="B">Option B related to Phasor Diagram</option>
+            <option id="C">Option C related to Phasor Diagram</option>
+            <option id="D">Option D related to Phasor Diagram</option>
+            <answer>A</answer>
+            <explanation>Phasor Diagram is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Phasor Diagram?</text>
+            <option id="A">Option A related to Phasor Diagram</option>
+            <option id="B">Option B related to Phasor Diagram</option>
+            <option id="C">Option C related to Phasor Diagram</option>
+            <option id="D">Option D related to Phasor Diagram</option>
+            <answer>A</answer>
+            <explanation>Phasor Diagram is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Wattless Current?</text>
+            <option id="A">Option A related to Wattless Current</option>
+            <option id="B">Option B related to Wattless Current</option>
+            <option id="C">Option C related to Wattless Current</option>
+            <option id="D">Option D related to Wattless Current</option>
+            <answer>A</answer>
+            <explanation>Wattless Current is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Phasor Diagram?</text>
+            <option id="A">Option A related to Phasor Diagram</option>
+            <option id="B">Option B related to Phasor Diagram</option>
+            <option id="C">Option C related to Phasor Diagram</option>
+            <option id="D">Option D related to Phasor Diagram</option>
+            <answer>A</answer>
+            <explanation>Phasor Diagram is a key concept defined by specific physical properties.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Calculate the value associated with Wattless Current given standard conditions.</text>
+            <option id="A">Option A related to Wattless Current</option>
+            <option id="B">Option B related to Wattless Current</option>
+            <option id="C">Option C related to Wattless Current</option>
+            <option id="D">Option D related to Wattless Current</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Wattless Current, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Q-Factor given standard conditions.</text>
+            <option id="A">Option A related to Q-Factor</option>
+            <option id="B">Option B related to Q-Factor</option>
+            <option id="C">Option C related to Q-Factor</option>
+            <option id="D">Option D related to Q-Factor</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Q-Factor, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with LCR Circuit given standard conditions.</text>
+            <option id="A">Option A related to LCR Circuit</option>
+            <option id="B">Option B related to LCR Circuit</option>
+            <option id="C">Option C related to LCR Circuit</option>
+            <option id="D">Option D related to LCR Circuit</option>
+            <answer>B</answer>
+            <explanation>Using the formula for LCR Circuit, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Resonance given standard conditions.</text>
+            <option id="A">Option A related to Resonance</option>
+            <option id="B">Option B related to Resonance</option>
+            <option id="C">Option C related to Resonance</option>
+            <option id="D">Option D related to Resonance</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Resonance, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with LC Oscillations given standard conditions.</text>
+            <option id="A">Option A related to LC Oscillations</option>
+            <option id="B">Option B related to LC Oscillations</option>
+            <option id="C">Option C related to LC Oscillations</option>
+            <option id="D">Option D related to LC Oscillations</option>
+            <answer>B</answer>
+            <explanation>Using the formula for LC Oscillations, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with RMS Value given standard conditions.</text>
+            <option id="A">Option A related to RMS Value</option>
+            <option id="B">Option B related to RMS Value</option>
+            <option id="C">Option C related to RMS Value</option>
+            <option id="D">Option D related to RMS Value</option>
+            <answer>B</answer>
+            <explanation>Using the formula for RMS Value, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Phasor Diagram given standard conditions.</text>
+            <option id="A">Option A related to Phasor Diagram</option>
+            <option id="B">Option B related to Phasor Diagram</option>
+            <option id="C">Option C related to Phasor Diagram</option>
+            <option id="D">Option D related to Phasor Diagram</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Phasor Diagram, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Power Factor given standard conditions.</text>
+            <option id="A">Option A related to Power Factor</option>
+            <option id="B">Option B related to Power Factor</option>
+            <option id="C">Option C related to Power Factor</option>
+            <option id="D">Option D related to Power Factor</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Power Factor, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with LCR Circuit given standard conditions.</text>
+            <option id="A">Option A related to LCR Circuit</option>
+            <option id="B">Option B related to LCR Circuit</option>
+            <option id="C">Option C related to LCR Circuit</option>
+            <option id="D">Option D related to LCR Circuit</option>
+            <answer>B</answer>
+            <explanation>Using the formula for LCR Circuit, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with LC Oscillations given standard conditions.</text>
+            <option id="A">Option A related to LC Oscillations</option>
+            <option id="B">Option B related to LC Oscillations</option>
+            <option id="C">Option C related to LC Oscillations</option>
+            <option id="D">Option D related to LC Oscillations</option>
+            <answer>B</answer>
+            <explanation>Using the formula for LC Oscillations, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Q-Factor given standard conditions.</text>
+            <option id="A">Option A related to Q-Factor</option>
+            <option id="B">Option B related to Q-Factor</option>
+            <option id="C">Option C related to Q-Factor</option>
+            <option id="D">Option D related to Q-Factor</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Q-Factor, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Resonance given standard conditions.</text>
+            <option id="A">Option A related to Resonance</option>
+            <option id="B">Option B related to Resonance</option>
+            <option id="C">Option C related to Resonance</option>
+            <option id="D">Option D related to Resonance</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Resonance, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Q-Factor given standard conditions.</text>
+            <option id="A">Option A related to Q-Factor</option>
+            <option id="B">Option B related to Q-Factor</option>
+            <option id="C">Option C related to Q-Factor</option>
+            <option id="D">Option D related to Q-Factor</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Q-Factor, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Phasor Diagram given standard conditions.</text>
+            <option id="A">Option A related to Phasor Diagram</option>
+            <option id="B">Option B related to Phasor Diagram</option>
+            <option id="C">Option C related to Phasor Diagram</option>
+            <option id="D">Option D related to Phasor Diagram</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Phasor Diagram, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Q-Factor given standard conditions.</text>
+            <option id="A">Option A related to Q-Factor</option>
+            <option id="B">Option B related to Q-Factor</option>
+            <option id="C">Option C related to Q-Factor</option>
+            <option id="D">Option D related to Q-Factor</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Q-Factor, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with RMS Value given standard conditions.</text>
+            <option id="A">Option A related to RMS Value</option>
+            <option id="B">Option B related to RMS Value</option>
+            <option id="C">Option C related to RMS Value</option>
+            <option id="D">Option D related to RMS Value</option>
+            <answer>B</answer>
+            <explanation>Using the formula for RMS Value, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with LCR Circuit given standard conditions.</text>
+            <option id="A">Option A related to LCR Circuit</option>
+            <option id="B">Option B related to LCR Circuit</option>
+            <option id="C">Option C related to LCR Circuit</option>
+            <option id="D">Option D related to LCR Circuit</option>
+            <answer>B</answer>
+            <explanation>Using the formula for LCR Circuit, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with LC Oscillations given standard conditions.</text>
+            <option id="A">Option A related to LC Oscillations</option>
+            <option id="B">Option B related to LC Oscillations</option>
+            <option id="C">Option C related to LC Oscillations</option>
+            <option id="D">Option D related to LC Oscillations</option>
+            <answer>B</answer>
+            <explanation>Using the formula for LC Oscillations, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with LCR Circuit given standard conditions.</text>
+            <option id="A">Option A related to LCR Circuit</option>
+            <option id="B">Option B related to LCR Circuit</option>
+            <option id="C">Option C related to LCR Circuit</option>
+            <option id="D">Option D related to LCR Circuit</option>
+            <answer>B</answer>
+            <explanation>Using the formula for LCR Circuit, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Transformers given standard conditions.</text>
+            <option id="A">Option A related to Transformers</option>
+            <option id="B">Option B related to Transformers</option>
+            <option id="C">Option C related to Transformers</option>
+            <option id="D">Option D related to Transformers</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Transformers, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Resonance given standard conditions.</text>
+            <option id="A">Option A related to Resonance</option>
+            <option id="B">Option B related to Resonance</option>
+            <option id="C">Option C related to Resonance</option>
+            <option id="D">Option D related to Resonance</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Resonance, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Resonance given standard conditions.</text>
+            <option id="A">Option A related to Resonance</option>
+            <option id="B">Option B related to Resonance</option>
+            <option id="C">Option C related to Resonance</option>
+            <option id="D">Option D related to Resonance</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Resonance, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Transformers given standard conditions.</text>
+            <option id="A">Option A related to Transformers</option>
+            <option id="B">Option B related to Transformers</option>
+            <option id="C">Option C related to Transformers</option>
+            <option id="D">Option D related to Transformers</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Transformers, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with LC Oscillations given standard conditions.</text>
+            <option id="A">Option A related to LC Oscillations</option>
+            <option id="B">Option B related to LC Oscillations</option>
+            <option id="C">Option C related to LC Oscillations</option>
+            <option id="D">Option D related to LC Oscillations</option>
+            <answer>B</answer>
+            <explanation>Using the formula for LC Oscillations, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Resonance given standard conditions.</text>
+            <option id="A">Option A related to Resonance</option>
+            <option id="B">Option B related to Resonance</option>
+            <option id="C">Option C related to Resonance</option>
+            <option id="D">Option D related to Resonance</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Resonance, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Phasor Diagram given standard conditions.</text>
+            <option id="A">Option A related to Phasor Diagram</option>
+            <option id="B">Option B related to Phasor Diagram</option>
+            <option id="C">Option C related to Phasor Diagram</option>
+            <option id="D">Option D related to Phasor Diagram</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Phasor Diagram, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Phasor Diagram given standard conditions.</text>
+            <option id="A">Option A related to Phasor Diagram</option>
+            <option id="B">Option B related to Phasor Diagram</option>
+            <option id="C">Option C related to Phasor Diagram</option>
+            <option id="D">Option D related to Phasor Diagram</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Phasor Diagram, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Resonance given standard conditions.</text>
+            <option id="A">Option A related to Resonance</option>
+            <option id="B">Option B related to Resonance</option>
+            <option id="C">Option C related to Resonance</option>
+            <option id="D">Option D related to Resonance</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Resonance, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Phasor Diagram given standard conditions.</text>
+            <option id="A">Option A related to Phasor Diagram</option>
+            <option id="B">Option B related to Phasor Diagram</option>
+            <option id="C">Option C related to Phasor Diagram</option>
+            <option id="D">Option D related to Phasor Diagram</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Phasor Diagram, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with LC Oscillations given standard conditions.</text>
+            <option id="A">Option A related to LC Oscillations</option>
+            <option id="B">Option B related to LC Oscillations</option>
+            <option id="C">Option C related to LC Oscillations</option>
+            <option id="D">Option D related to LC Oscillations</option>
+            <answer>B</answer>
+            <explanation>Using the formula for LC Oscillations, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with RMS Value given standard conditions.</text>
+            <option id="A">Option A related to RMS Value</option>
+            <option id="B">Option B related to RMS Value</option>
+            <option id="C">Option C related to RMS Value</option>
+            <option id="D">Option D related to RMS Value</option>
+            <answer>B</answer>
+            <explanation>Using the formula for RMS Value, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with LCR Circuit given standard conditions.</text>
+            <option id="A">Option A related to LCR Circuit</option>
+            <option id="B">Option B related to LCR Circuit</option>
+            <option id="C">Option C related to LCR Circuit</option>
+            <option id="D">Option D related to LCR Circuit</option>
+            <answer>B</answer>
+            <explanation>Using the formula for LCR Circuit, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with LCR Circuit given standard conditions.</text>
+            <option id="A">Option A related to LCR Circuit</option>
+            <option id="B">Option B related to LCR Circuit</option>
+            <option id="C">Option C related to LCR Circuit</option>
+            <option id="D">Option D related to LCR Circuit</option>
+            <answer>B</answer>
+            <explanation>Using the formula for LCR Circuit, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Wattless Current given standard conditions.</text>
+            <option id="A">Option A related to Wattless Current</option>
+            <option id="B">Option B related to Wattless Current</option>
+            <option id="C">Option C related to Wattless Current</option>
+            <option id="D">Option D related to Wattless Current</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Wattless Current, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Impedance given standard conditions.</text>
+            <option id="A">Option A related to Impedance</option>
+            <option id="B">Option B related to Impedance</option>
+            <option id="C">Option C related to Impedance</option>
+            <option id="D">Option D related to Impedance</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Impedance, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with LC Oscillations given standard conditions.</text>
+            <option id="A">Option A related to LC Oscillations</option>
+            <option id="B">Option B related to LC Oscillations</option>
+            <option id="C">Option C related to LC Oscillations</option>
+            <option id="D">Option D related to LC Oscillations</option>
+            <answer>B</answer>
+            <explanation>Using the formula for LC Oscillations, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with LCR Circuit given standard conditions.</text>
+            <option id="A">Option A related to LCR Circuit</option>
+            <option id="B">Option B related to LCR Circuit</option>
+            <option id="C">Option C related to LCR Circuit</option>
+            <option id="D">Option D related to LCR Circuit</option>
+            <answer>B</answer>
+            <explanation>Using the formula for LCR Circuit, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Resonance given standard conditions.</text>
+            <option id="A">Option A related to Resonance</option>
+            <option id="B">Option B related to Resonance</option>
+            <option id="C">Option C related to Resonance</option>
+            <option id="D">Option D related to Resonance</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Resonance, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Wattless Current given standard conditions.</text>
+            <option id="A">Option A related to Wattless Current</option>
+            <option id="B">Option B related to Wattless Current</option>
+            <option id="C">Option C related to Wattless Current</option>
+            <option id="D">Option D related to Wattless Current</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Wattless Current, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Phasor Diagram given standard conditions.</text>
+            <option id="A">Option A related to Phasor Diagram</option>
+            <option id="B">Option B related to Phasor Diagram</option>
+            <option id="C">Option C related to Phasor Diagram</option>
+            <option id="D">Option D related to Phasor Diagram</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Phasor Diagram, we can derive the result.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Analyze the complex interaction involving Wattless Current in a non-uniform field.</text>
+            <option id="A">Option A related to Wattless Current</option>
+            <option id="B">Option B related to Wattless Current</option>
+            <option id="C">Option C related to Wattless Current</option>
+            <option id="D">Option D related to Wattless Current</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Wattless Current principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Wattless Current in a non-uniform field.</text>
+            <option id="A">Option A related to Wattless Current</option>
+            <option id="B">Option B related to Wattless Current</option>
+            <option id="C">Option C related to Wattless Current</option>
+            <option id="D">Option D related to Wattless Current</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Wattless Current principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Impedance in a non-uniform field.</text>
+            <option id="A">Option A related to Impedance</option>
+            <option id="B">Option B related to Impedance</option>
+            <option id="C">Option C related to Impedance</option>
+            <option id="D">Option D related to Impedance</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Impedance principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Q-Factor in a non-uniform field.</text>
+            <option id="A">Option A related to Q-Factor</option>
+            <option id="B">Option B related to Q-Factor</option>
+            <option id="C">Option C related to Q-Factor</option>
+            <option id="D">Option D related to Q-Factor</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Q-Factor principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Transformers in a non-uniform field.</text>
+            <option id="A">Option A related to Transformers</option>
+            <option id="B">Option B related to Transformers</option>
+            <option id="C">Option C related to Transformers</option>
+            <option id="D">Option D related to Transformers</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Transformers principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Transformers in a non-uniform field.</text>
+            <option id="A">Option A related to Transformers</option>
+            <option id="B">Option B related to Transformers</option>
+            <option id="C">Option C related to Transformers</option>
+            <option id="D">Option D related to Transformers</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Transformers principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving RMS Value in a non-uniform field.</text>
+            <option id="A">Option A related to RMS Value</option>
+            <option id="B">Option B related to RMS Value</option>
+            <option id="C">Option C related to RMS Value</option>
+            <option id="D">Option D related to RMS Value</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of RMS Value principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Transformers in a non-uniform field.</text>
+            <option id="A">Option A related to Transformers</option>
+            <option id="B">Option B related to Transformers</option>
+            <option id="C">Option C related to Transformers</option>
+            <option id="D">Option D related to Transformers</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Transformers principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Phasor Diagram in a non-uniform field.</text>
+            <option id="A">Option A related to Phasor Diagram</option>
+            <option id="B">Option B related to Phasor Diagram</option>
+            <option id="C">Option C related to Phasor Diagram</option>
+            <option id="D">Option D related to Phasor Diagram</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Phasor Diagram principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving LC Oscillations in a non-uniform field.</text>
+            <option id="A">Option A related to LC Oscillations</option>
+            <option id="B">Option B related to LC Oscillations</option>
+            <option id="C">Option C related to LC Oscillations</option>
+            <option id="D">Option D related to LC Oscillations</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of LC Oscillations principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Impedance in a non-uniform field.</text>
+            <option id="A">Option A related to Impedance</option>
+            <option id="B">Option B related to Impedance</option>
+            <option id="C">Option C related to Impedance</option>
+            <option id="D">Option D related to Impedance</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Impedance principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Q-Factor in a non-uniform field.</text>
+            <option id="A">Option A related to Q-Factor</option>
+            <option id="B">Option B related to Q-Factor</option>
+            <option id="C">Option C related to Q-Factor</option>
+            <option id="D">Option D related to Q-Factor</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Q-Factor principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Impedance in a non-uniform field.</text>
+            <option id="A">Option A related to Impedance</option>
+            <option id="B">Option B related to Impedance</option>
+            <option id="C">Option C related to Impedance</option>
+            <option id="D">Option D related to Impedance</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Impedance principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Power Factor in a non-uniform field.</text>
+            <option id="A">Option A related to Power Factor</option>
+            <option id="B">Option B related to Power Factor</option>
+            <option id="C">Option C related to Power Factor</option>
+            <option id="D">Option D related to Power Factor</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Power Factor principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Impedance in a non-uniform field.</text>
+            <option id="A">Option A related to Impedance</option>
+            <option id="B">Option B related to Impedance</option>
+            <option id="C">Option C related to Impedance</option>
+            <option id="D">Option D related to Impedance</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Impedance principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Resonance in a non-uniform field.</text>
+            <option id="A">Option A related to Resonance</option>
+            <option id="B">Option B related to Resonance</option>
+            <option id="C">Option C related to Resonance</option>
+            <option id="D">Option D related to Resonance</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Resonance principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Impedance in a non-uniform field.</text>
+            <option id="A">Option A related to Impedance</option>
+            <option id="B">Option B related to Impedance</option>
+            <option id="C">Option C related to Impedance</option>
+            <option id="D">Option D related to Impedance</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Impedance principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving RMS Value in a non-uniform field.</text>
+            <option id="A">Option A related to RMS Value</option>
+            <option id="B">Option B related to RMS Value</option>
+            <option id="C">Option C related to RMS Value</option>
+            <option id="D">Option D related to RMS Value</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of RMS Value principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving LC Oscillations in a non-uniform field.</text>
+            <option id="A">Option A related to LC Oscillations</option>
+            <option id="B">Option B related to LC Oscillations</option>
+            <option id="C">Option C related to LC Oscillations</option>
+            <option id="D">Option D related to LC Oscillations</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of LC Oscillations principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving LCR Circuit in a non-uniform field.</text>
+            <option id="A">Option A related to LCR Circuit</option>
+            <option id="B">Option B related to LCR Circuit</option>
+            <option id="C">Option C related to LCR Circuit</option>
+            <option id="D">Option D related to LCR Circuit</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of LCR Circuit principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving LCR Circuit in a non-uniform field.</text>
+            <option id="A">Option A related to LCR Circuit</option>
+            <option id="B">Option B related to LCR Circuit</option>
+            <option id="C">Option C related to LCR Circuit</option>
+            <option id="D">Option D related to LCR Circuit</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of LCR Circuit principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving LC Oscillations in a non-uniform field.</text>
+            <option id="A">Option A related to LC Oscillations</option>
+            <option id="B">Option B related to LC Oscillations</option>
+            <option id="C">Option C related to LC Oscillations</option>
+            <option id="D">Option D related to LC Oscillations</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of LC Oscillations principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Power Factor in a non-uniform field.</text>
+            <option id="A">Option A related to Power Factor</option>
+            <option id="B">Option B related to Power Factor</option>
+            <option id="C">Option C related to Power Factor</option>
+            <option id="D">Option D related to Power Factor</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Power Factor principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving RMS Value in a non-uniform field.</text>
+            <option id="A">Option A related to RMS Value</option>
+            <option id="B">Option B related to RMS Value</option>
+            <option id="C">Option C related to RMS Value</option>
+            <option id="D">Option D related to RMS Value</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of RMS Value principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Phasor Diagram in a non-uniform field.</text>
+            <option id="A">Option A related to Phasor Diagram</option>
+            <option id="B">Option B related to Phasor Diagram</option>
+            <option id="C">Option C related to Phasor Diagram</option>
+            <option id="D">Option D related to Phasor Diagram</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Phasor Diagram principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving LC Oscillations in a non-uniform field.</text>
+            <option id="A">Option A related to LC Oscillations</option>
+            <option id="B">Option B related to LC Oscillations</option>
+            <option id="C">Option C related to LC Oscillations</option>
+            <option id="D">Option D related to LC Oscillations</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of LC Oscillations principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Resonance in a non-uniform field.</text>
+            <option id="A">Option A related to Resonance</option>
+            <option id="B">Option B related to Resonance</option>
+            <option id="C">Option C related to Resonance</option>
+            <option id="D">Option D related to Resonance</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Resonance principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Resonance in a non-uniform field.</text>
+            <option id="A">Option A related to Resonance</option>
+            <option id="B">Option B related to Resonance</option>
+            <option id="C">Option C related to Resonance</option>
+            <option id="D">Option D related to Resonance</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Resonance principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Power Factor in a non-uniform field.</text>
+            <option id="A">Option A related to Power Factor</option>
+            <option id="B">Option B related to Power Factor</option>
+            <option id="C">Option C related to Power Factor</option>
+            <option id="D">Option D related to Power Factor</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Power Factor principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Wattless Current in a non-uniform field.</text>
+            <option id="A">Option A related to Wattless Current</option>
+            <option id="B">Option B related to Wattless Current</option>
+            <option id="C">Option C related to Wattless Current</option>
+            <option id="D">Option D related to Wattless Current</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Wattless Current principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Q-Factor in a non-uniform field.</text>
+            <option id="A">Option A related to Q-Factor</option>
+            <option id="B">Option B related to Q-Factor</option>
+            <option id="C">Option C related to Q-Factor</option>
+            <option id="D">Option D related to Q-Factor</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Q-Factor principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Q-Factor in a non-uniform field.</text>
+            <option id="A">Option A related to Q-Factor</option>
+            <option id="B">Option B related to Q-Factor</option>
+            <option id="C">Option C related to Q-Factor</option>
+            <option id="D">Option D related to Q-Factor</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Q-Factor principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Transformers in a non-uniform field.</text>
+            <option id="A">Option A related to Transformers</option>
+            <option id="B">Option B related to Transformers</option>
+            <option id="C">Option C related to Transformers</option>
+            <option id="D">Option D related to Transformers</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Transformers principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Wattless Current in a non-uniform field.</text>
+            <option id="A">Option A related to Wattless Current</option>
+            <option id="B">Option B related to Wattless Current</option>
+            <option id="C">Option C related to Wattless Current</option>
+            <option id="D">Option D related to Wattless Current</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Wattless Current principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Power Factor in a non-uniform field.</text>
+            <option id="A">Option A related to Power Factor</option>
+            <option id="B">Option B related to Power Factor</option>
+            <option id="C">Option C related to Power Factor</option>
+            <option id="D">Option D related to Power Factor</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Power Factor principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving LCR Circuit in a non-uniform field.</text>
+            <option id="A">Option A related to LCR Circuit</option>
+            <option id="B">Option B related to LCR Circuit</option>
+            <option id="C">Option C related to LCR Circuit</option>
+            <option id="D">Option D related to LCR Circuit</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of LCR Circuit principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Wattless Current in a non-uniform field.</text>
+            <option id="A">Option A related to Wattless Current</option>
+            <option id="B">Option B related to Wattless Current</option>
+            <option id="C">Option C related to Wattless Current</option>
+            <option id="D">Option D related to Wattless Current</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Wattless Current principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Phasor Diagram in a non-uniform field.</text>
+            <option id="A">Option A related to Phasor Diagram</option>
+            <option id="B">Option B related to Phasor Diagram</option>
+            <option id="C">Option C related to Phasor Diagram</option>
+            <option id="D">Option D related to Phasor Diagram</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Phasor Diagram principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving LC Oscillations in a non-uniform field.</text>
+            <option id="A">Option A related to LC Oscillations</option>
+            <option id="B">Option B related to LC Oscillations</option>
+            <option id="C">Option C related to LC Oscillations</option>
+            <option id="D">Option D related to LC Oscillations</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of LC Oscillations principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving LC Oscillations in a non-uniform field.</text>
+            <option id="A">Option A related to LC Oscillations</option>
+            <option id="B">Option B related to LC Oscillations</option>
+            <option id="C">Option C related to LC Oscillations</option>
+            <option id="D">Option D related to LC Oscillations</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of LC Oscillations principles are required.</explanation>
+        </question>
+    </hard>
+</chapter>

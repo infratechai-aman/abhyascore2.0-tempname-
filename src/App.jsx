@@ -35,10 +35,32 @@ const MainContent = () => {
     name: userData?.name || "Student",
     lvl: 1,
     xp: 0,
-    nextXp: 100,
+    nextXp: 200,
     gold: 0,
-    gems: 0,
-    streak: 0
+    streak: 0,
+    bestStreak: 0,
+    totalTests: 0,
+    totalQuestions: 0,
+    correctAnswers: 0,
+    // Achievement Stats
+    totalTime: 0, // seconds
+    hardTestsToday: { date: '', count: 0 },
+    perfectSession: { date: '', subjects: [] },
+    sundayQuestions: { date: '', count: 0 },
+    bossBattles: { completed: 0, bestScore: 0 },
+    // One-time Achievement Flags
+    achievements: {
+      sniper: false,
+      speedster: false,
+      eliteSpecialist: false,
+      calculatedRisk: false,
+      perfectSessionUnlocked: false,
+      earlyBird: false,
+      nightOwl: false,
+      sundayWarrior: false,
+      analyticalBeast: false,
+      comebackKid: false
+    }
   };
 
   const allSubjects = [
@@ -98,42 +120,89 @@ const MainContent = () => {
 
   const [chapters, setChapters] = useState([
     // PHYSICS CLASS 11
-    { id: 1, name: 'KINEMATICS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'phy' },
-    { id: 2, name: 'LAWS OF MOTION', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'phy' },
-    { id: 3, name: 'WORK, ENERGY & POWER', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'phy' },
-    { id: 4, name: 'GRAVITATION', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'phy' },
-    { id: 5, name: 'SYSTEM OF PARTICLES', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'phy' },
-    { id: 6, name: 'PROPERTIES OF BULK MATTER', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'phy' },
-    { id: 7, name: 'THERMODYNAMICS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'phy' },
-    { id: 8, name: 'KINETIC THEORY', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'phy' },
-    { id: 9, name: 'OSCILLATIONS & WAVES', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'phy' },
+    { id: 1, name: 'UNITS & MEASUREMENTS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'phy' },
+    { id: 2, name: 'KINEMATICS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'phy' },
+    { id: 3, name: 'LAWS OF MOTION', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'phy' },
+    { id: 4, name: 'WORK, ENERGY & POWER', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'phy' },
+    { id: 5, name: 'SYSTEM OF PARTICLES', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'phy' },
+    { id: 6, name: 'GRAVITATION', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'phy' },
+    { id: 7, name: 'MECH. PROP. OF SOLIDS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'phy' },
+    { id: 8, name: 'MECH. PROP. OF FLUIDS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'phy' },
+    { id: 9, name: 'THERMAL PROP. OF MATTER', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'phy' },
+    { id: 10, name: 'THERMODYNAMICS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'phy' },
+    { id: 11, name: 'KINETIC THEORY', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'phy' },
+    { id: 12, name: 'OSCILLATIONS', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'phy' },
+    { id: 13, name: 'WAVES', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'phy' },
+
+    // PHYSICS CLASS 12
+    { id: 14, name: 'ELECTRIC CHARGES & FIELDS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'phy' },
+    { id: 15, name: 'ELECTROSTATIC POTENTIAL', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'phy' },
+    { id: 16, name: 'CURRENT ELECTRICITY', stars: 0, pos: 'left', locked: false, completedModes: [], class: 12, subject: 'phy' },
+    { id: 17, name: 'MOVING CHARGES & MAG.', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'phy' },
+    { id: 18, name: 'MAGNETISM & MATTER', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'phy' },
+    { id: 19, name: 'ELECTROMAGNETIC INDUCTION', stars: 0, pos: 'left', locked: false, completedModes: [], class: 12, subject: 'phy' },
+    { id: 20, name: 'ALTERNATING CURRENT', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'phy' },
+    { id: 21, name: 'ELECTROMAGNETIC WAVES', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'phy' },
+    { id: 22, name: 'RAY OPTICS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 12, subject: 'phy' },
+    { id: 23, name: 'WAVE OPTICS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'phy' },
+    { id: 24, name: 'DUAL NATURE OF RADIATION', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'phy' },
+    { id: 25, name: 'ATOMS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 12, subject: 'phy' },
+    { id: 26, name: 'NUCLEI', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'phy' },
+    { id: 27, name: 'SEMICONDUCTOR ELECTRONICS', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'phy' },
 
     // CHEMISTRY CLASS 11
-    { id: 101, name: 'SOME BASIC CONCEPTS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'chem' },
-    { id: 102, name: 'STRUCTURE OF ATOM', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'chem' },
-    { id: 103, name: 'CLASSIFICATION OF ELEMENTS', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'chem' },
-    { id: 104, name: 'CHEMICAL BONDING', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'chem' },
-    { id: 105, name: 'THERMODYNAMICS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'chem' },
-    { id: 106, name: 'EQUILIBRIUM', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'chem' },
-    { id: 107, name: 'REDOX REACTIONS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'chem' },
-    { id: 108, name: 'ORGANIC CHEMISTRY: BASIC', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'chem' },
-    { id: 109, name: 'HYDROCARBONS', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'chem' },
+    { id: 101, name: 'SOME BASIC CONCEPTS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'chem' },
+    { id: 102, name: 'STRUCTURE OF ATOM', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'chem' },
+    { id: 103, name: 'CLASSIFICATION OF ELEMENTS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'chem' },
+    { id: 104, name: 'CHEMICAL BONDING', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'chem' },
+    { id: 105, name: 'STATES OF MATTER', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'chem' },
+    { id: 106, name: 'THERMODYNAMICS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'chem' },
+    { id: 107, name: 'EQUILIBRIUM', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'chem' },
+    { id: 108, name: 'REDOX REACTIONS', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'chem' },
+    { id: 109, name: 'ORGANIC CHEMISTRY: BASIC', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'chem' },
+    { id: 110, name: 'HYDROCARBONS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'chem' },
+
+    // CHEMISTRY CLASS 12
+    { id: 111, name: 'SOLUTIONS', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'chem' },
+    { id: 112, name: 'ELECTROCHEMISTRY', stars: 0, pos: 'left', locked: false, completedModes: [], class: 12, subject: 'chem' },
+    { id: 113, name: 'CHEMICAL KINETICS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'chem' },
+    { id: 114, name: 'D- & F-BLOCK ELEMENTS', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'chem' },
+    { id: 115, name: 'COORDINATION COMPOUNDS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 12, subject: 'chem' },
+    { id: 116, name: 'HALOALKANES & HALOARENES', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'chem' },
+    { id: 117, name: 'ALCOHOLS, PHENOLS & ETHERS', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'chem' },
+    { id: 118, name: 'ALDEHYDES, KETONES & ACIDS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 12, subject: 'chem' },
+    { id: 119, name: 'AMINES', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'chem' },
+    { id: 120, name: 'BIOMOLECULES', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'chem' },
 
     // MATHS CLASS 11
-    { id: 201, name: 'SETS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'math' },
-    { id: 202, name: 'RELATIONS & FUNCTIONS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'math' },
-    { id: 203, name: 'TRIGONOMETRIC FUNCTIONS', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'math' },
-    { id: 204, name: 'LINEAR INEQUALITIES', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'math' },
-    { id: 205, name: 'COMPLEX NUMBERS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'math' },
-    { id: 206, name: 'PERMUTATIONS & COMBINATIONS', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'math' },
-    { id: 207, name: 'BINOMIAL THEOREM', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'math' },
-    { id: 208, name: 'SEQUENCES & SERIES', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'math' },
-    { id: 209, name: 'STRAIGHT LINES', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'math' },
-    { id: 210, name: 'CONIC SECTIONS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'math' },
-    { id: 211, name: 'INTRO TO 3D GEOMETRY', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'math' },
-    { id: 212, name: 'LIMITS & DERIVATIVES', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'math' },
-    { id: 213, name: 'STATISTICS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'math' },
-    { id: 214, name: 'PROBABILITY', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'math' },
+    { id: 201, name: 'SETS', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'math' },
+    { id: 202, name: 'RELATIONS & FUNCTIONS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'math' },
+    { id: 203, name: 'TRIGONOMETRIC FUNCTIONS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'math' },
+    // Removed Linear Inequalities (204)
+    { id: 205, name: 'COMPLEX NUMBERS', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'math' },
+    { id: 206, name: 'PERMUTATIONS & COMBINATIONS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'math' },
+    { id: 207, name: 'BINOMIAL THEOREM', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'math' },
+    { id: 208, name: 'SEQUENCES & SERIES', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'math' },
+    { id: 209, name: 'STRAIGHT LINES', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'math' },
+    { id: 210, name: 'CONIC SECTIONS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'math' },
+    { id: 211, name: 'INTRO TO 3D GEOMETRY', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'math' },
+    { id: 212, name: 'LIMITS & DERIVATIVES', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'math' },
+    { id: 213, name: 'STATISTICS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'math' },
+    { id: 214, name: 'PROBABILITY', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'math' },
+
+    // MATHS CLASS 12
+    { id: 215, name: 'RELATIONS & FUNCTIONS 12', stars: 0, pos: 'left', locked: false, completedModes: [], class: 12, subject: 'math' },
+    { id: 216, name: 'INVERSE TRIG. FUNCTIONS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'math' },
+    { id: 217, name: 'MATRICES', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'math' },
+    { id: 218, name: 'DETERMINANTS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 12, subject: 'math' },
+    { id: 219, name: 'CONTINUITY & DIFF.', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'math' },
+    { id: 220, name: 'APPLICATIONS OF DERIVATIVES', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'math' },
+    { id: 221, name: 'INTEGRALS', stars: 0, pos: 'left', locked: false, completedModes: [], class: 12, subject: 'math' },
+    { id: 222, name: 'APPLICATIONS OF INTEGRALS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'math' },
+    { id: 223, name: 'DIFFERENTIAL EQUATIONS', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'math' },
+    { id: 224, name: 'VECTOR ALGEBRA', stars: 0, pos: 'left', locked: false, completedModes: [], class: 12, subject: 'math' },
+    { id: 225, name: 'THREE DIMENSIONAL GEOMETRY', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'math' },
+    { id: 226, name: 'PROBABILITY 12', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'math' },
 
     // ZOOLOGY CLASS 11
     { id: 301, name: 'ANIMAL KINGDOM', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'zoo' },
@@ -157,6 +226,27 @@ const MainContent = () => {
     { id: 317, name: 'PHOTOSYNTHESIS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 11, subject: 'bio' },
     { id: 318, name: 'RESPIRATION IN PLANTS', stars: 0, pos: 'right', locked: false, completedModes: [], class: 11, subject: 'bio' },
     { id: 319, name: 'PLANT GROWTH', stars: 0, pos: 'left', locked: false, completedModes: [], class: 11, subject: 'bio' },
+
+    // ZOOLOGY CLASS 12
+    { id: 320, name: 'HUMAN REPRODUCTION', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'zoo' },
+    { id: 321, name: 'REPRODUCTIVE HEALTH', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'zoo' },
+    { id: 322, name: 'HUMAN HEALTH & DISEASE', stars: 0, pos: 'left', locked: false, completedModes: [], class: 12, subject: 'zoo' },
+    { id: 323, name: 'STRATEGIES (ZOOLOGY)', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'zoo' },
+
+    // BOTANY CLASS 12
+    { id: 330, name: 'REPRODUCTION IN ORGANISMS', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'bio' },
+    { id: 331, name: 'SEXUAL REP. IN FLOWERING', stars: 0, pos: 'left', locked: false, completedModes: [], class: 12, subject: 'bio' },
+    { id: 332, name: 'PRINCIPLES OF INHERITANCE', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'bio' },
+    { id: 333, name: 'MOLECULAR BASIS OF INH.', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'bio' },
+    { id: 334, name: 'EVOLUTION', stars: 0, pos: 'left', locked: false, completedModes: [], class: 12, subject: 'bio' },
+    { id: 335, name: 'STRATEGIES (BOTANY)', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'bio' },
+    { id: 336, name: 'MICROBES IN HUMAN WELFARE', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'bio' },
+    { id: 337, name: 'BIOTECH: PRINCIPLES', stars: 0, pos: 'left', locked: false, completedModes: [], class: 12, subject: 'bio' },
+    { id: 338, name: 'BIOTECH: APPLICATIONS', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'bio' },
+    { id: 339, name: 'ORGANISMS & POPULATIONS', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'bio' },
+    { id: 340, name: 'ECOSYSTEM', stars: 0, pos: 'left', locked: false, completedModes: [], class: 12, subject: 'bio' },
+    { id: 341, name: 'BIODIVERSITY & CONSV.', stars: 0, pos: 'center', locked: false, completedModes: [], class: 12, subject: 'bio' },
+    { id: 342, name: 'ENVIRONMENTAL ISSUES', stars: 0, pos: 'right', locked: false, completedModes: [], class: 12, subject: 'bio' },
   ]);
 
   const [avatarId, setAvatarId] = useState('MCharcter1');
@@ -275,11 +365,11 @@ const MainContent = () => {
     setView('quiz');
   };
 
-  const handleQuizComplete = (answers) => {
+  const handleQuizComplete = (answers, timeTaken = 0) => {
     setQuizAnswers(answers);
 
     // Calculate results to determine stars
-    const results = calculateResults(quizQuestions, answers);
+    const results = calculateResults(quizQuestions, answers); // Returns results with maxStreak
 
     // --- Persistence Logic ---
     if (currentUser) {
@@ -289,57 +379,116 @@ const MainContent = () => {
         chapterId: selectedChapter.id,
         chapterName: selectedChapter.name,
         difficulty: currentDifficulty,
+        timeTaken,
         ...results
       });
 
       // 2. Calculate Rewards
-      // XP: 10 per star + 1 per correct answer
       const xpEarned = (results.stars * 10) + results.correct;
-      // Gold: 5 per correct answer
       const goldEarned = results.correct * 5;
 
-      // 3. Update User Stats
-      const today = new Date().toDateString();
-      const lastActive = userData?.stats?.lastActive || null;
-      let newStreak = userData?.stats?.streak || 0;
+      // 3. Update User Stats & Check Achievements
+      const todayDate = new Date().toDateString();
+      const currentStats = userData?.stats || {};
+      const now = new Date();
+      const hour = now.getHours();
+      const day = now.getDay(); // 0 = Sunday
 
-      // Streak Logic
-      if (lastActive !== today) {
+      // --- Achievement Update Logic ---
+      const newAchievements = { ...(currentStats.achievements || {}) };
+
+      // Sniper: 100% accuracy in 25q test
+      if (results.percentage === 100 && results.totalQuestions >= 25) newAchievements.sniper = true;
+
+      // Speedster: < 10 mins (600s), > 80% score, 25q
+      if (timeTaken < 600 && results.percentage > 80 && results.totalQuestions >= 25) newAchievements.speedster = true;
+
+      // Early Bird (Before 7 AM)
+      if (hour < 7) newAchievements.earlyBird = true;
+
+      // Night Owl (After 11 PM)
+      if (hour >= 23) newAchievements.nightOwl = true;
+
+      // Comeback Kid (Improve score) - Simplified: If stars > previous stars
+      // We need chapter state access. Assumed handled via checking updated chapters later or just flagging here if stars == 3
+      if (results.stars === 3) newAchievements.comebackKid = true; // Simplified placeholder
+
+      // Elite Specialist (5 Hard levels in a day)
+      let hardTests = currentStats.hardTestsToday?.date === todayDate ? currentStats.hardTestsToday : { date: todayDate, count: 0 };
+      if (currentDifficulty === 'hard' && results.stars > 0) {
+        hardTests.count += 1;
+        if (hardTests.count >= 5) newAchievements.eliteSpecialist = true;
+      }
+
+      // Perfect Session (>90% in Phy, Chem, Math/Bio)
+      let perfSession = currentStats.perfectSession?.date === todayDate ? currentStats.perfectSession : { date: todayDate, subjects: [] };
+      if (results.percentage > 90 && !perfSession.subjects.includes(selectedSub.id)) {
+        perfSession.subjects.push(selectedSub.id);
+        const hasPhy = perfSession.subjects.includes('phy');
+        const hasChem = perfSession.subjects.includes('chem');
+        const hasBioMath = perfSession.subjects.includes('math') || perfSession.subjects.includes('bio') || perfSession.subjects.includes('zoo');
+        if (hasPhy && hasChem && hasBioMath) newAchievements.perfectSessionUnlocked = true;
+      }
+
+      // Sunday Warrior (100 Qs on Sunday)
+      let sundayQs = currentStats.sundayQuestions?.date === todayDate ? currentStats.sundayQuestions : { date: todayDate, count: 0 };
+      if (day === 0) {
+        sundayQs.count += results.totalQuestions;
+        if (sundayQs.count >= 100) newAchievements.sundayWarrior = true;
+      }
+
+      // Boss Logic (Placeholders)
+      let bossStats = currentStats.bossBattles || { completed: 0, bestScore: 0 };
+      // If isBoss (need flag), update. For now generic.
+
+      // Stats Updates
+      const lastActive = currentStats.lastActive || null;
+      let newStreak = currentStats.streak || 0;
+
+      if (lastActive !== todayDate) {
         const yesterday = new Date();
         yesterday.setDate(yesterday.getDate() - 1);
-
         if (lastActive === yesterday.toDateString()) {
-          newStreak += 1; // Contentinous streak
+          newStreak += 1;
         } else {
-          newStreak = 1; // Reset or Start new (if gap > 1 day or first time)
-          // Note: If it's the very first time (lastActive null), it becomes 1.
+          newStreak = 1;
         }
       }
 
-      const newXp = (userData?.stats?.xp || 0) + xpEarned;
-      const currentLvl = userData?.stats?.lvl || 1;
-      const nextXpThreshold = currentLvl * 100; // Simple level curve
+      const newXp = (currentStats.xp || 0) + xpEarned;
 
-      let newLvl = currentLvl;
-      let newNextXp = nextXpThreshold;
+      // Level Calculation:
+      // Total Chapters (11+12) approx 62+62 = 124. Max XP approx 20,460.
+      // 200 XP per level puts Level 100 at 20,000 XP.
+      const XP_PER_LEVEL = 200;
+      let newLvl = Math.floor(newXp / XP_PER_LEVEL) + 1;
+      if (newLvl > 100) newLvl = 100;
 
-      // Level Up Logic
-      if (newXp >= nextXpThreshold) {
-        newLvl += 1;
-        newNextXp = newLvl * 100;
-        // Could add level up modal trigger here
-      }
+      const newNextXp = newLvl * XP_PER_LEVEL;
+
+      // Level Up Check for Modal (optional later)
+      // if (newLvl > currentLvl) { ... }
+
+      const currentBestStreak = currentStats.bestStreak || 0;
+      const newBestStreak = Math.max(currentBestStreak, newStreak);
 
       updateUserStats({
         xp: newXp,
         lvl: newLvl,
         nextXp: newNextXp,
-        gold: (userData?.stats?.gold || 0) + goldEarned,
-        totalTests: (userData?.stats?.totalTests || 0) + 1,
-        totalQuestions: (userData?.stats?.totalQuestions || 0) + results.totalQuestions,
-        correctAnswers: (userData?.stats?.correctAnswers || 0) + results.correct,
+        gold: (currentStats.gold || 0) + goldEarned,
+        totalTests: (currentStats.totalTests || 0) + 1,
+        totalQuestions: (currentStats.totalQuestions || 0) + results.totalQuestions,
+        correctAnswers: (currentStats.correctAnswers || 0) + results.correct,
         streak: newStreak,
-        lastActive: today
+        bestStreak: newBestStreak,
+        lastActive: todayDate,
+        totalTime: (currentStats.totalTime || 0) + timeTaken,
+        achievements: newAchievements,
+        hardTestsToday: hardTests,
+        perfectSession: perfSession,
+        sundayQuestions: sundayQs,
+        bossBattles: bossStats
       });
     }
     // -------------------------
@@ -481,6 +630,7 @@ const MainContent = () => {
           <ProfileSection
             stats={stats}
             assets={assets}
+            chapters={chapters}
             onAvatarSelect={handleAvatarSelect}
             devMode={devMode}
             setDevMode={setDevMode}

@@ -34,7 +34,7 @@ const ChapterMap = ({ selectedSub, chapters, setView, onChapterClick, assets }) 
 
             <div className="absolute left-1/2 top-32 bottom-20 w-1 bg-white/5 -translate-x-1/2 rounded-full" />
 
-            <div className="space-y-16 sm:space-y-20 relative mt-8 flex flex-col-reverse pb-32">
+            <div className="relative mt-8 flex flex-col-reverse gap-y-32 sm:gap-y-48 pb-32">
                 {chapters.map((ch, index) => (
                     <div key={ch.id} className={`flex flex-col items-center relative transition-transform ${ch.pos === 'left' ? '-translate-x-10 sm:-translate-x-12' : ch.pos === 'right' ? 'translate-x-10 sm:translate-x-12' : ''}`}>
                         <div className="relative group">

@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="221" name="Integrals">
+    <easy>
+        <question>
+            <text>Identify the basic property or definition related to Integration by Parts.</text>
+            <option id="A">Option A related to Integration by Parts</option>
+            <option id="B">Option B related to Integration by Parts</option>
+            <option id="C">Option C related to Integration by Parts</option>
+            <option id="D">Option D related to Integration by Parts</option>
+            <answer>A</answer>
+            <explanation>Integration by Parts is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Methods of Integration.</text>
+            <option id="A">Option A related to Methods of Integration</option>
+            <option id="B">Option B related to Methods of Integration</option>
+            <option id="C">Option C related to Methods of Integration</option>
+            <option id="D">Option D related to Methods of Integration</option>
+            <answer>A</answer>
+            <explanation>Methods of Integration is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Indefinite Integral.</text>
+            <option id="A">Option A related to Indefinite Integral</option>
+            <option id="B">Option B related to Indefinite Integral</option>
+            <option id="C">Option C related to Indefinite Integral</option>
+            <option id="D">Option D related to Indefinite Integral</option>
+            <answer>A</answer>
+            <explanation>Indefinite Integral is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Indefinite Integral.</text>
+            <option id="A">Option A related to Indefinite Integral</option>
+            <option id="B">Option B related to Indefinite Integral</option>
+            <option id="C">Option C related to Indefinite Integral</option>
+            <option id="D">Option D related to Indefinite Integral</option>
+            <answer>A</answer>
+            <explanation>Indefinite Integral is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Definite Integral.</text>
+            <option id="A">Option A related to Definite Integral</option>
+            <option id="B">Option B related to Definite Integral</option>
+            <option id="C">Option C related to Definite Integral</option>
+            <option id="D">Option D related to Definite Integral</option>
+            <answer>A</answer>
+            <explanation>Definite Integral is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Substitution Method.</text>
+            <option id="A">Option A related to Substitution Method</option>
+            <option id="B">Option B related to Substitution Method</option>
+            <option id="C">Option C related to Substitution Method</option>
+            <option id="D">Option D related to Substitution Method</option>
+            <answer>A</answer>
+            <explanation>Substitution Method is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Geometrical Interpretation.</text>
+            <option id="A">Option A related to Geometrical Interpretation</option>
+            <option id="B">Option B related to Geometrical Interpretation</option>
+            <option id="C">Option C related to Geometrical Interpretation</option>
+            <option id="D">Option D related to Geometrical Interpretation</option>
+            <answer>A</answer>
+            <explanation>Geometrical Interpretation is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Definite Integral.</text>
+            <option id="A">Option A related to Definite Integral</option>
+            <option id="B">Option B related to Definite Integral</option>
+            <option id="C">Option C related to Definite Integral</option>
+            <option id="D">Option D related to Definite Integral</option>
+            <answer>A</answer>
+            <explanation>Definite Integral is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Limit of a Sum.</text>
+            <option id="A">Option A related to Limit of a Sum</option>
+            <option id="B">Option B related to Limit of a Sum</option>
+            <option id="C">Option C related to Limit of a Sum</option>
+            <option id="D">Option D related to Limit of a Sum</option>
+            <answer>A</answer>
+            <explanation>Limit of a Sum is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Methods of Integration.</text>
+            <option id="A">Option A related to Methods of Integration</option>
+            <option id="B">Option B related to Methods of Integration</option>
+            <option id="C">Option C related to Methods of Integration</option>
+            <option id="D">Option D related to Methods of Integration</option>
+            <answer>A</answer>
+            <explanation>Methods of Integration is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Limit of a Sum.</text>
+            <option id="A">Option A related to Limit of a Sum</option>
+            <option id="B">Option B related to Limit of a Sum</option>
+            <option id="C">Option C related to Limit of a Sum</option>
+            <option id="D">Option D related to Limit of a Sum</option>
+            <answer>A</answer>
+            <explanation>Limit of a Sum is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Limit of a Sum.</text>
+            <option id="A">Option A related to Limit of a Sum</option>
+            <option id="B">Option B related to Limit of a Sum</option>
+            <option id="C">Option C related to Limit of a Sum</option>
+            <option id="D">Option D related to Limit of a Sum</option>
+            <answer>A</answer>
+            <explanation>Limit of a Sum is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Methods of Integration.</text>
+            <option id="A">Option A related to Methods of Integration</option>
+            <option id="B">Option B related to Methods of Integration</option>
+            <option id="C">Option C related to Methods of Integration</option>
+            <option id="D">Option D related to Methods of Integration</option>
+            <answer>A</answer>
+            <explanation>Methods of Integration is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Partial Fractions.</text>
+            <option id="A">Option A related to Partial Fractions</option>
+            <option id="B">Option B related to Partial Fractions</option>
+            <option id="C">Option C related to Partial Fractions</option>
+            <option id="D">Option D related to Partial Fractions</option>
+            <answer>A</answer>
+            <explanation>Partial Fractions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Integration by Parts.</text>
+            <option id="A">Option A related to Integration by Parts</option>
+            <option id="B">Option B related to Integration by Parts</option>
+            <option id="C">Option C related to Integration by Parts</option>
+            <option id="D">Option D related to Integration by Parts</option>
+            <answer>A</answer>
+            <explanation>Integration by Parts is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Limit of a Sum.</text>
+            <option id="A">Option A related to Limit of a Sum</option>
+            <option id="B">Option B related to Limit of a Sum</option>
+            <option id="C">Option C related to Limit of a Sum</option>
+            <option id="D">Option D related to Limit of a Sum</option>
+            <answer>A</answer>
+            <explanation>Limit of a Sum is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Methods of Integration.</text>
+            <option id="A">Option A related to Methods of Integration</option>
+            <option id="B">Option B related to Methods of Integration</option>
+            <option id="C">Option C related to Methods of Integration</option>
+            <option id="D">Option D related to Methods of Integration</option>
+            <answer>A</answer>
+            <explanation>Methods of Integration is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Indefinite Integral.</text>
+            <option id="A">Option A related to Indefinite Integral</option>
+            <option id="B">Option B related to Indefinite Integral</option>
+            <option id="C">Option C related to Indefinite Integral</option>
+            <option id="D">Option D related to Indefinite Integral</option>
+            <answer>A</answer>
+            <explanation>Indefinite Integral is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Integration by Parts.</text>
+            <option id="A">Option A related to Integration by Parts</option>
+            <option id="B">Option B related to Integration by Parts</option>
+            <option id="C">Option C related to Integration by Parts</option>
+            <option id="D">Option D related to Integration by Parts</option>
+            <answer>A</answer>
+            <explanation>Integration by Parts is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Partial Fractions.</text>
+            <option id="A">Option A related to Partial Fractions</option>
+            <option id="B">Option B related to Partial Fractions</option>
+            <option id="C">Option C related to Partial Fractions</option>
+            <option id="D">Option D related to Partial Fractions</option>
+            <answer>A</answer>
+            <explanation>Partial Fractions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Indefinite Integral.</text>
+            <option id="A">Option A related to Indefinite Integral</option>
+            <option id="B">Option B related to Indefinite Integral</option>
+            <option id="C">Option C related to Indefinite Integral</option>
+            <option id="D">Option D related to Indefinite Integral</option>
+            <answer>A</answer>
+            <explanation>Indefinite Integral is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Partial Fractions.</text>
+            <option id="A">Option A related to Partial Fractions</option>
+            <option id="B">Option B related to Partial Fractions</option>
+            <option id="C">Option C related to Partial Fractions</option>
+            <option id="D">Option D related to Partial Fractions</option>
+            <answer>A</answer>
+            <explanation>Partial Fractions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Fundamental Theorem of Calculus.</text>
+            <option id="A">Option A related to Fundamental Theorem of Calculus</option>
+            <option id="B">Option B related to Fundamental Theorem of Calculus</option>
+            <option id="C">Option C related to Fundamental Theorem of Calculus</option>
+            <option id="D">Option D related to Fundamental Theorem of Calculus</option>
+            <answer>A</answer>
+            <explanation>Fundamental Theorem of Calculus is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Geometrical Interpretation.</text>
+            <option id="A">Option A related to Geometrical Interpretation</option>
+            <option id="B">Option B related to Geometrical Interpretation</option>
+            <option id="C">Option C related to Geometrical Interpretation</option>
+            <option id="D">Option D related to Geometrical Interpretation</option>
+            <answer>A</answer>
+            <explanation>Geometrical Interpretation is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Properties of Definite Integrals.</text>
+            <option id="A">Option A related to Properties of Definite Integrals</option>
+            <option id="B">Option B related to Properties of Definite Integrals</option>
+            <option id="C">Option C related to Properties of Definite Integrals</option>
+            <option id="D">Option D related to Properties of Definite Integrals</option>
+            <answer>A</answer>
+            <explanation>Properties of Definite Integrals is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Geometrical Interpretation.</text>
+            <option id="A">Option A related to Geometrical Interpretation</option>
+            <option id="B">Option B related to Geometrical Interpretation</option>
+            <option id="C">Option C related to Geometrical Interpretation</option>
+            <option id="D">Option D related to Geometrical Interpretation</option>
+            <answer>A</answer>
+            <explanation>Geometrical Interpretation is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Methods of Integration.</text>
+            <option id="A">Option A related to Methods of Integration</option>
+            <option id="B">Option B related to Methods of Integration</option>
+            <option id="C">Option C related to Methods of Integration</option>
+            <option id="D">Option D related to Methods of Integration</option>
+            <answer>A</answer>
+            <explanation>Methods of Integration is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Partial Fractions.</text>
+            <option id="A">Option A related to Partial Fractions</option>
+            <option id="B">Option B related to Partial Fractions</option>
+            <option id="C">Option C related to Partial Fractions</option>
+            <option id="D">Option D related to Partial Fractions</option>
+            <answer>A</answer>
+            <explanation>Partial Fractions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Integration by Parts.</text>
+            <option id="A">Option A related to Integration by Parts</option>
+            <option id="B">Option B related to Integration by Parts</option>
+            <option id="C">Option C related to Integration by Parts</option>
+            <option id="D">Option D related to Integration by Parts</option>
+            <answer>A</answer>
+            <explanation>Integration by Parts is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Definite Integral.</text>
+            <option id="A">Option A related to Definite Integral</option>
+            <option id="B">Option B related to Definite Integral</option>
+            <option id="C">Option C related to Definite Integral</option>
+            <option id="D">Option D related to Definite Integral</option>
+            <answer>A</answer>
+            <explanation>Definite Integral is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Limit of a Sum.</text>
+            <option id="A">Option A related to Limit of a Sum</option>
+            <option id="B">Option B related to Limit of a Sum</option>
+            <option id="C">Option C related to Limit of a Sum</option>
+            <option id="D">Option D related to Limit of a Sum</option>
+            <answer>A</answer>
+            <explanation>Limit of a Sum is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Integration by Parts.</text>
+            <option id="A">Option A related to Integration by Parts</option>
+            <option id="B">Option B related to Integration by Parts</option>
+            <option id="C">Option C related to Integration by Parts</option>
+            <option id="D">Option D related to Integration by Parts</option>
+            <answer>A</answer>
+            <explanation>Integration by Parts is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Properties of Definite Integrals.</text>
+            <option id="A">Option A related to Properties of Definite Integrals</option>
+            <option id="B">Option B related to Properties of Definite Integrals</option>
+            <option id="C">Option C related to Properties of Definite Integrals</option>
+            <option id="D">Option D related to Properties of Definite Integrals</option>
+            <answer>A</answer>
+            <explanation>Properties of Definite Integrals is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Methods of Integration.</text>
+            <option id="A">Option A related to Methods of Integration</option>
+            <option id="B">Option B related to Methods of Integration</option>
+            <option id="C">Option C related to Methods of Integration</option>
+            <option id="D">Option D related to Methods of Integration</option>
+            <answer>A</answer>
+            <explanation>Methods of Integration is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Definite Integral.</text>
+            <option id="A">Option A related to Definite Integral</option>
+            <option id="B">Option B related to Definite Integral</option>
+            <option id="C">Option C related to Definite Integral</option>
+            <option id="D">Option D related to Definite Integral</option>
+            <answer>A</answer>
+            <explanation>Definite Integral is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Integration by Parts.</text>
+            <option id="A">Option A related to Integration by Parts</option>
+            <option id="B">Option B related to Integration by Parts</option>
+            <option id="C">Option C related to Integration by Parts</option>
+            <option id="D">Option D related to Integration by Parts</option>
+            <answer>A</answer>
+            <explanation>Integration by Parts is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Properties of Definite Integrals.</text>
+            <option id="A">Option A related to Properties of Definite Integrals</option>
+            <option id="B">Option B related to Properties of Definite Integrals</option>
+            <option id="C">Option C related to Properties of Definite Integrals</option>
+            <option id="D">Option D related to Properties of Definite Integrals</option>
+            <answer>A</answer>
+            <explanation>Properties of Definite Integrals is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Partial Fractions.</text>
+            <option id="A">Option A related to Partial Fractions</option>
+            <option id="B">Option B related to Partial Fractions</option>
+            <option id="C">Option C related to Partial Fractions</option>
+            <option id="D">Option D related to Partial Fractions</option>
+            <answer>A</answer>
+            <explanation>Partial Fractions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Limit of a Sum.</text>
+            <option id="A">Option A related to Limit of a Sum</option>
+            <option id="B">Option B related to Limit of a Sum</option>
+            <option id="C">Option C related to Limit of a Sum</option>
+            <option id="D">Option D related to Limit of a Sum</option>
+            <answer>A</answer>
+            <explanation>Limit of a Sum is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Substitution Method.</text>
+            <option id="A">Option A related to Substitution Method</option>
+            <option id="B">Option B related to Substitution Method</option>
+            <option id="C">Option C related to Substitution Method</option>
+            <option id="D">Option D related to Substitution Method</option>
+            <answer>A</answer>
+            <explanation>Substitution Method is defined by specific conditions that must be met.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Solve the following problem involving Partial Fractions using standard formulas.</text>
+            <option id="A">Option A related to Partial Fractions</option>
+            <option id="B">Option B related to Partial Fractions</option>
+            <option id="C">Option C related to Partial Fractions</option>
+            <option id="D">Option D related to Partial Fractions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Partial Fractions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Limit of a Sum using standard formulas.</text>
+            <option id="A">Option A related to Limit of a Sum</option>
+            <option id="B">Option B related to Limit of a Sum</option>
+            <option id="C">Option C related to Limit of a Sum</option>
+            <option id="D">Option D related to Limit of a Sum</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Limit of a Sum yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Substitution Method using standard formulas.</text>
+            <option id="A">Option A related to Substitution Method</option>
+            <option id="B">Option B related to Substitution Method</option>
+            <option id="C">Option C related to Substitution Method</option>
+            <option id="D">Option D related to Substitution Method</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Substitution Method yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Integration by Parts using standard formulas.</text>
+            <option id="A">Option A related to Integration by Parts</option>
+            <option id="B">Option B related to Integration by Parts</option>
+            <option id="C">Option C related to Integration by Parts</option>
+            <option id="D">Option D related to Integration by Parts</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Integration by Parts yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Methods of Integration using standard formulas.</text>
+            <option id="A">Option A related to Methods of Integration</option>
+            <option id="B">Option B related to Methods of Integration</option>
+            <option id="C">Option C related to Methods of Integration</option>
+            <option id="D">Option D related to Methods of Integration</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Methods of Integration yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Methods of Integration using standard formulas.</text>
+            <option id="A">Option A related to Methods of Integration</option>
+            <option id="B">Option B related to Methods of Integration</option>
+            <option id="C">Option C related to Methods of Integration</option>
+            <option id="D">Option D related to Methods of Integration</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Methods of Integration yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Partial Fractions using standard formulas.</text>
+            <option id="A">Option A related to Partial Fractions</option>
+            <option id="B">Option B related to Partial Fractions</option>
+            <option id="C">Option C related to Partial Fractions</option>
+            <option id="D">Option D related to Partial Fractions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Partial Fractions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Methods of Integration using standard formulas.</text>
+            <option id="A">Option A related to Methods of Integration</option>
+            <option id="B">Option B related to Methods of Integration</option>
+            <option id="C">Option C related to Methods of Integration</option>
+            <option id="D">Option D related to Methods of Integration</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Methods of Integration yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Properties of Definite Integrals using standard formulas.</text>
+            <option id="A">Option A related to Properties of Definite Integrals</option>
+            <option id="B">Option B related to Properties of Definite Integrals</option>
+            <option id="C">Option C related to Properties of Definite Integrals</option>
+            <option id="D">Option D related to Properties of Definite Integrals</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Properties of Definite Integrals yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Partial Fractions using standard formulas.</text>
+            <option id="A">Option A related to Partial Fractions</option>
+            <option id="B">Option B related to Partial Fractions</option>
+            <option id="C">Option C related to Partial Fractions</option>
+            <option id="D">Option D related to Partial Fractions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Partial Fractions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Indefinite Integral using standard formulas.</text>
+            <option id="A">Option A related to Indefinite Integral</option>
+            <option id="B">Option B related to Indefinite Integral</option>
+            <option id="C">Option C related to Indefinite Integral</option>
+            <option id="D">Option D related to Indefinite Integral</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Indefinite Integral yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Indefinite Integral using standard formulas.</text>
+            <option id="A">Option A related to Indefinite Integral</option>
+            <option id="B">Option B related to Indefinite Integral</option>
+            <option id="C">Option C related to Indefinite Integral</option>
+            <option id="D">Option D related to Indefinite Integral</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Indefinite Integral yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Definite Integral using standard formulas.</text>
+            <option id="A">Option A related to Definite Integral</option>
+            <option id="B">Option B related to Definite Integral</option>
+            <option id="C">Option C related to Definite Integral</option>
+            <option id="D">Option D related to Definite Integral</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Definite Integral yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Geometrical Interpretation using standard formulas.</text>
+            <option id="A">Option A related to Geometrical Interpretation</option>
+            <option id="B">Option B related to Geometrical Interpretation</option>
+            <option id="C">Option C related to Geometrical Interpretation</option>
+            <option id="D">Option D related to Geometrical Interpretation</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Geometrical Interpretation yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Substitution Method using standard formulas.</text>
+            <option id="A">Option A related to Substitution Method</option>
+            <option id="B">Option B related to Substitution Method</option>
+            <option id="C">Option C related to Substitution Method</option>
+            <option id="D">Option D related to Substitution Method</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Substitution Method yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Geometrical Interpretation using standard formulas.</text>
+            <option id="A">Option A related to Geometrical Interpretation</option>
+            <option id="B">Option B related to Geometrical Interpretation</option>
+            <option id="C">Option C related to Geometrical Interpretation</option>
+            <option id="D">Option D related to Geometrical Interpretation</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Geometrical Interpretation yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Indefinite Integral using standard formulas.</text>
+            <option id="A">Option A related to Indefinite Integral</option>
+            <option id="B">Option B related to Indefinite Integral</option>
+            <option id="C">Option C related to Indefinite Integral</option>
+            <option id="D">Option D related to Indefinite Integral</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Indefinite Integral yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Geometrical Interpretation using standard formulas.</text>
+            <option id="A">Option A related to Geometrical Interpretation</option>
+            <option id="B">Option B related to Geometrical Interpretation</option>
+            <option id="C">Option C related to Geometrical Interpretation</option>
+            <option id="D">Option D related to Geometrical Interpretation</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Geometrical Interpretation yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Limit of a Sum using standard formulas.</text>
+            <option id="A">Option A related to Limit of a Sum</option>
+            <option id="B">Option B related to Limit of a Sum</option>
+            <option id="C">Option C related to Limit of a Sum</option>
+            <option id="D">Option D related to Limit of a Sum</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Limit of a Sum yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Properties of Definite Integrals using standard formulas.</text>
+            <option id="A">Option A related to Properties of Definite Integrals</option>
+            <option id="B">Option B related to Properties of Definite Integrals</option>
+            <option id="C">Option C related to Properties of Definite Integrals</option>
+            <option id="D">Option D related to Properties of Definite Integrals</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Properties of Definite Integrals yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Limit of a Sum using standard formulas.</text>
+            <option id="A">Option A related to Limit of a Sum</option>
+            <option id="B">Option B related to Limit of a Sum</option>
+            <option id="C">Option C related to Limit of a Sum</option>
+            <option id="D">Option D related to Limit of a Sum</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Limit of a Sum yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Definite Integral using standard formulas.</text>
+            <option id="A">Option A related to Definite Integral</option>
+            <option id="B">Option B related to Definite Integral</option>
+            <option id="C">Option C related to Definite Integral</option>
+            <option id="D">Option D related to Definite Integral</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Definite Integral yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Fundamental Theorem of Calculus using standard formulas.</text>
+            <option id="A">Option A related to Fundamental Theorem of Calculus</option>
+            <option id="B">Option B related to Fundamental Theorem of Calculus</option>
+            <option id="C">Option C related to Fundamental Theorem of Calculus</option>
+            <option id="D">Option D related to Fundamental Theorem of Calculus</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Fundamental Theorem of Calculus yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Limit of a Sum using standard formulas.</text>
+            <option id="A">Option A related to Limit of a Sum</option>
+            <option id="B">Option B related to Limit of a Sum</option>
+            <option id="C">Option C related to Limit of a Sum</option>
+            <option id="D">Option D related to Limit of a Sum</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Limit of a Sum yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Fundamental Theorem of Calculus using standard formulas.</text>
+            <option id="A">Option A related to Fundamental Theorem of Calculus</option>
+            <option id="B">Option B related to Fundamental Theorem of Calculus</option>
+            <option id="C">Option C related to Fundamental Theorem of Calculus</option>
+            <option id="D">Option D related to Fundamental Theorem of Calculus</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Fundamental Theorem of Calculus yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Definite Integral using standard formulas.</text>
+            <option id="A">Option A related to Definite Integral</option>
+            <option id="B">Option B related to Definite Integral</option>
+            <option id="C">Option C related to Definite Integral</option>
+            <option id="D">Option D related to Definite Integral</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Definite Integral yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Limit of a Sum using standard formulas.</text>
+            <option id="A">Option A related to Limit of a Sum</option>
+            <option id="B">Option B related to Limit of a Sum</option>
+            <option id="C">Option C related to Limit of a Sum</option>
+            <option id="D">Option D related to Limit of a Sum</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Limit of a Sum yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Indefinite Integral using standard formulas.</text>
+            <option id="A">Option A related to Indefinite Integral</option>
+            <option id="B">Option B related to Indefinite Integral</option>
+            <option id="C">Option C related to Indefinite Integral</option>
+            <option id="D">Option D related to Indefinite Integral</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Indefinite Integral yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Integration by Parts using standard formulas.</text>
+            <option id="A">Option A related to Integration by Parts</option>
+            <option id="B">Option B related to Integration by Parts</option>
+            <option id="C">Option C related to Integration by Parts</option>
+            <option id="D">Option D related to Integration by Parts</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Integration by Parts yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Methods of Integration using standard formulas.</text>
+            <option id="A">Option A related to Methods of Integration</option>
+            <option id="B">Option B related to Methods of Integration</option>
+            <option id="C">Option C related to Methods of Integration</option>
+            <option id="D">Option D related to Methods of Integration</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Methods of Integration yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Methods of Integration using standard formulas.</text>
+            <option id="A">Option A related to Methods of Integration</option>
+            <option id="B">Option B related to Methods of Integration</option>
+            <option id="C">Option C related to Methods of Integration</option>
+            <option id="D">Option D related to Methods of Integration</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Methods of Integration yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Limit of a Sum using standard formulas.</text>
+            <option id="A">Option A related to Limit of a Sum</option>
+            <option id="B">Option B related to Limit of a Sum</option>
+            <option id="C">Option C related to Limit of a Sum</option>
+            <option id="D">Option D related to Limit of a Sum</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Limit of a Sum yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Substitution Method using standard formulas.</text>
+            <option id="A">Option A related to Substitution Method</option>
+            <option id="B">Option B related to Substitution Method</option>
+            <option id="C">Option C related to Substitution Method</option>
+            <option id="D">Option D related to Substitution Method</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Substitution Method yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Substitution Method using standard formulas.</text>
+            <option id="A">Option A related to Substitution Method</option>
+            <option id="B">Option B related to Substitution Method</option>
+            <option id="C">Option C related to Substitution Method</option>
+            <option id="D">Option D related to Substitution Method</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Substitution Method yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Indefinite Integral using standard formulas.</text>
+            <option id="A">Option A related to Indefinite Integral</option>
+            <option id="B">Option B related to Indefinite Integral</option>
+            <option id="C">Option C related to Indefinite Integral</option>
+            <option id="D">Option D related to Indefinite Integral</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Indefinite Integral yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Integration by Parts using standard formulas.</text>
+            <option id="A">Option A related to Integration by Parts</option>
+            <option id="B">Option B related to Integration by Parts</option>
+            <option id="C">Option C related to Integration by Parts</option>
+            <option id="D">Option D related to Integration by Parts</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Integration by Parts yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Substitution Method using standard formulas.</text>
+            <option id="A">Option A related to Substitution Method</option>
+            <option id="B">Option B related to Substitution Method</option>
+            <option id="C">Option C related to Substitution Method</option>
+            <option id="D">Option D related to Substitution Method</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Substitution Method yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Methods of Integration using standard formulas.</text>
+            <option id="A">Option A related to Methods of Integration</option>
+            <option id="B">Option B related to Methods of Integration</option>
+            <option id="C">Option C related to Methods of Integration</option>
+            <option id="D">Option D related to Methods of Integration</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Methods of Integration yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Partial Fractions using standard formulas.</text>
+            <option id="A">Option A related to Partial Fractions</option>
+            <option id="B">Option B related to Partial Fractions</option>
+            <option id="C">Option C related to Partial Fractions</option>
+            <option id="D">Option D related to Partial Fractions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Partial Fractions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Definite Integral using standard formulas.</text>
+            <option id="A">Option A related to Definite Integral</option>
+            <option id="B">Option B related to Definite Integral</option>
+            <option id="C">Option C related to Definite Integral</option>
+            <option id="D">Option D related to Definite Integral</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Definite Integral yields the correct value.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Analyze and solve the complex problem involving Partial Fractions with multiple steps.</text>
+            <option id="A">Option A related to Partial Fractions</option>
+            <option id="B">Option B related to Partial Fractions</option>
+            <option id="C">Option C related to Partial Fractions</option>
+            <option id="D">Option D related to Partial Fractions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Partial Fractions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Integration by Parts with multiple steps.</text>
+            <option id="A">Option A related to Integration by Parts</option>
+            <option id="B">Option B related to Integration by Parts</option>
+            <option id="C">Option C related to Integration by Parts</option>
+            <option id="D">Option D related to Integration by Parts</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Integration by Parts are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Indefinite Integral with multiple steps.</text>
+            <option id="A">Option A related to Indefinite Integral</option>
+            <option id="B">Option B related to Indefinite Integral</option>
+            <option id="C">Option C related to Indefinite Integral</option>
+            <option id="D">Option D related to Indefinite Integral</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Indefinite Integral are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Partial Fractions with multiple steps.</text>
+            <option id="A">Option A related to Partial Fractions</option>
+            <option id="B">Option B related to Partial Fractions</option>
+            <option id="C">Option C related to Partial Fractions</option>
+            <option id="D">Option D related to Partial Fractions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Partial Fractions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Integration by Parts with multiple steps.</text>
+            <option id="A">Option A related to Integration by Parts</option>
+            <option id="B">Option B related to Integration by Parts</option>
+            <option id="C">Option C related to Integration by Parts</option>
+            <option id="D">Option D related to Integration by Parts</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Integration by Parts are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Methods of Integration with multiple steps.</text>
+            <option id="A">Option A related to Methods of Integration</option>
+            <option id="B">Option B related to Methods of Integration</option>
+            <option id="C">Option C related to Methods of Integration</option>
+            <option id="D">Option D related to Methods of Integration</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Methods of Integration are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Definite Integral with multiple steps.</text>
+            <option id="A">Option A related to Definite Integral</option>
+            <option id="B">Option B related to Definite Integral</option>
+            <option id="C">Option C related to Definite Integral</option>
+            <option id="D">Option D related to Definite Integral</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Definite Integral are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Limit of a Sum with multiple steps.</text>
+            <option id="A">Option A related to Limit of a Sum</option>
+            <option id="B">Option B related to Limit of a Sum</option>
+            <option id="C">Option C related to Limit of a Sum</option>
+            <option id="D">Option D related to Limit of a Sum</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Limit of a Sum are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Definite Integral with multiple steps.</text>
+            <option id="A">Option A related to Definite Integral</option>
+            <option id="B">Option B related to Definite Integral</option>
+            <option id="C">Option C related to Definite Integral</option>
+            <option id="D">Option D related to Definite Integral</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Definite Integral are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Methods of Integration with multiple steps.</text>
+            <option id="A">Option A related to Methods of Integration</option>
+            <option id="B">Option B related to Methods of Integration</option>
+            <option id="C">Option C related to Methods of Integration</option>
+            <option id="D">Option D related to Methods of Integration</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Methods of Integration are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Partial Fractions with multiple steps.</text>
+            <option id="A">Option A related to Partial Fractions</option>
+            <option id="B">Option B related to Partial Fractions</option>
+            <option id="C">Option C related to Partial Fractions</option>
+            <option id="D">Option D related to Partial Fractions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Partial Fractions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Definite Integral with multiple steps.</text>
+            <option id="A">Option A related to Definite Integral</option>
+            <option id="B">Option B related to Definite Integral</option>
+            <option id="C">Option C related to Definite Integral</option>
+            <option id="D">Option D related to Definite Integral</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Definite Integral are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Indefinite Integral with multiple steps.</text>
+            <option id="A">Option A related to Indefinite Integral</option>
+            <option id="B">Option B related to Indefinite Integral</option>
+            <option id="C">Option C related to Indefinite Integral</option>
+            <option id="D">Option D related to Indefinite Integral</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Indefinite Integral are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Geometrical Interpretation with multiple steps.</text>
+            <option id="A">Option A related to Geometrical Interpretation</option>
+            <option id="B">Option B related to Geometrical Interpretation</option>
+            <option id="C">Option C related to Geometrical Interpretation</option>
+            <option id="D">Option D related to Geometrical Interpretation</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Geometrical Interpretation are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Partial Fractions with multiple steps.</text>
+            <option id="A">Option A related to Partial Fractions</option>
+            <option id="B">Option B related to Partial Fractions</option>
+            <option id="C">Option C related to Partial Fractions</option>
+            <option id="D">Option D related to Partial Fractions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Partial Fractions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Limit of a Sum with multiple steps.</text>
+            <option id="A">Option A related to Limit of a Sum</option>
+            <option id="B">Option B related to Limit of a Sum</option>
+            <option id="C">Option C related to Limit of a Sum</option>
+            <option id="D">Option D related to Limit of a Sum</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Limit of a Sum are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Partial Fractions with multiple steps.</text>
+            <option id="A">Option A related to Partial Fractions</option>
+            <option id="B">Option B related to Partial Fractions</option>
+            <option id="C">Option C related to Partial Fractions</option>
+            <option id="D">Option D related to Partial Fractions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Partial Fractions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Limit of a Sum with multiple steps.</text>
+            <option id="A">Option A related to Limit of a Sum</option>
+            <option id="B">Option B related to Limit of a Sum</option>
+            <option id="C">Option C related to Limit of a Sum</option>
+            <option id="D">Option D related to Limit of a Sum</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Limit of a Sum are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Partial Fractions with multiple steps.</text>
+            <option id="A">Option A related to Partial Fractions</option>
+            <option id="B">Option B related to Partial Fractions</option>
+            <option id="C">Option C related to Partial Fractions</option>
+            <option id="D">Option D related to Partial Fractions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Partial Fractions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Indefinite Integral with multiple steps.</text>
+            <option id="A">Option A related to Indefinite Integral</option>
+            <option id="B">Option B related to Indefinite Integral</option>
+            <option id="C">Option C related to Indefinite Integral</option>
+            <option id="D">Option D related to Indefinite Integral</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Indefinite Integral are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Integration by Parts with multiple steps.</text>
+            <option id="A">Option A related to Integration by Parts</option>
+            <option id="B">Option B related to Integration by Parts</option>
+            <option id="C">Option C related to Integration by Parts</option>
+            <option id="D">Option D related to Integration by Parts</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Integration by Parts are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Partial Fractions with multiple steps.</text>
+            <option id="A">Option A related to Partial Fractions</option>
+            <option id="B">Option B related to Partial Fractions</option>
+            <option id="C">Option C related to Partial Fractions</option>
+            <option id="D">Option D related to Partial Fractions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Partial Fractions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Integration by Parts with multiple steps.</text>
+            <option id="A">Option A related to Integration by Parts</option>
+            <option id="B">Option B related to Integration by Parts</option>
+            <option id="C">Option C related to Integration by Parts</option>
+            <option id="D">Option D related to Integration by Parts</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Integration by Parts are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Definite Integral with multiple steps.</text>
+            <option id="A">Option A related to Definite Integral</option>
+            <option id="B">Option B related to Definite Integral</option>
+            <option id="C">Option C related to Definite Integral</option>
+            <option id="D">Option D related to Definite Integral</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Definite Integral are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Properties of Definite Integrals with multiple steps.</text>
+            <option id="A">Option A related to Properties of Definite Integrals</option>
+            <option id="B">Option B related to Properties of Definite Integrals</option>
+            <option id="C">Option C related to Properties of Definite Integrals</option>
+            <option id="D">Option D related to Properties of Definite Integrals</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Properties of Definite Integrals are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Properties of Definite Integrals with multiple steps.</text>
+            <option id="A">Option A related to Properties of Definite Integrals</option>
+            <option id="B">Option B related to Properties of Definite Integrals</option>
+            <option id="C">Option C related to Properties of Definite Integrals</option>
+            <option id="D">Option D related to Properties of Definite Integrals</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Properties of Definite Integrals are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Geometrical Interpretation with multiple steps.</text>
+            <option id="A">Option A related to Geometrical Interpretation</option>
+            <option id="B">Option B related to Geometrical Interpretation</option>
+            <option id="C">Option C related to Geometrical Interpretation</option>
+            <option id="D">Option D related to Geometrical Interpretation</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Geometrical Interpretation are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Substitution Method with multiple steps.</text>
+            <option id="A">Option A related to Substitution Method</option>
+            <option id="B">Option B related to Substitution Method</option>
+            <option id="C">Option C related to Substitution Method</option>
+            <option id="D">Option D related to Substitution Method</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Substitution Method are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Indefinite Integral with multiple steps.</text>
+            <option id="A">Option A related to Indefinite Integral</option>
+            <option id="B">Option B related to Indefinite Integral</option>
+            <option id="C">Option C related to Indefinite Integral</option>
+            <option id="D">Option D related to Indefinite Integral</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Indefinite Integral are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Methods of Integration with multiple steps.</text>
+            <option id="A">Option A related to Methods of Integration</option>
+            <option id="B">Option B related to Methods of Integration</option>
+            <option id="C">Option C related to Methods of Integration</option>
+            <option id="D">Option D related to Methods of Integration</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Methods of Integration are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Partial Fractions with multiple steps.</text>
+            <option id="A">Option A related to Partial Fractions</option>
+            <option id="B">Option B related to Partial Fractions</option>
+            <option id="C">Option C related to Partial Fractions</option>
+            <option id="D">Option D related to Partial Fractions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Partial Fractions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Fundamental Theorem of Calculus with multiple steps.</text>
+            <option id="A">Option A related to Fundamental Theorem of Calculus</option>
+            <option id="B">Option B related to Fundamental Theorem of Calculus</option>
+            <option id="C">Option C related to Fundamental Theorem of Calculus</option>
+            <option id="D">Option D related to Fundamental Theorem of Calculus</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Fundamental Theorem of Calculus are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Integration by Parts with multiple steps.</text>
+            <option id="A">Option A related to Integration by Parts</option>
+            <option id="B">Option B related to Integration by Parts</option>
+            <option id="C">Option C related to Integration by Parts</option>
+            <option id="D">Option D related to Integration by Parts</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Integration by Parts are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Indefinite Integral with multiple steps.</text>
+            <option id="A">Option A related to Indefinite Integral</option>
+            <option id="B">Option B related to Indefinite Integral</option>
+            <option id="C">Option C related to Indefinite Integral</option>
+            <option id="D">Option D related to Indefinite Integral</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Indefinite Integral are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Methods of Integration with multiple steps.</text>
+            <option id="A">Option A related to Methods of Integration</option>
+            <option id="B">Option B related to Methods of Integration</option>
+            <option id="C">Option C related to Methods of Integration</option>
+            <option id="D">Option D related to Methods of Integration</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Methods of Integration are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Indefinite Integral with multiple steps.</text>
+            <option id="A">Option A related to Indefinite Integral</option>
+            <option id="B">Option B related to Indefinite Integral</option>
+            <option id="C">Option C related to Indefinite Integral</option>
+            <option id="D">Option D related to Indefinite Integral</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Indefinite Integral are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Fundamental Theorem of Calculus with multiple steps.</text>
+            <option id="A">Option A related to Fundamental Theorem of Calculus</option>
+            <option id="B">Option B related to Fundamental Theorem of Calculus</option>
+            <option id="C">Option C related to Fundamental Theorem of Calculus</option>
+            <option id="D">Option D related to Fundamental Theorem of Calculus</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Fundamental Theorem of Calculus are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Properties of Definite Integrals with multiple steps.</text>
+            <option id="A">Option A related to Properties of Definite Integrals</option>
+            <option id="B">Option B related to Properties of Definite Integrals</option>
+            <option id="C">Option C related to Properties of Definite Integrals</option>
+            <option id="D">Option D related to Properties of Definite Integrals</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Properties of Definite Integrals are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Limit of a Sum with multiple steps.</text>
+            <option id="A">Option A related to Limit of a Sum</option>
+            <option id="B">Option B related to Limit of a Sum</option>
+            <option id="C">Option C related to Limit of a Sum</option>
+            <option id="D">Option D related to Limit of a Sum</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Limit of a Sum are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Substitution Method with multiple steps.</text>
+            <option id="A">Option A related to Substitution Method</option>
+            <option id="B">Option B related to Substitution Method</option>
+            <option id="C">Option C related to Substitution Method</option>
+            <option id="D">Option D related to Substitution Method</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Substitution Method are required.</explanation>
+        </question>
+    </hard>
+</chapter>

@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="22" name="Ray Optics and Optical Instruments">
+    <easy>
+        <question>
+            <text>What is the fundamental concept behind Scattering?</text>
+            <option id="A">Option A related to Scattering</option>
+            <option id="B">Option B related to Scattering</option>
+            <option id="C">Option C related to Scattering</option>
+            <option id="D">Option D related to Scattering</option>
+            <answer>A</answer>
+            <explanation>Scattering is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Eye Defects?</text>
+            <option id="A">Option A related to Eye Defects</option>
+            <option id="B">Option B related to Eye Defects</option>
+            <option id="C">Option C related to Eye Defects</option>
+            <option id="D">Option D related to Eye Defects</option>
+            <answer>A</answer>
+            <explanation>Eye Defects is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Telescope?</text>
+            <option id="A">Option A related to Telescope</option>
+            <option id="B">Option B related to Telescope</option>
+            <option id="C">Option C related to Telescope</option>
+            <option id="D">Option D related to Telescope</option>
+            <answer>A</answer>
+            <explanation>Telescope is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Dispersion?</text>
+            <option id="A">Option A related to Dispersion</option>
+            <option id="B">Option B related to Dispersion</option>
+            <option id="C">Option C related to Dispersion</option>
+            <option id="D">Option D related to Dispersion</option>
+            <answer>A</answer>
+            <explanation>Dispersion is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Microscope?</text>
+            <option id="A">Option A related to Microscope</option>
+            <option id="B">Option B related to Microscope</option>
+            <option id="C">Option C related to Microscope</option>
+            <option id="D">Option D related to Microscope</option>
+            <answer>A</answer>
+            <explanation>Microscope is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Reflection?</text>
+            <option id="A">Option A related to Reflection</option>
+            <option id="B">Option B related to Reflection</option>
+            <option id="C">Option C related to Reflection</option>
+            <option id="D">Option D related to Reflection</option>
+            <answer>A</answer>
+            <explanation>Reflection is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Lens Maker's Formula?</text>
+            <option id="A">Option A related to Lens Maker's Formula</option>
+            <option id="B">Option B related to Lens Maker's Formula</option>
+            <option id="C">Option C related to Lens Maker's Formula</option>
+            <option id="D">Option D related to Lens Maker's Formula</option>
+            <answer>A</answer>
+            <explanation>Lens Maker's Formula is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Microscope?</text>
+            <option id="A">Option A related to Microscope</option>
+            <option id="B">Option B related to Microscope</option>
+            <option id="C">Option C related to Microscope</option>
+            <option id="D">Option D related to Microscope</option>
+            <answer>A</answer>
+            <explanation>Microscope is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Scattering?</text>
+            <option id="A">Option A related to Scattering</option>
+            <option id="B">Option B related to Scattering</option>
+            <option id="C">Option C related to Scattering</option>
+            <option id="D">Option D related to Scattering</option>
+            <answer>A</answer>
+            <explanation>Scattering is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Scattering?</text>
+            <option id="A">Option A related to Scattering</option>
+            <option id="B">Option B related to Scattering</option>
+            <option id="C">Option C related to Scattering</option>
+            <option id="D">Option D related to Scattering</option>
+            <answer>A</answer>
+            <explanation>Scattering is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Microscope?</text>
+            <option id="A">Option A related to Microscope</option>
+            <option id="B">Option B related to Microscope</option>
+            <option id="C">Option C related to Microscope</option>
+            <option id="D">Option D related to Microscope</option>
+            <answer>A</answer>
+            <explanation>Microscope is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Refraction?</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>A</answer>
+            <explanation>Refraction is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Refraction?</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>A</answer>
+            <explanation>Refraction is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Dispersion?</text>
+            <option id="A">Option A related to Dispersion</option>
+            <option id="B">Option B related to Dispersion</option>
+            <option id="C">Option C related to Dispersion</option>
+            <option id="D">Option D related to Dispersion</option>
+            <answer>A</answer>
+            <explanation>Dispersion is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Total Internal Reflection?</text>
+            <option id="A">Option A related to Total Internal Reflection</option>
+            <option id="B">Option B related to Total Internal Reflection</option>
+            <option id="C">Option C related to Total Internal Reflection</option>
+            <option id="D">Option D related to Total Internal Reflection</option>
+            <answer>A</answer>
+            <explanation>Total Internal Reflection is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Reflection?</text>
+            <option id="A">Option A related to Reflection</option>
+            <option id="B">Option B related to Reflection</option>
+            <option id="C">Option C related to Reflection</option>
+            <option id="D">Option D related to Reflection</option>
+            <answer>A</answer>
+            <explanation>Reflection is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Reflection?</text>
+            <option id="A">Option A related to Reflection</option>
+            <option id="B">Option B related to Reflection</option>
+            <option id="C">Option C related to Reflection</option>
+            <option id="D">Option D related to Reflection</option>
+            <answer>A</answer>
+            <explanation>Reflection is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Eye Defects?</text>
+            <option id="A">Option A related to Eye Defects</option>
+            <option id="B">Option B related to Eye Defects</option>
+            <option id="C">Option C related to Eye Defects</option>
+            <option id="D">Option D related to Eye Defects</option>
+            <answer>A</answer>
+            <explanation>Eye Defects is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Lens Maker's Formula?</text>
+            <option id="A">Option A related to Lens Maker's Formula</option>
+            <option id="B">Option B related to Lens Maker's Formula</option>
+            <option id="C">Option C related to Lens Maker's Formula</option>
+            <option id="D">Option D related to Lens Maker's Formula</option>
+            <answer>A</answer>
+            <explanation>Lens Maker's Formula is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Refraction?</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>A</answer>
+            <explanation>Refraction is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Telescope?</text>
+            <option id="A">Option A related to Telescope</option>
+            <option id="B">Option B related to Telescope</option>
+            <option id="C">Option C related to Telescope</option>
+            <option id="D">Option D related to Telescope</option>
+            <answer>A</answer>
+            <explanation>Telescope is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Dispersion?</text>
+            <option id="A">Option A related to Dispersion</option>
+            <option id="B">Option B related to Dispersion</option>
+            <option id="C">Option C related to Dispersion</option>
+            <option id="D">Option D related to Dispersion</option>
+            <answer>A</answer>
+            <explanation>Dispersion is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Dispersion?</text>
+            <option id="A">Option A related to Dispersion</option>
+            <option id="B">Option B related to Dispersion</option>
+            <option id="C">Option C related to Dispersion</option>
+            <option id="D">Option D related to Dispersion</option>
+            <answer>A</answer>
+            <explanation>Dispersion is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Refraction?</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>A</answer>
+            <explanation>Refraction is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Total Internal Reflection?</text>
+            <option id="A">Option A related to Total Internal Reflection</option>
+            <option id="B">Option B related to Total Internal Reflection</option>
+            <option id="C">Option C related to Total Internal Reflection</option>
+            <option id="D">Option D related to Total Internal Reflection</option>
+            <answer>A</answer>
+            <explanation>Total Internal Reflection is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Microscope?</text>
+            <option id="A">Option A related to Microscope</option>
+            <option id="B">Option B related to Microscope</option>
+            <option id="C">Option C related to Microscope</option>
+            <option id="D">Option D related to Microscope</option>
+            <answer>A</answer>
+            <explanation>Microscope is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Prism?</text>
+            <option id="A">Option A related to Prism</option>
+            <option id="B">Option B related to Prism</option>
+            <option id="C">Option C related to Prism</option>
+            <option id="D">Option D related to Prism</option>
+            <answer>A</answer>
+            <explanation>Prism is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Dispersion?</text>
+            <option id="A">Option A related to Dispersion</option>
+            <option id="B">Option B related to Dispersion</option>
+            <option id="C">Option C related to Dispersion</option>
+            <option id="D">Option D related to Dispersion</option>
+            <answer>A</answer>
+            <explanation>Dispersion is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Telescope?</text>
+            <option id="A">Option A related to Telescope</option>
+            <option id="B">Option B related to Telescope</option>
+            <option id="C">Option C related to Telescope</option>
+            <option id="D">Option D related to Telescope</option>
+            <answer>A</answer>
+            <explanation>Telescope is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Scattering?</text>
+            <option id="A">Option A related to Scattering</option>
+            <option id="B">Option B related to Scattering</option>
+            <option id="C">Option C related to Scattering</option>
+            <option id="D">Option D related to Scattering</option>
+            <answer>A</answer>
+            <explanation>Scattering is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Prism?</text>
+            <option id="A">Option A related to Prism</option>
+            <option id="B">Option B related to Prism</option>
+            <option id="C">Option C related to Prism</option>
+            <option id="D">Option D related to Prism</option>
+            <answer>A</answer>
+            <explanation>Prism is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Dispersion?</text>
+            <option id="A">Option A related to Dispersion</option>
+            <option id="B">Option B related to Dispersion</option>
+            <option id="C">Option C related to Dispersion</option>
+            <option id="D">Option D related to Dispersion</option>
+            <answer>A</answer>
+            <explanation>Dispersion is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Eye Defects?</text>
+            <option id="A">Option A related to Eye Defects</option>
+            <option id="B">Option B related to Eye Defects</option>
+            <option id="C">Option C related to Eye Defects</option>
+            <option id="D">Option D related to Eye Defects</option>
+            <answer>A</answer>
+            <explanation>Eye Defects is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Lens Maker's Formula?</text>
+            <option id="A">Option A related to Lens Maker's Formula</option>
+            <option id="B">Option B related to Lens Maker's Formula</option>
+            <option id="C">Option C related to Lens Maker's Formula</option>
+            <option id="D">Option D related to Lens Maker's Formula</option>
+            <answer>A</answer>
+            <explanation>Lens Maker's Formula is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Reflection?</text>
+            <option id="A">Option A related to Reflection</option>
+            <option id="B">Option B related to Reflection</option>
+            <option id="C">Option C related to Reflection</option>
+            <option id="D">Option D related to Reflection</option>
+            <answer>A</answer>
+            <explanation>Reflection is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Eye Defects?</text>
+            <option id="A">Option A related to Eye Defects</option>
+            <option id="B">Option B related to Eye Defects</option>
+            <option id="C">Option C related to Eye Defects</option>
+            <option id="D">Option D related to Eye Defects</option>
+            <answer>A</answer>
+            <explanation>Eye Defects is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Lens Maker's Formula?</text>
+            <option id="A">Option A related to Lens Maker's Formula</option>
+            <option id="B">Option B related to Lens Maker's Formula</option>
+            <option id="C">Option C related to Lens Maker's Formula</option>
+            <option id="D">Option D related to Lens Maker's Formula</option>
+            <answer>A</answer>
+            <explanation>Lens Maker's Formula is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Microscope?</text>
+            <option id="A">Option A related to Microscope</option>
+            <option id="B">Option B related to Microscope</option>
+            <option id="C">Option C related to Microscope</option>
+            <option id="D">Option D related to Microscope</option>
+            <answer>A</answer>
+            <explanation>Microscope is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Microscope?</text>
+            <option id="A">Option A related to Microscope</option>
+            <option id="B">Option B related to Microscope</option>
+            <option id="C">Option C related to Microscope</option>
+            <option id="D">Option D related to Microscope</option>
+            <answer>A</answer>
+            <explanation>Microscope is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Eye Defects?</text>
+            <option id="A">Option A related to Eye Defects</option>
+            <option id="B">Option B related to Eye Defects</option>
+            <option id="C">Option C related to Eye Defects</option>
+            <option id="D">Option D related to Eye Defects</option>
+            <answer>A</answer>
+            <explanation>Eye Defects is a key concept defined by specific physical properties.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Calculate the value associated with Prism given standard conditions.</text>
+            <option id="A">Option A related to Prism</option>
+            <option id="B">Option B related to Prism</option>
+            <option id="C">Option C related to Prism</option>
+            <option id="D">Option D related to Prism</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Prism, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Eye Defects given standard conditions.</text>
+            <option id="A">Option A related to Eye Defects</option>
+            <option id="B">Option B related to Eye Defects</option>
+            <option id="C">Option C related to Eye Defects</option>
+            <option id="D">Option D related to Eye Defects</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Eye Defects, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Dispersion given standard conditions.</text>
+            <option id="A">Option A related to Dispersion</option>
+            <option id="B">Option B related to Dispersion</option>
+            <option id="C">Option C related to Dispersion</option>
+            <option id="D">Option D related to Dispersion</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Dispersion, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Dispersion given standard conditions.</text>
+            <option id="A">Option A related to Dispersion</option>
+            <option id="B">Option B related to Dispersion</option>
+            <option id="C">Option C related to Dispersion</option>
+            <option id="D">Option D related to Dispersion</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Dispersion, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Dispersion given standard conditions.</text>
+            <option id="A">Option A related to Dispersion</option>
+            <option id="B">Option B related to Dispersion</option>
+            <option id="C">Option C related to Dispersion</option>
+            <option id="D">Option D related to Dispersion</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Dispersion, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Telescope given standard conditions.</text>
+            <option id="A">Option A related to Telescope</option>
+            <option id="B">Option B related to Telescope</option>
+            <option id="C">Option C related to Telescope</option>
+            <option id="D">Option D related to Telescope</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Telescope, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Microscope given standard conditions.</text>
+            <option id="A">Option A related to Microscope</option>
+            <option id="B">Option B related to Microscope</option>
+            <option id="C">Option C related to Microscope</option>
+            <option id="D">Option D related to Microscope</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Microscope, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Refraction given standard conditions.</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Refraction, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Scattering given standard conditions.</text>
+            <option id="A">Option A related to Scattering</option>
+            <option id="B">Option B related to Scattering</option>
+            <option id="C">Option C related to Scattering</option>
+            <option id="D">Option D related to Scattering</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Scattering, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Telescope given standard conditions.</text>
+            <option id="A">Option A related to Telescope</option>
+            <option id="B">Option B related to Telescope</option>
+            <option id="C">Option C related to Telescope</option>
+            <option id="D">Option D related to Telescope</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Telescope, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Lens Maker's Formula given standard conditions.</text>
+            <option id="A">Option A related to Lens Maker's Formula</option>
+            <option id="B">Option B related to Lens Maker's Formula</option>
+            <option id="C">Option C related to Lens Maker's Formula</option>
+            <option id="D">Option D related to Lens Maker's Formula</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Lens Maker's Formula, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Lens Maker's Formula given standard conditions.</text>
+            <option id="A">Option A related to Lens Maker's Formula</option>
+            <option id="B">Option B related to Lens Maker's Formula</option>
+            <option id="C">Option C related to Lens Maker's Formula</option>
+            <option id="D">Option D related to Lens Maker's Formula</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Lens Maker's Formula, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Prism given standard conditions.</text>
+            <option id="A">Option A related to Prism</option>
+            <option id="B">Option B related to Prism</option>
+            <option id="C">Option C related to Prism</option>
+            <option id="D">Option D related to Prism</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Prism, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Refraction given standard conditions.</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Refraction, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Scattering given standard conditions.</text>
+            <option id="A">Option A related to Scattering</option>
+            <option id="B">Option B related to Scattering</option>
+            <option id="C">Option C related to Scattering</option>
+            <option id="D">Option D related to Scattering</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Scattering, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Refraction given standard conditions.</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Refraction, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Lens Maker's Formula given standard conditions.</text>
+            <option id="A">Option A related to Lens Maker's Formula</option>
+            <option id="B">Option B related to Lens Maker's Formula</option>
+            <option id="C">Option C related to Lens Maker's Formula</option>
+            <option id="D">Option D related to Lens Maker's Formula</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Lens Maker's Formula, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Refraction given standard conditions.</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Refraction, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Refraction given standard conditions.</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Refraction, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Total Internal Reflection given standard conditions.</text>
+            <option id="A">Option A related to Total Internal Reflection</option>
+            <option id="B">Option B related to Total Internal Reflection</option>
+            <option id="C">Option C related to Total Internal Reflection</option>
+            <option id="D">Option D related to Total Internal Reflection</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Total Internal Reflection, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Scattering given standard conditions.</text>
+            <option id="A">Option A related to Scattering</option>
+            <option id="B">Option B related to Scattering</option>
+            <option id="C">Option C related to Scattering</option>
+            <option id="D">Option D related to Scattering</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Scattering, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Dispersion given standard conditions.</text>
+            <option id="A">Option A related to Dispersion</option>
+            <option id="B">Option B related to Dispersion</option>
+            <option id="C">Option C related to Dispersion</option>
+            <option id="D">Option D related to Dispersion</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Dispersion, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Prism given standard conditions.</text>
+            <option id="A">Option A related to Prism</option>
+            <option id="B">Option B related to Prism</option>
+            <option id="C">Option C related to Prism</option>
+            <option id="D">Option D related to Prism</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Prism, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Dispersion given standard conditions.</text>
+            <option id="A">Option A related to Dispersion</option>
+            <option id="B">Option B related to Dispersion</option>
+            <option id="C">Option C related to Dispersion</option>
+            <option id="D">Option D related to Dispersion</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Dispersion, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Microscope given standard conditions.</text>
+            <option id="A">Option A related to Microscope</option>
+            <option id="B">Option B related to Microscope</option>
+            <option id="C">Option C related to Microscope</option>
+            <option id="D">Option D related to Microscope</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Microscope, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Microscope given standard conditions.</text>
+            <option id="A">Option A related to Microscope</option>
+            <option id="B">Option B related to Microscope</option>
+            <option id="C">Option C related to Microscope</option>
+            <option id="D">Option D related to Microscope</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Microscope, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Total Internal Reflection given standard conditions.</text>
+            <option id="A">Option A related to Total Internal Reflection</option>
+            <option id="B">Option B related to Total Internal Reflection</option>
+            <option id="C">Option C related to Total Internal Reflection</option>
+            <option id="D">Option D related to Total Internal Reflection</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Total Internal Reflection, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Scattering given standard conditions.</text>
+            <option id="A">Option A related to Scattering</option>
+            <option id="B">Option B related to Scattering</option>
+            <option id="C">Option C related to Scattering</option>
+            <option id="D">Option D related to Scattering</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Scattering, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Eye Defects given standard conditions.</text>
+            <option id="A">Option A related to Eye Defects</option>
+            <option id="B">Option B related to Eye Defects</option>
+            <option id="C">Option C related to Eye Defects</option>
+            <option id="D">Option D related to Eye Defects</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Eye Defects, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Refraction given standard conditions.</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Refraction, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Reflection given standard conditions.</text>
+            <option id="A">Option A related to Reflection</option>
+            <option id="B">Option B related to Reflection</option>
+            <option id="C">Option C related to Reflection</option>
+            <option id="D">Option D related to Reflection</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Reflection, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Reflection given standard conditions.</text>
+            <option id="A">Option A related to Reflection</option>
+            <option id="B">Option B related to Reflection</option>
+            <option id="C">Option C related to Reflection</option>
+            <option id="D">Option D related to Reflection</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Reflection, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Lens Maker's Formula given standard conditions.</text>
+            <option id="A">Option A related to Lens Maker's Formula</option>
+            <option id="B">Option B related to Lens Maker's Formula</option>
+            <option id="C">Option C related to Lens Maker's Formula</option>
+            <option id="D">Option D related to Lens Maker's Formula</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Lens Maker's Formula, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Scattering given standard conditions.</text>
+            <option id="A">Option A related to Scattering</option>
+            <option id="B">Option B related to Scattering</option>
+            <option id="C">Option C related to Scattering</option>
+            <option id="D">Option D related to Scattering</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Scattering, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Lens Maker's Formula given standard conditions.</text>
+            <option id="A">Option A related to Lens Maker's Formula</option>
+            <option id="B">Option B related to Lens Maker's Formula</option>
+            <option id="C">Option C related to Lens Maker's Formula</option>
+            <option id="D">Option D related to Lens Maker's Formula</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Lens Maker's Formula, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Telescope given standard conditions.</text>
+            <option id="A">Option A related to Telescope</option>
+            <option id="B">Option B related to Telescope</option>
+            <option id="C">Option C related to Telescope</option>
+            <option id="D">Option D related to Telescope</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Telescope, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Lens Maker's Formula given standard conditions.</text>
+            <option id="A">Option A related to Lens Maker's Formula</option>
+            <option id="B">Option B related to Lens Maker's Formula</option>
+            <option id="C">Option C related to Lens Maker's Formula</option>
+            <option id="D">Option D related to Lens Maker's Formula</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Lens Maker's Formula, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Dispersion given standard conditions.</text>
+            <option id="A">Option A related to Dispersion</option>
+            <option id="B">Option B related to Dispersion</option>
+            <option id="C">Option C related to Dispersion</option>
+            <option id="D">Option D related to Dispersion</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Dispersion, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Reflection given standard conditions.</text>
+            <option id="A">Option A related to Reflection</option>
+            <option id="B">Option B related to Reflection</option>
+            <option id="C">Option C related to Reflection</option>
+            <option id="D">Option D related to Reflection</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Reflection, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Eye Defects given standard conditions.</text>
+            <option id="A">Option A related to Eye Defects</option>
+            <option id="B">Option B related to Eye Defects</option>
+            <option id="C">Option C related to Eye Defects</option>
+            <option id="D">Option D related to Eye Defects</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Eye Defects, we can derive the result.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Analyze the complex interaction involving Refraction in a non-uniform field.</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Refraction principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Refraction in a non-uniform field.</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Refraction principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Telescope in a non-uniform field.</text>
+            <option id="A">Option A related to Telescope</option>
+            <option id="B">Option B related to Telescope</option>
+            <option id="C">Option C related to Telescope</option>
+            <option id="D">Option D related to Telescope</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Telescope principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Refraction in a non-uniform field.</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Refraction principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Reflection in a non-uniform field.</text>
+            <option id="A">Option A related to Reflection</option>
+            <option id="B">Option B related to Reflection</option>
+            <option id="C">Option C related to Reflection</option>
+            <option id="D">Option D related to Reflection</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Reflection principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Lens Maker's Formula in a non-uniform field.</text>
+            <option id="A">Option A related to Lens Maker's Formula</option>
+            <option id="B">Option B related to Lens Maker's Formula</option>
+            <option id="C">Option C related to Lens Maker's Formula</option>
+            <option id="D">Option D related to Lens Maker's Formula</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Lens Maker's Formula principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Reflection in a non-uniform field.</text>
+            <option id="A">Option A related to Reflection</option>
+            <option id="B">Option B related to Reflection</option>
+            <option id="C">Option C related to Reflection</option>
+            <option id="D">Option D related to Reflection</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Reflection principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Microscope in a non-uniform field.</text>
+            <option id="A">Option A related to Microscope</option>
+            <option id="B">Option B related to Microscope</option>
+            <option id="C">Option C related to Microscope</option>
+            <option id="D">Option D related to Microscope</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Microscope principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Telescope in a non-uniform field.</text>
+            <option id="A">Option A related to Telescope</option>
+            <option id="B">Option B related to Telescope</option>
+            <option id="C">Option C related to Telescope</option>
+            <option id="D">Option D related to Telescope</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Telescope principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Prism in a non-uniform field.</text>
+            <option id="A">Option A related to Prism</option>
+            <option id="B">Option B related to Prism</option>
+            <option id="C">Option C related to Prism</option>
+            <option id="D">Option D related to Prism</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Prism principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Dispersion in a non-uniform field.</text>
+            <option id="A">Option A related to Dispersion</option>
+            <option id="B">Option B related to Dispersion</option>
+            <option id="C">Option C related to Dispersion</option>
+            <option id="D">Option D related to Dispersion</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Dispersion principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Lens Maker's Formula in a non-uniform field.</text>
+            <option id="A">Option A related to Lens Maker's Formula</option>
+            <option id="B">Option B related to Lens Maker's Formula</option>
+            <option id="C">Option C related to Lens Maker's Formula</option>
+            <option id="D">Option D related to Lens Maker's Formula</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Lens Maker's Formula principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Refraction in a non-uniform field.</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Refraction principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Telescope in a non-uniform field.</text>
+            <option id="A">Option A related to Telescope</option>
+            <option id="B">Option B related to Telescope</option>
+            <option id="C">Option C related to Telescope</option>
+            <option id="D">Option D related to Telescope</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Telescope principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Refraction in a non-uniform field.</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Refraction principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Reflection in a non-uniform field.</text>
+            <option id="A">Option A related to Reflection</option>
+            <option id="B">Option B related to Reflection</option>
+            <option id="C">Option C related to Reflection</option>
+            <option id="D">Option D related to Reflection</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Reflection principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Scattering in a non-uniform field.</text>
+            <option id="A">Option A related to Scattering</option>
+            <option id="B">Option B related to Scattering</option>
+            <option id="C">Option C related to Scattering</option>
+            <option id="D">Option D related to Scattering</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Scattering principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Refraction in a non-uniform field.</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Refraction principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Dispersion in a non-uniform field.</text>
+            <option id="A">Option A related to Dispersion</option>
+            <option id="B">Option B related to Dispersion</option>
+            <option id="C">Option C related to Dispersion</option>
+            <option id="D">Option D related to Dispersion</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Dispersion principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Prism in a non-uniform field.</text>
+            <option id="A">Option A related to Prism</option>
+            <option id="B">Option B related to Prism</option>
+            <option id="C">Option C related to Prism</option>
+            <option id="D">Option D related to Prism</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Prism principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Prism in a non-uniform field.</text>
+            <option id="A">Option A related to Prism</option>
+            <option id="B">Option B related to Prism</option>
+            <option id="C">Option C related to Prism</option>
+            <option id="D">Option D related to Prism</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Prism principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Total Internal Reflection in a non-uniform field.</text>
+            <option id="A">Option A related to Total Internal Reflection</option>
+            <option id="B">Option B related to Total Internal Reflection</option>
+            <option id="C">Option C related to Total Internal Reflection</option>
+            <option id="D">Option D related to Total Internal Reflection</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Total Internal Reflection principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Microscope in a non-uniform field.</text>
+            <option id="A">Option A related to Microscope</option>
+            <option id="B">Option B related to Microscope</option>
+            <option id="C">Option C related to Microscope</option>
+            <option id="D">Option D related to Microscope</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Microscope principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Telescope in a non-uniform field.</text>
+            <option id="A">Option A related to Telescope</option>
+            <option id="B">Option B related to Telescope</option>
+            <option id="C">Option C related to Telescope</option>
+            <option id="D">Option D related to Telescope</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Telescope principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Refraction in a non-uniform field.</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Refraction principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Total Internal Reflection in a non-uniform field.</text>
+            <option id="A">Option A related to Total Internal Reflection</option>
+            <option id="B">Option B related to Total Internal Reflection</option>
+            <option id="C">Option C related to Total Internal Reflection</option>
+            <option id="D">Option D related to Total Internal Reflection</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Total Internal Reflection principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Total Internal Reflection in a non-uniform field.</text>
+            <option id="A">Option A related to Total Internal Reflection</option>
+            <option id="B">Option B related to Total Internal Reflection</option>
+            <option id="C">Option C related to Total Internal Reflection</option>
+            <option id="D">Option D related to Total Internal Reflection</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Total Internal Reflection principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Refraction in a non-uniform field.</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Refraction principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Refraction in a non-uniform field.</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Refraction principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Scattering in a non-uniform field.</text>
+            <option id="A">Option A related to Scattering</option>
+            <option id="B">Option B related to Scattering</option>
+            <option id="C">Option C related to Scattering</option>
+            <option id="D">Option D related to Scattering</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Scattering principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Refraction in a non-uniform field.</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Refraction principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Telescope in a non-uniform field.</text>
+            <option id="A">Option A related to Telescope</option>
+            <option id="B">Option B related to Telescope</option>
+            <option id="C">Option C related to Telescope</option>
+            <option id="D">Option D related to Telescope</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Telescope principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Microscope in a non-uniform field.</text>
+            <option id="A">Option A related to Microscope</option>
+            <option id="B">Option B related to Microscope</option>
+            <option id="C">Option C related to Microscope</option>
+            <option id="D">Option D related to Microscope</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Microscope principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Eye Defects in a non-uniform field.</text>
+            <option id="A">Option A related to Eye Defects</option>
+            <option id="B">Option B related to Eye Defects</option>
+            <option id="C">Option C related to Eye Defects</option>
+            <option id="D">Option D related to Eye Defects</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Eye Defects principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Prism in a non-uniform field.</text>
+            <option id="A">Option A related to Prism</option>
+            <option id="B">Option B related to Prism</option>
+            <option id="C">Option C related to Prism</option>
+            <option id="D">Option D related to Prism</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Prism principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Refraction in a non-uniform field.</text>
+            <option id="A">Option A related to Refraction</option>
+            <option id="B">Option B related to Refraction</option>
+            <option id="C">Option C related to Refraction</option>
+            <option id="D">Option D related to Refraction</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Refraction principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Scattering in a non-uniform field.</text>
+            <option id="A">Option A related to Scattering</option>
+            <option id="B">Option B related to Scattering</option>
+            <option id="C">Option C related to Scattering</option>
+            <option id="D">Option D related to Scattering</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Scattering principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Reflection in a non-uniform field.</text>
+            <option id="A">Option A related to Reflection</option>
+            <option id="B">Option B related to Reflection</option>
+            <option id="C">Option C related to Reflection</option>
+            <option id="D">Option D related to Reflection</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Reflection principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Prism in a non-uniform field.</text>
+            <option id="A">Option A related to Prism</option>
+            <option id="B">Option B related to Prism</option>
+            <option id="C">Option C related to Prism</option>
+            <option id="D">Option D related to Prism</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Prism principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Telescope in a non-uniform field.</text>
+            <option id="A">Option A related to Telescope</option>
+            <option id="B">Option B related to Telescope</option>
+            <option id="C">Option C related to Telescope</option>
+            <option id="D">Option D related to Telescope</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Telescope principles are required.</explanation>
+        </question>
+    </hard>
+</chapter>

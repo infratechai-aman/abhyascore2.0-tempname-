@@ -49,18 +49,25 @@ export const calculateResults = (questions, userAnswers) => {
     let incorrect = 0;
     let unattempted = 0;
 
+    let currentStreak = 0;
+    let maxStreak = 0;
+
     questions.forEach(q => {
         const userAns = userAnswers[q.id];
-
         const correctAnswerVal = q.correctAnswer || q.answer; // Handle both properties
+
         if (!userAns) {
             unattempted++;
+            currentStreak = 0; // Reset streak
         } else if (userAns === correctAnswerVal) {
             score += 4;
             correct++;
+            currentStreak++;
+            if (currentStreak > maxStreak) maxStreak = currentStreak;
         } else {
             score -= 1;
             incorrect++;
+            currentStreak = 0; // Reset streak
         }
     });
 
@@ -79,7 +86,8 @@ export const calculateResults = (questions, userAnswers) => {
         totalQuestions: questions.length,
         maxScore: questions.length * 4,
         percentage,
-        stars
+        stars,
+        maxStreak
     };
 };
 

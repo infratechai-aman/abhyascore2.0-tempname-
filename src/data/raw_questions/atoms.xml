@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Physics" id="25" name="Atoms">
+    <easy>
+        <question>
+            <text>What is the fundamental concept behind Rutherford Model?</text>
+            <option id="A">Option A related to Rutherford Model</option>
+            <option id="B">Option B related to Rutherford Model</option>
+            <option id="C">Option C related to Rutherford Model</option>
+            <option id="D">Option D related to Rutherford Model</option>
+            <answer>A</answer>
+            <explanation>Rutherford Model is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Rydberg Constant?</text>
+            <option id="A">Option A related to Rydberg Constant</option>
+            <option id="B">Option B related to Rydberg Constant</option>
+            <option id="C">Option C related to Rydberg Constant</option>
+            <option id="D">Option D related to Rydberg Constant</option>
+            <answer>A</answer>
+            <explanation>Rydberg Constant is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Energy Levels?</text>
+            <option id="A">Option A related to Energy Levels</option>
+            <option id="B">Option B related to Energy Levels</option>
+            <option id="C">Option C related to Energy Levels</option>
+            <option id="D">Option D related to Energy Levels</option>
+            <answer>A</answer>
+            <explanation>Energy Levels is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Bohr Model?</text>
+            <option id="A">Option A related to Bohr Model</option>
+            <option id="B">Option B related to Bohr Model</option>
+            <option id="C">Option C related to Bohr Model</option>
+            <option id="D">Option D related to Bohr Model</option>
+            <answer>A</answer>
+            <explanation>Bohr Model is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind De Broglie Hypothesis?</text>
+            <option id="A">Option A related to De Broglie Hypothesis</option>
+            <option id="B">Option B related to De Broglie Hypothesis</option>
+            <option id="C">Option C related to De Broglie Hypothesis</option>
+            <option id="D">Option D related to De Broglie Hypothesis</option>
+            <answer>A</answer>
+            <explanation>De Broglie Hypothesis is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Quantization?</text>
+            <option id="A">Option A related to Quantization</option>
+            <option id="B">Option B related to Quantization</option>
+            <option id="C">Option C related to Quantization</option>
+            <option id="D">Option D related to Quantization</option>
+            <answer>A</answer>
+            <explanation>Quantization is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Rydberg Constant?</text>
+            <option id="A">Option A related to Rydberg Constant</option>
+            <option id="B">Option B related to Rydberg Constant</option>
+            <option id="C">Option C related to Rydberg Constant</option>
+            <option id="D">Option D related to Rydberg Constant</option>
+            <answer>A</answer>
+            <explanation>Rydberg Constant is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Energy Levels?</text>
+            <option id="A">Option A related to Energy Levels</option>
+            <option id="B">Option B related to Energy Levels</option>
+            <option id="C">Option C related to Energy Levels</option>
+            <option id="D">Option D related to Energy Levels</option>
+            <answer>A</answer>
+            <explanation>Energy Levels is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Rutherford Model?</text>
+            <option id="A">Option A related to Rutherford Model</option>
+            <option id="B">Option B related to Rutherford Model</option>
+            <option id="C">Option C related to Rutherford Model</option>
+            <option id="D">Option D related to Rutherford Model</option>
+            <answer>A</answer>
+            <explanation>Rutherford Model is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Rydberg Constant?</text>
+            <option id="A">Option A related to Rydberg Constant</option>
+            <option id="B">Option B related to Rydberg Constant</option>
+            <option id="C">Option C related to Rydberg Constant</option>
+            <option id="D">Option D related to Rydberg Constant</option>
+            <answer>A</answer>
+            <explanation>Rydberg Constant is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Rydberg Constant?</text>
+            <option id="A">Option A related to Rydberg Constant</option>
+            <option id="B">Option B related to Rydberg Constant</option>
+            <option id="C">Option C related to Rydberg Constant</option>
+            <option id="D">Option D related to Rydberg Constant</option>
+            <answer>A</answer>
+            <explanation>Rydberg Constant is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind De Broglie Hypothesis?</text>
+            <option id="A">Option A related to De Broglie Hypothesis</option>
+            <option id="B">Option B related to De Broglie Hypothesis</option>
+            <option id="C">Option C related to De Broglie Hypothesis</option>
+            <option id="D">Option D related to De Broglie Hypothesis</option>
+            <answer>A</answer>
+            <explanation>De Broglie Hypothesis is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Quantization?</text>
+            <option id="A">Option A related to Quantization</option>
+            <option id="B">Option B related to Quantization</option>
+            <option id="C">Option C related to Quantization</option>
+            <option id="D">Option D related to Quantization</option>
+            <answer>A</answer>
+            <explanation>Quantization is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Line Spectra?</text>
+            <option id="A">Option A related to Line Spectra</option>
+            <option id="B">Option B related to Line Spectra</option>
+            <option id="C">Option C related to Line Spectra</option>
+            <option id="D">Option D related to Line Spectra</option>
+            <answer>A</answer>
+            <explanation>Line Spectra is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Alpha Scattering?</text>
+            <option id="A">Option A related to Alpha Scattering</option>
+            <option id="B">Option B related to Alpha Scattering</option>
+            <option id="C">Option C related to Alpha Scattering</option>
+            <option id="D">Option D related to Alpha Scattering</option>
+            <answer>A</answer>
+            <explanation>Alpha Scattering is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Energy Levels?</text>
+            <option id="A">Option A related to Energy Levels</option>
+            <option id="B">Option B related to Energy Levels</option>
+            <option id="C">Option C related to Energy Levels</option>
+            <option id="D">Option D related to Energy Levels</option>
+            <answer>A</answer>
+            <explanation>Energy Levels is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Alpha Scattering?</text>
+            <option id="A">Option A related to Alpha Scattering</option>
+            <option id="B">Option B related to Alpha Scattering</option>
+            <option id="C">Option C related to Alpha Scattering</option>
+            <option id="D">Option D related to Alpha Scattering</option>
+            <answer>A</answer>
+            <explanation>Alpha Scattering is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind De Broglie Hypothesis?</text>
+            <option id="A">Option A related to De Broglie Hypothesis</option>
+            <option id="B">Option B related to De Broglie Hypothesis</option>
+            <option id="C">Option C related to De Broglie Hypothesis</option>
+            <option id="D">Option D related to De Broglie Hypothesis</option>
+            <answer>A</answer>
+            <explanation>De Broglie Hypothesis is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Rydberg Constant?</text>
+            <option id="A">Option A related to Rydberg Constant</option>
+            <option id="B">Option B related to Rydberg Constant</option>
+            <option id="C">Option C related to Rydberg Constant</option>
+            <option id="D">Option D related to Rydberg Constant</option>
+            <answer>A</answer>
+            <explanation>Rydberg Constant is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Ionization Energy?</text>
+            <option id="A">Option A related to Ionization Energy</option>
+            <option id="B">Option B related to Ionization Energy</option>
+            <option id="C">Option C related to Ionization Energy</option>
+            <option id="D">Option D related to Ionization Energy</option>
+            <answer>A</answer>
+            <explanation>Ionization Energy is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Rutherford Model?</text>
+            <option id="A">Option A related to Rutherford Model</option>
+            <option id="B">Option B related to Rutherford Model</option>
+            <option id="C">Option C related to Rutherford Model</option>
+            <option id="D">Option D related to Rutherford Model</option>
+            <answer>A</answer>
+            <explanation>Rutherford Model is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Alpha Scattering?</text>
+            <option id="A">Option A related to Alpha Scattering</option>
+            <option id="B">Option B related to Alpha Scattering</option>
+            <option id="C">Option C related to Alpha Scattering</option>
+            <option id="D">Option D related to Alpha Scattering</option>
+            <answer>A</answer>
+            <explanation>Alpha Scattering is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Energy Levels?</text>
+            <option id="A">Option A related to Energy Levels</option>
+            <option id="B">Option B related to Energy Levels</option>
+            <option id="C">Option C related to Energy Levels</option>
+            <option id="D">Option D related to Energy Levels</option>
+            <answer>A</answer>
+            <explanation>Energy Levels is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Alpha Scattering?</text>
+            <option id="A">Option A related to Alpha Scattering</option>
+            <option id="B">Option B related to Alpha Scattering</option>
+            <option id="C">Option C related to Alpha Scattering</option>
+            <option id="D">Option D related to Alpha Scattering</option>
+            <answer>A</answer>
+            <explanation>Alpha Scattering is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Energy Levels?</text>
+            <option id="A">Option A related to Energy Levels</option>
+            <option id="B">Option B related to Energy Levels</option>
+            <option id="C">Option C related to Energy Levels</option>
+            <option id="D">Option D related to Energy Levels</option>
+            <answer>A</answer>
+            <explanation>Energy Levels is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Bohr Model?</text>
+            <option id="A">Option A related to Bohr Model</option>
+            <option id="B">Option B related to Bohr Model</option>
+            <option id="C">Option C related to Bohr Model</option>
+            <option id="D">Option D related to Bohr Model</option>
+            <answer>A</answer>
+            <explanation>Bohr Model is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Quantization?</text>
+            <option id="A">Option A related to Quantization</option>
+            <option id="B">Option B related to Quantization</option>
+            <option id="C">Option C related to Quantization</option>
+            <option id="D">Option D related to Quantization</option>
+            <answer>A</answer>
+            <explanation>Quantization is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Rydberg Constant?</text>
+            <option id="A">Option A related to Rydberg Constant</option>
+            <option id="B">Option B related to Rydberg Constant</option>
+            <option id="C">Option C related to Rydberg Constant</option>
+            <option id="D">Option D related to Rydberg Constant</option>
+            <answer>A</answer>
+            <explanation>Rydberg Constant is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Rydberg Constant?</text>
+            <option id="A">Option A related to Rydberg Constant</option>
+            <option id="B">Option B related to Rydberg Constant</option>
+            <option id="C">Option C related to Rydberg Constant</option>
+            <option id="D">Option D related to Rydberg Constant</option>
+            <answer>A</answer>
+            <explanation>Rydberg Constant is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Alpha Scattering?</text>
+            <option id="A">Option A related to Alpha Scattering</option>
+            <option id="B">Option B related to Alpha Scattering</option>
+            <option id="C">Option C related to Alpha Scattering</option>
+            <option id="D">Option D related to Alpha Scattering</option>
+            <answer>A</answer>
+            <explanation>Alpha Scattering is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Alpha Scattering?</text>
+            <option id="A">Option A related to Alpha Scattering</option>
+            <option id="B">Option B related to Alpha Scattering</option>
+            <option id="C">Option C related to Alpha Scattering</option>
+            <option id="D">Option D related to Alpha Scattering</option>
+            <answer>A</answer>
+            <explanation>Alpha Scattering is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Line Spectra?</text>
+            <option id="A">Option A related to Line Spectra</option>
+            <option id="B">Option B related to Line Spectra</option>
+            <option id="C">Option C related to Line Spectra</option>
+            <option id="D">Option D related to Line Spectra</option>
+            <answer>A</answer>
+            <explanation>Line Spectra is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Rydberg Constant?</text>
+            <option id="A">Option A related to Rydberg Constant</option>
+            <option id="B">Option B related to Rydberg Constant</option>
+            <option id="C">Option C related to Rydberg Constant</option>
+            <option id="D">Option D related to Rydberg Constant</option>
+            <answer>A</answer>
+            <explanation>Rydberg Constant is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Energy Levels?</text>
+            <option id="A">Option A related to Energy Levels</option>
+            <option id="B">Option B related to Energy Levels</option>
+            <option id="C">Option C related to Energy Levels</option>
+            <option id="D">Option D related to Energy Levels</option>
+            <answer>A</answer>
+            <explanation>Energy Levels is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Energy Levels?</text>
+            <option id="A">Option A related to Energy Levels</option>
+            <option id="B">Option B related to Energy Levels</option>
+            <option id="C">Option C related to Energy Levels</option>
+            <option id="D">Option D related to Energy Levels</option>
+            <answer>A</answer>
+            <explanation>Energy Levels is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Energy Levels?</text>
+            <option id="A">Option A related to Energy Levels</option>
+            <option id="B">Option B related to Energy Levels</option>
+            <option id="C">Option C related to Energy Levels</option>
+            <option id="D">Option D related to Energy Levels</option>
+            <answer>A</answer>
+            <explanation>Energy Levels is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Quantization?</text>
+            <option id="A">Option A related to Quantization</option>
+            <option id="B">Option B related to Quantization</option>
+            <option id="C">Option C related to Quantization</option>
+            <option id="D">Option D related to Quantization</option>
+            <answer>A</answer>
+            <explanation>Quantization is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Rutherford Model?</text>
+            <option id="A">Option A related to Rutherford Model</option>
+            <option id="B">Option B related to Rutherford Model</option>
+            <option id="C">Option C related to Rutherford Model</option>
+            <option id="D">Option D related to Rutherford Model</option>
+            <answer>A</answer>
+            <explanation>Rutherford Model is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind De Broglie Hypothesis?</text>
+            <option id="A">Option A related to De Broglie Hypothesis</option>
+            <option id="B">Option B related to De Broglie Hypothesis</option>
+            <option id="C">Option C related to De Broglie Hypothesis</option>
+            <option id="D">Option D related to De Broglie Hypothesis</option>
+            <answer>A</answer>
+            <explanation>De Broglie Hypothesis is a key concept defined by specific physical properties.</explanation>
+        </question>
+        <question>
+            <text>What is the fundamental concept behind Alpha Scattering?</text>
+            <option id="A">Option A related to Alpha Scattering</option>
+            <option id="B">Option B related to Alpha Scattering</option>
+            <option id="C">Option C related to Alpha Scattering</option>
+            <option id="D">Option D related to Alpha Scattering</option>
+            <answer>A</answer>
+            <explanation>Alpha Scattering is a key concept defined by specific physical properties.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Calculate the value associated with Hydrogen Spectrum given standard conditions.</text>
+            <option id="A">Option A related to Hydrogen Spectrum</option>
+            <option id="B">Option B related to Hydrogen Spectrum</option>
+            <option id="C">Option C related to Hydrogen Spectrum</option>
+            <option id="D">Option D related to Hydrogen Spectrum</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Hydrogen Spectrum, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Bohr Model given standard conditions.</text>
+            <option id="A">Option A related to Bohr Model</option>
+            <option id="B">Option B related to Bohr Model</option>
+            <option id="C">Option C related to Bohr Model</option>
+            <option id="D">Option D related to Bohr Model</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Bohr Model, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Rutherford Model given standard conditions.</text>
+            <option id="A">Option A related to Rutherford Model</option>
+            <option id="B">Option B related to Rutherford Model</option>
+            <option id="C">Option C related to Rutherford Model</option>
+            <option id="D">Option D related to Rutherford Model</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Rutherford Model, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Bohr Model given standard conditions.</text>
+            <option id="A">Option A related to Bohr Model</option>
+            <option id="B">Option B related to Bohr Model</option>
+            <option id="C">Option C related to Bohr Model</option>
+            <option id="D">Option D related to Bohr Model</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Bohr Model, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with De Broglie Hypothesis given standard conditions.</text>
+            <option id="A">Option A related to De Broglie Hypothesis</option>
+            <option id="B">Option B related to De Broglie Hypothesis</option>
+            <option id="C">Option C related to De Broglie Hypothesis</option>
+            <option id="D">Option D related to De Broglie Hypothesis</option>
+            <answer>B</answer>
+            <explanation>Using the formula for De Broglie Hypothesis, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Rutherford Model given standard conditions.</text>
+            <option id="A">Option A related to Rutherford Model</option>
+            <option id="B">Option B related to Rutherford Model</option>
+            <option id="C">Option C related to Rutherford Model</option>
+            <option id="D">Option D related to Rutherford Model</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Rutherford Model, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Alpha Scattering given standard conditions.</text>
+            <option id="A">Option A related to Alpha Scattering</option>
+            <option id="B">Option B related to Alpha Scattering</option>
+            <option id="C">Option C related to Alpha Scattering</option>
+            <option id="D">Option D related to Alpha Scattering</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Alpha Scattering, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Line Spectra given standard conditions.</text>
+            <option id="A">Option A related to Line Spectra</option>
+            <option id="B">Option B related to Line Spectra</option>
+            <option id="C">Option C related to Line Spectra</option>
+            <option id="D">Option D related to Line Spectra</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Line Spectra, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Energy Levels given standard conditions.</text>
+            <option id="A">Option A related to Energy Levels</option>
+            <option id="B">Option B related to Energy Levels</option>
+            <option id="C">Option C related to Energy Levels</option>
+            <option id="D">Option D related to Energy Levels</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Energy Levels, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Energy Levels given standard conditions.</text>
+            <option id="A">Option A related to Energy Levels</option>
+            <option id="B">Option B related to Energy Levels</option>
+            <option id="C">Option C related to Energy Levels</option>
+            <option id="D">Option D related to Energy Levels</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Energy Levels, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Alpha Scattering given standard conditions.</text>
+            <option id="A">Option A related to Alpha Scattering</option>
+            <option id="B">Option B related to Alpha Scattering</option>
+            <option id="C">Option C related to Alpha Scattering</option>
+            <option id="D">Option D related to Alpha Scattering</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Alpha Scattering, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Bohr Model given standard conditions.</text>
+            <option id="A">Option A related to Bohr Model</option>
+            <option id="B">Option B related to Bohr Model</option>
+            <option id="C">Option C related to Bohr Model</option>
+            <option id="D">Option D related to Bohr Model</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Bohr Model, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Quantization given standard conditions.</text>
+            <option id="A">Option A related to Quantization</option>
+            <option id="B">Option B related to Quantization</option>
+            <option id="C">Option C related to Quantization</option>
+            <option id="D">Option D related to Quantization</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Quantization, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Rutherford Model given standard conditions.</text>
+            <option id="A">Option A related to Rutherford Model</option>
+            <option id="B">Option B related to Rutherford Model</option>
+            <option id="C">Option C related to Rutherford Model</option>
+            <option id="D">Option D related to Rutherford Model</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Rutherford Model, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Rutherford Model given standard conditions.</text>
+            <option id="A">Option A related to Rutherford Model</option>
+            <option id="B">Option B related to Rutherford Model</option>
+            <option id="C">Option C related to Rutherford Model</option>
+            <option id="D">Option D related to Rutherford Model</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Rutherford Model, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Alpha Scattering given standard conditions.</text>
+            <option id="A">Option A related to Alpha Scattering</option>
+            <option id="B">Option B related to Alpha Scattering</option>
+            <option id="C">Option C related to Alpha Scattering</option>
+            <option id="D">Option D related to Alpha Scattering</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Alpha Scattering, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Energy Levels given standard conditions.</text>
+            <option id="A">Option A related to Energy Levels</option>
+            <option id="B">Option B related to Energy Levels</option>
+            <option id="C">Option C related to Energy Levels</option>
+            <option id="D">Option D related to Energy Levels</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Energy Levels, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with De Broglie Hypothesis given standard conditions.</text>
+            <option id="A">Option A related to De Broglie Hypothesis</option>
+            <option id="B">Option B related to De Broglie Hypothesis</option>
+            <option id="C">Option C related to De Broglie Hypothesis</option>
+            <option id="D">Option D related to De Broglie Hypothesis</option>
+            <answer>B</answer>
+            <explanation>Using the formula for De Broglie Hypothesis, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Ionization Energy given standard conditions.</text>
+            <option id="A">Option A related to Ionization Energy</option>
+            <option id="B">Option B related to Ionization Energy</option>
+            <option id="C">Option C related to Ionization Energy</option>
+            <option id="D">Option D related to Ionization Energy</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Ionization Energy, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Rydberg Constant given standard conditions.</text>
+            <option id="A">Option A related to Rydberg Constant</option>
+            <option id="B">Option B related to Rydberg Constant</option>
+            <option id="C">Option C related to Rydberg Constant</option>
+            <option id="D">Option D related to Rydberg Constant</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Rydberg Constant, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Rutherford Model given standard conditions.</text>
+            <option id="A">Option A related to Rutherford Model</option>
+            <option id="B">Option B related to Rutherford Model</option>
+            <option id="C">Option C related to Rutherford Model</option>
+            <option id="D">Option D related to Rutherford Model</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Rutherford Model, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Line Spectra given standard conditions.</text>
+            <option id="A">Option A related to Line Spectra</option>
+            <option id="B">Option B related to Line Spectra</option>
+            <option id="C">Option C related to Line Spectra</option>
+            <option id="D">Option D related to Line Spectra</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Line Spectra, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with De Broglie Hypothesis given standard conditions.</text>
+            <option id="A">Option A related to De Broglie Hypothesis</option>
+            <option id="B">Option B related to De Broglie Hypothesis</option>
+            <option id="C">Option C related to De Broglie Hypothesis</option>
+            <option id="D">Option D related to De Broglie Hypothesis</option>
+            <answer>B</answer>
+            <explanation>Using the formula for De Broglie Hypothesis, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Ionization Energy given standard conditions.</text>
+            <option id="A">Option A related to Ionization Energy</option>
+            <option id="B">Option B related to Ionization Energy</option>
+            <option id="C">Option C related to Ionization Energy</option>
+            <option id="D">Option D related to Ionization Energy</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Ionization Energy, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Bohr Model given standard conditions.</text>
+            <option id="A">Option A related to Bohr Model</option>
+            <option id="B">Option B related to Bohr Model</option>
+            <option id="C">Option C related to Bohr Model</option>
+            <option id="D">Option D related to Bohr Model</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Bohr Model, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Hydrogen Spectrum given standard conditions.</text>
+            <option id="A">Option A related to Hydrogen Spectrum</option>
+            <option id="B">Option B related to Hydrogen Spectrum</option>
+            <option id="C">Option C related to Hydrogen Spectrum</option>
+            <option id="D">Option D related to Hydrogen Spectrum</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Hydrogen Spectrum, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Line Spectra given standard conditions.</text>
+            <option id="A">Option A related to Line Spectra</option>
+            <option id="B">Option B related to Line Spectra</option>
+            <option id="C">Option C related to Line Spectra</option>
+            <option id="D">Option D related to Line Spectra</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Line Spectra, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Hydrogen Spectrum given standard conditions.</text>
+            <option id="A">Option A related to Hydrogen Spectrum</option>
+            <option id="B">Option B related to Hydrogen Spectrum</option>
+            <option id="C">Option C related to Hydrogen Spectrum</option>
+            <option id="D">Option D related to Hydrogen Spectrum</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Hydrogen Spectrum, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Rutherford Model given standard conditions.</text>
+            <option id="A">Option A related to Rutherford Model</option>
+            <option id="B">Option B related to Rutherford Model</option>
+            <option id="C">Option C related to Rutherford Model</option>
+            <option id="D">Option D related to Rutherford Model</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Rutherford Model, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Line Spectra given standard conditions.</text>
+            <option id="A">Option A related to Line Spectra</option>
+            <option id="B">Option B related to Line Spectra</option>
+            <option id="C">Option C related to Line Spectra</option>
+            <option id="D">Option D related to Line Spectra</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Line Spectra, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with De Broglie Hypothesis given standard conditions.</text>
+            <option id="A">Option A related to De Broglie Hypothesis</option>
+            <option id="B">Option B related to De Broglie Hypothesis</option>
+            <option id="C">Option C related to De Broglie Hypothesis</option>
+            <option id="D">Option D related to De Broglie Hypothesis</option>
+            <answer>B</answer>
+            <explanation>Using the formula for De Broglie Hypothesis, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Energy Levels given standard conditions.</text>
+            <option id="A">Option A related to Energy Levels</option>
+            <option id="B">Option B related to Energy Levels</option>
+            <option id="C">Option C related to Energy Levels</option>
+            <option id="D">Option D related to Energy Levels</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Energy Levels, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Alpha Scattering given standard conditions.</text>
+            <option id="A">Option A related to Alpha Scattering</option>
+            <option id="B">Option B related to Alpha Scattering</option>
+            <option id="C">Option C related to Alpha Scattering</option>
+            <option id="D">Option D related to Alpha Scattering</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Alpha Scattering, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Quantization given standard conditions.</text>
+            <option id="A">Option A related to Quantization</option>
+            <option id="B">Option B related to Quantization</option>
+            <option id="C">Option C related to Quantization</option>
+            <option id="D">Option D related to Quantization</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Quantization, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Energy Levels given standard conditions.</text>
+            <option id="A">Option A related to Energy Levels</option>
+            <option id="B">Option B related to Energy Levels</option>
+            <option id="C">Option C related to Energy Levels</option>
+            <option id="D">Option D related to Energy Levels</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Energy Levels, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with De Broglie Hypothesis given standard conditions.</text>
+            <option id="A">Option A related to De Broglie Hypothesis</option>
+            <option id="B">Option B related to De Broglie Hypothesis</option>
+            <option id="C">Option C related to De Broglie Hypothesis</option>
+            <option id="D">Option D related to De Broglie Hypothesis</option>
+            <answer>B</answer>
+            <explanation>Using the formula for De Broglie Hypothesis, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Alpha Scattering given standard conditions.</text>
+            <option id="A">Option A related to Alpha Scattering</option>
+            <option id="B">Option B related to Alpha Scattering</option>
+            <option id="C">Option C related to Alpha Scattering</option>
+            <option id="D">Option D related to Alpha Scattering</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Alpha Scattering, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Rydberg Constant given standard conditions.</text>
+            <option id="A">Option A related to Rydberg Constant</option>
+            <option id="B">Option B related to Rydberg Constant</option>
+            <option id="C">Option C related to Rydberg Constant</option>
+            <option id="D">Option D related to Rydberg Constant</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Rydberg Constant, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Quantization given standard conditions.</text>
+            <option id="A">Option A related to Quantization</option>
+            <option id="B">Option B related to Quantization</option>
+            <option id="C">Option C related to Quantization</option>
+            <option id="D">Option D related to Quantization</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Quantization, we can derive the result.</explanation>
+        </question>
+        <question>
+            <text>Calculate the value associated with Rutherford Model given standard conditions.</text>
+            <option id="A">Option A related to Rutherford Model</option>
+            <option id="B">Option B related to Rutherford Model</option>
+            <option id="C">Option C related to Rutherford Model</option>
+            <option id="D">Option D related to Rutherford Model</option>
+            <answer>B</answer>
+            <explanation>Using the formula for Rutherford Model, we can derive the result.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Analyze the complex interaction involving Energy Levels in a non-uniform field.</text>
+            <option id="A">Option A related to Energy Levels</option>
+            <option id="B">Option B related to Energy Levels</option>
+            <option id="C">Option C related to Energy Levels</option>
+            <option id="D">Option D related to Energy Levels</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Energy Levels principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Hydrogen Spectrum in a non-uniform field.</text>
+            <option id="A">Option A related to Hydrogen Spectrum</option>
+            <option id="B">Option B related to Hydrogen Spectrum</option>
+            <option id="C">Option C related to Hydrogen Spectrum</option>
+            <option id="D">Option D related to Hydrogen Spectrum</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Hydrogen Spectrum principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Rutherford Model in a non-uniform field.</text>
+            <option id="A">Option A related to Rutherford Model</option>
+            <option id="B">Option B related to Rutherford Model</option>
+            <option id="C">Option C related to Rutherford Model</option>
+            <option id="D">Option D related to Rutherford Model</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Rutherford Model principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Bohr Model in a non-uniform field.</text>
+            <option id="A">Option A related to Bohr Model</option>
+            <option id="B">Option B related to Bohr Model</option>
+            <option id="C">Option C related to Bohr Model</option>
+            <option id="D">Option D related to Bohr Model</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Bohr Model principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Rydberg Constant in a non-uniform field.</text>
+            <option id="A">Option A related to Rydberg Constant</option>
+            <option id="B">Option B related to Rydberg Constant</option>
+            <option id="C">Option C related to Rydberg Constant</option>
+            <option id="D">Option D related to Rydberg Constant</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Rydberg Constant principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Hydrogen Spectrum in a non-uniform field.</text>
+            <option id="A">Option A related to Hydrogen Spectrum</option>
+            <option id="B">Option B related to Hydrogen Spectrum</option>
+            <option id="C">Option C related to Hydrogen Spectrum</option>
+            <option id="D">Option D related to Hydrogen Spectrum</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Hydrogen Spectrum principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Bohr Model in a non-uniform field.</text>
+            <option id="A">Option A related to Bohr Model</option>
+            <option id="B">Option B related to Bohr Model</option>
+            <option id="C">Option C related to Bohr Model</option>
+            <option id="D">Option D related to Bohr Model</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Bohr Model principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Alpha Scattering in a non-uniform field.</text>
+            <option id="A">Option A related to Alpha Scattering</option>
+            <option id="B">Option B related to Alpha Scattering</option>
+            <option id="C">Option C related to Alpha Scattering</option>
+            <option id="D">Option D related to Alpha Scattering</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Alpha Scattering principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Rutherford Model in a non-uniform field.</text>
+            <option id="A">Option A related to Rutherford Model</option>
+            <option id="B">Option B related to Rutherford Model</option>
+            <option id="C">Option C related to Rutherford Model</option>
+            <option id="D">Option D related to Rutherford Model</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Rutherford Model principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Bohr Model in a non-uniform field.</text>
+            <option id="A">Option A related to Bohr Model</option>
+            <option id="B">Option B related to Bohr Model</option>
+            <option id="C">Option C related to Bohr Model</option>
+            <option id="D">Option D related to Bohr Model</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Bohr Model principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Rutherford Model in a non-uniform field.</text>
+            <option id="A">Option A related to Rutherford Model</option>
+            <option id="B">Option B related to Rutherford Model</option>
+            <option id="C">Option C related to Rutherford Model</option>
+            <option id="D">Option D related to Rutherford Model</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Rutherford Model principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Bohr Model in a non-uniform field.</text>
+            <option id="A">Option A related to Bohr Model</option>
+            <option id="B">Option B related to Bohr Model</option>
+            <option id="C">Option C related to Bohr Model</option>
+            <option id="D">Option D related to Bohr Model</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Bohr Model principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Hydrogen Spectrum in a non-uniform field.</text>
+            <option id="A">Option A related to Hydrogen Spectrum</option>
+            <option id="B">Option B related to Hydrogen Spectrum</option>
+            <option id="C">Option C related to Hydrogen Spectrum</option>
+            <option id="D">Option D related to Hydrogen Spectrum</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Hydrogen Spectrum principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Hydrogen Spectrum in a non-uniform field.</text>
+            <option id="A">Option A related to Hydrogen Spectrum</option>
+            <option id="B">Option B related to Hydrogen Spectrum</option>
+            <option id="C">Option C related to Hydrogen Spectrum</option>
+            <option id="D">Option D related to Hydrogen Spectrum</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Hydrogen Spectrum principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Rydberg Constant in a non-uniform field.</text>
+            <option id="A">Option A related to Rydberg Constant</option>
+            <option id="B">Option B related to Rydberg Constant</option>
+            <option id="C">Option C related to Rydberg Constant</option>
+            <option id="D">Option D related to Rydberg Constant</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Rydberg Constant principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Alpha Scattering in a non-uniform field.</text>
+            <option id="A">Option A related to Alpha Scattering</option>
+            <option id="B">Option B related to Alpha Scattering</option>
+            <option id="C">Option C related to Alpha Scattering</option>
+            <option id="D">Option D related to Alpha Scattering</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Alpha Scattering principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Ionization Energy in a non-uniform field.</text>
+            <option id="A">Option A related to Ionization Energy</option>
+            <option id="B">Option B related to Ionization Energy</option>
+            <option id="C">Option C related to Ionization Energy</option>
+            <option id="D">Option D related to Ionization Energy</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Ionization Energy principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Rutherford Model in a non-uniform field.</text>
+            <option id="A">Option A related to Rutherford Model</option>
+            <option id="B">Option B related to Rutherford Model</option>
+            <option id="C">Option C related to Rutherford Model</option>
+            <option id="D">Option D related to Rutherford Model</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Rutherford Model principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving De Broglie Hypothesis in a non-uniform field.</text>
+            <option id="A">Option A related to De Broglie Hypothesis</option>
+            <option id="B">Option B related to De Broglie Hypothesis</option>
+            <option id="C">Option C related to De Broglie Hypothesis</option>
+            <option id="D">Option D related to De Broglie Hypothesis</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of De Broglie Hypothesis principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Rydberg Constant in a non-uniform field.</text>
+            <option id="A">Option A related to Rydberg Constant</option>
+            <option id="B">Option B related to Rydberg Constant</option>
+            <option id="C">Option C related to Rydberg Constant</option>
+            <option id="D">Option D related to Rydberg Constant</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Rydberg Constant principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Hydrogen Spectrum in a non-uniform field.</text>
+            <option id="A">Option A related to Hydrogen Spectrum</option>
+            <option id="B">Option B related to Hydrogen Spectrum</option>
+            <option id="C">Option C related to Hydrogen Spectrum</option>
+            <option id="D">Option D related to Hydrogen Spectrum</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Hydrogen Spectrum principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Quantization in a non-uniform field.</text>
+            <option id="A">Option A related to Quantization</option>
+            <option id="B">Option B related to Quantization</option>
+            <option id="C">Option C related to Quantization</option>
+            <option id="D">Option D related to Quantization</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Quantization principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Line Spectra in a non-uniform field.</text>
+            <option id="A">Option A related to Line Spectra</option>
+            <option id="B">Option B related to Line Spectra</option>
+            <option id="C">Option C related to Line Spectra</option>
+            <option id="D">Option D related to Line Spectra</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Line Spectra principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Hydrogen Spectrum in a non-uniform field.</text>
+            <option id="A">Option A related to Hydrogen Spectrum</option>
+            <option id="B">Option B related to Hydrogen Spectrum</option>
+            <option id="C">Option C related to Hydrogen Spectrum</option>
+            <option id="D">Option D related to Hydrogen Spectrum</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Hydrogen Spectrum principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Rydberg Constant in a non-uniform field.</text>
+            <option id="A">Option A related to Rydberg Constant</option>
+            <option id="B">Option B related to Rydberg Constant</option>
+            <option id="C">Option C related to Rydberg Constant</option>
+            <option id="D">Option D related to Rydberg Constant</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Rydberg Constant principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving De Broglie Hypothesis in a non-uniform field.</text>
+            <option id="A">Option A related to De Broglie Hypothesis</option>
+            <option id="B">Option B related to De Broglie Hypothesis</option>
+            <option id="C">Option C related to De Broglie Hypothesis</option>
+            <option id="D">Option D related to De Broglie Hypothesis</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of De Broglie Hypothesis principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Rutherford Model in a non-uniform field.</text>
+            <option id="A">Option A related to Rutherford Model</option>
+            <option id="B">Option B related to Rutherford Model</option>
+            <option id="C">Option C related to Rutherford Model</option>
+            <option id="D">Option D related to Rutherford Model</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Rutherford Model principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Line Spectra in a non-uniform field.</text>
+            <option id="A">Option A related to Line Spectra</option>
+            <option id="B">Option B related to Line Spectra</option>
+            <option id="C">Option C related to Line Spectra</option>
+            <option id="D">Option D related to Line Spectra</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Line Spectra principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Hydrogen Spectrum in a non-uniform field.</text>
+            <option id="A">Option A related to Hydrogen Spectrum</option>
+            <option id="B">Option B related to Hydrogen Spectrum</option>
+            <option id="C">Option C related to Hydrogen Spectrum</option>
+            <option id="D">Option D related to Hydrogen Spectrum</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Hydrogen Spectrum principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving De Broglie Hypothesis in a non-uniform field.</text>
+            <option id="A">Option A related to De Broglie Hypothesis</option>
+            <option id="B">Option B related to De Broglie Hypothesis</option>
+            <option id="C">Option C related to De Broglie Hypothesis</option>
+            <option id="D">Option D related to De Broglie Hypothesis</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of De Broglie Hypothesis principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Energy Levels in a non-uniform field.</text>
+            <option id="A">Option A related to Energy Levels</option>
+            <option id="B">Option B related to Energy Levels</option>
+            <option id="C">Option C related to Energy Levels</option>
+            <option id="D">Option D related to Energy Levels</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Energy Levels principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Ionization Energy in a non-uniform field.</text>
+            <option id="A">Option A related to Ionization Energy</option>
+            <option id="B">Option B related to Ionization Energy</option>
+            <option id="C">Option C related to Ionization Energy</option>
+            <option id="D">Option D related to Ionization Energy</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Ionization Energy principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Alpha Scattering in a non-uniform field.</text>
+            <option id="A">Option A related to Alpha Scattering</option>
+            <option id="B">Option B related to Alpha Scattering</option>
+            <option id="C">Option C related to Alpha Scattering</option>
+            <option id="D">Option D related to Alpha Scattering</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Alpha Scattering principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Bohr Model in a non-uniform field.</text>
+            <option id="A">Option A related to Bohr Model</option>
+            <option id="B">Option B related to Bohr Model</option>
+            <option id="C">Option C related to Bohr Model</option>
+            <option id="D">Option D related to Bohr Model</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Bohr Model principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Ionization Energy in a non-uniform field.</text>
+            <option id="A">Option A related to Ionization Energy</option>
+            <option id="B">Option B related to Ionization Energy</option>
+            <option id="C">Option C related to Ionization Energy</option>
+            <option id="D">Option D related to Ionization Energy</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Ionization Energy principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Ionization Energy in a non-uniform field.</text>
+            <option id="A">Option A related to Ionization Energy</option>
+            <option id="B">Option B related to Ionization Energy</option>
+            <option id="C">Option C related to Ionization Energy</option>
+            <option id="D">Option D related to Ionization Energy</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Ionization Energy principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Bohr Model in a non-uniform field.</text>
+            <option id="A">Option A related to Bohr Model</option>
+            <option id="B">Option B related to Bohr Model</option>
+            <option id="C">Option C related to Bohr Model</option>
+            <option id="D">Option D related to Bohr Model</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Bohr Model principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Hydrogen Spectrum in a non-uniform field.</text>
+            <option id="A">Option A related to Hydrogen Spectrum</option>
+            <option id="B">Option B related to Hydrogen Spectrum</option>
+            <option id="C">Option C related to Hydrogen Spectrum</option>
+            <option id="D">Option D related to Hydrogen Spectrum</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Hydrogen Spectrum principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Alpha Scattering in a non-uniform field.</text>
+            <option id="A">Option A related to Alpha Scattering</option>
+            <option id="B">Option B related to Alpha Scattering</option>
+            <option id="C">Option C related to Alpha Scattering</option>
+            <option id="D">Option D related to Alpha Scattering</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Alpha Scattering principles are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze the complex interaction involving Ionization Energy in a non-uniform field.</text>
+            <option id="A">Option A related to Ionization Energy</option>
+            <option id="B">Option B related to Ionization Energy</option>
+            <option id="C">Option C related to Ionization Energy</option>
+            <option id="D">Option D related to Ionization Energy</option>
+            <answer>C</answer>
+            <explanation>Advanced integration and application of Ionization Energy principles are required.</explanation>
+        </question>
+    </hard>
+</chapter>

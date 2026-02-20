@@ -41,7 +41,8 @@ const QuizInterface = ({ questions, subject, onComplete, onExit, devMode }) => {
     };
 
     const handleSubmit = () => {
-        onComplete(answers);
+        const timeTaken = (25 * 60) - timeLeft;
+        onComplete(answers, timeTaken);
     };
 
     const formatTime = (seconds) => {

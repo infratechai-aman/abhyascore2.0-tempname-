@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="225" name="Three Dimensional Geometry">
+    <easy>
+        <question>
+            <text>Identify the basic property or definition related to Direction Cosines and Ratios.</text>
+            <option id="A">Option A related to Direction Cosines and Ratios</option>
+            <option id="B">Option B related to Direction Cosines and Ratios</option>
+            <option id="C">Option C related to Direction Cosines and Ratios</option>
+            <option id="D">Option D related to Direction Cosines and Ratios</option>
+            <answer>A</answer>
+            <explanation>Direction Cosines and Ratios is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Equation of a Plane.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>A</answer>
+            <explanation>Equation of a Plane is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Shortest Distance Between Skew Lines.</text>
+            <option id="A">Option A related to Shortest Distance Between Skew Lines</option>
+            <option id="B">Option B related to Shortest Distance Between Skew Lines</option>
+            <option id="C">Option C related to Shortest Distance Between Skew Lines</option>
+            <option id="D">Option D related to Shortest Distance Between Skew Lines</option>
+            <answer>A</answer>
+            <explanation>Shortest Distance Between Skew Lines is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Equation of a Plane.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>A</answer>
+            <explanation>Equation of a Plane is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Coplanarity of Lines.</text>
+            <option id="A">Option A related to Coplanarity of Lines</option>
+            <option id="B">Option B related to Coplanarity of Lines</option>
+            <option id="C">Option C related to Coplanarity of Lines</option>
+            <option id="D">Option D related to Coplanarity of Lines</option>
+            <answer>A</answer>
+            <explanation>Coplanarity of Lines is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Equation of a Line.</text>
+            <option id="A">Option A related to Equation of a Line</option>
+            <option id="B">Option B related to Equation of a Line</option>
+            <option id="C">Option C related to Equation of a Line</option>
+            <option id="D">Option D related to Equation of a Line</option>
+            <answer>A</answer>
+            <explanation>Equation of a Line is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Angle Between Two Planes.</text>
+            <option id="A">Option A related to Angle Between Two Planes</option>
+            <option id="B">Option B related to Angle Between Two Planes</option>
+            <option id="C">Option C related to Angle Between Two Planes</option>
+            <option id="D">Option D related to Angle Between Two Planes</option>
+            <answer>A</answer>
+            <explanation>Angle Between Two Planes is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Equation of a Plane.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>A</answer>
+            <explanation>Equation of a Plane is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Distanc of Point from Plane.</text>
+            <option id="A">Option A related to Distanc of Point from Plane</option>
+            <option id="B">Option B related to Distanc of Point from Plane</option>
+            <option id="C">Option C related to Distanc of Point from Plane</option>
+            <option id="D">Option D related to Distanc of Point from Plane</option>
+            <answer>A</answer>
+            <explanation>Distanc of Point from Plane is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Equation of a Line.</text>
+            <option id="A">Option A related to Equation of a Line</option>
+            <option id="B">Option B related to Equation of a Line</option>
+            <option id="C">Option C related to Equation of a Line</option>
+            <option id="D">Option D related to Equation of a Line</option>
+            <answer>A</answer>
+            <explanation>Equation of a Line is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Direction Cosines and Ratios.</text>
+            <option id="A">Option A related to Direction Cosines and Ratios</option>
+            <option id="B">Option B related to Direction Cosines and Ratios</option>
+            <option id="C">Option C related to Direction Cosines and Ratios</option>
+            <option id="D">Option D related to Direction Cosines and Ratios</option>
+            <answer>A</answer>
+            <explanation>Direction Cosines and Ratios is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Equation of a Line.</text>
+            <option id="A">Option A related to Equation of a Line</option>
+            <option id="B">Option B related to Equation of a Line</option>
+            <option id="C">Option C related to Equation of a Line</option>
+            <option id="D">Option D related to Equation of a Line</option>
+            <answer>A</answer>
+            <explanation>Equation of a Line is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Direction Cosines and Ratios.</text>
+            <option id="A">Option A related to Direction Cosines and Ratios</option>
+            <option id="B">Option B related to Direction Cosines and Ratios</option>
+            <option id="C">Option C related to Direction Cosines and Ratios</option>
+            <option id="D">Option D related to Direction Cosines and Ratios</option>
+            <answer>A</answer>
+            <explanation>Direction Cosines and Ratios is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Equation of a Plane.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>A</answer>
+            <explanation>Equation of a Plane is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Distanc of Point from Plane.</text>
+            <option id="A">Option A related to Distanc of Point from Plane</option>
+            <option id="B">Option B related to Distanc of Point from Plane</option>
+            <option id="C">Option C related to Distanc of Point from Plane</option>
+            <option id="D">Option D related to Distanc of Point from Plane</option>
+            <answer>A</answer>
+            <explanation>Distanc of Point from Plane is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Angle Between Two Planes.</text>
+            <option id="A">Option A related to Angle Between Two Planes</option>
+            <option id="B">Option B related to Angle Between Two Planes</option>
+            <option id="C">Option C related to Angle Between Two Planes</option>
+            <option id="D">Option D related to Angle Between Two Planes</option>
+            <answer>A</answer>
+            <explanation>Angle Between Two Planes is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Direction Cosines and Ratios.</text>
+            <option id="A">Option A related to Direction Cosines and Ratios</option>
+            <option id="B">Option B related to Direction Cosines and Ratios</option>
+            <option id="C">Option C related to Direction Cosines and Ratios</option>
+            <option id="D">Option D related to Direction Cosines and Ratios</option>
+            <answer>A</answer>
+            <explanation>Direction Cosines and Ratios is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Intersection of Line and Plane.</text>
+            <option id="A">Option A related to Intersection of Line and Plane</option>
+            <option id="B">Option B related to Intersection of Line and Plane</option>
+            <option id="C">Option C related to Intersection of Line and Plane</option>
+            <option id="D">Option D related to Intersection of Line and Plane</option>
+            <answer>A</answer>
+            <explanation>Intersection of Line and Plane is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Intercept Form.</text>
+            <option id="A">Option A related to Intercept Form</option>
+            <option id="B">Option B related to Intercept Form</option>
+            <option id="C">Option C related to Intercept Form</option>
+            <option id="D">Option D related to Intercept Form</option>
+            <answer>A</answer>
+            <explanation>Intercept Form is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Angle Between Two Lines.</text>
+            <option id="A">Option A related to Angle Between Two Lines</option>
+            <option id="B">Option B related to Angle Between Two Lines</option>
+            <option id="C">Option C related to Angle Between Two Lines</option>
+            <option id="D">Option D related to Angle Between Two Lines</option>
+            <answer>A</answer>
+            <explanation>Angle Between Two Lines is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Intercept Form.</text>
+            <option id="A">Option A related to Intercept Form</option>
+            <option id="B">Option B related to Intercept Form</option>
+            <option id="C">Option C related to Intercept Form</option>
+            <option id="D">Option D related to Intercept Form</option>
+            <answer>A</answer>
+            <explanation>Intercept Form is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Equation of a Plane.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>A</answer>
+            <explanation>Equation of a Plane is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Intersection of Line and Plane.</text>
+            <option id="A">Option A related to Intersection of Line and Plane</option>
+            <option id="B">Option B related to Intersection of Line and Plane</option>
+            <option id="C">Option C related to Intersection of Line and Plane</option>
+            <option id="D">Option D related to Intersection of Line and Plane</option>
+            <answer>A</answer>
+            <explanation>Intersection of Line and Plane is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Angle Between Two Planes.</text>
+            <option id="A">Option A related to Angle Between Two Planes</option>
+            <option id="B">Option B related to Angle Between Two Planes</option>
+            <option id="C">Option C related to Angle Between Two Planes</option>
+            <option id="D">Option D related to Angle Between Two Planes</option>
+            <answer>A</answer>
+            <explanation>Angle Between Two Planes is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Angle Between Two Planes.</text>
+            <option id="A">Option A related to Angle Between Two Planes</option>
+            <option id="B">Option B related to Angle Between Two Planes</option>
+            <option id="C">Option C related to Angle Between Two Planes</option>
+            <option id="D">Option D related to Angle Between Two Planes</option>
+            <answer>A</answer>
+            <explanation>Angle Between Two Planes is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Angle Between Two Lines.</text>
+            <option id="A">Option A related to Angle Between Two Lines</option>
+            <option id="B">Option B related to Angle Between Two Lines</option>
+            <option id="C">Option C related to Angle Between Two Lines</option>
+            <option id="D">Option D related to Angle Between Two Lines</option>
+            <answer>A</answer>
+            <explanation>Angle Between Two Lines is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Distanc of Point from Plane.</text>
+            <option id="A">Option A related to Distanc of Point from Plane</option>
+            <option id="B">Option B related to Distanc of Point from Plane</option>
+            <option id="C">Option C related to Distanc of Point from Plane</option>
+            <option id="D">Option D related to Distanc of Point from Plane</option>
+            <answer>A</answer>
+            <explanation>Distanc of Point from Plane is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Intersection of Line and Plane.</text>
+            <option id="A">Option A related to Intersection of Line and Plane</option>
+            <option id="B">Option B related to Intersection of Line and Plane</option>
+            <option id="C">Option C related to Intersection of Line and Plane</option>
+            <option id="D">Option D related to Intersection of Line and Plane</option>
+            <answer>A</answer>
+            <explanation>Intersection of Line and Plane is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Shortest Distance Between Skew Lines.</text>
+            <option id="A">Option A related to Shortest Distance Between Skew Lines</option>
+            <option id="B">Option B related to Shortest Distance Between Skew Lines</option>
+            <option id="C">Option C related to Shortest Distance Between Skew Lines</option>
+            <option id="D">Option D related to Shortest Distance Between Skew Lines</option>
+            <answer>A</answer>
+            <explanation>Shortest Distance Between Skew Lines is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Shortest Distance Between Skew Lines.</text>
+            <option id="A">Option A related to Shortest Distance Between Skew Lines</option>
+            <option id="B">Option B related to Shortest Distance Between Skew Lines</option>
+            <option id="C">Option C related to Shortest Distance Between Skew Lines</option>
+            <option id="D">Option D related to Shortest Distance Between Skew Lines</option>
+            <answer>A</answer>
+            <explanation>Shortest Distance Between Skew Lines is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Distanc of Point from Plane.</text>
+            <option id="A">Option A related to Distanc of Point from Plane</option>
+            <option id="B">Option B related to Distanc of Point from Plane</option>
+            <option id="C">Option C related to Distanc of Point from Plane</option>
+            <option id="D">Option D related to Distanc of Point from Plane</option>
+            <answer>A</answer>
+            <explanation>Distanc of Point from Plane is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Coplanarity of Lines.</text>
+            <option id="A">Option A related to Coplanarity of Lines</option>
+            <option id="B">Option B related to Coplanarity of Lines</option>
+            <option id="C">Option C related to Coplanarity of Lines</option>
+            <option id="D">Option D related to Coplanarity of Lines</option>
+            <answer>A</answer>
+            <explanation>Coplanarity of Lines is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Coplanarity of Lines.</text>
+            <option id="A">Option A related to Coplanarity of Lines</option>
+            <option id="B">Option B related to Coplanarity of Lines</option>
+            <option id="C">Option C related to Coplanarity of Lines</option>
+            <option id="D">Option D related to Coplanarity of Lines</option>
+            <answer>A</answer>
+            <explanation>Coplanarity of Lines is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Intercept Form.</text>
+            <option id="A">Option A related to Intercept Form</option>
+            <option id="B">Option B related to Intercept Form</option>
+            <option id="C">Option C related to Intercept Form</option>
+            <option id="D">Option D related to Intercept Form</option>
+            <answer>A</answer>
+            <explanation>Intercept Form is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Equation of a Plane.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>A</answer>
+            <explanation>Equation of a Plane is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Angle Between Two Planes.</text>
+            <option id="A">Option A related to Angle Between Two Planes</option>
+            <option id="B">Option B related to Angle Between Two Planes</option>
+            <option id="C">Option C related to Angle Between Two Planes</option>
+            <option id="D">Option D related to Angle Between Two Planes</option>
+            <answer>A</answer>
+            <explanation>Angle Between Two Planes is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Angle Between Two Lines.</text>
+            <option id="A">Option A related to Angle Between Two Lines</option>
+            <option id="B">Option B related to Angle Between Two Lines</option>
+            <option id="C">Option C related to Angle Between Two Lines</option>
+            <option id="D">Option D related to Angle Between Two Lines</option>
+            <answer>A</answer>
+            <explanation>Angle Between Two Lines is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Coplanarity of Lines.</text>
+            <option id="A">Option A related to Coplanarity of Lines</option>
+            <option id="B">Option B related to Coplanarity of Lines</option>
+            <option id="C">Option C related to Coplanarity of Lines</option>
+            <option id="D">Option D related to Coplanarity of Lines</option>
+            <answer>A</answer>
+            <explanation>Coplanarity of Lines is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Angle Between Two Lines.</text>
+            <option id="A">Option A related to Angle Between Two Lines</option>
+            <option id="B">Option B related to Angle Between Two Lines</option>
+            <option id="C">Option C related to Angle Between Two Lines</option>
+            <option id="D">Option D related to Angle Between Two Lines</option>
+            <answer>A</answer>
+            <explanation>Angle Between Two Lines is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Intersection of Line and Plane.</text>
+            <option id="A">Option A related to Intersection of Line and Plane</option>
+            <option id="B">Option B related to Intersection of Line and Plane</option>
+            <option id="C">Option C related to Intersection of Line and Plane</option>
+            <option id="D">Option D related to Intersection of Line and Plane</option>
+            <answer>A</answer>
+            <explanation>Intersection of Line and Plane is defined by specific conditions that must be met.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Solve the following problem involving Coplanarity of Lines using standard formulas.</text>
+            <option id="A">Option A related to Coplanarity of Lines</option>
+            <option id="B">Option B related to Coplanarity of Lines</option>
+            <option id="C">Option C related to Coplanarity of Lines</option>
+            <option id="D">Option D related to Coplanarity of Lines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Coplanarity of Lines yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Shortest Distance Between Skew Lines using standard formulas.</text>
+            <option id="A">Option A related to Shortest Distance Between Skew Lines</option>
+            <option id="B">Option B related to Shortest Distance Between Skew Lines</option>
+            <option id="C">Option C related to Shortest Distance Between Skew Lines</option>
+            <option id="D">Option D related to Shortest Distance Between Skew Lines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Shortest Distance Between Skew Lines yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Intersection of Line and Plane using standard formulas.</text>
+            <option id="A">Option A related to Intersection of Line and Plane</option>
+            <option id="B">Option B related to Intersection of Line and Plane</option>
+            <option id="C">Option C related to Intersection of Line and Plane</option>
+            <option id="D">Option D related to Intersection of Line and Plane</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Intersection of Line and Plane yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Angle Between Two Lines using standard formulas.</text>
+            <option id="A">Option A related to Angle Between Two Lines</option>
+            <option id="B">Option B related to Angle Between Two Lines</option>
+            <option id="C">Option C related to Angle Between Two Lines</option>
+            <option id="D">Option D related to Angle Between Two Lines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Angle Between Two Lines yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Equation of a Plane using standard formulas.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Equation of a Plane yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Angle Between Two Lines using standard formulas.</text>
+            <option id="A">Option A related to Angle Between Two Lines</option>
+            <option id="B">Option B related to Angle Between Two Lines</option>
+            <option id="C">Option C related to Angle Between Two Lines</option>
+            <option id="D">Option D related to Angle Between Two Lines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Angle Between Two Lines yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Angle Between Two Lines using standard formulas.</text>
+            <option id="A">Option A related to Angle Between Two Lines</option>
+            <option id="B">Option B related to Angle Between Two Lines</option>
+            <option id="C">Option C related to Angle Between Two Lines</option>
+            <option id="D">Option D related to Angle Between Two Lines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Angle Between Two Lines yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Direction Cosines and Ratios using standard formulas.</text>
+            <option id="A">Option A related to Direction Cosines and Ratios</option>
+            <option id="B">Option B related to Direction Cosines and Ratios</option>
+            <option id="C">Option C related to Direction Cosines and Ratios</option>
+            <option id="D">Option D related to Direction Cosines and Ratios</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Direction Cosines and Ratios yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Angle Between Two Lines using standard formulas.</text>
+            <option id="A">Option A related to Angle Between Two Lines</option>
+            <option id="B">Option B related to Angle Between Two Lines</option>
+            <option id="C">Option C related to Angle Between Two Lines</option>
+            <option id="D">Option D related to Angle Between Two Lines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Angle Between Two Lines yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Equation of a Plane using standard formulas.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Equation of a Plane yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Angle Between Two Planes using standard formulas.</text>
+            <option id="A">Option A related to Angle Between Two Planes</option>
+            <option id="B">Option B related to Angle Between Two Planes</option>
+            <option id="C">Option C related to Angle Between Two Planes</option>
+            <option id="D">Option D related to Angle Between Two Planes</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Angle Between Two Planes yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Equation of a Plane using standard formulas.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Equation of a Plane yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Coplanarity of Lines using standard formulas.</text>
+            <option id="A">Option A related to Coplanarity of Lines</option>
+            <option id="B">Option B related to Coplanarity of Lines</option>
+            <option id="C">Option C related to Coplanarity of Lines</option>
+            <option id="D">Option D related to Coplanarity of Lines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Coplanarity of Lines yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Equation of a Plane using standard formulas.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Equation of a Plane yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Coplanarity of Lines using standard formulas.</text>
+            <option id="A">Option A related to Coplanarity of Lines</option>
+            <option id="B">Option B related to Coplanarity of Lines</option>
+            <option id="C">Option C related to Coplanarity of Lines</option>
+            <option id="D">Option D related to Coplanarity of Lines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Coplanarity of Lines yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Equation of a Plane using standard formulas.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Equation of a Plane yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Shortest Distance Between Skew Lines using standard formulas.</text>
+            <option id="A">Option A related to Shortest Distance Between Skew Lines</option>
+            <option id="B">Option B related to Shortest Distance Between Skew Lines</option>
+            <option id="C">Option C related to Shortest Distance Between Skew Lines</option>
+            <option id="D">Option D related to Shortest Distance Between Skew Lines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Shortest Distance Between Skew Lines yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Distanc of Point from Plane using standard formulas.</text>
+            <option id="A">Option A related to Distanc of Point from Plane</option>
+            <option id="B">Option B related to Distanc of Point from Plane</option>
+            <option id="C">Option C related to Distanc of Point from Plane</option>
+            <option id="D">Option D related to Distanc of Point from Plane</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Distanc of Point from Plane yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Equation of a Line using standard formulas.</text>
+            <option id="A">Option A related to Equation of a Line</option>
+            <option id="B">Option B related to Equation of a Line</option>
+            <option id="C">Option C related to Equation of a Line</option>
+            <option id="D">Option D related to Equation of a Line</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Equation of a Line yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Shortest Distance Between Skew Lines using standard formulas.</text>
+            <option id="A">Option A related to Shortest Distance Between Skew Lines</option>
+            <option id="B">Option B related to Shortest Distance Between Skew Lines</option>
+            <option id="C">Option C related to Shortest Distance Between Skew Lines</option>
+            <option id="D">Option D related to Shortest Distance Between Skew Lines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Shortest Distance Between Skew Lines yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Equation of a Plane using standard formulas.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Equation of a Plane yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Distanc of Point from Plane using standard formulas.</text>
+            <option id="A">Option A related to Distanc of Point from Plane</option>
+            <option id="B">Option B related to Distanc of Point from Plane</option>
+            <option id="C">Option C related to Distanc of Point from Plane</option>
+            <option id="D">Option D related to Distanc of Point from Plane</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Distanc of Point from Plane yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Angle Between Two Lines using standard formulas.</text>
+            <option id="A">Option A related to Angle Between Two Lines</option>
+            <option id="B">Option B related to Angle Between Two Lines</option>
+            <option id="C">Option C related to Angle Between Two Lines</option>
+            <option id="D">Option D related to Angle Between Two Lines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Angle Between Two Lines yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Direction Cosines and Ratios using standard formulas.</text>
+            <option id="A">Option A related to Direction Cosines and Ratios</option>
+            <option id="B">Option B related to Direction Cosines and Ratios</option>
+            <option id="C">Option C related to Direction Cosines and Ratios</option>
+            <option id="D">Option D related to Direction Cosines and Ratios</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Direction Cosines and Ratios yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Angle Between Two Planes using standard formulas.</text>
+            <option id="A">Option A related to Angle Between Two Planes</option>
+            <option id="B">Option B related to Angle Between Two Planes</option>
+            <option id="C">Option C related to Angle Between Two Planes</option>
+            <option id="D">Option D related to Angle Between Two Planes</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Angle Between Two Planes yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Angle Between Two Planes using standard formulas.</text>
+            <option id="A">Option A related to Angle Between Two Planes</option>
+            <option id="B">Option B related to Angle Between Two Planes</option>
+            <option id="C">Option C related to Angle Between Two Planes</option>
+            <option id="D">Option D related to Angle Between Two Planes</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Angle Between Two Planes yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Equation of a Line using standard formulas.</text>
+            <option id="A">Option A related to Equation of a Line</option>
+            <option id="B">Option B related to Equation of a Line</option>
+            <option id="C">Option C related to Equation of a Line</option>
+            <option id="D">Option D related to Equation of a Line</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Equation of a Line yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Direction Cosines and Ratios using standard formulas.</text>
+            <option id="A">Option A related to Direction Cosines and Ratios</option>
+            <option id="B">Option B related to Direction Cosines and Ratios</option>
+            <option id="C">Option C related to Direction Cosines and Ratios</option>
+            <option id="D">Option D related to Direction Cosines and Ratios</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Direction Cosines and Ratios yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Angle Between Two Planes using standard formulas.</text>
+            <option id="A">Option A related to Angle Between Two Planes</option>
+            <option id="B">Option B related to Angle Between Two Planes</option>
+            <option id="C">Option C related to Angle Between Two Planes</option>
+            <option id="D">Option D related to Angle Between Two Planes</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Angle Between Two Planes yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Distanc of Point from Plane using standard formulas.</text>
+            <option id="A">Option A related to Distanc of Point from Plane</option>
+            <option id="B">Option B related to Distanc of Point from Plane</option>
+            <option id="C">Option C related to Distanc of Point from Plane</option>
+            <option id="D">Option D related to Distanc of Point from Plane</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Distanc of Point from Plane yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Angle Between Two Planes using standard formulas.</text>
+            <option id="A">Option A related to Angle Between Two Planes</option>
+            <option id="B">Option B related to Angle Between Two Planes</option>
+            <option id="C">Option C related to Angle Between Two Planes</option>
+            <option id="D">Option D related to Angle Between Two Planes</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Angle Between Two Planes yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Angle Between Two Lines using standard formulas.</text>
+            <option id="A">Option A related to Angle Between Two Lines</option>
+            <option id="B">Option B related to Angle Between Two Lines</option>
+            <option id="C">Option C related to Angle Between Two Lines</option>
+            <option id="D">Option D related to Angle Between Two Lines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Angle Between Two Lines yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Coplanarity of Lines using standard formulas.</text>
+            <option id="A">Option A related to Coplanarity of Lines</option>
+            <option id="B">Option B related to Coplanarity of Lines</option>
+            <option id="C">Option C related to Coplanarity of Lines</option>
+            <option id="D">Option D related to Coplanarity of Lines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Coplanarity of Lines yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Intersection of Line and Plane using standard formulas.</text>
+            <option id="A">Option A related to Intersection of Line and Plane</option>
+            <option id="B">Option B related to Intersection of Line and Plane</option>
+            <option id="C">Option C related to Intersection of Line and Plane</option>
+            <option id="D">Option D related to Intersection of Line and Plane</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Intersection of Line and Plane yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Equation of a Plane using standard formulas.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Equation of a Plane yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Distanc of Point from Plane using standard formulas.</text>
+            <option id="A">Option A related to Distanc of Point from Plane</option>
+            <option id="B">Option B related to Distanc of Point from Plane</option>
+            <option id="C">Option C related to Distanc of Point from Plane</option>
+            <option id="D">Option D related to Distanc of Point from Plane</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Distanc of Point from Plane yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Direction Cosines and Ratios using standard formulas.</text>
+            <option id="A">Option A related to Direction Cosines and Ratios</option>
+            <option id="B">Option B related to Direction Cosines and Ratios</option>
+            <option id="C">Option C related to Direction Cosines and Ratios</option>
+            <option id="D">Option D related to Direction Cosines and Ratios</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Direction Cosines and Ratios yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Intercept Form using standard formulas.</text>
+            <option id="A">Option A related to Intercept Form</option>
+            <option id="B">Option B related to Intercept Form</option>
+            <option id="C">Option C related to Intercept Form</option>
+            <option id="D">Option D related to Intercept Form</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Intercept Form yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Intersection of Line and Plane using standard formulas.</text>
+            <option id="A">Option A related to Intersection of Line and Plane</option>
+            <option id="B">Option B related to Intersection of Line and Plane</option>
+            <option id="C">Option C related to Intersection of Line and Plane</option>
+            <option id="D">Option D related to Intersection of Line and Plane</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Intersection of Line and Plane yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Angle Between Two Lines using standard formulas.</text>
+            <option id="A">Option A related to Angle Between Two Lines</option>
+            <option id="B">Option B related to Angle Between Two Lines</option>
+            <option id="C">Option C related to Angle Between Two Lines</option>
+            <option id="D">Option D related to Angle Between Two Lines</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Angle Between Two Lines yields the correct value.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Analyze and solve the complex problem involving Shortest Distance Between Skew Lines with multiple steps.</text>
+            <option id="A">Option A related to Shortest Distance Between Skew Lines</option>
+            <option id="B">Option B related to Shortest Distance Between Skew Lines</option>
+            <option id="C">Option C related to Shortest Distance Between Skew Lines</option>
+            <option id="D">Option D related to Shortest Distance Between Skew Lines</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Shortest Distance Between Skew Lines are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Equation of a Plane with multiple steps.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Equation of a Plane are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Equation of a Line with multiple steps.</text>
+            <option id="A">Option A related to Equation of a Line</option>
+            <option id="B">Option B related to Equation of a Line</option>
+            <option id="C">Option C related to Equation of a Line</option>
+            <option id="D">Option D related to Equation of a Line</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Equation of a Line are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Angle Between Two Planes with multiple steps.</text>
+            <option id="A">Option A related to Angle Between Two Planes</option>
+            <option id="B">Option B related to Angle Between Two Planes</option>
+            <option id="C">Option C related to Angle Between Two Planes</option>
+            <option id="D">Option D related to Angle Between Two Planes</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Angle Between Two Planes are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Distanc of Point from Plane with multiple steps.</text>
+            <option id="A">Option A related to Distanc of Point from Plane</option>
+            <option id="B">Option B related to Distanc of Point from Plane</option>
+            <option id="C">Option C related to Distanc of Point from Plane</option>
+            <option id="D">Option D related to Distanc of Point from Plane</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Distanc of Point from Plane are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Equation of a Plane with multiple steps.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Equation of a Plane are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Shortest Distance Between Skew Lines with multiple steps.</text>
+            <option id="A">Option A related to Shortest Distance Between Skew Lines</option>
+            <option id="B">Option B related to Shortest Distance Between Skew Lines</option>
+            <option id="C">Option C related to Shortest Distance Between Skew Lines</option>
+            <option id="D">Option D related to Shortest Distance Between Skew Lines</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Shortest Distance Between Skew Lines are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Angle Between Two Planes with multiple steps.</text>
+            <option id="A">Option A related to Angle Between Two Planes</option>
+            <option id="B">Option B related to Angle Between Two Planes</option>
+            <option id="C">Option C related to Angle Between Two Planes</option>
+            <option id="D">Option D related to Angle Between Two Planes</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Angle Between Two Planes are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Direction Cosines and Ratios with multiple steps.</text>
+            <option id="A">Option A related to Direction Cosines and Ratios</option>
+            <option id="B">Option B related to Direction Cosines and Ratios</option>
+            <option id="C">Option C related to Direction Cosines and Ratios</option>
+            <option id="D">Option D related to Direction Cosines and Ratios</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Direction Cosines and Ratios are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Angle Between Two Lines with multiple steps.</text>
+            <option id="A">Option A related to Angle Between Two Lines</option>
+            <option id="B">Option B related to Angle Between Two Lines</option>
+            <option id="C">Option C related to Angle Between Two Lines</option>
+            <option id="D">Option D related to Angle Between Two Lines</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Angle Between Two Lines are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Equation of a Plane with multiple steps.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Equation of a Plane are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Intersection of Line and Plane with multiple steps.</text>
+            <option id="A">Option A related to Intersection of Line and Plane</option>
+            <option id="B">Option B related to Intersection of Line and Plane</option>
+            <option id="C">Option C related to Intersection of Line and Plane</option>
+            <option id="D">Option D related to Intersection of Line and Plane</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Intersection of Line and Plane are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Equation of a Plane with multiple steps.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Equation of a Plane are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Equation of a Line with multiple steps.</text>
+            <option id="A">Option A related to Equation of a Line</option>
+            <option id="B">Option B related to Equation of a Line</option>
+            <option id="C">Option C related to Equation of a Line</option>
+            <option id="D">Option D related to Equation of a Line</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Equation of a Line are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Equation of a Line with multiple steps.</text>
+            <option id="A">Option A related to Equation of a Line</option>
+            <option id="B">Option B related to Equation of a Line</option>
+            <option id="C">Option C related to Equation of a Line</option>
+            <option id="D">Option D related to Equation of a Line</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Equation of a Line are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Intercept Form with multiple steps.</text>
+            <option id="A">Option A related to Intercept Form</option>
+            <option id="B">Option B related to Intercept Form</option>
+            <option id="C">Option C related to Intercept Form</option>
+            <option id="D">Option D related to Intercept Form</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Intercept Form are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Distanc of Point from Plane with multiple steps.</text>
+            <option id="A">Option A related to Distanc of Point from Plane</option>
+            <option id="B">Option B related to Distanc of Point from Plane</option>
+            <option id="C">Option C related to Distanc of Point from Plane</option>
+            <option id="D">Option D related to Distanc of Point from Plane</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Distanc of Point from Plane are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Intercept Form with multiple steps.</text>
+            <option id="A">Option A related to Intercept Form</option>
+            <option id="B">Option B related to Intercept Form</option>
+            <option id="C">Option C related to Intercept Form</option>
+            <option id="D">Option D related to Intercept Form</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Intercept Form are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Angle Between Two Planes with multiple steps.</text>
+            <option id="A">Option A related to Angle Between Two Planes</option>
+            <option id="B">Option B related to Angle Between Two Planes</option>
+            <option id="C">Option C related to Angle Between Two Planes</option>
+            <option id="D">Option D related to Angle Between Two Planes</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Angle Between Two Planes are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Equation of a Plane with multiple steps.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Equation of a Plane are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Shortest Distance Between Skew Lines with multiple steps.</text>
+            <option id="A">Option A related to Shortest Distance Between Skew Lines</option>
+            <option id="B">Option B related to Shortest Distance Between Skew Lines</option>
+            <option id="C">Option C related to Shortest Distance Between Skew Lines</option>
+            <option id="D">Option D related to Shortest Distance Between Skew Lines</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Shortest Distance Between Skew Lines are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Intersection of Line and Plane with multiple steps.</text>
+            <option id="A">Option A related to Intersection of Line and Plane</option>
+            <option id="B">Option B related to Intersection of Line and Plane</option>
+            <option id="C">Option C related to Intersection of Line and Plane</option>
+            <option id="D">Option D related to Intersection of Line and Plane</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Intersection of Line and Plane are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Equation of a Line with multiple steps.</text>
+            <option id="A">Option A related to Equation of a Line</option>
+            <option id="B">Option B related to Equation of a Line</option>
+            <option id="C">Option C related to Equation of a Line</option>
+            <option id="D">Option D related to Equation of a Line</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Equation of a Line are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Coplanarity of Lines with multiple steps.</text>
+            <option id="A">Option A related to Coplanarity of Lines</option>
+            <option id="B">Option B related to Coplanarity of Lines</option>
+            <option id="C">Option C related to Coplanarity of Lines</option>
+            <option id="D">Option D related to Coplanarity of Lines</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Coplanarity of Lines are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Intersection of Line and Plane with multiple steps.</text>
+            <option id="A">Option A related to Intersection of Line and Plane</option>
+            <option id="B">Option B related to Intersection of Line and Plane</option>
+            <option id="C">Option C related to Intersection of Line and Plane</option>
+            <option id="D">Option D related to Intersection of Line and Plane</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Intersection of Line and Plane are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Coplanarity of Lines with multiple steps.</text>
+            <option id="A">Option A related to Coplanarity of Lines</option>
+            <option id="B">Option B related to Coplanarity of Lines</option>
+            <option id="C">Option C related to Coplanarity of Lines</option>
+            <option id="D">Option D related to Coplanarity of Lines</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Coplanarity of Lines are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Angle Between Two Planes with multiple steps.</text>
+            <option id="A">Option A related to Angle Between Two Planes</option>
+            <option id="B">Option B related to Angle Between Two Planes</option>
+            <option id="C">Option C related to Angle Between Two Planes</option>
+            <option id="D">Option D related to Angle Between Two Planes</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Angle Between Two Planes are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Angle Between Two Lines with multiple steps.</text>
+            <option id="A">Option A related to Angle Between Two Lines</option>
+            <option id="B">Option B related to Angle Between Two Lines</option>
+            <option id="C">Option C related to Angle Between Two Lines</option>
+            <option id="D">Option D related to Angle Between Two Lines</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Angle Between Two Lines are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Intercept Form with multiple steps.</text>
+            <option id="A">Option A related to Intercept Form</option>
+            <option id="B">Option B related to Intercept Form</option>
+            <option id="C">Option C related to Intercept Form</option>
+            <option id="D">Option D related to Intercept Form</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Intercept Form are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Equation of a Plane with multiple steps.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Equation of a Plane are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Intercept Form with multiple steps.</text>
+            <option id="A">Option A related to Intercept Form</option>
+            <option id="B">Option B related to Intercept Form</option>
+            <option id="C">Option C related to Intercept Form</option>
+            <option id="D">Option D related to Intercept Form</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Intercept Form are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Equation of a Plane with multiple steps.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Equation of a Plane are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Intercept Form with multiple steps.</text>
+            <option id="A">Option A related to Intercept Form</option>
+            <option id="B">Option B related to Intercept Form</option>
+            <option id="C">Option C related to Intercept Form</option>
+            <option id="D">Option D related to Intercept Form</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Intercept Form are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Distanc of Point from Plane with multiple steps.</text>
+            <option id="A">Option A related to Distanc of Point from Plane</option>
+            <option id="B">Option B related to Distanc of Point from Plane</option>
+            <option id="C">Option C related to Distanc of Point from Plane</option>
+            <option id="D">Option D related to Distanc of Point from Plane</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Distanc of Point from Plane are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Equation of a Plane with multiple steps.</text>
+            <option id="A">Option A related to Equation of a Plane</option>
+            <option id="B">Option B related to Equation of a Plane</option>
+            <option id="C">Option C related to Equation of a Plane</option>
+            <option id="D">Option D related to Equation of a Plane</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Equation of a Plane are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Intersection of Line and Plane with multiple steps.</text>
+            <option id="A">Option A related to Intersection of Line and Plane</option>
+            <option id="B">Option B related to Intersection of Line and Plane</option>
+            <option id="C">Option C related to Intersection of Line and Plane</option>
+            <option id="D">Option D related to Intersection of Line and Plane</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Intersection of Line and Plane are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Intersection of Line and Plane with multiple steps.</text>
+            <option id="A">Option A related to Intersection of Line and Plane</option>
+            <option id="B">Option B related to Intersection of Line and Plane</option>
+            <option id="C">Option C related to Intersection of Line and Plane</option>
+            <option id="D">Option D related to Intersection of Line and Plane</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Intersection of Line and Plane are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Equation of a Line with multiple steps.</text>
+            <option id="A">Option A related to Equation of a Line</option>
+            <option id="B">Option B related to Equation of a Line</option>
+            <option id="C">Option C related to Equation of a Line</option>
+            <option id="D">Option D related to Equation of a Line</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Equation of a Line are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Intersection of Line and Plane with multiple steps.</text>
+            <option id="A">Option A related to Intersection of Line and Plane</option>
+            <option id="B">Option B related to Intersection of Line and Plane</option>
+            <option id="C">Option C related to Intersection of Line and Plane</option>
+            <option id="D">Option D related to Intersection of Line and Plane</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Intersection of Line and Plane are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Intercept Form with multiple steps.</text>
+            <option id="A">Option A related to Intercept Form</option>
+            <option id="B">Option B related to Intercept Form</option>
+            <option id="C">Option C related to Intercept Form</option>
+            <option id="D">Option D related to Intercept Form</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Intercept Form are required.</explanation>
+        </question>
+    </hard>
+</chapter>

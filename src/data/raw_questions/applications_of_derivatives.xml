@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter subject="Mathematics" id="220" name="Applications of Derivatives">
+    <easy>
+        <question>
+            <text>Identify the basic property or definition related to Increasing and Decreasing Functions.</text>
+            <option id="A">Option A related to Increasing and Decreasing Functions</option>
+            <option id="B">Option B related to Increasing and Decreasing Functions</option>
+            <option id="C">Option C related to Increasing and Decreasing Functions</option>
+            <option id="D">Option D related to Increasing and Decreasing Functions</option>
+            <answer>A</answer>
+            <explanation>Increasing and Decreasing Functions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Tangents and Normals.</text>
+            <option id="A">Option A related to Tangents and Normals</option>
+            <option id="B">Option B related to Tangents and Normals</option>
+            <option id="C">Option C related to Tangents and Normals</option>
+            <option id="D">Option D related to Tangents and Normals</option>
+            <answer>A</answer>
+            <explanation>Tangents and Normals is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Maxima and Minima.</text>
+            <option id="A">Option A related to Maxima and Minima</option>
+            <option id="B">Option B related to Maxima and Minima</option>
+            <option id="C">Option C related to Maxima and Minima</option>
+            <option id="D">Option D related to Maxima and Minima</option>
+            <answer>A</answer>
+            <explanation>Maxima and Minima is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Rate of Change.</text>
+            <option id="A">Option A related to Rate of Change</option>
+            <option id="B">Option B related to Rate of Change</option>
+            <option id="C">Option C related to Rate of Change</option>
+            <option id="D">Option D related to Rate of Change</option>
+            <answer>A</answer>
+            <explanation>Rate of Change is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Maxima and Minima.</text>
+            <option id="A">Option A related to Maxima and Minima</option>
+            <option id="B">Option B related to Maxima and Minima</option>
+            <option id="C">Option C related to Maxima and Minima</option>
+            <option id="D">Option D related to Maxima and Minima</option>
+            <answer>A</answer>
+            <explanation>Maxima and Minima is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Critical Points.</text>
+            <option id="A">Option A related to Critical Points</option>
+            <option id="B">Option B related to Critical Points</option>
+            <option id="C">Option C related to Critical Points</option>
+            <option id="D">Option D related to Critical Points</option>
+            <answer>A</answer>
+            <explanation>Critical Points is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Maxima and Minima.</text>
+            <option id="A">Option A related to Maxima and Minima</option>
+            <option id="B">Option B related to Maxima and Minima</option>
+            <option id="C">Option C related to Maxima and Minima</option>
+            <option id="D">Option D related to Maxima and Minima</option>
+            <answer>A</answer>
+            <explanation>Maxima and Minima is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Approximations.</text>
+            <option id="A">Option A related to Approximations</option>
+            <option id="B">Option B related to Approximations</option>
+            <option id="C">Option C related to Approximations</option>
+            <option id="D">Option D related to Approximations</option>
+            <answer>A</answer>
+            <explanation>Approximations is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Tangents and Normals.</text>
+            <option id="A">Option A related to Tangents and Normals</option>
+            <option id="B">Option B related to Tangents and Normals</option>
+            <option id="C">Option C related to Tangents and Normals</option>
+            <option id="D">Option D related to Tangents and Normals</option>
+            <answer>A</answer>
+            <explanation>Tangents and Normals is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Approximations.</text>
+            <option id="A">Option A related to Approximations</option>
+            <option id="B">Option B related to Approximations</option>
+            <option id="C">Option C related to Approximations</option>
+            <option id="D">Option D related to Approximations</option>
+            <answer>A</answer>
+            <explanation>Approximations is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Critical Points.</text>
+            <option id="A">Option A related to Critical Points</option>
+            <option id="B">Option B related to Critical Points</option>
+            <option id="C">Option C related to Critical Points</option>
+            <option id="D">Option D related to Critical Points</option>
+            <answer>A</answer>
+            <explanation>Critical Points is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Critical Points.</text>
+            <option id="A">Option A related to Critical Points</option>
+            <option id="B">Option B related to Critical Points</option>
+            <option id="C">Option C related to Critical Points</option>
+            <option id="D">Option D related to Critical Points</option>
+            <answer>A</answer>
+            <explanation>Critical Points is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Maxima and Minima.</text>
+            <option id="A">Option A related to Maxima and Minima</option>
+            <option id="B">Option B related to Maxima and Minima</option>
+            <option id="C">Option C related to Maxima and Minima</option>
+            <option id="D">Option D related to Maxima and Minima</option>
+            <answer>A</answer>
+            <explanation>Maxima and Minima is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Increasing and Decreasing Functions.</text>
+            <option id="A">Option A related to Increasing and Decreasing Functions</option>
+            <option id="B">Option B related to Increasing and Decreasing Functions</option>
+            <option id="C">Option C related to Increasing and Decreasing Functions</option>
+            <option id="D">Option D related to Increasing and Decreasing Functions</option>
+            <answer>A</answer>
+            <explanation>Increasing and Decreasing Functions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Optimization Problems.</text>
+            <option id="A">Option A related to Optimization Problems</option>
+            <option id="B">Option B related to Optimization Problems</option>
+            <option id="C">Option C related to Optimization Problems</option>
+            <option id="D">Option D related to Optimization Problems</option>
+            <answer>A</answer>
+            <explanation>Optimization Problems is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Optimization Problems.</text>
+            <option id="A">Option A related to Optimization Problems</option>
+            <option id="B">Option B related to Optimization Problems</option>
+            <option id="C">Option C related to Optimization Problems</option>
+            <option id="D">Option D related to Optimization Problems</option>
+            <answer>A</answer>
+            <explanation>Optimization Problems is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Maxima and Minima.</text>
+            <option id="A">Option A related to Maxima and Minima</option>
+            <option id="B">Option B related to Maxima and Minima</option>
+            <option id="C">Option C related to Maxima and Minima</option>
+            <option id="D">Option D related to Maxima and Minima</option>
+            <answer>A</answer>
+            <explanation>Maxima and Minima is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Optimization Problems.</text>
+            <option id="A">Option A related to Optimization Problems</option>
+            <option id="B">Option B related to Optimization Problems</option>
+            <option id="C">Option C related to Optimization Problems</option>
+            <option id="D">Option D related to Optimization Problems</option>
+            <answer>A</answer>
+            <explanation>Optimization Problems is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Maxima and Minima.</text>
+            <option id="A">Option A related to Maxima and Minima</option>
+            <option id="B">Option B related to Maxima and Minima</option>
+            <option id="C">Option C related to Maxima and Minima</option>
+            <option id="D">Option D related to Maxima and Minima</option>
+            <answer>A</answer>
+            <explanation>Maxima and Minima is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Rate of Change.</text>
+            <option id="A">Option A related to Rate of Change</option>
+            <option id="B">Option B related to Rate of Change</option>
+            <option id="C">Option C related to Rate of Change</option>
+            <option id="D">Option D related to Rate of Change</option>
+            <answer>A</answer>
+            <explanation>Rate of Change is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Approximations.</text>
+            <option id="A">Option A related to Approximations</option>
+            <option id="B">Option B related to Approximations</option>
+            <option id="C">Option C related to Approximations</option>
+            <option id="D">Option D related to Approximations</option>
+            <answer>A</answer>
+            <explanation>Approximations is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Critical Points.</text>
+            <option id="A">Option A related to Critical Points</option>
+            <option id="B">Option B related to Critical Points</option>
+            <option id="C">Option C related to Critical Points</option>
+            <option id="D">Option D related to Critical Points</option>
+            <answer>A</answer>
+            <explanation>Critical Points is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Turning Points.</text>
+            <option id="A">Option A related to Turning Points</option>
+            <option id="B">Option B related to Turning Points</option>
+            <option id="C">Option C related to Turning Points</option>
+            <option id="D">Option D related to Turning Points</option>
+            <answer>A</answer>
+            <explanation>Turning Points is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Tangents and Normals.</text>
+            <option id="A">Option A related to Tangents and Normals</option>
+            <option id="B">Option B related to Tangents and Normals</option>
+            <option id="C">Option C related to Tangents and Normals</option>
+            <option id="D">Option D related to Tangents and Normals</option>
+            <answer>A</answer>
+            <explanation>Tangents and Normals is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to First Derivative Test.</text>
+            <option id="A">Option A related to First Derivative Test</option>
+            <option id="B">Option B related to First Derivative Test</option>
+            <option id="C">Option C related to First Derivative Test</option>
+            <option id="D">Option D related to First Derivative Test</option>
+            <answer>A</answer>
+            <explanation>First Derivative Test is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Tangents and Normals.</text>
+            <option id="A">Option A related to Tangents and Normals</option>
+            <option id="B">Option B related to Tangents and Normals</option>
+            <option id="C">Option C related to Tangents and Normals</option>
+            <option id="D">Option D related to Tangents and Normals</option>
+            <answer>A</answer>
+            <explanation>Tangents and Normals is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Critical Points.</text>
+            <option id="A">Option A related to Critical Points</option>
+            <option id="B">Option B related to Critical Points</option>
+            <option id="C">Option C related to Critical Points</option>
+            <option id="D">Option D related to Critical Points</option>
+            <answer>A</answer>
+            <explanation>Critical Points is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Critical Points.</text>
+            <option id="A">Option A related to Critical Points</option>
+            <option id="B">Option B related to Critical Points</option>
+            <option id="C">Option C related to Critical Points</option>
+            <option id="D">Option D related to Critical Points</option>
+            <answer>A</answer>
+            <explanation>Critical Points is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Turning Points.</text>
+            <option id="A">Option A related to Turning Points</option>
+            <option id="B">Option B related to Turning Points</option>
+            <option id="C">Option C related to Turning Points</option>
+            <option id="D">Option D related to Turning Points</option>
+            <answer>A</answer>
+            <explanation>Turning Points is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Turning Points.</text>
+            <option id="A">Option A related to Turning Points</option>
+            <option id="B">Option B related to Turning Points</option>
+            <option id="C">Option C related to Turning Points</option>
+            <option id="D">Option D related to Turning Points</option>
+            <answer>A</answer>
+            <explanation>Turning Points is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Increasing and Decreasing Functions.</text>
+            <option id="A">Option A related to Increasing and Decreasing Functions</option>
+            <option id="B">Option B related to Increasing and Decreasing Functions</option>
+            <option id="C">Option C related to Increasing and Decreasing Functions</option>
+            <option id="D">Option D related to Increasing and Decreasing Functions</option>
+            <answer>A</answer>
+            <explanation>Increasing and Decreasing Functions is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Second Derivative Test.</text>
+            <option id="A">Option A related to Second Derivative Test</option>
+            <option id="B">Option B related to Second Derivative Test</option>
+            <option id="C">Option C related to Second Derivative Test</option>
+            <option id="D">Option D related to Second Derivative Test</option>
+            <answer>A</answer>
+            <explanation>Second Derivative Test is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Turning Points.</text>
+            <option id="A">Option A related to Turning Points</option>
+            <option id="B">Option B related to Turning Points</option>
+            <option id="C">Option C related to Turning Points</option>
+            <option id="D">Option D related to Turning Points</option>
+            <answer>A</answer>
+            <explanation>Turning Points is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Optimization Problems.</text>
+            <option id="A">Option A related to Optimization Problems</option>
+            <option id="B">Option B related to Optimization Problems</option>
+            <option id="C">Option C related to Optimization Problems</option>
+            <option id="D">Option D related to Optimization Problems</option>
+            <answer>A</answer>
+            <explanation>Optimization Problems is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Approximations.</text>
+            <option id="A">Option A related to Approximations</option>
+            <option id="B">Option B related to Approximations</option>
+            <option id="C">Option C related to Approximations</option>
+            <option id="D">Option D related to Approximations</option>
+            <answer>A</answer>
+            <explanation>Approximations is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Maxima and Minima.</text>
+            <option id="A">Option A related to Maxima and Minima</option>
+            <option id="B">Option B related to Maxima and Minima</option>
+            <option id="C">Option C related to Maxima and Minima</option>
+            <option id="D">Option D related to Maxima and Minima</option>
+            <answer>A</answer>
+            <explanation>Maxima and Minima is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Maxima and Minima.</text>
+            <option id="A">Option A related to Maxima and Minima</option>
+            <option id="B">Option B related to Maxima and Minima</option>
+            <option id="C">Option C related to Maxima and Minima</option>
+            <option id="D">Option D related to Maxima and Minima</option>
+            <answer>A</answer>
+            <explanation>Maxima and Minima is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Optimization Problems.</text>
+            <option id="A">Option A related to Optimization Problems</option>
+            <option id="B">Option B related to Optimization Problems</option>
+            <option id="C">Option C related to Optimization Problems</option>
+            <option id="D">Option D related to Optimization Problems</option>
+            <answer>A</answer>
+            <explanation>Optimization Problems is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Optimization Problems.</text>
+            <option id="A">Option A related to Optimization Problems</option>
+            <option id="B">Option B related to Optimization Problems</option>
+            <option id="C">Option C related to Optimization Problems</option>
+            <option id="D">Option D related to Optimization Problems</option>
+            <answer>A</answer>
+            <explanation>Optimization Problems is defined by specific conditions that must be met.</explanation>
+        </question>
+        <question>
+            <text>Identify the basic property or definition related to Turning Points.</text>
+            <option id="A">Option A related to Turning Points</option>
+            <option id="B">Option B related to Turning Points</option>
+            <option id="C">Option C related to Turning Points</option>
+            <option id="D">Option D related to Turning Points</option>
+            <answer>A</answer>
+            <explanation>Turning Points is defined by specific conditions that must be met.</explanation>
+        </question>
+    </easy>
+    <medium>
+        <question>
+            <text>Solve the following problem involving Rate of Change using standard formulas.</text>
+            <option id="A">Option A related to Rate of Change</option>
+            <option id="B">Option B related to Rate of Change</option>
+            <option id="C">Option C related to Rate of Change</option>
+            <option id="D">Option D related to Rate of Change</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Rate of Change yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Rate of Change using standard formulas.</text>
+            <option id="A">Option A related to Rate of Change</option>
+            <option id="B">Option B related to Rate of Change</option>
+            <option id="C">Option C related to Rate of Change</option>
+            <option id="D">Option D related to Rate of Change</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Rate of Change yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Second Derivative Test using standard formulas.</text>
+            <option id="A">Option A related to Second Derivative Test</option>
+            <option id="B">Option B related to Second Derivative Test</option>
+            <option id="C">Option C related to Second Derivative Test</option>
+            <option id="D">Option D related to Second Derivative Test</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Second Derivative Test yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Second Derivative Test using standard formulas.</text>
+            <option id="A">Option A related to Second Derivative Test</option>
+            <option id="B">Option B related to Second Derivative Test</option>
+            <option id="C">Option C related to Second Derivative Test</option>
+            <option id="D">Option D related to Second Derivative Test</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Second Derivative Test yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Rate of Change using standard formulas.</text>
+            <option id="A">Option A related to Rate of Change</option>
+            <option id="B">Option B related to Rate of Change</option>
+            <option id="C">Option C related to Rate of Change</option>
+            <option id="D">Option D related to Rate of Change</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Rate of Change yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Critical Points using standard formulas.</text>
+            <option id="A">Option A related to Critical Points</option>
+            <option id="B">Option B related to Critical Points</option>
+            <option id="C">Option C related to Critical Points</option>
+            <option id="D">Option D related to Critical Points</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Critical Points yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Increasing and Decreasing Functions using standard formulas.</text>
+            <option id="A">Option A related to Increasing and Decreasing Functions</option>
+            <option id="B">Option B related to Increasing and Decreasing Functions</option>
+            <option id="C">Option C related to Increasing and Decreasing Functions</option>
+            <option id="D">Option D related to Increasing and Decreasing Functions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Increasing and Decreasing Functions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Turning Points using standard formulas.</text>
+            <option id="A">Option A related to Turning Points</option>
+            <option id="B">Option B related to Turning Points</option>
+            <option id="C">Option C related to Turning Points</option>
+            <option id="D">Option D related to Turning Points</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Turning Points yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Maxima and Minima using standard formulas.</text>
+            <option id="A">Option A related to Maxima and Minima</option>
+            <option id="B">Option B related to Maxima and Minima</option>
+            <option id="C">Option C related to Maxima and Minima</option>
+            <option id="D">Option D related to Maxima and Minima</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Maxima and Minima yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Maxima and Minima using standard formulas.</text>
+            <option id="A">Option A related to Maxima and Minima</option>
+            <option id="B">Option B related to Maxima and Minima</option>
+            <option id="C">Option C related to Maxima and Minima</option>
+            <option id="D">Option D related to Maxima and Minima</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Maxima and Minima yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Maxima and Minima using standard formulas.</text>
+            <option id="A">Option A related to Maxima and Minima</option>
+            <option id="B">Option B related to Maxima and Minima</option>
+            <option id="C">Option C related to Maxima and Minima</option>
+            <option id="D">Option D related to Maxima and Minima</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Maxima and Minima yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Rate of Change using standard formulas.</text>
+            <option id="A">Option A related to Rate of Change</option>
+            <option id="B">Option B related to Rate of Change</option>
+            <option id="C">Option C related to Rate of Change</option>
+            <option id="D">Option D related to Rate of Change</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Rate of Change yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Critical Points using standard formulas.</text>
+            <option id="A">Option A related to Critical Points</option>
+            <option id="B">Option B related to Critical Points</option>
+            <option id="C">Option C related to Critical Points</option>
+            <option id="D">Option D related to Critical Points</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Critical Points yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Increasing and Decreasing Functions using standard formulas.</text>
+            <option id="A">Option A related to Increasing and Decreasing Functions</option>
+            <option id="B">Option B related to Increasing and Decreasing Functions</option>
+            <option id="C">Option C related to Increasing and Decreasing Functions</option>
+            <option id="D">Option D related to Increasing and Decreasing Functions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Increasing and Decreasing Functions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Turning Points using standard formulas.</text>
+            <option id="A">Option A related to Turning Points</option>
+            <option id="B">Option B related to Turning Points</option>
+            <option id="C">Option C related to Turning Points</option>
+            <option id="D">Option D related to Turning Points</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Turning Points yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Maxima and Minima using standard formulas.</text>
+            <option id="A">Option A related to Maxima and Minima</option>
+            <option id="B">Option B related to Maxima and Minima</option>
+            <option id="C">Option C related to Maxima and Minima</option>
+            <option id="D">Option D related to Maxima and Minima</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Maxima and Minima yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Approximations using standard formulas.</text>
+            <option id="A">Option A related to Approximations</option>
+            <option id="B">Option B related to Approximations</option>
+            <option id="C">Option C related to Approximations</option>
+            <option id="D">Option D related to Approximations</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Approximations yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Maxima and Minima using standard formulas.</text>
+            <option id="A">Option A related to Maxima and Minima</option>
+            <option id="B">Option B related to Maxima and Minima</option>
+            <option id="C">Option C related to Maxima and Minima</option>
+            <option id="D">Option D related to Maxima and Minima</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Maxima and Minima yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Optimization Problems using standard formulas.</text>
+            <option id="A">Option A related to Optimization Problems</option>
+            <option id="B">Option B related to Optimization Problems</option>
+            <option id="C">Option C related to Optimization Problems</option>
+            <option id="D">Option D related to Optimization Problems</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Optimization Problems yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Rate of Change using standard formulas.</text>
+            <option id="A">Option A related to Rate of Change</option>
+            <option id="B">Option B related to Rate of Change</option>
+            <option id="C">Option C related to Rate of Change</option>
+            <option id="D">Option D related to Rate of Change</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Rate of Change yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Critical Points using standard formulas.</text>
+            <option id="A">Option A related to Critical Points</option>
+            <option id="B">Option B related to Critical Points</option>
+            <option id="C">Option C related to Critical Points</option>
+            <option id="D">Option D related to Critical Points</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Critical Points yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Rate of Change using standard formulas.</text>
+            <option id="A">Option A related to Rate of Change</option>
+            <option id="B">Option B related to Rate of Change</option>
+            <option id="C">Option C related to Rate of Change</option>
+            <option id="D">Option D related to Rate of Change</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Rate of Change yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Rate of Change using standard formulas.</text>
+            <option id="A">Option A related to Rate of Change</option>
+            <option id="B">Option B related to Rate of Change</option>
+            <option id="C">Option C related to Rate of Change</option>
+            <option id="D">Option D related to Rate of Change</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Rate of Change yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Tangents and Normals using standard formulas.</text>
+            <option id="A">Option A related to Tangents and Normals</option>
+            <option id="B">Option B related to Tangents and Normals</option>
+            <option id="C">Option C related to Tangents and Normals</option>
+            <option id="D">Option D related to Tangents and Normals</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Tangents and Normals yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Optimization Problems using standard formulas.</text>
+            <option id="A">Option A related to Optimization Problems</option>
+            <option id="B">Option B related to Optimization Problems</option>
+            <option id="C">Option C related to Optimization Problems</option>
+            <option id="D">Option D related to Optimization Problems</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Optimization Problems yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Maxima and Minima using standard formulas.</text>
+            <option id="A">Option A related to Maxima and Minima</option>
+            <option id="B">Option B related to Maxima and Minima</option>
+            <option id="C">Option C related to Maxima and Minima</option>
+            <option id="D">Option D related to Maxima and Minima</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Maxima and Minima yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Turning Points using standard formulas.</text>
+            <option id="A">Option A related to Turning Points</option>
+            <option id="B">Option B related to Turning Points</option>
+            <option id="C">Option C related to Turning Points</option>
+            <option id="D">Option D related to Turning Points</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Turning Points yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Increasing and Decreasing Functions using standard formulas.</text>
+            <option id="A">Option A related to Increasing and Decreasing Functions</option>
+            <option id="B">Option B related to Increasing and Decreasing Functions</option>
+            <option id="C">Option C related to Increasing and Decreasing Functions</option>
+            <option id="D">Option D related to Increasing and Decreasing Functions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Increasing and Decreasing Functions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Critical Points using standard formulas.</text>
+            <option id="A">Option A related to Critical Points</option>
+            <option id="B">Option B related to Critical Points</option>
+            <option id="C">Option C related to Critical Points</option>
+            <option id="D">Option D related to Critical Points</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Critical Points yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Optimization Problems using standard formulas.</text>
+            <option id="A">Option A related to Optimization Problems</option>
+            <option id="B">Option B related to Optimization Problems</option>
+            <option id="C">Option C related to Optimization Problems</option>
+            <option id="D">Option D related to Optimization Problems</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Optimization Problems yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Increasing and Decreasing Functions using standard formulas.</text>
+            <option id="A">Option A related to Increasing and Decreasing Functions</option>
+            <option id="B">Option B related to Increasing and Decreasing Functions</option>
+            <option id="C">Option C related to Increasing and Decreasing Functions</option>
+            <option id="D">Option D related to Increasing and Decreasing Functions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Increasing and Decreasing Functions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Approximations using standard formulas.</text>
+            <option id="A">Option A related to Approximations</option>
+            <option id="B">Option B related to Approximations</option>
+            <option id="C">Option C related to Approximations</option>
+            <option id="D">Option D related to Approximations</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Approximations yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Rate of Change using standard formulas.</text>
+            <option id="A">Option A related to Rate of Change</option>
+            <option id="B">Option B related to Rate of Change</option>
+            <option id="C">Option C related to Rate of Change</option>
+            <option id="D">Option D related to Rate of Change</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Rate of Change yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Rate of Change using standard formulas.</text>
+            <option id="A">Option A related to Rate of Change</option>
+            <option id="B">Option B related to Rate of Change</option>
+            <option id="C">Option C related to Rate of Change</option>
+            <option id="D">Option D related to Rate of Change</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Rate of Change yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Rate of Change using standard formulas.</text>
+            <option id="A">Option A related to Rate of Change</option>
+            <option id="B">Option B related to Rate of Change</option>
+            <option id="C">Option C related to Rate of Change</option>
+            <option id="D">Option D related to Rate of Change</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Rate of Change yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving First Derivative Test using standard formulas.</text>
+            <option id="A">Option A related to First Derivative Test</option>
+            <option id="B">Option B related to First Derivative Test</option>
+            <option id="C">Option C related to First Derivative Test</option>
+            <option id="D">Option D related to First Derivative Test</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for First Derivative Test yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Turning Points using standard formulas.</text>
+            <option id="A">Option A related to Turning Points</option>
+            <option id="B">Option B related to Turning Points</option>
+            <option id="C">Option C related to Turning Points</option>
+            <option id="D">Option D related to Turning Points</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Turning Points yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Tangents and Normals using standard formulas.</text>
+            <option id="A">Option A related to Tangents and Normals</option>
+            <option id="B">Option B related to Tangents and Normals</option>
+            <option id="C">Option C related to Tangents and Normals</option>
+            <option id="D">Option D related to Tangents and Normals</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Tangents and Normals yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Increasing and Decreasing Functions using standard formulas.</text>
+            <option id="A">Option A related to Increasing and Decreasing Functions</option>
+            <option id="B">Option B related to Increasing and Decreasing Functions</option>
+            <option id="C">Option C related to Increasing and Decreasing Functions</option>
+            <option id="D">Option D related to Increasing and Decreasing Functions</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Increasing and Decreasing Functions yields the correct value.</explanation>
+        </question>
+        <question>
+            <text>Solve the following problem involving Turning Points using standard formulas.</text>
+            <option id="A">Option A related to Turning Points</option>
+            <option id="B">Option B related to Turning Points</option>
+            <option id="C">Option C related to Turning Points</option>
+            <option id="D">Option D related to Turning Points</option>
+            <answer>B</answer>
+            <explanation>Applying the formula for Turning Points yields the correct value.</explanation>
+        </question>
+    </medium>
+    <hard>
+        <question>
+            <text>Analyze and solve the complex problem involving Turning Points with multiple steps.</text>
+            <option id="A">Option A related to Turning Points</option>
+            <option id="B">Option B related to Turning Points</option>
+            <option id="C">Option C related to Turning Points</option>
+            <option id="D">Option D related to Turning Points</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Turning Points are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Increasing and Decreasing Functions with multiple steps.</text>
+            <option id="A">Option A related to Increasing and Decreasing Functions</option>
+            <option id="B">Option B related to Increasing and Decreasing Functions</option>
+            <option id="C">Option C related to Increasing and Decreasing Functions</option>
+            <option id="D">Option D related to Increasing and Decreasing Functions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Increasing and Decreasing Functions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Critical Points with multiple steps.</text>
+            <option id="A">Option A related to Critical Points</option>
+            <option id="B">Option B related to Critical Points</option>
+            <option id="C">Option C related to Critical Points</option>
+            <option id="D">Option D related to Critical Points</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Critical Points are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Turning Points with multiple steps.</text>
+            <option id="A">Option A related to Turning Points</option>
+            <option id="B">Option B related to Turning Points</option>
+            <option id="C">Option C related to Turning Points</option>
+            <option id="D">Option D related to Turning Points</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Turning Points are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Turning Points with multiple steps.</text>
+            <option id="A">Option A related to Turning Points</option>
+            <option id="B">Option B related to Turning Points</option>
+            <option id="C">Option C related to Turning Points</option>
+            <option id="D">Option D related to Turning Points</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Turning Points are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving First Derivative Test with multiple steps.</text>
+            <option id="A">Option A related to First Derivative Test</option>
+            <option id="B">Option B related to First Derivative Test</option>
+            <option id="C">Option C related to First Derivative Test</option>
+            <option id="D">Option D related to First Derivative Test</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of First Derivative Test are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Turning Points with multiple steps.</text>
+            <option id="A">Option A related to Turning Points</option>
+            <option id="B">Option B related to Turning Points</option>
+            <option id="C">Option C related to Turning Points</option>
+            <option id="D">Option D related to Turning Points</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Turning Points are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Rate of Change with multiple steps.</text>
+            <option id="A">Option A related to Rate of Change</option>
+            <option id="B">Option B related to Rate of Change</option>
+            <option id="C">Option C related to Rate of Change</option>
+            <option id="D">Option D related to Rate of Change</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Rate of Change are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Increasing and Decreasing Functions with multiple steps.</text>
+            <option id="A">Option A related to Increasing and Decreasing Functions</option>
+            <option id="B">Option B related to Increasing and Decreasing Functions</option>
+            <option id="C">Option C related to Increasing and Decreasing Functions</option>
+            <option id="D">Option D related to Increasing and Decreasing Functions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Increasing and Decreasing Functions are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Critical Points with multiple steps.</text>
+            <option id="A">Option A related to Critical Points</option>
+            <option id="B">Option B related to Critical Points</option>
+            <option id="C">Option C related to Critical Points</option>
+            <option id="D">Option D related to Critical Points</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Critical Points are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Second Derivative Test with multiple steps.</text>
+            <option id="A">Option A related to Second Derivative Test</option>
+            <option id="B">Option B related to Second Derivative Test</option>
+            <option id="C">Option C related to Second Derivative Test</option>
+            <option id="D">Option D related to Second Derivative Test</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Second Derivative Test are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Maxima and Minima with multiple steps.</text>
+            <option id="A">Option A related to Maxima and Minima</option>
+            <option id="B">Option B related to Maxima and Minima</option>
+            <option id="C">Option C related to Maxima and Minima</option>
+            <option id="D">Option D related to Maxima and Minima</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Maxima and Minima are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Turning Points with multiple steps.</text>
+            <option id="A">Option A related to Turning Points</option>
+            <option id="B">Option B related to Turning Points</option>
+            <option id="C">Option C related to Turning Points</option>
+            <option id="D">Option D related to Turning Points</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Turning Points are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Optimization Problems with multiple steps.</text>
+            <option id="A">Option A related to Optimization Problems</option>
+            <option id="B">Option B related to Optimization Problems</option>
+            <option id="C">Option C related to Optimization Problems</option>
+            <option id="D">Option D related to Optimization Problems</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Optimization Problems are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Optimization Problems with multiple steps.</text>
+            <option id="A">Option A related to Optimization Problems</option>
+            <option id="B">Option B related to Optimization Problems</option>
+            <option id="C">Option C related to Optimization Problems</option>
+            <option id="D">Option D related to Optimization Problems</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Optimization Problems are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Maxima and Minima with multiple steps.</text>
+            <option id="A">Option A related to Maxima and Minima</option>
+            <option id="B">Option B related to Maxima and Minima</option>
+            <option id="C">Option C related to Maxima and Minima</option>
+            <option id="D">Option D related to Maxima and Minima</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Maxima and Minima are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Optimization Problems with multiple steps.</text>
+            <option id="A">Option A related to Optimization Problems</option>
+            <option id="B">Option B related to Optimization Problems</option>
+            <option id="C">Option C related to Optimization Problems</option>
+            <option id="D">Option D related to Optimization Problems</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Optimization Problems are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Turning Points with multiple steps.</text>
+            <option id="A">Option A related to Turning Points</option>
+            <option id="B">Option B related to Turning Points</option>
+            <option id="C">Option C related to Turning Points</option>
+            <option id="D">Option D related to Turning Points</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Turning Points are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Second Derivative Test with multiple steps.</text>
+            <option id="A">Option A related to Second Derivative Test</option>
+            <option id="B">Option B related to Second Derivative Test</option>
+            <option id="C">Option C related to Second Derivative Test</option>
+            <option id="D">Option D related to Second Derivative Test</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Second Derivative Test are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Tangents and Normals with multiple steps.</text>
+            <option id="A">Option A related to Tangents and Normals</option>
+            <option id="B">Option B related to Tangents and Normals</option>
+            <option id="C">Option C related to Tangents and Normals</option>
+            <option id="D">Option D related to Tangents and Normals</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Tangents and Normals are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Critical Points with multiple steps.</text>
+            <option id="A">Option A related to Critical Points</option>
+            <option id="B">Option B related to Critical Points</option>
+            <option id="C">Option C related to Critical Points</option>
+            <option id="D">Option D related to Critical Points</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Critical Points are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Approximations with multiple steps.</text>
+            <option id="A">Option A related to Approximations</option>
+            <option id="B">Option B related to Approximations</option>
+            <option id="C">Option C related to Approximations</option>
+            <option id="D">Option D related to Approximations</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Approximations are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Second Derivative Test with multiple steps.</text>
+            <option id="A">Option A related to Second Derivative Test</option>
+            <option id="B">Option B related to Second Derivative Test</option>
+            <option id="C">Option C related to Second Derivative Test</option>
+            <option id="D">Option D related to Second Derivative Test</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Second Derivative Test are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Critical Points with multiple steps.</text>
+            <option id="A">Option A related to Critical Points</option>
+            <option id="B">Option B related to Critical Points</option>
+            <option id="C">Option C related to Critical Points</option>
+            <option id="D">Option D related to Critical Points</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Critical Points are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Tangents and Normals with multiple steps.</text>
+            <option id="A">Option A related to Tangents and Normals</option>
+            <option id="B">Option B related to Tangents and Normals</option>
+            <option id="C">Option C related to Tangents and Normals</option>
+            <option id="D">Option D related to Tangents and Normals</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Tangents and Normals are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Tangents and Normals with multiple steps.</text>
+            <option id="A">Option A related to Tangents and Normals</option>
+            <option id="B">Option B related to Tangents and Normals</option>
+            <option id="C">Option C related to Tangents and Normals</option>
+            <option id="D">Option D related to Tangents and Normals</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Tangents and Normals are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Second Derivative Test with multiple steps.</text>
+            <option id="A">Option A related to Second Derivative Test</option>
+            <option id="B">Option B related to Second Derivative Test</option>
+            <option id="C">Option C related to Second Derivative Test</option>
+            <option id="D">Option D related to Second Derivative Test</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Second Derivative Test are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Tangents and Normals with multiple steps.</text>
+            <option id="A">Option A related to Tangents and Normals</option>
+            <option id="B">Option B related to Tangents and Normals</option>
+            <option id="C">Option C related to Tangents and Normals</option>
+            <option id="D">Option D related to Tangents and Normals</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Tangents and Normals are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Second Derivative Test with multiple steps.</text>
+            <option id="A">Option A related to Second Derivative Test</option>
+            <option id="B">Option B related to Second Derivative Test</option>
+            <option id="C">Option C related to Second Derivative Test</option>
+            <option id="D">Option D related to Second Derivative Test</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Second Derivative Test are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Approximations with multiple steps.</text>
+            <option id="A">Option A related to Approximations</option>
+            <option id="B">Option B related to Approximations</option>
+            <option id="C">Option C related to Approximations</option>
+            <option id="D">Option D related to Approximations</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Approximations are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving First Derivative Test with multiple steps.</text>
+            <option id="A">Option A related to First Derivative Test</option>
+            <option id="B">Option B related to First Derivative Test</option>
+            <option id="C">Option C related to First Derivative Test</option>
+            <option id="D">Option D related to First Derivative Test</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of First Derivative Test are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Second Derivative Test with multiple steps.</text>
+            <option id="A">Option A related to Second Derivative Test</option>
+            <option id="B">Option B related to Second Derivative Test</option>
+            <option id="C">Option C related to Second Derivative Test</option>
+            <option id="D">Option D related to Second Derivative Test</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Second Derivative Test are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving First Derivative Test with multiple steps.</text>
+            <option id="A">Option A related to First Derivative Test</option>
+            <option id="B">Option B related to First Derivative Test</option>
+            <option id="C">Option C related to First Derivative Test</option>
+            <option id="D">Option D related to First Derivative Test</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of First Derivative Test are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Critical Points with multiple steps.</text>
+            <option id="A">Option A related to Critical Points</option>
+            <option id="B">Option B related to Critical Points</option>
+            <option id="C">Option C related to Critical Points</option>
+            <option id="D">Option D related to Critical Points</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Critical Points are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Approximations with multiple steps.</text>
+            <option id="A">Option A related to Approximations</option>
+            <option id="B">Option B related to Approximations</option>
+            <option id="C">Option C related to Approximations</option>
+            <option id="D">Option D related to Approximations</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Approximations are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Maxima and Minima with multiple steps.</text>
+            <option id="A">Option A related to Maxima and Minima</option>
+            <option id="B">Option B related to Maxima and Minima</option>
+            <option id="C">Option C related to Maxima and Minima</option>
+            <option id="D">Option D related to Maxima and Minima</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Maxima and Minima are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving First Derivative Test with multiple steps.</text>
+            <option id="A">Option A related to First Derivative Test</option>
+            <option id="B">Option B related to First Derivative Test</option>
+            <option id="C">Option C related to First Derivative Test</option>
+            <option id="D">Option D related to First Derivative Test</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of First Derivative Test are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Approximations with multiple steps.</text>
+            <option id="A">Option A related to Approximations</option>
+            <option id="B">Option B related to Approximations</option>
+            <option id="C">Option C related to Approximations</option>
+            <option id="D">Option D related to Approximations</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Approximations are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Optimization Problems with multiple steps.</text>
+            <option id="A">Option A related to Optimization Problems</option>
+            <option id="B">Option B related to Optimization Problems</option>
+            <option id="C">Option C related to Optimization Problems</option>
+            <option id="D">Option D related to Optimization Problems</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Optimization Problems are required.</explanation>
+        </question>
+        <question>
+            <text>Analyze and solve the complex problem involving Increasing and Decreasing Functions with multiple steps.</text>
+            <option id="A">Option A related to Increasing and Decreasing Functions</option>
+            <option id="B">Option B related to Increasing and Decreasing Functions</option>
+            <option id="C">Option C related to Increasing and Decreasing Functions</option>
+            <option id="D">Option D related to Increasing and Decreasing Functions</option>
+            <answer>C</answer>
+            <explanation>Deep understanding and multiple application steps of Increasing and Decreasing Functions are required.</explanation>
+        </question>
+    </hard>
+</chapter>
