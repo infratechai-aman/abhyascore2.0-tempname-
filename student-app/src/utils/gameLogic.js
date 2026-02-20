@@ -153,6 +153,7 @@ const loadFlatFirestore = async (subject, chapterId, difficulty) => {
         where('subject', '==', subjectName),
         where('chapterId', '==', chapterId),
         where('difficulty', '==', diffCapitalized),
+        where('isActive', '==', true),
     );
 
     const snap = await getDocs(q);

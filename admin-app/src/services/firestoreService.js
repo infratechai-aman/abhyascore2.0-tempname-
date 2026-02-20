@@ -1,7 +1,7 @@
 import { db } from '../firebase/firebase';
 import {
     collection, doc, getDocs, addDoc, updateDoc, deleteDoc,
-    query, orderBy, limit, startAfter, where, serverTimestamp, Timestamp,
+    writeBatch, query, orderBy, limit, startAfter, where, serverTimestamp, Timestamp,
     getCountFromServer, getAggregateFromServer, sum,
 } from 'firebase/firestore';
 
@@ -57,13 +57,25 @@ export const fetchUsersPage = async (lastDoc = null, pageSize = 20) => {
 
 // ─── Questions ───────────────────────────────────────────────────────────────
 
-export const fetchQuestionsPage = async (lastDoc = null, pageSize = 20) => {
+// filters: { subject?: string, difficulty?: string }
+// chapterId filter is applied client-side (only flat-schema docs have it)
+export const fetchQuestionsPage = async (lastDoc = null, pageSize = 20, filters = {}) => {
+    const whereClauses = [];
+    if (filters.subject) whereClauses.push(where('subject', '==', filters.subject));
+    if (filters.difficulty) whereClauses.push(where('difficulty', '==', filters.difficulty));
+
+    // When filtering, we can't reliably use orderBy('createdAt') + where() on
+    // different fields without a composite index. Drop ordering when filtering
+    // so we avoid missing-index errors; UI sorts client-side instead.
+    const hasFilter = whereClauses.length > 0;
+
     const constraints = [
         collection(db, 'question_pools'),
-        orderBy('createdAt', 'desc'),
+        ...whereClauses,
+        ...(hasFilter ? [] : [orderBy('createdAt', 'desc')]),
         limit(pageSize + 1),
     ];
-    if (lastDoc) constraints.splice(2, 0, startAfter(lastDoc));
+    if (lastDoc && !hasFilter) constraints.splice(hasFilter ? 1 : 2, 0, startAfter(lastDoc));
 
     const snap = await getDocs(query(...constraints));
     const hasMore = snap.docs.length > pageSize;
@@ -71,16 +83,29 @@ export const fetchQuestionsPage = async (lastDoc = null, pageSize = 20) => {
     return {
         questions: docs.map((d) => ({ id: d.id, ...d.data() })),
         lastDoc: docs[docs.length - 1] ?? null,
-        hasMore,
+        hasMore: hasFilter ? false : hasMore, // disable pagination when filtering
     };
 };
 
 export const createQuestion = async (data) => {
     const ref = await addDoc(collection(db, 'question_pools'), {
         ...data,
+        isActive: data.isActive ?? true, // default active
         createdAt: serverTimestamp(),
     });
     return ref.id;
+};
+
+export const bulkSetActive = async (ids, isActive) => {
+    // Firestore batch limit is 500; chunk just in case
+    const CHUNK = 450;
+    for (let i = 0; i < ids.length; i += CHUNK) {
+        const batch = writeBatch(db);
+        ids.slice(i, i + CHUNK).forEach((id) => {
+            batch.update(doc(db, 'question_pools', id), { isActive });
+        });
+        await batch.commit();
+    }
 };
 
 export const updateQuestion = async (id, data) => {
