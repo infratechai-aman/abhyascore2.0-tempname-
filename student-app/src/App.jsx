@@ -12,6 +12,7 @@ import ClassSelectionModal from './components/ClassSelectionModal';
 import AdminUpload from './components/AdminUpload';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { startTestSession, calculateResults, saveQuizResult, getUserProgress, saveChapterProgress } from './utils/gameLogic';
+import { runMigration } from './utils/migrateXmlToFirestore';
 import { Zap, Beaker, Calculator, Dna, Brain } from 'lucide-react';
 
 const MainContent = () => {
@@ -25,6 +26,7 @@ const MainContent = () => {
   const [showClassSelector, setShowClassSelector] = useState(false);
   const [selectedClass, setSelectedClass] = useState(null); // 11 or 12
   const [devMode, setDevMode] = useState(false);
+  const [migrationStatus, setMigrationStatus] = useState('idle'); // 'idle' | 'running' | 'done'
 
   // Quiz State
   const [quizQuestions, setQuizQuestions] = useState([]);
@@ -527,6 +529,37 @@ const MainContent = () => {
           onClose={() => setShowClassSelector(false)}
           onSelectClass={handleClassSelect}
         />
+      )}
+      {/* ── DEV ONLY: XML Migration Trigger — REMOVE after running ── */}
+      {import.meta.env.DEV && (
+        <div className="fixed bottom-24 right-4 z-[200] flex flex-col items-end gap-2">
+          {migrationStatus === 'done' && (
+            <p className="text-xs bg-green-900/80 text-green-300 px-3 py-1.5 rounded-lg border border-green-700/50 font-mono">
+              ✅ Migration complete — check console for details
+            </p>
+          )}
+          <button
+            onClick={async () => {
+              if (migrationStatus === 'running') return;
+              setMigrationStatus('running');
+              try {
+                await runMigration();
+                setMigrationStatus('done');
+              } catch (e) {
+                console.error('[Migration] Critical error:', e);
+                setMigrationStatus('idle');
+              }
+            }}
+            disabled={migrationStatus === 'running'}
+            className="flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 disabled:opacity-60 disabled:cursor-not-allowed text-black text-xs font-bold px-3 py-2 rounded-full shadow-lg transition-colors"
+          >
+            {migrationStatus === 'running' ? (
+              <><div className="w-3 h-3 border-2 border-black/30 border-t-black rounded-full animate-spin" /> Running...</>
+            ) : (
+              '🔄 Run XML Migration'
+            )}
+          </button>
+        </div>
       )}
     </div>
   );
