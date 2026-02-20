@@ -10,8 +10,11 @@ import {
 export const fetchDashboardAnalytics = async () => {
     const sevenDaysAgo = Timestamp.fromDate(new Date(Date.now() - 7 * 86400_000));
     const thirtyDaysAgo = Timestamp.fromDate(new Date(Date.now() - 30 * 86400_000));
+    const sixtyDaysAgo = Timestamp.fromDate(new Date(Date.now() - 60 * 86400_000));
 
     // ── Parallel fetches ──────────────────────────────────────────────────────
+    // Optimization: We use getCountFromServer and getAggregateFromServer for global numbers.
+    // For detailed breakdowns (charts/lists), we only fetch the last 60 days of data.
     const [
         totalUsersSnap,
         totalQuizSnap,
@@ -19,9 +22,9 @@ export const fetchDashboardAnalytics = async () => {
         activeUsers7dSnap,
         totalQuestionsSnap,
         activeQuestionsSnap,
-        recentQuizSnap,
-        allQuestionsSnap,
-        allQuizSnap,
+        quizAggSnap,         // Global analytics (correct, total, stars)
+        recentQuizSnap,      // Docs for charts/activity (60 day window)
+        recentQuestionsSnap, // Docs for question bank breakdown (60 day window or last 1000)
     ] = await Promise.all([
         getCountFromServer(collection(db, 'users')),
         getCountFromServer(collection(db, 'quiz_results')),
@@ -29,24 +32,28 @@ export const fetchDashboardAnalytics = async () => {
         getCountFromServer(query(collection(db, 'users'), where('stats.lastActive', '>=', sevenDaysAgo))),
         getCountFromServer(collection(db, 'question_pools')),
         getCountFromServer(query(collection(db, 'question_pools'), where('isActive', '==', true))),
-        // last 30 days quiz docs (for activity trend + per-day breakdown)
+        getAggregateFromServer(collection(db, 'quiz_results'), {
+            totalCorrect: sum('correct'),
+            totalTotal: sum('total'),
+            totalStars: sum('stars')
+        }),
+        // Limit document fetching to last 60 days to save quota
         getDocs(query(
             collection(db, 'quiz_results'),
-            where('timestamp', '>=', thirtyDaysAgo),
+            where('timestamp', '>=', sixtyDaysAgo),
             orderBy('timestamp', 'desc'),
+            limit(1000) // Safety cap
         )),
-        // all questions (lightweight — only needs subject + difficulty + isActive)
-        getDocs(collection(db, 'question_pools')),
-        // all quiz results (for aggregation: subject popularity, avg score, etc.)
-        getDocs(collection(db, 'quiz_results')),
+        // For question distribution, we'll fetch the most recent ones or just rely on a sample
+        getDocs(query(collection(db, 'question_pools'), orderBy('createdAt', 'desc'), limit(1000))),
     ]);
 
     // ── Process questions breakdown ───────────────────────────────────────────
-    const questionsBySubject = {};  // { Physics: 12, Chemistry: 8, ... }
-    const questionsByDifficulty = {};  // { Easy: 10, Medium: 8, Hard: 4 }
-    const questionsByChapter = {};  // { '1': 5, '2': 3, ... }
+    const questionsBySubject = {};
+    const questionsByDifficulty = {};
+    const questionsByChapter = {};
 
-    allQuestionsSnap.docs.forEach((d) => {
+    recentQuestionsSnap.docs.forEach((d) => {
         const data = d.data();
         const subj = data.subject ?? 'Unknown';
         const diff = data.difficulty ?? 'Unknown';
@@ -57,21 +64,18 @@ export const fetchDashboardAnalytics = async () => {
         questionsByChapter[ch] = (questionsByChapter[ch] ?? 0) + 1;
     });
 
-    // ── Process quiz results ──────────────────────────────────────────────────
-    const subjectAttempts = {};  // { Physics: 20, ... }
-    const subjectCorrect = {};  // { Physics: 160, ... }
-    const subjectTotal = {};  // { Physics: 200, ... }
-    const diffAttempts = {};  // { Easy: 10, ... }
-    const chapterAttempts = {};  // { chapterId: count }
-    const chapterCorrect = {};  // { chapterId: correct }
-    const chapterTotal = {};  // { chapterId: total }
-    let totalCorrect = 0;
-    let totalAnswered = 0;
-    let totalStars = 0;
-    let passCount = 0;   // >= 60% = pass
-    const dayActivity = {};  // { 'YYYY-MM-DD': count }
+    // ── Process quiz results (Recent Trend) ──────────────────────────────────
+    const subjectAttempts = {};
+    const subjectCorrect = {};
+    const subjectTotal = {};
+    const diffAttempts = {};
+    const chapterAttempts = {};
+    const chapterCorrect = {};
+    const chapterTotal = {};
+    const dayActivity = {};
+    let recentPassCount = 0;
 
-    allQuizSnap.docs.forEach((d) => {
+    recentQuizSnap.docs.forEach((d) => {
         const r = d.data();
         const subj = r.subject ?? 'Unknown';
         const diff = r.difficulty ?? 'Unknown';
@@ -88,22 +92,24 @@ export const fetchDashboardAnalytics = async () => {
         chapterAttempts[ch] = (chapterAttempts[ch] ?? 0) + 1;
         chapterCorrect[ch] = (chapterCorrect[ch] ?? 0) + correct;
         chapterTotal[ch] = (chapterTotal[ch] ?? 0) + total;
-        totalCorrect += correct;
-        totalAnswered += total;
-        totalStars += stars;
-        if (pct >= 0.6) passCount++;
+        if (pct >= 0.6) recentPassCount++;
 
-        // Day activity bucket
+        // Day activity bucket (only for last 30 days)
         if (r.timestamp) {
             const ts = r.timestamp.toDate ? r.timestamp.toDate() : new Date(r.timestamp);
-            const day = ts.toISOString().slice(0, 10);
-            dayActivity[day] = (dayActivity[day] ?? 0) + 1;
+            if (ts >= thirtyDaysAgo.toDate()) {
+                const day = ts.toISOString().slice(0, 10);
+                dayActivity[day] = (dayActivity[day] ?? 0) + 1;
+            }
         }
     });
 
-    const totalAttempts = allQuizSnap.size;
+    const totalAttemptsAllTime = totalQuizSnap.data().count;
+    const totalCorrectAllTime = quizAggSnap.data().totalCorrect ?? 0;
+    const totalTotalAllTime = quizAggSnap.data().totalTotal ?? 0;
+    const totalStarsAllTime = quizAggSnap.data().totalStars ?? 0;
 
-    // Top 5 chapters by attempt count with avg score
+    // Top 5 chapters by attempt count with avg score (recent)
     const topChapters = Object.entries(chapterAttempts)
         .sort((a, b) => b[1] - a[1])
         .slice(0, 5)
@@ -115,7 +121,7 @@ export const fetchDashboardAnalytics = async () => {
                 : 0,
         }));
 
-    // Hardest chapters (lowest avg score, min 5 attempts)
+    // Hardest chapters (recent)
     const hardestChapters = Object.entries(chapterAttempts)
         .filter(([, cnt]) => cnt >= 5)
         .map(([ch, attempts]) => ({
@@ -142,20 +148,24 @@ export const fetchDashboardAnalytics = async () => {
             : null,
     }));
 
-    const avgScoreOverall = totalAnswered > 0
-        ? Math.round((totalCorrect / totalAnswered) * 100)
+    const avgScoreOverall = totalTotalAllTime > 0
+        ? Math.round((totalCorrectAllTime / totalTotalAllTime) * 100)
         : 0;
-    const passRate = totalAttempts > 0
-        ? Math.round((passCount / totalAttempts) * 100)
+
+    // Pass rate approximation (since we can't aggregate pass/fail easily without a field)
+    // We'll use the pass rate from the recent window as a proxy or just the recent one.
+    const passRate = recentQuizSnap.size > 0
+        ? Math.round((recentPassCount / recentQuizSnap.size) * 100)
         : 0;
-    const avgStarsPerQuiz = totalAttempts > 0
-        ? (totalStars / totalAttempts).toFixed(1)
+
+    const avgStarsPerQuiz = totalAttemptsAllTime > 0
+        ? (totalStarsAllTime / totalAttemptsAllTime).toFixed(1)
         : '0.0';
 
     return {
         // KPIs
         totalUsers: totalUsersSnap.data().count,
-        totalQuizAttempts: totalAttempts,
+        totalQuizAttempts: totalAttemptsAllTime,
         totalXP: xpAggSnap.data().totalXp ?? 0,
         activeUsers7d: activeUsers7dSnap.data().count,
         totalQuestions: totalQuestionsSnap.data().count,
@@ -166,7 +176,7 @@ export const fetchDashboardAnalytics = async () => {
         // Breakdowns
         questionsBySubject,
         questionsByDifficulty,
-        questionsByChapter,      // raw map
+        questionsByChapter,
         subjectAttempts,
         subjectCorrect,
         subjectTotal,
