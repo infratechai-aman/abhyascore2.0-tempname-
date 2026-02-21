@@ -1,6 +1,34 @@
 import React, { useState } from 'react';
-import { User, Shield, Sword, Trophy, Target, Zap, Edit2, Lock, Check, Eye, EyeOff } from 'lucide-react';
+import { User, Shield, Trophy, Edit2, Lock, Check, Eye, EyeOff } from 'lucide-react';
 import { getRank } from '../utils/rankUtils';
+import { useAuth } from '../contexts/AuthContext';
+
+// ─── Badge Image Imports ──────────────────────────────────────────────────────
+import badgeFirstStep from '../assets/badges/FirstStep.png';
+import badgeChapterCleared from '../assets/badges/ChapterCleared.png';
+import badge11thStandardHero from '../assets/badges/11thStandardHero.png';
+import badge12thStandardHero from '../assets/badges/12thStandardHero.png';
+import badgeTheGraduate from '../assets/badges/TheGraduate.png';
+import badgeImmortalScholar from '../assets/badges/ImmortalScholar.png';
+import badgeSniper from '../assets/badges/Sniper.png';
+import badgeSharpshooter from '../assets/badges/Sharpshooter.png';
+import badgeSpeedster from '../assets/badges/Speedster.png';
+import badgeEliteSpecialist from '../assets/badges/EliteSpecialist.png';
+import badgeCalculatedRisk from '../assets/badges/CalculatedRisk.png';
+import badgePerfectSession from '../assets/badges/PerfectSession.png';
+import badgeFireStarter from '../assets/badges/FireStarter.png';
+import badgeRelentless from '../assets/badges/Relentless.png';
+import badgeEarlyBird from '../assets/badges/EarlyBird.png';
+import badgeNightOwl from '../assets/badges/NightOwl.png';
+import badgeSundayWarrior from '../assets/badges/SundayWarrior.png';
+import badgeLibrarian from '../assets/badges/Librarian.png';
+import badgeBossSlayer from '../assets/badges/BossSlayer.png';
+import badgeTacticalGenius from '../assets/badges/TacticalGenius.png';
+import badgeLegacyBearer from '../assets/badges/LegacyBearer.png';
+import badgeRaidLegend from '../assets/badges/RaidLegend.png';
+import badgeAnalyticalBeast from '../assets/badges/AnalyticalBeast.png';
+import badgeComebackKid from '../assets/badges/ComebackKid.png';
+import badgeTheAllRounder from '../assets/badges/TheAllRounder.png';
 
 const AVATARS = [
     { id: 'MCharcter1', label: 'Rogue', src: '/Avatars/MCharcter1.png' },
@@ -18,35 +46,56 @@ const AVATARS = [
 ];
 
 const ACHIEVEMENTS = [
-    { id: 1, title: 'First Step', desc: 'Log in and create your profile', icon: <User size={20} />, unlocked: true },
-    { id: 2, title: 'Chapter Cleared', desc: 'Complete all 3 tests (Easy, Med, Hard) in any one chapter', icon: <Check size={20} />, unlocked: false },
-    { id: 3, title: '11th Standard Hero', desc: 'Finish the 11th Std map for any one subject', icon: <Shield size={20} />, unlocked: false },
-    { id: 4, title: '12th Standard Hero', desc: 'Finish the 12th Std map for any one subject', icon: <Shield size={20} />, unlocked: false },
-    { id: 5, title: 'The Graduate', desc: 'Reach Level 50', icon: <Trophy size={20} />, unlocked: false },
-    { id: 6, title: 'Immortal Scholar', desc: 'Reach Level 100', icon: <Trophy size={20} />, unlocked: false },
-    { id: 7, title: 'Sniper', desc: 'Complete a 25-question test with 100% accuracy', icon: <Target size={20} />, unlocked: false },
-    { id: 8, title: 'Sharpshooter', desc: 'Get 15 correct answers in a row (+4 streak)', icon: <Target size={20} />, unlocked: false },
-    { id: 9, title: 'Speedster', desc: 'Finish a 25-minute test in under 10 minutes with >80% score', icon: <Zap size={20} />, unlocked: false },
-    { id: 10, title: 'Elite Specialist', desc: 'Complete 5 "Hard" levels in a single day', icon: <Sword size={20} />, unlocked: false },
-    { id: 11, title: 'Calculated Risk', desc: 'Correctly answer a question you previously got wrong 3 times', icon: <Target size={20} />, unlocked: false },
-    { id: 12, title: 'Perfect Session', desc: 'Score >90% in Physics, Chemistry, and Maths/Bio on the same day', icon: <Target size={20} />, unlocked: false },
-    { id: 13, title: 'Fire Starter', desc: 'Maintain a 3-day streak', icon: <Zap size={20} />, unlocked: false },
-    { id: 14, title: 'Relentless', desc: 'Maintain a 30-day streak', icon: <Zap size={20} />, unlocked: false },
-    { id: 15, title: 'Early Bird', desc: 'Complete a test before 7:00 AM', icon: <Target size={20} />, unlocked: false },
-    { id: 16, title: 'Night Owl', desc: 'Complete a test after 11:00 PM', icon: <Target size={20} />, unlocked: false },
-    { id: 17, title: 'Sunday Warrior', desc: 'Solve 100 questions on a Sunday', icon: <Sword size={20} />, unlocked: false },
-    { id: 18, title: 'Librarian', desc: 'Spend a total of 50 hours in "Active Test" mode', icon: <Check size={20} />, unlocked: false },
-    { id: 19, title: 'Boss Slayer', desc: 'Complete your first Boss Battle (Mock Test)', icon: <Sword size={20} />, unlocked: false },
-    { id: 20, title: 'Tactical Genius', desc: 'Score >90% marks in a Boss Battle', icon: <Trophy size={20} />, unlocked: false },
-    { id: 21, title: 'Legacy Bearer', desc: 'Maintain a 100-day streak without using a "Streak Freeze"', icon: <Shield size={20} />, unlocked: false },
-    { id: 22, title: 'Raid Legend', desc: 'Complete all 9 scheduled Boss Battles', icon: <Sword size={20} />, unlocked: false },
-    { id: 23, title: 'Analytical Beast', desc: 'Solve 10 consecutive Boss questions in under 3 minutes', icon: <Zap size={20} />, unlocked: false },
-    { id: 24, title: 'Comeback Kid', desc: 'Improve a "Defeated" chapter score to 3 stars', icon: <Target size={20} />, unlocked: false },
-    { id: 25, title: 'The All-Rounder', desc: 'Unlock all other 24 achievements', icon: <Trophy size={20} />, unlocked: false },
+    { id: 1, title: 'First Step', desc: 'Sign in with Google to create your profile', img: badgeFirstStep, unlocked: false },
+    { id: 2, title: 'Chapter Cleared', desc: 'Complete all 3 tests (Easy, Med, Hard) in any one chapter', img: badgeChapterCleared, unlocked: false },
+    { id: 3, title: '11th Standard Hero', desc: 'Finish the 11th Std map for any one subject', img: badge11thStandardHero, unlocked: false },
+    { id: 4, title: '12th Standard Hero', desc: 'Finish the 12th Std map for any one subject', img: badge12thStandardHero, unlocked: false },
+    { id: 5, title: 'The Graduate', desc: 'Reach Level 50', img: badgeTheGraduate, unlocked: false },
+    { id: 6, title: 'Immortal Scholar', desc: 'Reach Level 100', img: badgeImmortalScholar, unlocked: false },
+    { id: 7, title: 'Sniper', desc: 'Complete a 25-question test with 100% accuracy', img: badgeSniper, unlocked: false },
+    { id: 8, title: 'Sharpshooter', desc: 'Get 15 correct answers in a row (+4 streak)', img: badgeSharpshooter, unlocked: false },
+    { id: 9, title: 'Speedster', desc: 'Finish a 25-minute test in under 10 minutes with >80% score', img: badgeSpeedster, unlocked: false },
+    { id: 10, title: 'Elite Specialist', desc: 'Complete 5 "Hard" levels in a single day', img: badgeEliteSpecialist, unlocked: false },
+    { id: 11, title: 'Calculated Risk', desc: 'Correctly answer a question you previously got wrong 3 times', img: badgeCalculatedRisk, unlocked: false },
+    { id: 12, title: 'Perfect Session', desc: 'Score >90% in Physics, Chemistry, and Maths/Bio on the same day', img: badgePerfectSession, unlocked: false },
+    { id: 13, title: 'Fire Starter', desc: 'Maintain a 3-day streak', img: badgeFireStarter, unlocked: false },
+    { id: 14, title: 'Relentless', desc: 'Maintain a 30-day streak', img: badgeRelentless, unlocked: false },
+    { id: 15, title: 'Early Bird', desc: 'Complete a test before 7:00 AM', img: badgeEarlyBird, unlocked: false },
+    { id: 16, title: 'Night Owl', desc: 'Complete a test after 11:00 PM', img: badgeNightOwl, unlocked: false },
+    { id: 17, title: 'Sunday Warrior', desc: 'Solve 100 questions on a Sunday', img: badgeSundayWarrior, unlocked: false },
+    { id: 18, title: 'Librarian', desc: 'Spend a total of 50 hours in "Active Test" mode', img: badgeLibrarian, unlocked: false },
+    { id: 19, title: 'Boss Slayer', desc: 'Complete your first Boss Battle (Mock Test)', img: badgeBossSlayer, unlocked: false },
+    { id: 20, title: 'Tactical Genius', desc: 'Score >90% marks in a Boss Battle', img: badgeTacticalGenius, unlocked: false },
+    { id: 21, title: 'Legacy Bearer', desc: 'Maintain a 100-day streak without using a "Streak Freeze"', img: badgeLegacyBearer, unlocked: false },
+    { id: 22, title: 'Raid Legend', desc: 'Complete all 9 scheduled Boss Battles', img: badgeRaidLegend, unlocked: false },
+    { id: 23, title: 'Analytical Beast', desc: 'Solve 10 consecutive Boss questions in under 3 minutes', img: badgeAnalyticalBeast, unlocked: false },
+    { id: 24, title: 'Comeback Kid', desc: 'Improve a "Defeated" chapter score to 3 stars', img: badgeComebackKid, unlocked: false },
+    { id: 25, title: 'The All-Rounder', desc: 'Unlock all other 24 achievements', img: badgeTheAllRounder, unlocked: false },
 ];
 
 const ProfileSection = ({ stats, assets, onAvatarSelect, onClose, devMode, setDevMode }) => {
+    const { currentUser, upgradeFromGuest } = useAuth();
     const [activeTab, setActiveTab] = useState('overview'); // overview, avatars, badges
+    const [upgrading, setUpgrading] = useState(false);
+
+    // Compute unlocked achievements dynamically
+    const isRealUser = currentUser && currentUser.uid !== 'guest123';
+    const isGuest = currentUser?.uid === 'guest123';
+    const achievements = ACHIEVEMENTS.map(ach => {
+        if (ach.id === 1) return { ...ach, unlocked: isRealUser };
+        return ach;
+    });
+
+    const handleUpgrade = async () => {
+        setUpgrading(true);
+        try {
+            await upgradeFromGuest();
+        } catch (err) {
+            console.error('Upgrade failed:', err);
+        } finally {
+            setUpgrading(false);
+        }
+    };
 
     return (
         <div className="pb-24 pt-4 px-4 animate-in slide-in-from-bottom duration-500">
@@ -104,6 +153,33 @@ const ProfileSection = ({ stats, assets, onAvatarSelect, onClose, devMode, setDe
                     </div>
                 </div>
             </div>
+
+            {/* Guest → Google Sign In Banner */}
+            {isGuest && (
+                <button
+                    onClick={handleUpgrade}
+                    disabled={upgrading}
+                    className="w-full mb-6 p-4 rounded-2xl border border-green-500/30 bg-gradient-to-r from-green-900/30 to-emerald-900/20 flex items-center gap-4 active:scale-[0.98] transition-all"
+                >
+                    <div className="w-12 h-12 rounded-xl bg-white flex items-center justify-center flex-shrink-0">
+                        <svg width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4" />
+                            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853" />
+                            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05" />
+                            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335" />
+                        </svg>
+                    </div>
+                    <div className="text-left flex-1">
+                        <p className="text-sm font-black text-white uppercase tracking-wide">
+                            {upgrading ? 'Signing in...' : 'Sign in with Google'}
+                        </p>
+                        <p className="text-[10px] text-green-400/80 font-medium uppercase tracking-wider mt-0.5">
+                            Save your progress & unlock achievements
+                        </p>
+                    </div>
+                    <div className="text-green-400 text-xl">→</div>
+                </button>
+            )}
 
             {/* Tabs */}
             <div className="flex gap-2 mb-6 overflow-x-auto no-scrollbar">
@@ -205,16 +281,24 @@ const ProfileSection = ({ stats, assets, onAvatarSelect, onClose, devMode, setDe
                 )}
 
                 {activeTab === 'badges' && (
-                    <div className="space-y-3">
-                        {ACHIEVEMENTS.map((ach) => (
-                            <div key={ach.id} className={`flex items-center gap-4 p-4 rounded-2xl border ${ach.unlocked ? 'bg-gradient-to-r from-[#16161c] to-blue-900/10 border-blue-500/20' : 'bg-[#16161c]/50 border-white/5 opacity-50'}`}>
-                                <div className={`p-3 rounded-xl ${ach.unlocked ? 'bg-blue-500/20 text-blue-400 shadow-[0_0_15px_rgba(59,130,246,0.2)]' : 'bg-white/5 text-white/20'}`}>
-                                    {ach.unlocked ? ach.icon : <Lock size={20} />}
+                    <div className="grid grid-cols-3 sm:grid-cols-4 gap-3">
+                        {achievements.map((ach) => (
+                            <div key={ach.id} className={`relative flex flex-col items-center p-3 rounded-2xl border transition-all ${ach.unlocked
+                                ? 'bg-gradient-to-b from-[#16161c] to-blue-900/10 border-blue-500/20 shadow-[0_0_20px_rgba(59,130,246,0.15)]'
+                                : 'bg-[#16161c]/50 border-white/5'}`}
+                            >
+                                <div className={`w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden mb-2 relative ${!ach.unlocked ? 'grayscale opacity-40' : ''}`}>
+                                    <img src={ach.img} alt={ach.title} className="w-full h-full object-contain" />
+                                    {!ach.unlocked && (
+                                        <div className="absolute inset-0 flex items-center justify-center bg-black/30">
+                                            <Lock size={16} className="text-white/60" />
+                                        </div>
+                                    )}
                                 </div>
-                                <div className="flex-1">
-                                    <h4 className={`font-black text-sm uppercase tracking-wide mb-1 ${ach.unlocked ? 'text-white' : 'text-white/40'}`}>{ach.title}</h4>
-                                    <p className="text-[10px] font-medium text-white/40 uppercase tracking-wider">{ach.desc}</p>
-                                </div>
+                                <h4 className={`text-[10px] sm:text-xs font-black text-center uppercase tracking-wide leading-tight ${ach.unlocked ? 'text-white' : 'text-white/30'}`}>
+                                    {ach.title}
+                                </h4>
+                                <p className="text-[8px] text-white/30 text-center mt-1 leading-tight line-clamp-2 hidden sm:block">{ach.desc}</p>
                             </div>
                         ))}
                     </div>

@@ -57,6 +57,7 @@ const MainContent = () => {
   const allSubjectsFallback = [
     {
       id: 'phy',
+      type: 'subject',
       title: 'PHYSICS',
       sub: '11th & 12th Chapters',
       assetKey: 'phy',
@@ -66,6 +67,7 @@ const MainContent = () => {
     },
     {
       id: 'chem',
+      type: 'subject',
       title: 'CHEMISTRY',
       sub: '11th & 12th Chapters',
       assetKey: 'chem',
@@ -75,6 +77,7 @@ const MainContent = () => {
     },
     {
       id: 'math',
+      type: 'subject',
       title: 'MATHS',
       sub: '11th & 12th Chapters',
       assetKey: 'math',
@@ -84,6 +87,7 @@ const MainContent = () => {
     },
     {
       id: 'bio',
+      type: 'subject',
       title: 'BIOLOGY',
       sub: 'Botany Chapters',
       assetKey: 'bio',
@@ -93,6 +97,7 @@ const MainContent = () => {
     },
     {
       id: 'zoo',
+      type: 'subject',
       title: 'ZOOLOGY',
       sub: 'Zoology Chapters',
       assetKey: 'bio', // Reusing bio asset for now
@@ -102,12 +107,29 @@ const MainContent = () => {
     }
   ];
 
+  // Stream → allowed subject codes mapping
+  const STREAM_SUBJECTS = {
+    JEE: ['phy', 'chem', 'math'],
+    NEET: ['phy', 'chem', 'bio', 'zoo'],
+  };
+
   const { cards: allCards, rewardRules, loading: configLoading } = useHomeConfig(allSubjectsFallback);
 
   // Filter subjects based on user stream and type
+  const userStream = userData?.stream;
   const subjects = allCards
     .filter(card => card.type === 'subject')
-    .filter(sub => userData?.stream ? (sub.streams ? sub.streams.includes(userData.stream) : true) : true);
+    .filter(sub => {
+      if (!userStream) return true; // No stream set, show all
+      // Use card's streams array if available, else fall back to subject code mapping
+      if (sub.streams && sub.streams.length > 0) {
+        return sub.streams.includes(userStream);
+      }
+      // Fallback: use subjectCode or id to determine stream eligibility
+      const code = sub.subjectCode || sub.id;
+      const allowed = STREAM_SUBJECTS[userStream];
+      return allowed ? allowed.includes(code) : true;
+    });
 
   // Identify extra cards (boss, achievement, custom)
   const extraCards = allCards.filter(card => card.type !== 'subject');

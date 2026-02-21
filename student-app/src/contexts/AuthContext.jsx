@@ -110,6 +110,61 @@ export const AuthProvider = ({ children }) => {
         });
     };
 
+    // Upgrade Guest → Google Account (migrate progress)
+    const upgradeFromGuest = async () => {
+        // Capture guest data before signing in
+        const guestData = { ...userData };
+
+        try {
+            const result = await signInWithPopup(auth, googleProvider);
+            const user = result.user;
+
+            const docRef = doc(db, "users", user.uid);
+            const docSnap = await getDoc(docRef);
+
+            if (!docSnap.exists()) {
+                // New account — save all guest progress
+                const migratedUser = {
+                    name: user.displayName,
+                    email: user.email,
+                    stream: guestData.stream || 'JEE',
+                    createdAt: new Date(),
+                    migratedFromGuest: true,
+                    stats: guestData.stats || {
+                        lvl: 1, xp: 0, nextXp: 100,
+                        gold: 0, gems: 0, streak: 0
+                    }
+                };
+                await setDoc(docRef, migratedUser);
+                setUserData(migratedUser);
+            } else {
+                // Existing account — merge guest stats (keep higher values)
+                const existing = docSnap.data();
+                const mergedStats = {
+                    lvl: Math.max(existing.stats?.lvl || 1, guestData.stats?.lvl || 1),
+                    xp: Math.max(existing.stats?.xp || 0, guestData.stats?.xp || 0),
+                    nextXp: Math.max(existing.stats?.nextXp || 100, guestData.stats?.nextXp || 100),
+                    gold: (existing.stats?.gold || 0) + (guestData.stats?.gold || 0),
+                    gems: (existing.stats?.gems || 0) + (guestData.stats?.gems || 0),
+                    streak: Math.max(existing.stats?.streak || 0, guestData.stats?.streak || 0),
+                    totalTests: (existing.stats?.totalTests || 0) + (guestData.stats?.totalTests || 0),
+                    totalQuestions: (existing.stats?.totalQuestions || 0) + (guestData.stats?.totalQuestions || 0),
+                    correctAnswers: (existing.stats?.correctAnswers || 0) + (guestData.stats?.correctAnswers || 0),
+                    lastActive: guestData.stats?.lastActive || existing.stats?.lastActive,
+                };
+                await updateDoc(docRef, { stats: mergedStats });
+                setUserData({ ...existing, stats: mergedStats });
+            }
+
+            // Update currentUser to real Firebase user
+            setCurrentUser(user);
+            return user;
+        } catch (error) {
+            console.error("Guest upgrade error:", error);
+            throw error;
+        }
+    };
+
     // Update User Stats
     const updateUserStats = async (newStats) => {
         if (!currentUser) return;
@@ -171,6 +226,7 @@ export const AuthProvider = ({ children }) => {
         googleLogin,
         guestLogin,
         logout,
+        upgradeFromGuest,
         updateUserStats
     };
 

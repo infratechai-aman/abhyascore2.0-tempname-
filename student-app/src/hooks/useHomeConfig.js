@@ -17,6 +17,13 @@ export const useHomeConfig = (hardcodedFallbacks = []) => {
     useEffect(() => {
         if (!currentUser) return; // Wait for authentication
 
+        // Guest users can't access Firestore — use fallbacks immediately
+        if (currentUser.uid === 'guest123') {
+            setCards(hardcodedFallbacks);
+            setLoading(false);
+            return;
+        }
+
         setLoading(true);
 
         // 1. Listen to Home Cards
