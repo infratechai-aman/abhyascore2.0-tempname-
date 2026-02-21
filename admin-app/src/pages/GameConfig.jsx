@@ -17,7 +17,7 @@ const RANKS = [
 
 // ─── Badges Data ──────────────────────────────────────────────────────────────
 const BADGES = [
-    { id: 1, title: 'First Step', desc: 'Log in and create your profile', category: 'Onboarding' },
+    { id: 1, title: 'First Step', desc: 'Sign in with Google to create your profile', category: 'Onboarding' },
     { id: 2, title: 'Chapter Cleared', desc: 'Complete all 3 tests (Easy, Med, Hard) in any one chapter', category: 'Progress' },
     { id: 3, title: '11th Standard Hero', desc: 'Finish the 11th Std map for any one subject', category: 'Progress' },
     { id: 4, title: '12th Standard Hero', desc: 'Finish the 12th Std map for any one subject', category: 'Progress' },
