@@ -283,3 +283,33 @@ export const updateQuestion = async (id, data) => {
 export const deleteQuestion = async (id) => {
     await deleteDoc(doc(db, 'question_pools', id));
 };
+
+/**
+ * Bulk create questions using chunked batch writes.
+ * @param {Array} questions - Array of question objects
+ * @returns {Promise<number>} - Number of questions successfully imported
+ */
+export const bulkCreateQuestions = async (questions) => {
+    const BATCH_SIZE = 400; // Safe limit (Firestore max is 500)
+    let totalImported = 0;
+
+    for (let i = 0; i < questions.length; i += BATCH_SIZE) {
+        const chunk = questions.slice(i, i + BATCH_SIZE);
+        const batch = writeBatch(db);
+
+        chunk.forEach((q) => {
+            const docRef = doc(collection(db, 'question_pools'));
+            batch.set(docRef, {
+                ...q,
+                isActive: q.isActive ?? true,
+                createdAt: serverTimestamp(),
+            });
+        });
+
+        await batch.commit();
+        totalImported += chunk.length;
+        console.log(`[FirestoreService] Bulk Batch ${Math.floor(i / BATCH_SIZE) + 1} committed (${chunk.length} docs)`);
+    }
+
+    return totalImported;
+};

@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { useQuestions } from '../hooks/useQuestions';
 import QuestionModal from '../components/QuestionModal';
 import ConfirmDialog from '../components/ConfirmDialog';
-
-// ─── Constants ────────────────────────────────────────────────────────────────
+import BulkImportModal from '../components/BulkImportModal';
 
 const SUBJECTS = ['Physics', 'Chemistry', 'Biology', 'Maths', 'Zoology'];
 const DIFFICULTIES = ['Easy', 'Medium', 'Hard'];
@@ -100,6 +99,7 @@ export default function Questions() {
         totalCount,
         loading, loadingMore, error, hasMore,
         loadMore, addQuestion, editQuestion, removeQuestion, bulkSetActiveQuestions,
+        refresh,
     } = useQuestions(filters, pageSize);
 
     // Client-side status filter applied on top of hook results
@@ -144,6 +144,8 @@ export default function Questions() {
 
     // ── Modals ──────────────────────────────────────────────────────────────────
     const [modalOpen, setModalOpen] = useState(false);
+    const [bulkImportOpen, setBulkImportOpen] = useState(false);
+    const [importSuccessMsg, setImportSuccessMsg] = useState('');
     const [editTarget, setEditTarget] = useState(null);
     const [deleteTarget, setDeleteTarget] = useState(null);
     const [deleting, setDeleting] = useState(false);
@@ -182,6 +184,12 @@ export default function Questions() {
 
     const hasActiveFilter = filterSubject || filterDifficulty || filterChapterId || filterStatus;
 
+    const handleImportSuccess = (count) => {
+        setImportSuccessMsg(`Successfully imported ${count} questions!`);
+        refresh();
+        setTimeout(() => setImportSuccessMsg(''), 5000);
+    };
+
     return (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
 
@@ -199,13 +207,30 @@ export default function Questions() {
                         }
                     </p>
                 </div>
-                <button onClick={openAdd} className="btn btn-primary">
-                    <svg style={{ width: '0.875rem', height: '0.875rem' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
-                    </svg>
-                    Add Question
-                </button>
+                <div style={{ display: 'flex', gap: '0.75rem' }}>
+                    <button onClick={() => setBulkImportOpen(true)} className="btn btn-outline">
+                        <svg style={{ width: '0.875rem', height: '0.875rem' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+                        </svg>
+                        Bulk Import (XML)
+                    </button>
+                    <button onClick={openAdd} className="btn btn-primary">
+                        <svg style={{ width: '0.875rem', height: '0.875rem' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                        </svg>
+                        Add Question
+                    </button>
+                </div>
             </div>
+
+            {importSuccessMsg && (
+                <div className="badge-success" style={{ padding: '0.75rem 1rem', borderRadius: '0.625rem', fontSize: '0.875rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <svg style={{ width: '1.125rem', height: '1.125rem' }} viewBox="0 0 20 20" fill="currentColor">
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    {importSuccessMsg}
+                </div>
+            )}
 
             {/* ── Filter Bar ──────────────────────────────────────────────── */}
             <div className="card" style={{ padding: '1rem 1.25rem' }}>
@@ -433,6 +458,11 @@ export default function Questions() {
             </div>
 
             {/* ── Modals ──────────────────────────────────────────────────── */}
+            <BulkImportModal
+                isOpen={bulkImportOpen}
+                onClose={() => setBulkImportOpen(false)}
+                onImportSuccess={handleImportSuccess}
+            />
             <QuestionModal
                 isOpen={modalOpen}
                 question={editTarget}

@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import { auth, db, googleProvider } from '../firebase';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, signInWithPopup } from 'firebase/auth';
-import { doc, setDoc, getDoc, updateDoc } from 'firebase/firestore';
+import { doc, setDoc, getDoc, updateDoc, onSnapshot } from 'firebase/firestore';
 
 const AuthContext = createContext();
 
@@ -131,28 +131,36 @@ export const AuthProvider = ({ children }) => {
         }
     };
 
-    // Load User Data
+    // Load User Data - Now Real-time
     useEffect(() => {
-        const unsubscribe = onAuthStateChanged(auth, async (user) => {
+        let unsubscribeDoc = null;
+
+        const unsubscribeAuth = onAuthStateChanged(auth, async (user) => {
             setCurrentUser(user);
+
+            // Clean up previous registration if any
+            if (unsubscribeDoc) unsubscribeDoc();
+
             if (user) {
-                // Fetch extra data from Firestore
-                try {
-                    const docRef = doc(db, "users", user.uid);
-                    const docSnap = await getDoc(docRef);
+                // Set up real-time listener for the user document
+                const docRef = doc(db, "users", user.uid);
+                unsubscribeDoc = onSnapshot(docRef, (docSnap) => {
                     if (docSnap.exists()) {
                         setUserData(docSnap.data());
                     }
-                } catch (error) {
-                    console.error("Error fetching user data:", error);
-                }
+                }, (error) => {
+                    console.error("Error fetching user data snapshot:", error);
+                });
             } else {
                 setUserData(null);
             }
             setLoading(false);
         });
 
-        return unsubscribe;
+        return () => {
+            unsubscribeAuth();
+            if (unsubscribeDoc) unsubscribeDoc();
+        };
     }, []);
 
     const value = {

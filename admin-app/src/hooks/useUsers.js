@@ -49,6 +49,18 @@ export function useUsers() {
         return allUsers.filter((u) => u.email?.toLowerCase().includes(q));
     }, [allUsers, searchQuery]);
 
+    const refresh = useCallback(() => {
+        // Non-blocking refresh: don't set global 'loading' to true 
+        // to avoid unmounting the entire table
+        return fetchUsersPage(null, PAGE_SIZE)
+            .then(({ users, lastDoc: ld, hasMore: hm }) => {
+                setAllUsers(users);
+                setLastDoc(ld);
+                setHasMore(hm);
+            })
+            .catch((e) => setError(e.message));
+    }, []);
+
     return {
         users: filteredUsers,
         totalLoaded: allUsers.length,
@@ -59,5 +71,6 @@ export function useUsers() {
         loadMore,
         searchQuery,
         setSearchQuery,
+        refresh
     };
 }

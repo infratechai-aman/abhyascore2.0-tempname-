@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useUsers } from '../hooks/useUsers';
+import EconomyPanel from '../components/EconomyPanel';
 
 const fmtDate = (ts) => {
     if (!ts) return 'Never';
@@ -8,7 +9,8 @@ const fmtDate = (ts) => {
 };
 
 export default function Users() {
-    const { users, totalLoaded, loading, loadingMore, error, hasMore, loadMore, searchQuery, setSearchQuery } = useUsers();
+    const { users, totalLoaded, loading, loadingMore, error, hasMore, loadMore, searchQuery, setSearchQuery, refresh } = useUsers();
+    const [expandedUserId, setExpandedUserId] = useState(null);
 
     return (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
@@ -88,45 +90,67 @@ export default function Users() {
                             </thead>
                             <tbody>
                                 {users.map((user) => (
-                                    <tr key={user.id}>
-                                        <td>
-                                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.625rem' }}>
-                                                <div style={{
-                                                    width: '2rem', height: '2rem', flexShrink: 0,
-                                                    background: 'var(--primary-01)', color: 'var(--primary)',
-                                                    borderRadius: '50%', display: 'flex', alignItems: 'center',
-                                                    justifyContent: 'center', fontSize: '0.75rem', fontWeight: 700,
-                                                    textTransform: 'uppercase'
-                                                }}>
-                                                    {user.email?.[0] ?? '?'}
+                                    <React.Fragment key={user.id}>
+                                        <tr
+                                            onClick={() => setExpandedUserId(expandedUserId === user.id ? null : user.id)}
+                                            style={{ cursor: 'pointer', background: expandedUserId === user.id ? 'var(--primary-005)' : 'transparent' }}
+                                        >
+                                            <td>
+                                                <div style={{ display: 'flex', alignItems: 'center', gap: '0.625rem' }}>
+                                                    <div style={{
+                                                        width: '2rem', height: '2rem', flexShrink: 0,
+                                                        background: 'var(--primary-01)', color: 'var(--primary)',
+                                                        borderRadius: '50%', display: 'flex', alignItems: 'center',
+                                                        justifyContent: 'center', fontSize: '0.75rem', fontWeight: 700,
+                                                        textTransform: 'uppercase'
+                                                    }}>
+                                                        {user.email?.[0] ?? '?'}
+                                                    </div>
+                                                    <div style={{ display: 'flex', flexDirection: 'column' }}>
+                                                        <span style={{ fontWeight: 600, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', maxWidth: '14rem' }}>
+                                                            {user.email ?? '—'}
+                                                        </span>
+                                                        <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>UID: {user.id.slice(0, 8)}...</span>
+                                                    </div>
                                                 </div>
-                                                <span style={{ fontWeight: 500, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', maxWidth: '14rem' }}>
-                                                    {user.email ?? '—'}
+                                            </td>
+                                            <td style={{ textAlign: 'right' }}>
+                                                <span style={{ fontWeight: 600, color: 'var(--primary)' }}>
+                                                    {(user.stats?.xp ?? 0).toLocaleString()}
                                                 </span>
-                                            </div>
-                                        </td>
-                                        <td style={{ textAlign: 'right' }}>
-                                            <span style={{ fontWeight: 600, color: 'var(--primary)' }}>
-                                                {(user.stats?.xp ?? 0).toLocaleString()}
-                                            </span>
-                                        </td>
-                                        <td style={{ textAlign: 'right' }}>
-                                            <span style={{ fontWeight: 600, color: 'rgb(var(--warning-rgb))' }}>
-                                                {(user.stats?.gold ?? 0).toLocaleString()}
-                                            </span>
-                                        </td>
-                                        <td style={{ textAlign: 'right' }}>
-                                            <span style={{ color: 'rgb(var(--orange-rgb))', fontWeight: 600 }}>
-                                                🔥 {user.stats?.streak ?? 0}
-                                            </span>
-                                        </td>
-                                        <td style={{ textAlign: 'right' }}>
-                                            <span className="badge badge-primary">{user.stats?.totalTests ?? 0}</span>
-                                        </td>
-                                        <td style={{ textAlign: 'right', color: 'var(--text-muted)', fontSize: '0.75rem' }}>
-                                            {fmtDate(user.stats?.lastActive)}
-                                        </td>
-                                    </tr>
+                                            </td>
+                                            <td style={{ textAlign: 'right' }}>
+                                                <span style={{ fontWeight: 600, color: 'rgb(var(--warning-rgb))' }}>
+                                                    {(user.stats?.gold ?? 0).toLocaleString()}
+                                                </span>
+                                            </td>
+                                            <td style={{ textAlign: 'right' }}>
+                                                <span style={{ color: 'rgb(var(--orange-rgb))', fontWeight: 600 }}>
+                                                    🔥 {user.stats?.streak ?? 0}
+                                                </span>
+                                            </td>
+                                            <td style={{ textAlign: 'right' }}>
+                                                <span className="badge badge-primary">{user.stats?.totalTests ?? 0}</span>
+                                            </td>
+                                            <td style={{ textAlign: 'right' }}>
+                                                <button className="btn btn-icon btn-sm" style={{ color: expandedUserId === user.id ? 'var(--primary)' : 'var(--text-muted)' }}>
+                                                    {expandedUserId === user.id ? '▲' : '⚙️'}
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        {expandedUserId === user.id && (
+                                            <tr>
+                                                <td colSpan="6" style={{ padding: '0 1rem 1rem 1rem', borderTop: 'none' }}>
+                                                    <EconomyPanel
+                                                        user={user}
+                                                        onUpdate={() => {
+                                                            refresh();
+                                                        }}
+                                                    />
+                                                </td>
+                                            </tr>
+                                        )}
+                                    </React.Fragment>
                                 ))}
                             </tbody>
                         </table>

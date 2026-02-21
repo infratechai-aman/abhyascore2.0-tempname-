@@ -29,7 +29,10 @@ export function useQuestions(filters = {}, pageSize = 20) {
     const serverFiltersKey = JSON.stringify(serverFilters);
     const pageSizeKey = String(pageSize);
 
-    // Reset + refetch whenever server-side filters or page size changes
+    const [refreshKey, setRefreshKey] = useState(0);
+    const refresh = useCallback(() => setRefreshKey((k) => k + 1), []);
+
+    // Reset + refetch whenever server-side filters, page size, or refreshKey changes
     useEffect(() => {
         let cancelled = false;
         setLoading(true);
@@ -55,7 +58,7 @@ export function useQuestions(filters = {}, pageSize = 20) {
 
         return () => { cancelled = true; };
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [serverFiltersKey, pageSizeKey]);
+    }, [serverFiltersKey, pageSizeKey, refreshKey]);
 
     const loadMore = useCallback(async () => {
         if (!hasMore || loadingMore || loading) return;
@@ -72,7 +75,7 @@ export function useQuestions(filters = {}, pageSize = 20) {
             setLoadingMore(false);
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [hasMore, loadingMore, loading, lastDoc, serverFiltersKey, pageSizeKey]);
+    }, [hasMore, loadingMore, loading, lastDoc, serverFiltersKey, pageSizeKey, refreshKey]);
 
     // Client-side chapterId filter
     const questions = filters.chapterId
@@ -142,9 +145,9 @@ export function useQuestions(filters = {}, pageSize = 20) {
     }, []);
 
     return {
-        questions,        // client-filtered view (chapterId + status applied in Questions.jsx)
-        allQuestions,     // server-loaded raw questions (before client filters)
-        totalCount,       // Firestore count (cheap, no docs fetched)
+        questions,
+        allQuestions,
+        totalCount,
         loading,
         loadingMore,
         error,
@@ -154,5 +157,6 @@ export function useQuestions(filters = {}, pageSize = 20) {
         editQuestion,
         removeQuestion,
         bulkSetActiveQuestions,
+        refresh,
     };
 }

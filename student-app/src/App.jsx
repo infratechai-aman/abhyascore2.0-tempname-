@@ -12,6 +12,7 @@ import ClassSelectionModal from './components/ClassSelectionModal';
 import AdminUpload from './components/AdminUpload';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { startTestSession, calculateResults, saveQuizResult, getUserProgress, saveChapterProgress } from './utils/gameLogic';
+import { useHomeConfig } from './hooks/useHomeConfig';
 import { Zap, Beaker, Calculator, Dna, Brain } from 'lucide-react';
 
 const MainContent = () => {
@@ -41,7 +42,7 @@ const MainContent = () => {
     streak: 0
   };
 
-  const allSubjects = [
+  const allSubjectsFallback = [
     {
       id: 'phy',
       title: 'PHYSICS',
@@ -89,10 +90,15 @@ const MainContent = () => {
     }
   ];
 
-  // Filter subjects based on user stream
-  const subjects = allSubjects.filter(sub =>
-    userData?.stream ? sub.streams.includes(userData.stream) : true
-  );
+  const { cards: allCards, rewardRules, loading: configLoading } = useHomeConfig(allSubjectsFallback);
+
+  // Filter subjects based on user stream and type
+  const subjects = allCards
+    .filter(card => card.type === 'subject')
+    .filter(sub => userData?.stream ? (sub.streams ? sub.streams.includes(userData.stream) : true) : true);
+
+  // Identify extra cards (boss, achievement, custom)
+  const extraCards = allCards.filter(card => card.type !== 'subject');
 
   const [currentDifficulty, setCurrentDifficulty] = useState(null);
 
@@ -293,10 +299,13 @@ const MainContent = () => {
       });
 
       // 2. Calculate Rewards
-      // XP: 10 per star + 1 per correct answer
-      const xpEarned = (results.stars * 10) + results.correct;
-      // Gold: 5 per correct answer
-      const goldEarned = results.correct * 5;
+      const baseCorrXP = rewardRules?.correctAnswerXP ?? 1;
+      const baseCorrGold = 5; // Fixed for now
+
+      // XP: (Stars * 10) + (Correct * Rule)
+      const xpEarned = (results.stars * 10) + (results.correct * baseCorrXP);
+      // Gold: 5 per correct answer (Could also be from rules later)
+      const goldEarned = results.correct * baseCorrGold;
 
       // 3. Update User Stats
       const today = new Date().toDateString();
@@ -404,10 +413,10 @@ const MainContent = () => {
     return <AuthScreen />;
   }
 
-  if (loading) return (
+  if (loading || configLoading) return (
     <div className="min-h-screen bg-[#050508] flex flex-col items-center justify-center">
       <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mb-4 shadow-[0_0_20px_blue]" />
-      <h2 className="text-white font-black italic tracking-widest uppercase text-[10px] animate-pulse">Forging Assets...</h2>
+      <h2 className="text-white font-black italic tracking-widest uppercase text-[10px] animate-pulse">{configLoading ? 'Fetching Config...' : 'Forging Assets...'}</h2>
     </div>
   );
 
@@ -464,6 +473,7 @@ const MainContent = () => {
         {view === 'home' ? (
           <Dashboard
             subjects={subjects}
+            extraCards={extraCards}
             assets={assets}
             setSelectedSub={handleSubjectClick}
             setView={setView}

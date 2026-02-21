@@ -7,6 +7,8 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import Users from './pages/Users';
 import Questions from './pages/Questions';
+import HomeCardManager from './pages/AppControl/HomeCardManager';
+import RewardRuleManager from './pages/AppControl/RewardRuleManager';
 
 function AdminLayout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -58,6 +60,26 @@ export default function App() {
             <AdminRoute>
               <AdminLayout>
                 <Questions />
+              </AdminLayout>
+            </AdminRoute>
+          }
+        />
+        <Route
+          path="/app-control/home-cards"
+          element={
+            <AdminRoute>
+              <AdminLayout>
+                <HomeCardManager />
+              </AdminLayout>
+            </AdminRoute>
+          }
+        />
+        <Route
+          path="/app-control/rewards"
+          element={
+            <AdminRoute>
+              <AdminLayout>
+                <RewardRuleManager />
               </AdminLayout>
             </AdminRoute>
           }

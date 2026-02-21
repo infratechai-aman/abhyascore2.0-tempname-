@@ -45,6 +45,33 @@ const navItems = [
     },
 ];
 
+const appControlItems = [
+    {
+        to: '/app-control/home-cards',
+        label: 'Home Cards',
+        color: 'rgb(var(--success-rgb))',        /* green */
+        activeBg: 'rgba(var(--success-rgb), 0.15)',
+        icon: (
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
+                    d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+            </svg>
+        ),
+    },
+    {
+        to: '/app-control/rewards',
+        label: 'Reward Rules',
+        color: 'rgb(var(--warning-rgb))',        /* yellow/orange */
+        activeBg: 'rgba(var(--warning-rgb), 0.15)',
+        icon: (
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
+                    d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+        ),
+    },
+];
+
 export default function Sidebar({ open, onClose }) {
     const navigate = useNavigate();
     const user = auth.currentUser;
@@ -80,6 +107,40 @@ export default function Sidebar({ open, onClose }) {
                     <p className="sidebar-section-label">Home</p>
 
                     {navItems.map((item) => (
+                        <NavLink
+                            key={item.to}
+                            to={item.to}
+                            onClick={onClose}
+                            className="sidebar-item-wrapper"
+                        >
+                            {({ isActive }) => (
+                                <span
+                                    className="sidebar-item"
+                                    style={isActive ? {
+                                        background: item.activeBg,
+                                        color: item.color,
+                                    } : {}}
+                                >
+                                    {/* Icon box */}
+                                    <span
+                                        className="sidebar-icon-box"
+                                        style={isActive ? {
+                                            borderColor: item.color,
+                                            color: item.color,
+                                            background: item.activeBg,
+                                        } : {}}
+                                    >
+                                        {item.icon}
+                                    </span>
+                                    <span className="sidebar-item-label">{item.label}</span>
+                                </span>
+                            )}
+                        </NavLink>
+                    ))}
+
+                    <p className="sidebar-section-label" style={{ marginTop: '1.5rem' }}>Configuration</p>
+
+                    {appControlItems.map((item) => (
                         <NavLink
                             key={item.to}
                             to={item.to}
