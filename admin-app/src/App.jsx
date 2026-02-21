@@ -9,6 +9,7 @@ import Users from './pages/Users';
 import Questions from './pages/Questions';
 import HomeCardManager from './pages/AppControl/HomeCardManager';
 import RewardRuleManager from './pages/AppControl/RewardRuleManager';
+import GameConfig from './pages/GameConfig';
 
 function AdminLayout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -80,6 +81,16 @@ export default function App() {
             <AdminRoute>
               <AdminLayout>
                 <RewardRuleManager />
+              </AdminLayout>
+            </AdminRoute>
+          }
+        />
+        <Route
+          path="/game-config"
+          element={
+            <AdminRoute>
+              <AdminLayout>
+                <GameConfig />
               </AdminLayout>
             </AdminRoute>
           }

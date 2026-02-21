@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { User, Shield, Sword, Trophy, Target, Zap, Edit2, Lock, Check, Eye, EyeOff } from 'lucide-react';
+import { getRank } from '../utils/rankUtils';
 
 const AVATARS = [
     { id: 'MCharcter1', label: 'Rogue', src: '/Avatars/MCharcter1.png' },
@@ -17,10 +18,31 @@ const AVATARS = [
 ];
 
 const ACHIEVEMENTS = [
-    { id: 1, title: 'First Blood', desc: 'Complete your first chapter', icon: <Sword size={20} />, unlocked: true },
-    { id: 2, title: 'Sharpshooter', desc: 'Get 100% accuracy in a quiz', icon: <Target size={20} />, unlocked: false },
-    { id: 3, title: 'Speed Demon', desc: 'Finish a quiz in under 5 mins', icon: <Zap size={20} />, unlocked: false },
-    { id: 4, title: 'Veteran', desc: 'Reach Level 10', icon: <Shield size={20} />, unlocked: true },
+    { id: 1, title: 'First Step', desc: 'Log in and create your profile', icon: <User size={20} />, unlocked: true },
+    { id: 2, title: 'Chapter Cleared', desc: 'Complete all 3 tests (Easy, Med, Hard) in any one chapter', icon: <Check size={20} />, unlocked: false },
+    { id: 3, title: '11th Standard Hero', desc: 'Finish the 11th Std map for any one subject', icon: <Shield size={20} />, unlocked: false },
+    { id: 4, title: '12th Standard Hero', desc: 'Finish the 12th Std map for any one subject', icon: <Shield size={20} />, unlocked: false },
+    { id: 5, title: 'The Graduate', desc: 'Reach Level 50', icon: <Trophy size={20} />, unlocked: false },
+    { id: 6, title: 'Immortal Scholar', desc: 'Reach Level 100', icon: <Trophy size={20} />, unlocked: false },
+    { id: 7, title: 'Sniper', desc: 'Complete a 25-question test with 100% accuracy', icon: <Target size={20} />, unlocked: false },
+    { id: 8, title: 'Sharpshooter', desc: 'Get 15 correct answers in a row (+4 streak)', icon: <Target size={20} />, unlocked: false },
+    { id: 9, title: 'Speedster', desc: 'Finish a 25-minute test in under 10 minutes with >80% score', icon: <Zap size={20} />, unlocked: false },
+    { id: 10, title: 'Elite Specialist', desc: 'Complete 5 "Hard" levels in a single day', icon: <Sword size={20} />, unlocked: false },
+    { id: 11, title: 'Calculated Risk', desc: 'Correctly answer a question you previously got wrong 3 times', icon: <Target size={20} />, unlocked: false },
+    { id: 12, title: 'Perfect Session', desc: 'Score >90% in Physics, Chemistry, and Maths/Bio on the same day', icon: <Target size={20} />, unlocked: false },
+    { id: 13, title: 'Fire Starter', desc: 'Maintain a 3-day streak', icon: <Zap size={20} />, unlocked: false },
+    { id: 14, title: 'Relentless', desc: 'Maintain a 30-day streak', icon: <Zap size={20} />, unlocked: false },
+    { id: 15, title: 'Early Bird', desc: 'Complete a test before 7:00 AM', icon: <Target size={20} />, unlocked: false },
+    { id: 16, title: 'Night Owl', desc: 'Complete a test after 11:00 PM', icon: <Target size={20} />, unlocked: false },
+    { id: 17, title: 'Sunday Warrior', desc: 'Solve 100 questions on a Sunday', icon: <Sword size={20} />, unlocked: false },
+    { id: 18, title: 'Librarian', desc: 'Spend a total of 50 hours in "Active Test" mode', icon: <Check size={20} />, unlocked: false },
+    { id: 19, title: 'Boss Slayer', desc: 'Complete your first Boss Battle (Mock Test)', icon: <Sword size={20} />, unlocked: false },
+    { id: 20, title: 'Tactical Genius', desc: 'Score >90% marks in a Boss Battle', icon: <Trophy size={20} />, unlocked: false },
+    { id: 21, title: 'Legacy Bearer', desc: 'Maintain a 100-day streak without using a "Streak Freeze"', icon: <Shield size={20} />, unlocked: false },
+    { id: 22, title: 'Raid Legend', desc: 'Complete all 9 scheduled Boss Battles', icon: <Sword size={20} />, unlocked: false },
+    { id: 23, title: 'Analytical Beast', desc: 'Solve 10 consecutive Boss questions in under 3 minutes', icon: <Zap size={20} />, unlocked: false },
+    { id: 24, title: 'Comeback Kid', desc: 'Improve a "Defeated" chapter score to 3 stars', icon: <Target size={20} />, unlocked: false },
+    { id: 25, title: 'The All-Rounder', desc: 'Unlock all other 24 achievements', icon: <Trophy size={20} />, unlocked: false },
 ];
 
 const ProfileSection = ({ stats, assets, onAvatarSelect, onClose, devMode, setDevMode }) => {
@@ -50,6 +72,19 @@ const ProfileSection = ({ stats, assets, onAvatarSelect, onClose, devMode, setDe
                     </div>
 
                     <h2 className="text-2xl font-black text-white tracking-tight mb-1">{stats.name}</h2>
+
+                    {/* Rank Badge */}
+                    {(() => {
+                        const rank = getRank(stats.lvl);
+                        return (
+                            <div className="flex items-center gap-2 mb-3">
+                                <span className={`px-3 py-1 rounded-full text-xs font-black tracking-widest border uppercase ${rank.color} bg-white/5 border-white/10`}>
+                                    ⚔ {rank.title}
+                                </span>
+                            </div>
+                        );
+                    })()}
+
                     <div className="flex items-center gap-2 mb-6">
                         <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-400 text-xs font-black tracking-widest border border-blue-500/20">
                             LVL {stats.lvl}
@@ -113,7 +148,7 @@ const ProfileSection = ({ stats, assets, onAvatarSelect, onClose, devMode, setDe
                         </div>
                         <div className="bg-[#16161c] border border-white/5 p-4 rounded-2xl">
                             <p className="text-white/40 text-[10px] font-black uppercase tracking-widest mb-2">COLLECTIBLES</p>
-                            <p className="text-2xl font-black text-purple-400">5/24</p>
+                            <p className="text-2xl font-black text-purple-400">1/25</p>
                         </div>
                         {/* Dev Mode Toggle */}
                         <div className="col-span-2 bg-[#16161c] border border-white/5 p-4 rounded-2xl">

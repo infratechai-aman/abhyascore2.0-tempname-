@@ -257,6 +257,9 @@ export const calculateResults = (questions, userAnswers) => {
 // ─── saveQuizResult ───────────────────────────────────────────────────────────
 
 export const saveQuizResult = async (userId, resultData) => {
+    // Guest accounts cannot save data to Firestore
+    if (userId === 'guest123') return;
+
     try {
         const resultRef = doc(collection(db, 'quiz_results'));
         await setDoc(resultRef, { userId, ...resultData, timestamp: new Date() });
@@ -269,6 +272,9 @@ export const saveQuizResult = async (userId, resultData) => {
 // ─── saveChapterProgress ──────────────────────────────────────────────────────
 
 export const saveChapterProgress = async (userId, chapterId, progressData) => {
+    // Guest accounts cannot save data to Firestore
+    if (userId === 'guest123') return;
+
     try {
         const progRef = doc(db, 'users', userId, 'chapterProgress', String(chapterId));
         await setDoc(progRef, progressData, { merge: true });
@@ -281,6 +287,9 @@ export const saveChapterProgress = async (userId, chapterId, progressData) => {
 // ─── getUserProgress ──────────────────────────────────────────────────────────
 
 export const getUserProgress = async (userId) => {
+    // Guest accounts do not have Firestore records
+    if (userId === 'guest123') return {};
+
     try {
         const progressRef = collection(db, 'users', userId, 'chapterProgress');
         const snapshot = await getDocs(progressRef);

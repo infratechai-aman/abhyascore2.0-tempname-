@@ -10,8 +10,13 @@ import ProfileSection from './components/ProfileSection';
 import AuthScreen from './components/AuthScreen';
 import ClassSelectionModal from './components/ClassSelectionModal';
 import AdminUpload from './components/AdminUpload';
+import BossSelection from './components/BossSelection';
+import BossInterface from './components/BossInterface';
+import BossResults from './components/BossResults';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { startTestSession, calculateResults, saveQuizResult, getUserProgress, saveChapterProgress } from './utils/gameLogic';
+import { getSubjectsForStream } from './utils/bossConfig';
+import { assembleBossExam, calculateBossResults, saveBossResult, getBossHistory, getRecentBossQuestionIds } from './utils/bossEngine';
 import { useHomeConfig } from './hooks/useHomeConfig';
 import { Zap, Beaker, Calculator, Dna, Brain } from 'lucide-react';
 
@@ -30,6 +35,13 @@ const MainContent = () => {
   // Quiz State
   const [quizQuestions, setQuizQuestions] = useState([]);
   const [quizAnswers, setQuizAnswers] = useState({});
+
+  // Boss Battle State
+  const [selectedBoss, setSelectedBoss] = useState(null);
+  const [bossQuestions, setBossQuestions] = useState([]);
+  const [bossResults, setBossResults] = useState(null);
+  const [bossHistory, setBossHistory] = useState([]);
+  const [bossLoading, setBossLoading] = useState(false);
 
   // Mock data for stats (replace with userData.stats later)
   const stats = userData?.stats || {
@@ -187,7 +199,7 @@ const MainContent = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  // Load User Chapter Progress
+  // Load User Chapter Progress + Boss History
   useEffect(() => {
     if (currentUser) {
       getUserProgress(currentUser.uid).then(progressMap => {
@@ -200,6 +212,10 @@ const MainContent = () => {
             return ch;
           }));
         }
+      });
+      // Load boss history
+      getBossHistory(currentUser.uid).then(history => {
+        setBossHistory(history);
       });
     }
   }, [currentUser]);
@@ -460,8 +476,75 @@ const MainContent = () => {
         />
       )}
 
+      {/* Boss Selection Overlay */}
+      {view === 'boss-select' && (
+        <BossSelection
+          chapters={chapters}
+          subjectCodes={getSubjectsForStream(userData?.stream || 'JEE')}
+          bossHistory={bossHistory}
+          totalXP={stats.xp || 0}
+          onBossSelect={async (boss) => {
+            setBossLoading(true);
+            setSelectedBoss(boss);
+            try {
+              const stream = userData?.stream || 'JEE';
+              const recentIds = getRecentBossQuestionIds(bossHistory);
+              const exam = await assembleBossExam(boss, stream, chapters, recentIds, bossHistory);
+              setBossQuestions(exam.questions);
+              setView('boss-quiz');
+            } catch (err) {
+              console.error('Boss exam assembly failed:', err);
+              alert('Failed to load boss battle. Please try again.');
+            } finally {
+              setBossLoading(false);
+            }
+          }}
+          onBack={() => setView('home')}
+        />
+      )}
+
+      {/* Boss Quiz Overlay */}
+      {view === 'boss-quiz' && bossQuestions.length > 0 && (
+        <BossInterface
+          questions={bossQuestions}
+          bossName={selectedBoss?.name || 'Boss Battle'}
+          stream={userData?.stream || 'JEE'}
+          devMode={devMode}
+          onComplete={async (answers) => {
+            const results = calculateBossResults(bossQuestions, answers);
+            setBossResults(results);
+            // Save to Firestore
+            if (currentUser?.uid) {
+              await saveBossResult(currentUser.uid, selectedBoss.id, {
+                ...results,
+                questionIds: bossQuestions.map(q => q.id),
+              });
+              // Refresh boss history
+              const history = await getBossHistory(currentUser.uid);
+              setBossHistory(history);
+            }
+            setView('boss-results');
+          }}
+          onExit={() => setView('boss-select')}
+        />
+      )}
+
+      {/* Boss Results Overlay */}
+      {view === 'boss-results' && bossResults && (
+        <BossResults
+          results={bossResults}
+          bossName={selectedBoss?.name || 'Boss Battle'}
+          onDone={() => {
+            setBossResults(null);
+            setBossQuestions([]);
+            setSelectedBoss(null);
+            setView('home');
+          }}
+        />
+      )}
+
       {/* Main UI */}
-      {view !== 'quiz' && view !== 'results' && (
+      {view !== 'quiz' && view !== 'results' && view !== 'boss-select' && view !== 'boss-quiz' && view !== 'boss-results' && (
         <Header
           stats={stats}
           assets={assets}
@@ -469,7 +552,7 @@ const MainContent = () => {
         />
       )}
 
-      <main className={`relative z-10 overflow-y-auto no-scrollbar ${view === 'quiz' || view === 'results' ? 'hidden' : 'h-[calc(100vh-140px)]'}`}>
+      <main className={`relative z-10 overflow-y-auto no-scrollbar ${['quiz', 'results', 'boss-select', 'boss-quiz', 'boss-results'].includes(view) ? 'hidden' : 'h-[calc(100vh-140px)]'}`}>
         {view === 'home' ? (
           <Dashboard
             subjects={subjects}
@@ -516,7 +599,7 @@ const MainContent = () => {
         ) : null}
       </main>
 
-      {view !== 'quiz' && view !== 'results' && (
+      {!['quiz', 'results', 'boss-select', 'boss-quiz', 'boss-results'].includes(view) && (
         <BottomNav view={view} setView={setView} setSelectedSub={setSelectedSub} />
       )}
 

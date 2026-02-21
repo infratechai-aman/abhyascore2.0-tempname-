@@ -1,5 +1,6 @@
 import React from 'react';
 import { Skull, Trophy, Lock } from 'lucide-react';
+import { getRank } from '../utils/rankUtils';
 
 const Dashboard = ({ subjects, extraCards = [], assets, setSelectedSub, setView, stats }) => {
 
@@ -14,7 +15,7 @@ const Dashboard = ({ subjects, extraCards = [], assets, setSelectedSub, setView,
                 setSelectedSub(card);
                 setView('map');
             } else if (card.type === 'boss') {
-                // handle boss battle view
+                setView('boss-select');
             } else if (card.type === 'achievement') {
                 // handle achievements view
             }
@@ -82,7 +83,7 @@ const Dashboard = ({ subjects, extraCards = [], assets, setSelectedSub, setView,
             {/* Default Failbacks if extraCards is empty (unseeded DB) */}
             {extraCards.length === 0 && (
                 <>
-                    <div className="relative h-20 rounded-2xl border border-white/10 overflow-hidden cursor-pointer active:scale-[0.98] transition-all shadow-xl group bg-slate-900">
+                    <div onClick={() => setView('boss-select')} className="relative h-20 rounded-2xl border border-white/10 overflow-hidden cursor-pointer active:scale-[0.98] transition-all shadow-xl group bg-slate-900">
                         <div className="absolute inset-0 bg-gradient-to-r from-red-900/40 to-slate-900 transition-transform duration-700 group-hover:scale-105" />
                         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-transparent to-transparent" />
                         <div className="absolute inset-0 flex items-center px-5 justify-between">
@@ -109,16 +110,22 @@ const Dashboard = ({ subjects, extraCards = [], assets, setSelectedSub, setView,
             )}
 
             {/* Level Bar */}
-            <div className="bg-white/5 border border-white/10 rounded-2xl px-4 py-3 flex items-center justify-between backdrop-blur-md">
-                <div className="flex flex-col">
-                    <span className="text-[8px] font-bold text-white/40 uppercase italic leading-none">Level {stats.lvl}</span>
-                    <span className="text-[10px] font-black text-white italic mt-1 uppercase tracking-widest">Scholar</span>
-                </div>
-                <div className="flex-1 mx-4 h-2 bg-black/40 rounded-full border border-white/5 p-[1px] overflow-hidden">
-                    <div className="h-full bg-gradient-to-r from-[#22c55e] to-[#10b981] rounded-full shadow-[0_0_10px_rgba(34,197,94,0.4)]" style={{ width: '76%' }} />
-                </div>
-                <span className="text-[9px] font-bold text-white/50 italic whitespace-nowrap tracking-wider">{stats.xp} / {stats.nextXp} XP</span>
-            </div>
+            {(() => {
+                const rank = getRank(stats.lvl);
+                const xpPct = Math.min(100, Math.round(((stats.xp || 0) / (stats.nextXp || 100)) * 100));
+                return (
+                    <div className="bg-white/5 border border-white/10 rounded-2xl px-4 py-3 flex items-center justify-between backdrop-blur-md">
+                        <div className="flex flex-col">
+                            <span className="text-[8px] font-bold text-white/40 uppercase italic leading-none">Level {stats.lvl}</span>
+                            <span className={`text-[10px] font-black italic mt-1 uppercase tracking-widest ${rank.color}`}>{rank.title}</span>
+                        </div>
+                        <div className="flex-1 mx-4 h-2 bg-black/40 rounded-full border border-white/5 p-[1px] overflow-hidden">
+                            <div className="h-full bg-gradient-to-r from-[#22c55e] to-[#10b981] rounded-full shadow-[0_0_10px_rgba(34,197,94,0.4)]" style={{ width: `${xpPct}%` }} />
+                        </div>
+                        <span className="text-[9px] font-bold text-white/50 italic whitespace-nowrap tracking-wider">{stats.xp} / {stats.nextXp} XP</span>
+                    </div>
+                );
+            })()}
         </div>
     );
 };
