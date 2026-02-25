@@ -1,0 +1,607 @@
+<riddles>
+    <!-- EASY RIDDLES (1-30) -->
+    <riddle id="1" difficulty="easy">
+        <question>I am a king of fruits, yellow and sweet. In Indian summers, I'm the favorite treat. What am I?</question>
+        <answer>MANGO</answer>
+        <hint>I am yellow and have a large seed.</hint>
+        <explanation>The mango is the national fruit of India and is widely loved during the summer season.</explanation>
+    </riddle>
+    <riddle id="2" difficulty="easy">
+        <question>I have a thumb and four fingers, but I am not alive. What am I?</question>
+        <answer>GLOVE</answer>
+        <hint>You wear me to keep your hand warm.</hint>
+        <explanation>A glove is designed to fit a hand, including the thumb and fingers.</explanation>
+    </riddle>
+    <riddle id="3" difficulty="easy">
+        <question>I am white when I am dirty, and black when I am clean. What am I?</question>
+        <answer>CHALKBOARD</answer>
+        <hint>Your teacher writes on me.</hint>
+        <explanation>A blackboard is black until you write on it with white chalk.</explanation>
+    </riddle>
+    <riddle id="4" difficulty="easy">
+        <question>I have a colorful tail that I spread like a fan. I am the national bird of Bharat. Who am I?</question>
+        <answer>PEACOCK</answer>
+        <hint>I am known for my beautiful blue and green feathers.</hint>
+        <explanation>The Indian Peacock is the national bird known for its beautiful plumage.</explanation>
+    </riddle>
+    <riddle id="5" difficulty="easy">
+        <question>If you feed me, I live. If you give me water, I die. What am I?</question>
+        <answer>FIRE</answer>
+        <hint>I am hot and produce light.</hint>
+        <explanation>Fire needs fuel to burn but is extinguished by water.</explanation>
+    </riddle>
+    <riddle id="6" difficulty="easy">
+        <question>I have many keys but can't open a single lock. What am I?</question>
+        <answer>PIANO</answer>
+        <hint>I have black and white keys that produce music.</hint>
+        <explanation>A piano has musical keys, not locking keys.</explanation>
+    </riddle>
+    <riddle id="7" difficulty="easy">
+        <question>I am an Indian monument of love, made of white marble in Agra. What is my name?</question>
+        <answer>TAJ MAHAL</answer>
+        <hint>Shah Jahan built me for his wife.</hint>
+        <explanation>The Taj Mahal was built by Shah Jahan in memory of Mumtaz Mahal.</explanation>
+    </riddle>
+    <riddle id="8" difficulty="easy">
+        <question>What starts with T, ends with T, and has T in it?</question>
+        <answer>TEAPOT</answer>
+        <hint>I am used for brewing and pouring a hot beverage.</hint>
+        <explanation>The word 'Teapot' starts and ends with 'T' and contains 'tea'.</explanation>
+    </riddle>
+    <riddle id="9" difficulty="easy">
+        <question>I have a face and two hands, but no arms or legs. What am I?</question>
+        <answer>CLOCK</answer>
+        <hint>I help you tell the time.</hint>
+        <explanation>A clock has a face and hour/minute hands.</explanation>
+    </riddle>
+    <riddle id="10" difficulty="easy">
+        <question>I am the festival of lights in India. I celebrate the victory of good over evil. What am I?</question>
+        <answer>DIWALI</answer>
+        <hint>We light diyas and burst crackers during this time.</hint>
+        <explanation>Diwali (Deepavali) is the most prominent festival of lights in India.</explanation>
+    </riddle>
+    <riddle id="11" difficulty="easy">
+        <question>I am the "Pink City" of India. What is my name?</question>
+        <answer>JAIPUR</answer>
+        <hint>I am the historic capital of Rajasthan.</hint>
+        <explanation>Jaipur is known as the Pink City due to the color of its buildings.</explanation>
+    </riddle>
+    <riddle id="12" difficulty="easy">
+        <question>What has to be broken before you can use it?</question>
+        <answer>EGG</answer>
+        <hint>You need me for an omelette.</hint>
+        <explanation>You must break the shell of an egg to cook or eat it.</explanation>
+    </riddle>
+    <riddle id="13" difficulty="easy">
+        <question>I am tall when I am young, and short when I am old. What am I?</question>
+        <answer>CANDLE</answer>
+        <hint>I melt as I burn to give light.</hint>
+        <explanation>A candle burns down and becomes shorter over time.</explanation>
+    </riddle>
+    <riddle id="14" difficulty="easy">
+        <question>Which month of the year has 28 days?</question>
+        <answer>ALL</answer>
+        <hint>Don't stop at just February.</hint>
+        <explanation>Every month has at least 28 days.</explanation>
+    </riddle>
+    <riddle id="15" difficulty="easy">
+        <question>I am full of holes but still hold water. What am I?</question>
+        <answer>SPONGE</answer>
+        <hint>I am used in the kitchen or bath to absorb liquids.</hint>
+        <explanation>A sponge's porous structure allows it to absorb and hold water.</explanation>
+    </riddle>
+    <riddle id="16" difficulty="easy">
+        <question>I am an Indian game of tag and chasing. It's played in a court. What is it?</question>
+        <answer>KHO KHO</answer>
+        <hint>Players sit and run in a line in this game.</hint>
+        <explanation>Kho-Kho is a popular traditional tag game in India.</explanation>
+    </riddle>
+    <riddle id="17" difficulty="easy">
+        <question>What question can you never answer 'yes' to?</question>
+        <answer>ARE YOU ASLEEP</answer>
+        <hint>If you were doing this, you couldn't hear the question.</hint>
+        <explanation>If you are asleep, you cannot respond to the question.</explanation>
+    </riddle>
+    <riddle id="18" difficulty="easy">
+        <question>What is always in front of you but can't be seen?</question>
+        <answer>FUTURE</answer>
+        <hint>It's what happens after now.</hint>
+        <explanation>The future is what lies ahead of us in time.</explanation>
+    </riddle>
+    <riddle id="19" difficulty="easy">
+        <question>I have a neck but no head. What am I?</question>
+        <answer>BOTTLE</answer>
+        <hint>I am meant to hold liquids like water or juice.</hint>
+        <explanation>A bottle has a narrow part called a neck.</explanation>
+    </riddle>
+    <riddle id="20" difficulty="easy">
+        <question>I am the "Spice Garden of India". Which state am I?</question>
+        <answer>KERALA</answer>
+        <hint>I am located on the tropical Malabar Coast.</hint>
+        <explanation>Kerala is famous for its spices like black pepper and cardamom.</explanation>
+    </riddle>
+    <riddle id="21" difficulty="easy">
+        <question>What can you break, even if you never pick it up or touch it?</question>
+        <answer>PROMISE</answer>
+        <hint>It happens when you don't do what you said you would.</hint>
+        <explanation>A promise is broken when you don't keep your word.</explanation>
+    </riddle>
+    <riddle id="22" difficulty="easy">
+        <question>What goes up but never comes down?</question>
+        <answer>AGE</answer>
+        <hint>It's measured in years since you were born.</hint>
+        <explanation>Your age only increases as time passes.</explanation>
+    </riddle>
+    <riddle id="23" difficulty="easy">
+        <question>I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. What am I?</question>
+        <answer>MAP</answer>
+        <hint>I am a flat representation of the world.</hint>
+        <explanation>A map represents these things but doesn't contain the physical objects.</explanation>
+    </riddle>
+    <riddle id="24" difficulty="easy">
+        <question>I am the traditional Indian dress worn by women, usually 6 yards long. What am I?</question>
+        <answer>SAREE</answer>
+        <hint>It's an elegant, draped fabric garment.</hint>
+        <explanation>The Saree is a traditional Indian garment made of a long piece of fabric.</explanation>
+    </riddle>
+    <riddle id="25" difficulty="easy">
+        <question>What has legs, but doesn't walk?</question>
+        <answer>TABLE</answer>
+        <hint>You sit around me to eat or work.</hint>
+        <explanation>A table has four legs for support but is a stationary object.</explanation>
+    </riddle>
+    <riddle id="26" difficulty="easy">
+        <question>What kind of band never plays music?</question>
+        <answer>RUBBER BAND</answer>
+        <hint>I am elastic and used to hold things together.</hint>
+        <explanation>A rubber band is used to hold things together, not for music.</explanation>
+    </riddle>
+    <riddle id="27" difficulty="easy">
+        <question>I am the holy river of India, believed to wash away sins. What is my name?</question>
+        <answer>GANGA</answer>
+        <hint>I am also known as the Ganges.</hint>
+        <explanation>The Ganges is the most sacred river in Hinduism.</explanation>
+    </riddle>
+    <riddle id="28" difficulty="easy">
+        <question>What has many teeth, but cannot bite?</question>
+        <answer>COMB</answer>
+        <hint>You use me to style your hair.</hint>
+        <explanation>A comb has "teeth" to untangle hair but isn't alive.</explanation>
+    </riddle>
+    <riddle id="29" difficulty="easy">
+        <question>What goes up and down but doesn't move?</question>
+        <answer>STAIRCASE</answer>
+        <hint>A set of steps in a building.</hint>
+        <explanation>A staircase leads up or down but stays fixed in place.</explanation>
+    </riddle>
+    <riddle id="30" difficulty="easy">
+        <question>I am the Father of the Nation in India. I preached non-violence. Who am I?</question>
+        <answer>MAHATMA GANDHI</answer>
+        <hint>He is also affectionately called 'Bapu'.</hint>
+        <explanation>Mahatma Gandhi led India's independence movement through non-violent civil disobedience.</explanation>
+    </riddle>
+
+    <!-- MODERATE RIDDLES (31-60) -->
+    <riddle id="31" difficulty="moderate">
+        <question>I start with 'P' and end with 'E' and have thousands of letters. What am I?</question>
+        <answer>POST OFFICE</answer>
+        <hint>Every neighborhood has one for mailing packages.</hint>
+        <explanation>A Post Office contains thousands of letters to be delivered.</explanation>
+    </riddle>
+    <riddle id="32" difficulty="moderate">
+        <question>I have a single horn but I am not a unicorn. I live in Kaziranga, Assam. What am I?</question>
+        <answer>RHINOCEROS</answer>
+        <hint>I am a large gray animal with thick skin.</hint>
+        <explanation>The Great One-Horned Rhinoceros is native to Assam, India.</explanation>
+    </riddle>
+    <riddle id="33" difficulty="moderate">
+        <question>What word is spelled incorrectly in every dictionary?</question>
+        <answer>INCORRECTLY</answer>
+        <hint>Look at the word within the question itself.</hint>
+        <explanation>The word "incorrectly" is spelled as "incorrectly".</explanation>
+    </riddle>
+    <riddle id="34" difficulty="moderate">
+        <question>I am a famous Indian board game where you use luck to climb and avoid being swallowed. What am I?</question>
+        <answer>SNAKES AND LADDERS</answer>
+        <hint>It used to be called 'Moksha Patam'.</hint>
+        <explanation>Snakes and Ladders originated in ancient India as Moksha Patam.</explanation>
+    </riddle>
+    <riddle id="35" difficulty="moderate">
+        <question>What is so fragile that saying its name breaks it?</question>
+        <answer>SILENCE</answer>
+        <hint>It's the absence of sound.</hint>
+        <explanation>When you speak the word "silence", you have broken the state of being silent.</explanation>
+    </riddle>
+    <riddle id="36" difficulty="moderate">
+        <question>I am an Indian scientist who discovered that plants have feelings and life. Who am I?</question>
+        <answer>JAGADISH CHANDRA BOSE</answer>
+        <hint>He invented the Crescograph.</hint>
+        <explanation>Sir J.C. Bose proved that plants respond to stimuli much like animals.</explanation>
+    </riddle>
+    <riddle id="37" difficulty="moderate">
+        <question>What can travel around the world while staying in a corner?</question>
+        <answer>STAMP</answer>
+        <hint>You lick it and stick it on an envelope.</hint>
+        <explanation>A postage stamp stays in the corner of an envelope as it travels globally.</explanation>
+    </riddle>
+    <riddle id="38" difficulty="moderate">
+        <question>I am the Indian city where the tea is famous and hills are blue. What am I?</question>
+        <answer>DARJEELING</answer>
+        <hint>It's a hill station in West Bengal.</hint>
+        <explanation>Darjeeling is world-renowned for its tea and scenic hill views.</explanation>
+    </riddle>
+    <riddle id="39" difficulty="moderate">
+        <question>The more of this there is, the less you see. What is it?</question>
+        <answer>DARKNESS</answer>
+        <hint>The opposite of light.</hint>
+        <explanation>Darkness obscures vision, so more darkness means less visibility.</explanation>
+    </riddle>
+    <riddle id="40" difficulty="moderate">
+        <question>I am the sport where India has won 8 Olympic Gold medals. What am I?</question>
+        <answer>HOCKEY</answer>
+        <hint>It's played with a curved stick and a ball.</hint>
+        <explanation>India's men's hockey team was dominant in the Olympics for decades.</explanation>
+    </riddle>
+    <riddle id="41" difficulty="moderate">
+        <question>I follow you all day long, but when the sun goes down, I am gone. What am I?</question>
+        <answer>SHADOW</answer>
+        <hint>I am a dark shape made by your body.</hint>
+        <explanation>A shadow is formed by blocking light and disappears in the dark.</explanation>
+    </riddle>
+    <riddle id="42" difficulty="moderate">
+        <question>I am the Indian state named the "Land of Five Rivers". What am I?</question>
+        <answer>PUNJAB</answer>
+        <hint>Famous for Bhangra and its fertile fields.</hint>
+        <explanation>Punjab means "The land of five waters" (Beas, Jhelum, Chenab, Ravi, Sutlej).</explanation>
+    </riddle>
+    <riddle id="43" difficulty="moderate">
+        <question>What bank has no money?</question>
+        <answer>RIVER BANK</answer>
+        <hint>It's where the water meets the land.</hint>
+        <explanation>The side of a river is called a bank.</explanation>
+    </riddle>
+    <riddle id="44" difficulty="moderate">
+        <question>I am the mathematical concept discovered in India by Aryabhatta. What am I?</question>
+        <answer>ZERO</answer>
+        <hint>It represents nothingness but is very powerful.</hint>
+        <explanation>The concept of zero as a number was refined by ancient Indian mathematicians.</explanation>
+    </riddle>
+    <riddle id="45" difficulty="moderate">
+        <question>What belongs to you, but others use it more than you do?</question>
+        <answer>NAME</answer>
+        <hint>It's the word people use to get your attention.</hint>
+        <explanation>You are called by your name more than you call yourself.</explanation>
+    </riddle>
+    <riddle id="46" difficulty="moderate">
+        <question>I am the Indian harvest festival of Tamil Nadu, involving boiling rice. What am I?</question>
+        <answer>PONGAL</answer>
+        <hint>It's a four-day festival celebrated in South India.</hint>
+        <explanation>Pongal is a four-day harvest festival celebrated by Tamilians.</explanation>
+    </riddle>
+    <riddle id="47" difficulty="moderate">
+        <question>What has a head and a tail but no body?</question>
+        <answer>COIN</answer>
+        <hint>You flip me to make a decision.</hint>
+        <explanation>The two sides of a coin are called head and tail.</explanation>
+    </riddle>
+    <riddle id="48" difficulty="moderate">
+        <question>I am the animal that represents the strength of India and is our National Animal. What am I?</question>
+        <answer>TIGER</answer>
+        <hint>The Royal Bengal variety lives in the Sunderbans.</hint>
+        <explanation>The Royal Bengal Tiger is India's national animal.</explanation>
+    </riddle>
+    <riddle id="49" difficulty="moderate">
+        <question>What gets wetter the more it dries?</question>
+        <answer>TOWEL</answer>
+        <hint>You use it after swimming or showering.</hint>
+        <explanation>A towel dries you, but in the process, it becomes wet.</explanation>
+    </riddle>
+    <riddle id="50" difficulty="moderate">
+        <question>I am the first Indian to travel to space. Who am I?</question>
+        <answer>RAKESH SHARMA</answer>
+        <hint>When asked how India looks from space, he said "Sare Jahan Se Achha".</hint>
+        <explanation>Rakesh Sharma flew aboard the Soviet Soyuz T-11 in 1984.</explanation>
+    </riddle>
+    <riddle id="51" difficulty="moderate">
+        <question>I have branches, but no fruit, trunk or leaves. What am I?</question>
+        <answer>BANK</answer>
+        <hint>It’s a place where you keep your savings.</hint>
+        <explanation>A bank has multiple locations or branches.</explanation>
+    </riddle>
+    <riddle id="52" difficulty="moderate">
+        <question>I am the largest democratic body in India, where laws are made. What am I?</question>
+        <answer>PARLIAMENT</answer>
+        <hint>The building is located in New Delhi.</hint>
+        <explanation>The Parliament of India is the supreme legislative body.</explanation>
+    </riddle>
+    <riddle id="53" difficulty="moderate">
+        <question>What has hands but cannot clap?</question>
+        <answer>CLOCK</answer>
+        <hint>I have a face and I tell you when it’s lunch time.</hint>
+        <explanation>A clock has hour and minute hands but not biological ones.</explanation>
+    </riddle>
+    <riddle id="54" difficulty="moderate">
+        <question>I am the Indian city known as the "Garden City". What is my name?</question>
+        <answer>BENGALURU</answer>
+        <hint>It's the capital of Karnataka and a tech hub.</hint>
+        <explanation>Bengaluru is known for its many parks and green spaces.</explanation>
+    </riddle>
+    <riddle id="55" difficulty="moderate">
+        <question>David's father has three sons: Snap, Crackle, and... ?</question>
+        <answer>DAVID</answer>
+        <hint>The answer is already in the question.</hint>
+        <explanation>David is the third son mentioned.</explanation>
+    </riddle>
+    <riddle id="56" difficulty="moderate">
+        <question>I am the Indian freedom fighter known as "Iron Man of India". Who am I?</question>
+        <answer>SARDAR PATEL</answer>
+        <hint>He worked hard to unite the princely states.</hint>
+        <explanation>Sardar Vallabhbhai Patel integrated the princely states into India.</explanation>
+    </riddle>
+    <riddle id="57" difficulty="moderate">
+        <question>What invention lets you look right through a wall?</question>
+        <answer>WINDOW</answer>
+        <hint>It's usually made of glass.</hint>
+        <explanation>A window allows you to see what's on the other side of a wall.</explanation>
+    </riddle>
+    <riddle id="58" difficulty="moderate">
+        <question>I am the classical dance of Kerala with dramatic makeup and costumes. What am I?</question>
+        <answer>KATHAKALI</answer>
+        <hint>Dancers use elaborate facial expressions.</hint>
+        <explanation>Kathakali is a major form of classical Indian dance.</explanation>
+    </riddle>
+    <riddle id="59" difficulty="moderate">
+        <question>If I have it, I don’t share it. If I share it, I don’t have it. What is it?</question>
+        <answer>SECRET</answer>
+        <hint>Only you and someone you trust know it.</hint>
+        <explanation>A secret is only a secret as long as it isn't shared.</explanation>
+    </riddle>
+    <riddle id="60" difficulty="moderate">
+        <question>I am the epic Indian poem about the Kurukshetra War. What am I?</question>
+        <answer>MAHABHARATA</answer>
+        <hint>It features the Bhagavad Gita.</hint>
+        <explanation>The Mahabharata is one of the two major Sanskrit epics of ancient India.</explanation>
+    </riddle>
+
+    <!-- DIFFICULT RIDDLES (61-100) -->
+    <riddle id="61" difficulty="difficult">
+        <question>What comes once in a minute, twice in a moment, but never in a thousand years?</question>
+        <answer>LETTER M</answer>
+        <hint>Look at the letters in the words themselves.</hint>
+        <explanation>The letter 'M' appears in those words as described.</explanation>
+    </riddle>
+    <riddle id="62" difficulty="difficult">
+        <question>I am the ancient Indian university that was once a global center of learning in Bihar. What am I?</question>
+        <answer>NALANDA</answer>
+        <hint>Think of a world-famous Buddhist monastery.</hint>
+        <explanation>Nalanda was a renowned Mahavihara in the ancient kingdom of Magadha.</explanation>
+    </riddle>
+    <riddle id="63" difficulty="difficult">
+        <question>The more you take, the more you leave behind. What am I?</question>
+        <answer>FOOTSTEPS</answer>
+        <hint>You leave these in the sand or snow as you walk.</hint>
+        <explanation>As you walk, you take steps and leave footprints behind.</explanation>
+    </riddle>
+    <riddle id="64" difficulty="difficult">
+        <question>I am the Indian Nobel Laureate who wrote "Gitanjali". Who am I?</question>
+        <answer>RABINDRANATH TAGORE</answer>
+        <hint>He is the one who wrote India’s national anthem.</hint>
+        <explanation>Tagore was the first non-European to win the Nobel Prize in Literature.</explanation>
+    </riddle>
+    <riddle id="65" difficulty="difficult">
+        <question>I have keys, but no locks. I have a space, but no room. You can enter, but you can’t leave. What am I?</question>
+        <answer>KEYBOARD</answer>
+        <hint>You use me to type on your computer.</hint>
+        <explanation>A keyboard has 'Space' and 'Enter' keys.</explanation>
+    </riddle>
+    <riddle id="66" difficulty="difficult">
+        <question>I was an Indian king who turned to peace after the bloody war of Kalinga. Who am I?</question>
+        <answer>ASHOKA</answer>
+        <hint>His name is associated with the Chakra on our flag.</hint>
+        <explanation>Emperor Ashoka the Great embraced non-violence after seeing the horrors of war.</explanation>
+    </riddle>
+    <riddle id="67" difficulty="difficult">
+        <question>I am seen in water but never wet. What am I?</question>
+        <answer>REFLECTION</answer>
+        <hint>I’m what you see when you look in a mirror.</hint>
+        <explanation>A reflection in water is an image, not a physical wet object.</explanation>
+    </riddle>
+    <riddle id="68" difficulty="difficult">
+        <question>I am the first woman Prime Minister of India. Who am I?</question>
+        <answer>INDIRA GANDHI</answer>
+        <hint>She was a powerful leader from the Nehru-Gandhi family.</hint>
+        <explanation>Indira Gandhi served as Prime Minister for three consecutive terms.</explanation>
+    </riddle>
+    <riddle id="69" difficulty="difficult">
+        <question>What has a heart that doesn't beat?</question>
+        <answer>ARTICHOKE</answer>
+        <hint>It’s a green, scaly vegetable.</hint>
+        <explanation>An artichoke has a center called the "heart".</explanation>
+    </riddle>
+    <riddle id="70" difficulty="difficult">
+        <question>I am the Indian mathematical genius who had no formal training but solved complex theorems. Who am I?</question>
+        <answer>SRINIVASA RAMANUJAN</answer>
+        <hint>The number 1729 is famously associated with him.</hint>
+        <explanation>Ramanujan made extraordinary contributions to mathematical analysis and number theory.</explanation>
+    </riddle>
+    <riddle id="71" difficulty="difficult">
+        <question>I have no voice, but I can talk to you. I have no legs, but I can travel with you. What am I?</question>
+        <answer>BOOK</answer>
+        <hint>You read me to learn new things or hear stories.</hint>
+        <explanation>A book communicates ideas and travels with the reader.</explanation>
+    </riddle>
+    <riddle id="72" difficulty="difficult">
+        <question>I am the world's highest statue, located in Gujarat, India. What is its name?</question>
+        <answer>STATUE OF UNITY</answer>
+        <hint>It stands 182 meters tall near the Sardar Sarovar Dam.</hint>
+        <explanation>The Statue of Unity is a 182-meter monumental statue of Sardar Patel.</explanation>
+    </riddle>
+    <riddle id="73" difficulty="difficult">
+        <question>What can fill an entire room but takes up no space?</question>
+        <answer>LIGHT</answer>
+        <hint>It comes from bulbs or the sun.</hint>
+        <explanation>Light illuminates a room without occupying physical volume.</explanation>
+    </riddle>
+    <riddle id="74" difficulty="difficult">
+        <question>I am the Indian satellite mission that reached Mars on its first attempt. What is it called?</question>
+        <answer>MANGALYAAN</answer>
+        <hint>This mission made India the 4th country to reach Mars.</hint>
+        <explanation>Mars Orbiter Mission (MOM) made India the first nation to reach Mars on its maiden voyage.</explanation>
+    </riddle>
+    <riddle id="75" difficulty="difficult">
+        <question>What has a thumb but no fingers?</question>
+        <answer>MITTEN</answer>
+        <hint>You wear me in winter to keep your hand warm, but my shape is simpler than a glove.</hint>
+        <explanation>A mitten has a separate space for the thumb and one for all fingers combined.</explanation>
+    </riddle>
+    <riddle id="76" difficulty="difficult">
+        <question>I am the Indian dance form from Andhra Pradesh, known for dancing on a brass plate. What am I?</question>
+        <answer>KUCHIPUDI</answer>
+        <hint>It's a classical dance often performed with a pot on the head.</hint>
+        <explanation>Kuchipudi is a major classical Indian dance form originated in Krishna district.</explanation>
+    </riddle>
+    <riddle id="77" difficulty="difficult">
+        <question>If you drop me, I am sure to crack, but give me a smile and I will always smile back. What am I?</question>
+        <answer>MIRROR</answer>
+        <hint>I provide an exact reflection of what is in front of me.</hint>
+        <explanation>A mirror is fragile and reflects your expression.</explanation>
+    </riddle>
+    <riddle id="78" difficulty="difficult">
+        <question>I am the first Indian woman to win an Olympic medal. Who am I?</question>
+        <answer>KARNAM MALLESWARI</answer>
+        <hint>She won bronze in weightlifting at the Sydney 2000 games.</hint>
+        <explanation>Malleswari won a bronze medal at the 2000 Sydney Olympics.</explanation>
+    </riddle>
+    <riddle id="79" difficulty="difficult">
+        <question>I fly without wings. I cry without eyes. What am I?</question>
+        <answer>CLOUD</answer>
+        <hint>I am floating in the sky and bring the rain.</hint>
+        <explanation>Clouds move in the air (fly) and rain drops look like crying.</explanation>
+    </riddle>
+    <riddle id="80" difficulty="difficult">
+        <question>I am the Indian philosopher-monk who addressed the Parliament of Religions in Chicago, 1893. Who am I?</question>
+        <answer>SWAMI VIVEKANANDA</answer>
+        <hint>He was a disciple of Sri Ramakrishna Paramahamsa.</hint>
+        <explanation>Vivekananda introduced Indian philosophies of Vedanta and Yoga to the Western world.</explanation>
+    </riddle>
+    <riddle id="81" difficulty="difficult">
+        <question>What is black when you buy it, red when you use it, and gray when you throw it away?</question>
+        <answer>CHARCOAL</answer>
+        <hint>It's used for grilling or heating in traditional stoves.</hint>
+        <explanation>Charcoal is black, glows red when burning, and turns to gray ash.</explanation>
+    </riddle>
+    <riddle id="82" difficulty="difficult">
+        <question>I am the Indian scientist who discovered why the sea looks blue. Who am I?</question>
+        <answer>CV RAMAN</answer>
+        <hint>The effect of light scattering is named after him.</hint>
+        <explanation>Sir C.V. Raman won the Nobel Prize in Physics for his work on the scattering of light.</explanation>
+    </riddle>
+    <riddle id="83" difficulty="difficult">
+        <question>What can run but can't walk, has a mouth but can't talk, has a head but can't think, and has a bed but can't sleep?</question>
+        <answer>RIVER</answer>
+        <hint>I flow continuously toward the ocean.</hint>
+        <explanation>A river flows (runs), has a source (head), an opening (mouth), and a base (bed).</explanation>
+    </riddle>
+    <riddle id="84" difficulty="difficult">
+        <question>I am the "Birdman of India". I was a famous ornithologist. Who am I?</question>
+        <answer>SALIM ALI</answer>
+        <hint>His autobiography is titled "The Fall of a Sparrow".</hint>
+        <explanation>Salim Ali was among the first Indians to conduct systematic bird surveys across India.</explanation>
+    </riddle>
+    <riddle id="85" difficulty="difficult">
+        <question>If an electric train is moving North at 100mph and a wind is blowing East at 10mph, which way does the smoke blow?</question>
+        <answer>NO SMOKE</answer>
+        <hint>Think about the propulsion system of the train.</hint>
+        <explanation>Electric trains do not produce smoke.</explanation>
+    </riddle>
+    <riddle id="86" difficulty="difficult">
+        <question>I am the first Indian to win an individual Gold medal at the Olympics. Who am I?</question>
+        <answer>ABHINAV BINDRA</answer>
+        <hint>He won it for 10m Air Rifle shooting.</hint>
+        <explanation>Bindra won the gold in Beijing 2008 in the 10m Air Rifle event.</explanation>
+    </riddle>
+    <riddle id="87" difficulty="difficult">
+        <question>What goes through towns and over hills, but never moves?</question>
+        <answer>ROAD</answer>
+        <hint>It's what cars and buses travel on.</hint>
+        <explanation>A road spans great distances but is fixed to the ground.</explanation>
+    </riddle>
+    <riddle id="88" difficulty="difficult">
+        <question>I am the Indian woman mountaineer who climbed Everest twice in one season. Who am I?</question>
+        <answer>ANSHU JAMSENPA</answer>
+        <hint>She is from Arunachal Pradesh and set a world record.</hint>
+        <explanation>Anshu Jamsenpa from Arunachal Pradesh holds the record for the fastest double ascent.</explanation>
+    </riddle>
+    <riddle id="89" difficulty="difficult">
+        <question>I am the only food that doesn't spoil. What am I?</question>
+        <answer>HONEY</answer>
+        <hint>It’s sweet and made by bees.</hint>
+        <explanation>Archaeologists have found edible honey in ancient Egyptian tombs.</explanation>
+    </riddle>
+    <riddle id="90" difficulty="difficult">
+        <question>I am the Indian state where the world's largest river island, Majuli, is located. What am I?</question>
+        <answer>ASSAM</answer>
+        <hint>The Brahmaputra river flows through here.</hint>
+        <explanation>Majuli is a lush green river island in the Brahmaputra River.</explanation>
+    </riddle>
+    <riddle id="91" difficulty="difficult">
+        <question>What has many needles, but can’t sew?</question>
+        <answer>PORCUPINE</answer>
+        <hint>I am an animal with spikes all over my back.</hint>
+        <explanation>A porcupine's quills are often referred to as needles.</explanation>
+    </riddle>
+    <riddle id="92" difficulty="difficult">
+        <question>I am the Indian king of the Maratha Empire, known for guerrilla warfare. Who am I?</question>
+        <answer>CHHATRAPATI SHIVAJI</answer>
+        <hint>He was born in Shivneri Fort and built a strong navy.</hint>
+        <explanation>Shivaji Maharaj founded the Maratha Empire and pioneered guerrilla tactics.</explanation>
+    </riddle>
+    <riddle id="93" difficulty="difficult">
+        <question>What starts with an E, ends with an E, but only contains one letter?</question>
+        <answer>ENVELOPE</answer>
+        <hint>You need me to send a card through the post.</hint>
+        <explanation>An envelope contains a "letter" (mail).</explanation>
+    </riddle>
+    <riddle id="94" difficulty="difficult">
+        <question>I am the "Missile Man of India". I was the 11th President. Who am I?</question>
+        <answer>APJ ABDUL KALAM</answer>
+        <hint>He loved children and was a key scientist for Pokhran-II.</hint>
+        <explanation>Dr. Kalam was a scientist and statesman known for his role in India's missile program.</explanation>
+    </riddle>
+    <riddle id="95" difficulty="difficult">
+        <question>I have no mass, yet I carry energy. I travel at the speed of light, but I am not a wave. What am I?</question>
+        <answer>PHOTON</answer>
+        <hint>I am a particle of light.</hint>
+        <explanation>Photons are the basic units of light and carry electromagnetic force.</explanation>
+    </riddle>
+    <riddle id="96" difficulty="difficult">
+        <question>I am the largest salt lake in India, located in Rajasthan. What am I?</question>
+        <answer>SAMBHAR LAKE</answer>
+        <hint>It’s near Jaipur and is an important source of salt.</hint>
+        <explanation>Sambhar Salt Lake is India's largest inland salt lake.</explanation>
+    </riddle>
+    <riddle id="97" difficulty="difficult">
+        <question>What stays where it is when it goes off?</question>
+        <answer>ALARM CLOCK</answer>
+        <hint>It rings to wake you up in the morning.</hint>
+        <explanation>An alarm clock "goes off" (rings) but stays on your table.</explanation>
+    </riddle>
+    <riddle id="98" difficulty="difficult">
+        <question>I am the first Indian woman to win the Miss World title. Who am I?</question>
+        <answer>REITA FARIA</answer>
+        <hint>She reached the top in 1966.</hint>
+        <explanation>Reita Faria Powell became the first Indian and Asian to win Miss World.</explanation>
+    </riddle>
+    <riddle id="99" difficulty="difficult">
+        <question>What can be seen once in a year, twice in a week, and never in a day?</question>
+        <answer>LETTER E</answer>
+        <hint>Examine the spelling of 'year', 'week', and 'day'.</hint>
+        <explanation>The letter 'E' appears in those words as described.</explanation>
+    </riddle>
+    <riddle id="100" difficulty="difficult">
+        <question>I am the holy book of the Sikhs, located in the Golden Temple. What am I?</question>
+        <answer>GURU GRANTH SAHIB</answer>
+        <hint>It's the eternal living Guru of the Sikh community.</hint>
+        <explanation>The Guru Granth Sahib is the central religious scripture of Sikhism.</explanation>
+    </riddle>
+</riddles>

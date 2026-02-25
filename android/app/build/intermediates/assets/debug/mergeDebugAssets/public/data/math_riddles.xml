@@ -1,0 +1,607 @@
+<riddles>
+    <!-- EASY MATH (1-30) -->
+    <riddle id="1" difficulty="easy">
+        <question>I think of a number. Double it, and the result is 10. What was my number?</question>
+        <answer>5</answer>
+        <hint>What is half of 10?</hint>
+        <explanation>2 times 5 equals 10.</explanation>
+    </riddle>
+    <riddle id="2" difficulty="easy">
+        <question>Pattern: 2, 4, 6, 8, ?</question>
+        <answer>10</answer>
+        <hint>Count by twos.</hint>
+        <explanation>This is an arithmetic sequence with a common difference of 2.</explanation>
+    </riddle>
+    <riddle id="3" difficulty="easy">
+        <question>You buy 3 pens at ₹7 each. How much do they cost in total?</question>
+        <answer>21</answer>
+        <hint>Multiply 3 by 7.</hint>
+        <explanation>Total cost = Quantity × Price per unit = 3 × 7 = 21.</explanation>
+    </riddle>
+    <riddle id="4" difficulty="easy">
+        <question>A triangle has how many sides?</question>
+        <answer>3</answer>
+        <hint>Think of a tricycle's wheels.</hint>
+        <explanation>By definition, a triangle is a polygon with three sides.</explanation>
+    </riddle>
+    <riddle id="5" difficulty="easy">
+        <question>Pattern: 10, 20, 30, 40, ?</question>
+        <answer>50</answer>
+        <hint>Add 10 each time.</hint>
+        <explanation>The sequence increases by 10 at each step.</explanation>
+    </riddle>
+    <riddle id="6" difficulty="easy">
+        <question>If I have 5 apples and you take away 3, how many apples do YOU have?</question>
+        <answer>3</answer>
+        <hint>Listen to the question carefully.</hint>
+        <explanation>If you take 3 apples, you are the person holding 3 apples.</explanation>
+    </riddle>
+    <riddle id="7" difficulty="easy">
+        <question>What is the next number? 1, 3, 5, 7, ?</question>
+        <answer>9</answer>
+        <hint>The sequence of odd numbers.</hint>
+        <explanation>The sequence skips by 2, identifying odd numbers.</explanation>
+    </riddle>
+    <riddle id="8" difficulty="easy">
+        <question>How many minutes are there in half an hour?</question>
+        <answer>30</answer>
+        <hint>60 minutes make a full hour.</hint>
+        <explanation>Half of 60 is 30.</explanation>
+    </riddle>
+    <riddle id="9" difficulty="easy">
+        <question>If 1 = 5, 2 = 10, 3 = 15, then 4 = ?</question>
+        <answer>20</answer>
+        <hint>Multiply by 5.</hint>
+        <explanation>The rule is Number × 5.</explanation>
+    </riddle>
+    <riddle id="10" difficulty="easy">
+        <question>How many sides does a square have?</question>
+        <answer>4</answer>
+        <hint>Think of a car's tires.</hint>
+        <explanation>A square is a quadrilateral with four equal sides.</explanation>
+    </riddle>
+    <riddle id="11" difficulty="easy">
+        <question>Pattern: 100, 90, 80, 70, ?</question>
+        <answer>60</answer>
+        <hint>Subtract 10.</hint>
+        <explanation>The sequence decreases by 10 each time.</explanation>
+    </riddle>
+    <riddle id="12" difficulty="easy">
+        <question>I am an even number between 6 and 10. What am I?</question>
+        <answer>8</answer>
+        <hint>I am 4 doubled.</hint>
+        <explanation>8 is the only even integer strictly between 6 and 10.</explanation>
+    </riddle>
+    <riddle id="13" difficulty="easy">
+        <question>If you have 12 eggs and break 2, cook 2, and eat 2, how many eggs are left?</question>
+        <answer>10</answer>
+        <hint>You used the same 2 eggs for everything.</hint>
+        <explanation>You broke 2, cooked those same 2, and ate those same 2. So 12 - 2 = 10.</explanation>
+    </riddle>
+    <riddle id="14" difficulty="easy">
+        <question>Pattern: 5, 10, 15, 20, ?</question>
+        <answer>25</answer>
+        <hint>The 5 times table.</hint>
+        <explanation>Adding 5 to the previous number.</explanation>
+    </riddle>
+    <riddle id="15" difficulty="easy">
+        <question>What is 10 plus 10 plus 10?</question>
+        <answer>30</answer>
+        <hint>Three tens.</hint>
+        <explanation>10+10+10 = 30.</explanation>
+    </riddle>
+    <riddle id="16" difficulty="easy">
+        <question>How many months are in a year?</question>
+        <answer>12</answer>
+        <hint>January to December.</hint>
+        <explanation>There are exactly 12 months in a standard calendar year.</explanation>
+    </riddle>
+    <riddle id="17" difficulty="easy">
+        <question>If I have 2 dozen bananas, how many bananas do I have?</question>
+        <answer>24</answer>
+        <hint>1 dozen = 12.</hint>
+        <explanation>2 × 12 = 24.</explanation>
+    </riddle>
+    <riddle id="18" difficulty="easy">
+        <question>Which is heavier: 1kg of cotton or 1kg of iron?</question>
+        <answer>EQUAL</answer>
+        <hint>They both weigh 1kg.</hint>
+        <explanation>Both have a mass of 1 kilogram, so they weigh the same.</explanation>
+    </riddle>
+    <riddle id="19" difficulty="easy">
+        <question>Pattern: A, C, E, G, ?</question>
+        <answer>I</answer>
+        <hint>Skip one letter.</hint>
+        <explanation>The pattern skips one letter in the alphabet: A (b) C (d) E (f) G (h) I.</explanation>
+    </riddle>
+    <riddle id="20" difficulty="easy">
+        <question>If 3 people share 15 chocolates equally, how many does each get?</question>
+        <answer>5</answer>
+        <hint>Divide 15 by 3.</hint>
+        <explanation>15 ÷ 3 = 5.</explanation>
+    </riddle>
+    <riddle id="21" difficulty="easy">
+        <question>What is the next number? 1, 4, 9, 16, ?</question>
+        <answer>25</answer>
+        <hint>Square numbers (1x1, 2x2...).</hint>
+        <explanation>1^2=1, 2^2=4, 3^2=9, 4^2=16, 5^2=25.</explanation>
+    </riddle>
+    <riddle id="22" difficulty="easy">
+        <question>What is 0 times 100?</question>
+        <answer>0</answer>
+        <hint>Anything multiplied by zero is...</hint>
+        <explanation>Zero property of multiplication.</explanation>
+    </riddle>
+    <riddle id="23" difficulty="easy">
+        <question>How many days are in a week?</question>
+        <answer>7</answer>
+        <hint>Monday to Sunday.</hint>
+        <explanation>There are 7 days in a week.</explanation>
+    </riddle>
+    <riddle id="24" difficulty="easy">
+        <question>I am an odd number. Take away one letter and I become even. What am I?</question>
+        <answer>SEVEN</answer>
+        <hint>Remove 'S'.</hint>
+        <explanation>The word 'SEVEN' minus 'S' is 'EVEN'.</explanation>
+    </riddle>
+    <riddle id="25" difficulty="easy">
+        <question>What is the double of 25?</question>
+        <answer>50</answer>
+        <hint>25 + 25.</hint>
+        <explanation>2 × 25 = 50.</explanation>
+    </riddle>
+    <riddle id="26" difficulty="easy">
+        <question>Pattern: 11, 22, 33, 44, ?</question>
+        <answer>55</answer>
+        <hint>Add 11 each time.</hint>
+        <explanation>The sequence increases by 11.</explanation>
+    </riddle>
+    <riddle id="27" difficulty="easy">
+        <question>How many sides does a pentagon have?</question>
+        <answer>5</answer>
+        <hint>'Penta' means five.</hint>
+        <explanation>A pentagon is a 5-sided polygon.</explanation>
+    </riddle>
+    <riddle id="28" difficulty="easy">
+        <question>What is 100 divided by 2?</question>
+        <answer>50</answer>
+        <hint>Half of 100.</hint>
+        <explanation>100 ÷ 2 = 50.</explanation>
+    </riddle>
+    <riddle id="29" difficulty="easy">
+        <question>If I am 10 years old and my brother is half my age, how old is he?</question>
+        <answer>5</answer>
+        <hint>Divide 10 by 2.</hint>
+        <explanation>10 ÷ 2 = 5.</explanation>
+    </riddle>
+    <riddle id="30" difficulty="easy">
+        <question>How many fingers do 10 people have in total? (Excluding thumbs)</question>
+        <answer>80</answer>
+        <hint>Each person has 8 fingers.</hint>
+        <explanation>10 people × 8 fingers = 80.</explanation>
+    </riddle>
+
+    <!-- MODERATE MATH (31-60) -->
+    <riddle id="31" difficulty="moderate">
+        <question>Pattern: 2, 6, 12, 20, 30, ?</question>
+        <answer>42</answer>
+        <hint>Add 4, then 6, then 8, then 10...</hint>
+        <explanation>The difference increases by 2 each time (4, 6, 8, 10, 12). 30 + 12 = 42.</explanation>
+    </riddle>
+    <riddle id="32" difficulty="moderate">
+        <question>I think of a number. Double it, add 10, divide by 2, and the result is 25. What was my number?</question>
+        <answer>20</answer>
+        <hint>Work backwards: (25 x 2) - 10...</hint>
+        <explanation>((20 * 2) + 10) / 2 = 50 / 2 = 25.</explanation>
+    </riddle>
+    <riddle id="33" difficulty="moderate">
+        <question>A bat and ball cost ₹110. The bat costs ₹100 more than the ball. How much does the ball cost?</question>
+        <answer>5</answer>
+        <hint>If the ball was 10, the bat would be 110 (Total 120).</hint>
+        <explanation>X + (X + 100) = 110 => 2X = 10 => X = 5.</explanation>
+    </riddle>
+    <riddle id="34" difficulty="moderate">
+        <question>Pattern: 3, 9, 27, ?, 243</question>
+        <answer>81</answer>
+        <hint>Multiply by 3 each time.</hint>
+        <explanation>3^1, 3^2, 3^3, 3^4 (81), 3^5.</explanation>
+    </riddle>
+    <riddle id="35" difficulty="moderate">
+        <question>Two fathers and two sons go fishing. They catch 3 fish. Each gets one. How?</question>
+        <answer>GENERATIONS</answer>
+        <hint>There are only 3 people.</hint>
+        <explanation>They are Grandfather, Father, and Son. The Father is both a father and a son.</explanation>
+    </riddle>
+    <riddle id="36" difficulty="moderate">
+        <question>Odd One Out: 3, 5, 11, 14, 17. Which number doesn't follow the rule?</question>
+        <answer>14</answer>
+        <hint>Look for prime numbers.</hint>
+        <explanation>All other numbers are prime; 14 is composite.</explanation>
+    </riddle>
+    <riddle id="37" difficulty="moderate">
+        <question>If 5 -> 25, 6 -> 36, then 8 -> ?</question>
+        <answer>64</answer>
+        <hint>Square the number.</hint>
+        <explanation>5^2=25, 6^2=36, 8^2=64.</explanation>
+    </riddle>
+    <riddle id="38" difficulty="moderate">
+        <question>You buy 3 pens at ₹7 each and pay ₹50. How much change do you get back?</question>
+        <answer>29</answer>
+        <hint>50 - (3 x 7).</hint>
+        <explanation>50 - 21 = 29.</explanation>
+    </riddle>
+    <riddle id="39" difficulty="moderate">
+        <question>5 people finish a piece of work in 5 days. How many days do 10 people take?</question>
+        <answer>2.5</answer>
+        <hint>More people means less time.</hint>
+        <explanation>Inverse proportion: 5x5 = 25 man-days. 25 / 10 = 2.5 days.</explanation>
+    </riddle>
+    <riddle id="40" difficulty="moderate">
+        <question>Pattern: 1, 4, 9, 16, 25, ?</question>
+        <answer>36</answer>
+        <hint>Next square number.</hint>
+        <explanation>The series is n^2. 6^2 = 36.</explanation>
+    </riddle>
+    <riddle id="41" difficulty="moderate">
+        <question>Odd One Out: 2, 4, 8, 16, 31. Which number doesn't fit?</question>
+        <answer>31</answer>
+        <hint>Doubling sequence.</hint>
+        <explanation>The sequence is powers of 2. 31 should be 32.</explanation>
+    </riddle>
+    <riddle id="42" difficulty="moderate">
+        <question>If you have a pizza with 8 slices and you eat 25% of it, how many slices are left?</question>
+        <answer>6</answer>
+        <hint>25% is one-fourth.</hint>
+        <explanation>1/4 of 8 is 2. 8 - 2 = 6.</explanation>
+    </riddle>
+    <riddle id="43" difficulty="moderate">
+        <question>How many degrees are in a right angle?</question>
+        <answer>90</answer>
+        <hint>The corner of a square.</hint>
+        <explanation>A right angle is exactly 90 degrees.</explanation>
+    </riddle>
+    <riddle id="44" difficulty="moderate">
+        <question>A farmer has 17 sheep. All but 9 die. How many sheep are left?</question>
+        <answer>9</answer>
+        <hint>Read "All but 9" carefully.</hint>
+        <explanation>"All but 9" means only 9 survived.</explanation>
+    </riddle>
+    <riddle id="45" difficulty="moderate">
+        <question>What is the value of 5! (5 Factorial)?</question>
+        <answer>120</answer>
+        <hint>5 x 4 x 3 x 2 x 1.</hint>
+        <explanation>5! = 120.</explanation>
+    </riddle>
+    <riddle id="46" difficulty="moderate">
+        <question>If a clock strikes 6 times in 5 seconds, how long will it take to strike 12 times?</question>
+        <answer>11</answer>
+        <hint>Count the intervals between strikes.</hint>
+        <explanation>5 intervals in 5 seconds = 1s per interval. 12 strikes have 11 intervals = 11 seconds.</explanation>
+    </riddle>
+    <riddle id="47" difficulty="moderate">
+        <question>A shirt costs ₹500 and is on sale for 20% off. What is the new price?</question>
+        <answer>400</answer>
+        <hint>Subtract ₹100 from 500.</hint>
+        <explanation>20% of 500 is 100. 500 - 100 = 400.</explanation>
+    </riddle>
+    <riddle id="48" difficulty="moderate">
+        <question>If 3 hens lay 3 eggs in 3 days, how many eggs does 1 hen lay in 1 day?</question>
+        <answer>0.33</answer>
+        <hint>Think about the rate per hen.</hint>
+        <explanation>1 hen takes 3 days to lay 1 egg. So in 1 day, she lays 1/3 of an egg.</explanation>
+    </riddle>
+    <riddle id="49" difficulty="moderate">
+        <question>What is the sum of the internal angles of a triangle?</question>
+        <answer>180</answer>
+        <hint>A straight line.</hint>
+        <explanation>The sum is always 180 degrees.</explanation>
+    </riddle>
+    <riddle id="50" difficulty="moderate">
+        <question>I am a three-digit number. My second digit is four times as big as the third digit. My first digit is three less than my second digit. Who am I?</question>
+        <answer>141</answer>
+        <hint>Start with the 3rd digit being 1.</hint>
+        <explanation>3rd=1, 2nd=1*4=4, 1st=4-3=1. Result: 141.</explanation>
+    </riddle>
+    <riddle id="51" difficulty="moderate">
+        <question>If a brick weighs 1kg plus half a brick, how much does a brick weigh?</question>
+        <answer>2</answer>
+        <hint>X = 1 + 0.5X.</hint>
+        <explanation>0.5X = 1 => X = 2kg.</explanation>
+    </riddle>
+    <riddle id="52" difficulty="moderate">
+        <question>How many faces does a cube have?</question>
+        <answer>6</answer>
+        <hint>Think of a die.</hint>
+        <explanation>A cube has 6 square faces.</explanation>
+    </riddle>
+    <riddle id="53" difficulty="moderate">
+        <question>What is the next number in the Fibonacci sequence? 0, 1, 1, 2, 3, 5, 8, ?</question>
+        <answer>13</answer>
+        <hint>Add the last two numbers.</hint>
+        <explanation>5 + 8 = 13.</explanation>
+    </riddle>
+    <riddle id="54" difficulty="moderate">
+        <question>If you have 3 boxes, and in each box, there are 3 smaller boxes, and 3 tiny boxes in each of those, how many boxes total?</question>
+        <answer>39</answer>
+        <hint>Count them layer by layer.</hint>
+        <explanation>3 (Large) + 3*3 (Small) + 9*3 (Tiny) = 3 + 9 + 27 = 39.</explanation>
+    </riddle>
+    <riddle id="55" difficulty="moderate">
+        <question>What is 111 divided by 3?</question>
+        <answer>37</answer>
+        <hint>Think about multiples of 3.</hint>
+        <explanation>3 x 37 = 111.</explanation>
+    </riddle>
+    <riddle id="56" difficulty="moderate">
+        <question>Find the average of 10, 20, 30, and 40.</question>
+        <answer>25</answer>
+        <hint>Sum them and divide by 4.</hint>
+        <explanation>(10+20+30+40)/4 = 100/4 = 25.</explanation>
+    </riddle>
+    <riddle id="57" difficulty="moderate">
+        <question>What is the square root of 144?</question>
+        <answer>12</answer>
+        <hint>12 x 12.</hint>
+        <explanation>12^2 = 144.</explanation>
+    </riddle>
+    <riddle id="58" difficulty="moderate">
+        <question>A grandfather, two fathers, and two sons went to the movie theater together and bought one ticket each. How many tickets did they buy in total?</question>
+        <answer>3</answer>
+        <hint>Smallest number of people possible.</hint>
+        <explanation>Grandfather, Father, Son. (Father is both son and father).</explanation>
+    </riddle>
+    <riddle id="59" difficulty="moderate">
+        <question>What is 0.1 + 0.2?</question>
+        <answer>0.3</answer>
+        <hint>Simple decimals.</hint>
+        <explanation>0.3 (Calculated normally in base 10).</explanation>
+    </riddle>
+    <riddle id="60" difficulty="moderate">
+        <question>If you are running a race and you pass the person in second place, what place are you in?</question>
+        <answer>SECOND</answer>
+        <hint>You took their spot.</hint>
+        <explanation>You are now in the position they were in.</explanation>
+    </riddle>
+
+    <!-- DIFFICULT MATH (61-100) -->
+    <riddle id="61" difficulty="difficult">
+        <question>A train 100m long crosses a pole in 10s. How long will it take to cross a 200m bridge?</question>
+        <answer>30</answer>
+        <hint>Calculate its speed first (10m/s).</hint>
+        <explanation>Speed = 100/10 = 10m/s. Total distance for bridge = 100 + 200 = 300m. Time = 300/10 = 30s.</explanation>
+    </riddle>
+    <riddle id="62" difficulty="difficult">
+        <question>Pattern: 1, 1, 2, 6, 24, ?</question>
+        <answer>120</answer>
+        <hint>Multiplying integers: x1, x2, x3, x4...</hint>
+        <explanation>Factorial sequence: 1!, 2!, 3!, 4!, 5! (120).</explanation>
+    </riddle>
+    <riddle id="63" difficulty="difficult">
+        <question>I am a prime number. If you reverse my digits, I am another prime number. My sum is 10. What am I?</question>
+        <answer>37</answer>
+        <hint>3 + 7 = 10.</hint>
+        <explanation>37 and 73 are both prime, and 3+7=10.</explanation>
+    </riddle>
+    <riddle id="64" difficulty="difficult">
+        <question>Pattern: 7, 8, 18, 57, ?</question>
+        <answer>232</answer>
+        <hint>x1+1, x2+2, x3+3...</hint>
+        <explanation>7x1+1=8, 8x2+2=18, 18x3+3=57, 57x4+4=232.</explanation>
+    </riddle>
+    <riddle id="65" difficulty="difficult">
+        <question>A snail is at the bottom of a 30ft well. Each day it climbs up 3ft and at night it slips back 2ft. How many days until it reaches the top?</question>
+        <answer>28</answer>
+        <hint>On the last day, it reaches the top and doesn't slip back.</hint>
+        <explanation>Net 1ft/day. After 27 days, it's at 27ft. On day 28, it climbs 3ft and touches the top (30ft).</explanation>
+    </riddle>
+    <riddle id="66" difficulty="difficult">
+        <question>What is the smallest number that is exactly divisible by all numbers from 1 to 10?</question>
+        <answer>2520</answer>
+        <hint>LCM of 1 through 10.</hint>
+        <explanation>The Least Common Multiple is 2520.</explanation>
+    </riddle>
+    <riddle id="67" difficulty="difficult">
+        <question>Pattern: 2, 3, 5, 7, 11, 13, ?</question>
+        <answer>17</answer>
+        <hint>Prime numbers.</hint>
+        <explanation>The sequence of consecutive prime numbers.</explanation>
+    </riddle>
+    <riddle id="68" difficulty="difficult">
+        <question>If 1+4=5, 2+5=12, 3+6=21, then 8+11=?</question>
+        <answer>96</answer>
+        <hint>A + (A x B) = Result.</hint>
+        <explanation>8 + (8 x 11) = 8 + 88 = 96.</explanation>
+    </riddle>
+    <riddle id="69" difficulty="difficult">
+        <question>In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half the lake?</question>
+        <answer>47</answer>
+        <hint>Doubling happens every day.</hint>
+        <explanation>If it's full on day 48, it must have been half-full one day earlier.</explanation>
+    </riddle>
+    <riddle id="70" difficulty="difficult">
+        <question>What is 2^10 (2 to the power of 10)?</question>
+        <answer>1024</answer>
+        <hint>Think of computer memory (1 Kilobyte).</hint>
+        <explanation>1024.</explanation>
+    </riddle>
+    <riddle id="71" difficulty="difficult">
+        <question>If a clock's hour hand moves 360 degrees in 12 hours, how many degrees does it move in 15 minutes?</question>
+        <answer>7.5</answer>
+        <hint>30 degrees per hour.</hint>
+        <explanation>30 degrees / 4 (since 15min is 1/4 hour) = 7.5 degrees.</explanation>
+    </riddle>
+    <riddle id="72" difficulty="difficult">
+        <question>A father is 4 times as old as his son. In 20 years, he will be twice as old as his son. How old is the father now?</question>
+        <answer>40</answer>
+        <hint>F = 4S, F+20 = 2(S+20).</hint>
+        <explanation>4S+20 = 2S+40 => 2S=20 => S=10, F=40.</explanation>
+    </riddle>
+    <riddle id="73" difficulty="difficult">
+        <question>Pattern: 1, 2, 4, 7, 11, ?</question>
+        <answer>16</answer>
+        <hint>Add 1, then 2, then 3, then 4...</hint>
+        <explanation>Increments by 1, 2, 3, 4, 5. 11+5 = 16.</explanation>
+    </riddle>
+    <riddle id="74" difficulty="difficult">
+        <question>How many zeros are in the result of 100! (100 Factorial)?</question>
+        <answer>24</answer>
+        <hint>Count the factors of 5.</hint>
+        <explanation>100/5 + 100/25 = 20 + 4 = 24.</explanation>
+    </riddle>
+    <riddle id="75" difficulty="difficult">
+        <question>I am a two-digit number. The product of my digits is 12 and their sum is 7. What am I?</question>
+        <answer>34</answer>
+        <hint>Think of factors of 12.</hint>
+        <explanation>3+4=7, 3x4=12.</explanation>
+    </riddle>
+    <riddle id="76" difficulty="difficult">
+        <question>Pattern: 100, 95, 85, 70, ?</question>
+        <answer>50</answer>
+        <hint>Subtract 5, then 10, then 15...</hint>
+        <explanation>Decrements increase by 5. Subtract 20 next: 70 - 20 = 50.</explanation>
+    </riddle>
+    <riddle id="77" difficulty="difficult">
+        <question>If 3, 4, 7 and 3, 5, 8 then 3, ?, 11. What is the missing number?</question>
+        <answer>8</answer>
+        <hint>Look at the last two numbers.</hint>
+        <explanation>Basically X+Y=Z. So 3+8=11.</explanation>
+    </riddle>
+    <riddle id="78" difficulty="difficult">
+        <question>If a plane crashes on the border between India and Pakistan, where do they bury the survivors?</question>
+        <answer>DONT BURY SURVIVORS</answer>
+        <hint>Read "survivors" carefully.</hint>
+        <explanation>You don't bury people who survived the crash.</explanation>
+    </riddle>
+    <riddle id="79" difficulty="difficult">
+        <question>What is the probability of rolling a sum of 7 with two six-sided dice?</question>
+        <answer>0.166</answer>
+        <hint>6 combinations out of 36.</hint>
+        <explanation>6/36 = 1/6 = 0.1666.</explanation>
+    </riddle>
+    <riddle id="80" difficulty="difficult">
+        <question>Pattern: 8, 4, 12, 6, 18, ?</question>
+        <answer>9</answer>
+        <hint>Divide by 2, then multiply by 3.</hint>
+        <explanation>8/2=4, 4x3=12, 12/2=6, 6x3=18, 18/2=9.</explanation>
+    </riddle>
+    <riddle id="81" difficulty="difficult">
+        <question>How many times did the hands of a clock overlap in 24 hours?</question>
+        <answer>22</answer>
+        <hint>It happens roughly once every hour except one.</hint>
+        <explanation>The hands overlap 11 times every 12 hours.</explanation>
+    </riddle>
+    <riddle id="82" difficulty="difficult">
+        <question>What is the square of 99?</question>
+        <answer>9801</answer>
+        <hint>(100-1)^2.</hint>
+        <explanation>10000 - 200 + 1 = 9801.</explanation>
+    </riddle>
+    <riddle id="83" difficulty="difficult">
+        <question>If a doctor gives you 3 pills and tells you to take one every half hour, how long will they last?</question>
+        <answer>60</answer>
+        <hint>When do you take the first one?</hint>
+        <explanation>Take 1st now, 2nd in 30min, 3rd in 60min. Total 60 minutes.</explanation>
+    </riddle>
+    <riddle id="84" difficulty="difficult">
+        <question>Pattern: 1, 8, 27, 64, ?</question>
+        <answer>125</answer>
+        <hint>Cube numbers (1x1x1, 2x2x2...).</hint>
+        <explanation>1^3, 2^3, 3^3, 4^3, 5^3=125.</explanation>
+    </riddle>
+    <riddle id="85" difficulty="difficult">
+        <question>What is the binary representation of 10?</question>
+        <answer>1010</answer>
+        <hint>8 + 2.</hint>
+        <explanation>8(1), 4(0), 2(1), 1(0) = 1010.</explanation>
+    </riddle>
+    <riddle id="86" difficulty="difficult">
+        <question>If 5 shirts take 5 hours to dry in the sun, how long will 100 shirts take?</question>
+        <answer>5</answer>
+        <hint>They all dry at the same time.</hint>
+        <explanation>Sunlight affects them all simultaneously.</explanation>
+    </riddle>
+    <riddle id="87" difficulty="difficult">
+        <question>Pattern: 1, 2, 6, 15, 31, ?</question>
+        <answer>56</answer>
+        <hint>Add 1^2, 2^2, 3^2, 4^2...</hint>
+        <explanation>1+1=2, 2+4=6, 6+9=15, 15+16=31, 31+25=56.</explanation>
+    </riddle>
+    <riddle id="88" difficulty="difficult">
+        <question>How many degrees are in the sum of angles of a hexagon?</question>
+        <answer>720</answer>
+        <hint>(n-2) x 180.</hint>
+        <explanation>(6-2) x 180 = 4 x 180 = 720.</explanation>
+    </riddle>
+    <riddle id="89" difficulty="difficult">
+        <question>What is the log of 1000 to base 10?</question>
+        <answer>3</answer>
+        <hint>10 to the power of what is 1000?</hint>
+        <explanation>10^3 = 1000.</explanation>
+    </riddle>
+    <riddle id="90" difficulty="difficult">
+        <question>If you have a 3L bucket and a 5L bucket, how do you measure exactly 4L? (Answer with the final volume in 5L bucket)</question>
+        <answer>4</answer>
+        <hint>Fill 5, pour into 3, empty 3, pour last 2 into 3...</hint>
+        <explanation>Logic: Fill 5, pour to 3 (2 left in 5). Empty 3, put 2 in 3. Fill 5, pour to top off 3 (needs 1), 5-1=4.</explanation>
+    </riddle>
+    <riddle id="91" difficulty="difficult">
+        <question>Pattern: 31, 28, 31, 30, 31, 30, ?</question>
+        <answer>31</answer>
+        <hint>Think of the calendar.</hint>
+        <explanation>Days in each month starting from Jan: Jan(31), Feb(28), Mar(31), Apr(30), May(31), Jun(30), Jul(31).</explanation>
+    </riddle>
+    <riddle id="92" difficulty="difficult">
+        <question>What is the distance if a car travels at 60km/h for 45 minutes?</question>
+        <answer>45</answer>
+        <hint>45 mins is 0.75 hours.</hint>
+        <explanation>60 x 0.75 = 45km.</explanation>
+    </riddle>
+    <riddle id="93" difficulty="difficult">
+        <question>If a sphere's radius is doubled, by how much does its volume increase?</question>
+        <answer>8</answer>
+        <hint>Volume depends on r^3.</hint>
+        <explanation>2^3 = 8.</explanation>
+    </riddle>
+    <riddle id="94" difficulty="difficult">
+        <question>Pattern: 100, 1, 99, 2, 98, ?</question>
+        <answer>3</answer>
+        <hint>Alternating sequences.</hint>
+        <explanation>Two sequences: (100, 99, 98) and (1, 2, 3).</explanation>
+    </riddle>
+    <riddle id="95" difficulty="difficult">
+        <question>What is 9 to the power of 1.5?</question>
+        <answer>27</answer>
+        <hint>SQRT(9) then cube it.</hint>
+        <explanation>SQRT(9)=3. 3^3=27.</explanation>
+    </riddle>
+    <riddle id="96" difficulty="difficult">
+        <question>If you multiply all numbers on a telephone dial pad, what is the result?</question>
+        <answer>0</answer>
+        <hint>Look at the bottom of the pad.</hint>
+        <explanation>The dial pad includes '0'. Any multiplication by 0 is 0.</explanation>
+    </riddle>
+    <riddle id="97" difficulty="difficult">
+        <question>How many sides does a dodecahedron have?</question>
+        <answer>12</answer>
+        <hint>Greek for twelve.</hint>
+        <explanation>12 pentagonal faces.</explanation>
+    </riddle>
+    <riddle id="98" difficulty="difficult">
+        <question>What is the next number? 1, 11, 21, 1211, 111221, ?</question>
+        <answer>312211</answer>
+        <hint>Describe the previous number aloud (One 1, One 1...).</hint>
+        <explanation>Look-and-say sequence. 111221 is: Three 1s, Two 2s, One 1. 312211.</explanation>
+    </riddle>
+    <riddle id="99" difficulty="difficult">
+        <question>What is absolute zero in Celsius?</question>
+        <answer>-273</answer>
+        <hint>Very, very cold.</hint>
+        <explanation>-273.15 C.</explanation>
+    </riddle>
+    <riddle id="100" difficulty="difficult">
+        <question>I am an angle. I am greater than 180 degrees but less than 360 degrees. What am I called?</question>
+        <answer>REFLEX</answer>
+        <hint>Think of a reflex.</hint>
+        <explanation>A reflex angle is an angle which is more than 180° but less than 360°.</explanation>
+    </riddle>
+</riddles>

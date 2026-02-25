@@ -1,0 +1,14 @@
+{
+	"appId": "com.abhyascore.app",
+	"appName": "AbhyasCore",
+	"webDir": "dist",
+	"plugins": {
+		"FirebaseAuthentication": {
+			"skipNativeAuth": false,
+			"providers": [
+				"google.com"
+			],
+			"googleClientId": "552286172001-fmbsivol0n656mjnnngbt6smtuk35q7u.apps.googleusercontent.com"
+		}
+	}
+}
