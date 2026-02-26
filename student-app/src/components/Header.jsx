@@ -1,7 +1,7 @@
 import React from 'react';
 import { Flame, Hexagon, Trophy } from 'lucide-react';
 
-const Header = ({ stats, assets, onViewProfile }) => {
+const Header = ({ stats, assets, onViewProfile, onStreakClick }) => {
     return (
         <header className="relative z-20 flex flex-col gap-4 mb-2 p-2">
             {/* Top Row: User Info */}
@@ -43,7 +43,10 @@ const Header = ({ stats, assets, onViewProfile }) => {
 
             {/* Streak & Rank */}
             <div className="flex items-center gap-2 px-1">
-                <div className="flex items-center gap-2 bg-gradient-to-r from-orange-500/10 to-transparent border border-orange-500/20 px-3 py-1.5 rounded-lg">
+                <div
+                    onClick={onStreakClick}
+                    className="flex items-center gap-2 bg-gradient-to-r from-orange-500/10 to-transparent border border-orange-500/20 px-3 py-1.5 rounded-lg cursor-pointer hover:bg-orange-500/5 transition-colors active:scale-95"
+                >
                     <Flame size={14} className="text-orange-500 fill-orange-500 animate-pulse" />
                     <span className="text-xs font-black text-orange-400 italic tracking-wider">{stats.streak} DAY STREAK</span>
                 </div>

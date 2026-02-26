@@ -303,3 +303,30 @@ export const getUserProgress = async (userId) => {
         return {};
     }
 };
+
+// ─── getGlobalRank ───────────────────────────────────────────────────────────
+
+/**
+ * Calculate the global rank of a user based on XP.
+ * Returns { rank, totalUsers, percentile }
+ */
+export const getGlobalRank = async (xp) => {
+    try {
+        const usersRef = collection(db, 'users');
+        const allUsersSnap = await getDocs(usersRef);
+        const totalUsers = allUsersSnap.size || 1;
+
+        // Count users with higher XP
+        // Note: For very large user bases, this should be replaced by a periodic aggregation
+        const higherXPQuery = query(collection(db, 'users'), where('stats.xp', '>', xp));
+        const higherXPSnap = await getDocs(higherXPQuery);
+        const rank = higherXPSnap.size + 1;
+
+        const percentile = Math.max(1, Math.min(100, Math.round(((totalUsers - rank + 1) / totalUsers) * 100)));
+
+        return { rank, totalUsers, percentile };
+    } catch (error) {
+        console.error('Error calculating global rank:', error);
+        return { rank: '?', totalUsers: '?', percentile: '?' };
+    }
+};

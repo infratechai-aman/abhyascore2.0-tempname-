@@ -1,4 +1,3 @@
-import React from 'react';
 import { Skull, Trophy, Lock } from 'lucide-react';
 import { getRank } from '../utils/rankUtils';
 

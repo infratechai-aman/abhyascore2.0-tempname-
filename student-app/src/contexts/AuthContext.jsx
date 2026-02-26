@@ -29,12 +29,13 @@ export const AuthProvider = ({ children }) => {
                 nextXp: 100,
                 gold: 0,
                 gems: 0,
-                streak: 0
+                streak: 0,
+                activity: []
             }
         });
 
         // Set local state immediately for responsiveness
-        setUserData({ name, stream, stats: { lvl: 1, xp: 0, nextXp: 100, gold: 0, gems: 0, streak: 0 } });
+        setUserData({ name, stream, stats: { lvl: 1, xp: 0, nextXp: 100, gold: 0, gems: 0, streak: 0, activity: [] } });
         return user;
     };
 
@@ -66,7 +67,8 @@ export const AuthProvider = ({ children }) => {
                         nextXp: 100,
                         gold: 0,
                         gems: 0,
-                        streak: 0
+                        streak: 0,
+                        activity: []
                     }
                 };
                 await setDoc(docRef, newUser);
@@ -94,7 +96,8 @@ export const AuthProvider = ({ children }) => {
                 nextXp: 100,
                 gold: 500,
                 gems: 10,
-                streak: 1
+                streak: 1,
+                activity: [new Date().toISOString().split('T')[0]]
             }
         });
         setLoading(false);
@@ -132,7 +135,7 @@ export const AuthProvider = ({ children }) => {
                     migratedFromGuest: true,
                     stats: guestData.stats || {
                         lvl: 1, xp: 0, nextXp: 100,
-                        gold: 0, gems: 0, streak: 0
+                        gold: 0, gems: 0, streak: 0, activity: []
                     }
                 };
                 await setDoc(docRef, migratedUser);
@@ -151,6 +154,7 @@ export const AuthProvider = ({ children }) => {
                     totalQuestions: (existing.stats?.totalQuestions || 0) + (guestData.stats?.totalQuestions || 0),
                     correctAnswers: (existing.stats?.correctAnswers || 0) + (guestData.stats?.correctAnswers || 0),
                     lastActive: guestData.stats?.lastActive || existing.stats?.lastActive,
+                    activity: Array.from(new Set([...(existing.stats?.activity || []), ...(guestData.stats?.activity || [])])).sort().slice(-14),
                 };
                 await updateDoc(docRef, { stats: mergedStats });
                 setUserData({ ...existing, stats: mergedStats });

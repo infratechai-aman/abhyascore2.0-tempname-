@@ -10,6 +10,8 @@ import Questions from './pages/Questions';
 import HomeCardManager from './pages/AppControl/HomeCardManager';
 import RewardRuleManager from './pages/AppControl/RewardRuleManager';
 import GameConfig from './pages/GameConfig';
+import Analytics from './pages/Analytics';
+import Leaderboard from './pages/Leaderboard';
 
 function AdminLayout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -91,6 +93,26 @@ export default function App() {
             <AdminRoute>
               <AdminLayout>
                 <GameConfig />
+              </AdminLayout>
+            </AdminRoute>
+          }
+        />
+        <Route
+          path="/analytics"
+          element={
+            <AdminRoute>
+              <AdminLayout>
+                <Analytics />
+              </AdminLayout>
+            </AdminRoute>
+          }
+        />
+        <Route
+          path="/leaderboard"
+          element={
+            <AdminRoute>
+              <AdminLayout>
+                <Leaderboard />
               </AdminLayout>
             </AdminRoute>
           }

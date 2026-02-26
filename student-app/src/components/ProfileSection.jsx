@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { User, Shield, Trophy, Edit2, Lock, Check, Eye, EyeOff } from 'lucide-react';
 import { getRank } from '../utils/rankUtils';
 import { useAuth } from '../contexts/AuthContext';
+import { getGlobalRank } from '../utils/gameLogic';
 
 // ─── Badge Image Imports ──────────────────────────────────────────────────────
 import badgeFirstStep from '../assets/badges/FirstStep.png';
@@ -77,6 +78,14 @@ const ProfileSection = ({ stats, assets, onAvatarSelect, onClose, devMode, setDe
     const { currentUser, upgradeFromGuest } = useAuth();
     const [activeTab, setActiveTab] = useState('overview'); // overview, avatars, badges
     const [upgrading, setUpgrading] = useState(false);
+    const [rankData, setRankData] = useState({ rank: '...', totalUsers: '...', percentile: '...' });
+
+    // Fetch Global Rank
+    useEffect(() => {
+        if (currentUser && currentUser.uid !== 'guest123' && stats.xp !== undefined) {
+            getGlobalRank(stats.xp).then(setRankData);
+        }
+    }, [currentUser, stats.xp]);
 
     // Compute unlocked achievements dynamically
     const isRealUser = currentUser && currentUser.uid !== 'guest123';
@@ -206,8 +215,8 @@ const ProfileSection = ({ stats, assets, onAvatarSelect, onClose, devMode, setDe
                                 <Trophy size={24} />
                             </div>
                             <div>
-                                <p className="text-white/40 text-[10px] font-black uppercase tracking-widest mb-1">CURRENT RANK</p>
-                                <p className="text-xl font-black text-white italic">#240 <span className="text-sm text-green-500 font-bold not-italic">▲ 12</span></p>
+                                <p className="text-white/40 text-[10px] font-black uppercase tracking-widest mb-1">GLOBAL RANK</p>
+                                <p className="text-xl font-black text-white italic">#{rankData.rank} <span className="text-sm text-green-500 font-bold not-italic">Top {100 - rankData.percentile}%</span></p>
                             </div>
                         </div>
                         <div className="bg-[#16161c] border border-white/5 p-4 rounded-2xl">

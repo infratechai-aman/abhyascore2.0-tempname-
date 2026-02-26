@@ -13,6 +13,7 @@ import AdminUpload from './components/AdminUpload';
 import BossSelection from './components/BossSelection';
 import BossInterface from './components/BossInterface';
 import BossResults from './components/BossResults';
+import StreakModal from './components/StreakModal';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { startTestSession, calculateResults, saveQuizResult, getUserProgress, saveChapterProgress } from './utils/gameLogic';
 import { getSubjectsForStream } from './utils/bossConfig';
@@ -31,6 +32,7 @@ const MainContent = () => {
   const [showClassSelector, setShowClassSelector] = useState(false);
   const [selectedClass, setSelectedClass] = useState(null); // 11 or 12
   const [devMode, setDevMode] = useState(false);
+  const [showStreakModal, setShowStreakModal] = useState(false);
 
   // Quiz State
   const [quizQuestions, setQuizQuestions] = useState([]);
@@ -339,42 +341,52 @@ const MainContent = () => {
       // 2. Calculate Rewards
       const baseCorrXP = rewardRules?.correctAnswerXP ?? 1;
       const baseCorrGold = 5; // Fixed for now
+      const streakBonus = rewardRules?.streakBonusPerDay ?? 5;
 
       // XP: (Stars * 10) + (Correct * Rule)
-      const xpEarned = (results.stars * 10) + (results.correct * baseCorrXP);
+      let xpEarned = (results.stars * 10) + (results.correct * baseCorrXP);
       // Gold: 5 per correct answer (Could also be from rules later)
       const goldEarned = results.correct * baseCorrGold;
 
-      // 3. Update User Stats
-      const today = new Date().toDateString();
+      // 3. Update User Stats & Activity Tracking
+      const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
       const lastActive = userData?.stats?.lastActive || null;
       let newStreak = userData?.stats?.streak || 0;
+      let activity = [...(userData?.stats?.activity || [])];
 
-      // Streak Logic
+      // Add today to activity if not present
+      if (!activity.includes(today)) {
+        activity.push(today);
+        // Apply daily streak bonus if this is the first activity of the day
+        xpEarned += (newStreak + 1) * streakBonus; // Scaled bonus or flat
+      }
+
+      // Keep only last 14 days of activity strings for performance
+      activity = activity.sort().slice(-14);
+
+      // Streak Logic (simplified check based on activity array continuity)
       if (lastActive !== today) {
-        const yesterday = new Date();
-        yesterday.setDate(yesterday.getDate() - 1);
+        const yesterdayDate = new Date();
+        yesterdayDate.setDate(yesterdayDate.getDate() - 1);
+        const yesterday = yesterdayDate.toISOString().split('T')[0];
 
-        if (lastActive === yesterday.toDateString()) {
-          newStreak += 1; // Contentinous streak
-        } else {
-          newStreak = 1; // Reset or Start new (if gap > 1 day or first time)
-          // Note: If it's the very first time (lastActive null), it becomes 1.
+        if (lastActive === yesterday) {
+          newStreak += 1;
+        } else if (lastActive === null || lastActive < yesterday) {
+          newStreak = 1;
         }
       }
 
       const newXp = (userData?.stats?.xp || 0) + xpEarned;
       const currentLvl = userData?.stats?.lvl || 1;
-      const nextXpThreshold = currentLvl * 100; // Simple level curve
+      const nextXpThreshold = currentLvl * 100;
 
       let newLvl = currentLvl;
-      let newNextXp = nextXpThreshold;
+      let newNextXp = userData?.stats?.nextXp || 100;
 
-      // Level Up Logic
       if (newXp >= nextXpThreshold) {
         newLvl += 1;
         newNextXp = newLvl * 100;
-        // Could add level up modal trigger here
       }
 
       updateUserStats({
@@ -386,7 +398,8 @@ const MainContent = () => {
         totalQuestions: (userData?.stats?.totalQuestions || 0) + results.totalQuestions,
         correctAnswers: (userData?.stats?.correctAnswers || 0) + results.correct,
         streak: newStreak,
-        lastActive: today
+        lastActive: today,
+        activity: activity
       });
     }
     // -------------------------
@@ -571,6 +584,7 @@ const MainContent = () => {
           stats={stats}
           assets={assets}
           onViewProfile={() => setView('profile')}
+          onStreakClick={() => setShowStreakModal(true)}
         />
       )}
 
@@ -641,6 +655,14 @@ const MainContent = () => {
           subject={selectedSub}
           onClose={() => setShowClassSelector(false)}
           onSelectClass={handleClassSelect}
+        />
+      )}
+
+      {/* Streak Modal */}
+      {showStreakModal && (
+        <StreakModal
+          stats={stats}
+          onClose={() => setShowStreakModal(false)}
         />
       )}
     </div>
