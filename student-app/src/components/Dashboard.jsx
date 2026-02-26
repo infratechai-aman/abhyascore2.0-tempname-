@@ -17,6 +17,8 @@ const Dashboard = ({ subjects, extraCards = [], assets, setSelectedSub, setView,
                 setView('boss-select');
             } else if (card.type === 'achievement') {
                 // handle achievements view
+            } else if (card.type === 'game_hub') {
+                setView('minigames');
             }
         };
 
@@ -103,6 +105,18 @@ const Dashboard = ({ subjects, extraCards = [], assets, setSelectedSub, setView,
                                 <p className="text-[8px] text-amber-500 font-bold tracking-widest uppercase mt-1">PROGESS HUB</p>
                             </div>
                             <Trophy className="text-amber-500/20 -rotate-12" size={48} />
+                        </div>
+                    </div>
+
+                    <div onClick={() => setView('minigames')} className="relative h-20 rounded-2xl border border-white/10 overflow-hidden cursor-pointer active:scale-[0.98] transition-all shadow-xl group bg-slate-900">
+                        <div className="absolute inset-0 bg-gradient-to-r from-indigo-900/40 to-slate-900 transition-transform duration-700 group-hover:scale-105" />
+                        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-transparent to-transparent" />
+                        <div className="absolute inset-0 flex items-center px-5 justify-between">
+                            <div className="text-left z-10">
+                                <h4 className="text-lg font-black italic text-white leading-none uppercase tracking-tighter drop-shadow-lg">MINI-GAMES</h4>
+                                <p className="text-[8px] text-indigo-400 font-bold tracking-widest uppercase mt-1">LOGIC & REFLEX TRAINING</p>
+                            </div>
+                            <Brain className="text-indigo-500/20 rotate-12" size={48} />
                         </div>
                     </div>
                 </>

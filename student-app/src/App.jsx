@@ -14,6 +14,9 @@ import BossSelection from './components/BossSelection';
 import BossInterface from './components/BossInterface';
 import BossResults from './components/BossResults';
 import StreakModal from './components/StreakModal';
+import MiniGamesMenu from './components/MiniGamesMenu';
+import RiddleCipher from './components/RiddleCipher';
+import MathMaze from './components/MathMaze';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { startTestSession, calculateResults, saveQuizResult, getUserProgress, saveChapterProgress } from './utils/gameLogic';
 import { getSubjectsForStream } from './utils/bossConfig';
@@ -106,6 +109,16 @@ const MainContent = () => {
       gradient: 'bg-gradient-to-br from-teal-600/20 via-cyan-900/40 to-black',
       icon: <Brain size={80} className="text-teal-500/20" />,
       streams: ['NEET']
+    },
+    {
+      id: 'minigames',
+      type: 'game_hub',
+      title: 'MINI-GAMES',
+      sub: 'STIMULATE YOUR BRAIN',
+      assetKey: 'achievements',
+      gradient: 'bg-gradient-to-br from-indigo-600/20 via-blue-900/40 to-black',
+      icon: <Brain size={80} className="text-indigo-500/20" />,
+      streams: ['JEE', 'NEET']
     }
   ];
 
@@ -623,6 +636,22 @@ const MainContent = () => {
           />
         ) : view === 'admin' ? (
           <AdminUpload onBack={() => setView('home')} />
+        ) : view === 'minigames' ? (
+          <MiniGamesMenu setView={setView} assets={assets} />
+        ) : view === 'riddle_cipher' ? (
+          <RiddleCipher
+            onExit={() => setView('minigames')}
+            userData={userData}
+            assets={assets}
+            updateUserStats={updateUserStats}
+          />
+        ) : view === 'math_maze' ? (
+          <MathMaze
+            onExit={() => setView('minigames')}
+            userData={userData}
+            assets={assets}
+            updateUserStats={updateUserStats}
+          />
         ) : view === 'ranks' || view === 'items' || view === 'battle' ? (
           <div className="flex flex-col items-center justify-center h-full text-white/20 animate-in fade-in zoom-in-95">
             <div className="w-16 h-16 rounded-full bg-white/5 flex items-center justify-center mb-4">

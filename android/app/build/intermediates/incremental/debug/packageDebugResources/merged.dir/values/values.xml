@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <string name="app_name">AbhyasCore</string>
+    <string name="custom_url_scheme">com.abhyascore.app</string>
+    <string name="default_web_client_id" translatable="false">552286172001-fmbsivol0n656mjnnngbt6smtuk35q7u.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">552286172001</string>
+    <string name="google_api_key" translatable="false">AIzaSyAMOep6RXm5ob_5NZuy985rg9XpTEvUezw</string>
+    <string name="google_app_id" translatable="false">1:552286172001:android:51fbed28e9709bd1af0b20</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAMOep6RXm5ob_5NZuy985rg9XpTEvUezw</string>
+    <string name="google_storage_bucket" translatable="false">abhyascore2.firebasestorage.app</string>
+    <string name="package_name">com.abhyascore.app</string>
+    <string name="project_id" translatable="false">abhyascore2</string>
+    <string name="title_activity_main">AbhyasCore</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="AppTheme.NoActionBarLaunch" parent="Theme.SplashScreen">
+        <item name="android:background">@drawable/splash</item>
+    </style>
+</resources>
