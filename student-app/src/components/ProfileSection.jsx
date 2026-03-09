@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
-import { User, Shield, Trophy, Edit2, Lock, Check, Eye, EyeOff } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { User, Shield, Trophy, Edit2, Lock, Check, Eye, EyeOff, Volume2, VolumeX } from 'lucide-react';
 import { getRank } from '../utils/rankUtils';
 import { useAuth } from '../contexts/AuthContext';
-import { getGlobalRank } from '../utils/gameLogic';
+import { getGlobalRank, saveChapterProgress } from '../utils/gameLogic';
+import useSound from '../hooks/useSound';
 
 // ─── Badge Image Imports ──────────────────────────────────────────────────────
 import badgeFirstStep from '../assets/badges/FirstStep.png';
@@ -75,6 +76,7 @@ const ACHIEVEMENTS = [
 ];
 
 const ProfileSection = ({ stats, assets, onAvatarSelect, onClose, devMode, setDevMode }) => {
+    const { playSound, soundEnabled, toggleSound } = useSound();
     const { currentUser, upgradeFromGuest } = useAuth();
     const [activeTab, setActiveTab] = useState('overview'); // overview, avatars, badges
     const [upgrading, setUpgrading] = useState(false);
@@ -114,7 +116,7 @@ const ProfileSection = ({ stats, assets, onAvatarSelect, onClose, devMode, setDe
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5" />
 
                 <div className="relative z-10 flex flex-col items-center">
-                    <div className="relative group cursor-pointer" onClick={() => setActiveTab('avatars')}>
+                    <div className="relative group cursor-pointer" onClick={() => { playSound('click'); setActiveTab('avatars'); }}>
                         <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full p-1 bg-gradient-to-br from-white/20 to-white/5 border border-white/10 mb-4 relative overflow-hidden">
                             {assets.avatar ? (
                                 <img src={assets.avatar} alt="Avatar" className="w-full h-full object-cover rounded-full" />
@@ -195,7 +197,7 @@ const ProfileSection = ({ stats, assets, onAvatarSelect, onClose, devMode, setDe
                 {['overview', 'avatars', 'badges'].map(tab => (
                     <button
                         key={tab}
-                        onClick={() => setActiveTab(tab)}
+                        onClick={() => { playSound('click'); setActiveTab(tab); }}
                         className={`px-6 py-2.5 rounded-xl text-xs font-black uppercase tracking-widest transition-all
                             ${activeTab === tab
                                 ? 'bg-white text-black shadow-lg shadow-white/10 scale-105'
@@ -236,7 +238,25 @@ const ProfileSection = ({ stats, assets, onAvatarSelect, onClose, devMode, setDe
                             <p className="text-2xl font-black text-purple-400">1/25</p>
                         </div>
                         {/* Dev Mode Toggle */}
-                        <div className="col-span-2 bg-[#16161c] border border-white/5 p-4 rounded-2xl">
+                        <div className="col-span-2 bg-[#16161c] border border-white/5 p-4 rounded-2xl flex flex-col gap-4">
+                            <div className="flex items-center justify-between">
+                                <div className="flex items-center gap-3">
+                                    {soundEnabled ? <Volume2 className="text-blue-400" size={20} /> : <VolumeX className="text-white/40" size={20} />}
+                                    <div>
+                                        <p className="text-sm font-bold text-white">Sound Effects</p>
+                                        <p className="text-[10px] text-white/40 font-medium">Enable interaction sounds</p>
+                                    </div>
+                                </div>
+                                <button
+                                    onClick={() => { toggleSound(); !soundEnabled && playSound('pop'); }}
+                                    className={`w-12 h-6 rounded-full transition-colors relative ${soundEnabled ? 'bg-blue-500' : 'bg-white/10'}`}
+                                >
+                                    <div className={`absolute top-1 left-1 w-4 h-4 rounded-full bg-white transition-transform ${soundEnabled ? 'translate-x-6' : 'translate-x-0'}`} />
+                                </button>
+                            </div>
+
+                            <div className="h-[1px] bg-white/5 w-full" />
+
                             <div className="flex items-center justify-between">
                                 <div className="flex items-center gap-3">
                                     {devMode ? <Eye className="text-green-400" size={20} /> : <EyeOff className="text-white/40" size={20} />}
@@ -246,7 +266,7 @@ const ProfileSection = ({ stats, assets, onAvatarSelect, onClose, devMode, setDe
                                     </div>
                                 </div>
                                 <button
-                                    onClick={() => setDevMode(!devMode)}
+                                    onClick={() => { playSound('pop'); setDevMode(!devMode); }}
                                     className={`w-12 h-6 rounded-full transition-colors relative ${devMode ? 'bg-green-500' : 'bg-white/10'}`}
                                 >
                                     <div className={`absolute top-1 left-1 w-4 h-4 rounded-full bg-white transition-transform ${devMode ? 'translate-x-6' : 'translate-x-0'}`} />
@@ -261,7 +281,7 @@ const ProfileSection = ({ stats, assets, onAvatarSelect, onClose, devMode, setDe
                         {AVATARS.map((avatar) => (
                             <div
                                 key={avatar.id}
-                                onClick={() => onAvatarSelect(avatar)}
+                                onClick={() => { playSound('click'); onAvatarSelect(avatar); }}
                                 className={`aspect-square rounded-2xl bg-[#16161c] border p-2 flex flex-col items-center justify-center gap-2 cursor-pointer transition-all group relative overflow-hidden
                                     ${assets.avatarId === avatar.id ? 'border-blue-500 shadow-[0_0_15px_rgba(59,130,246,0.5)]' : 'border-white/10 hover:border-white/30 hover:bg-white/5'}
                                 `}
@@ -324,7 +344,7 @@ const ProfileSection = ({ stats, assets, onAvatarSelect, onClose, devMode, setDe
                         </div>
                     </div>
                     <button
-                        onClick={() => setDevMode(!devMode)}
+                        onClick={() => { playSound('pop'); setDevMode(!devMode); }}
                         className={`w-10 h-5 rounded-full transition-colors relative ${devMode ? 'bg-green-500' : 'bg-white/10'}`}
                     >
                         <div className={`absolute top-1 left-1 w-3 h-3 rounded-full bg-white transition-transform ${devMode ? 'translate-x-5' : 'translate-x-0'}`} />
@@ -335,14 +355,14 @@ const ProfileSection = ({ stats, assets, onAvatarSelect, onClose, devMode, setDe
             {/* Admin Access (Hidden/Subtle) */}
             <div className="mt-8 pt-8 border-t border-white/5 flex justify-center gap-4">
                 <button
-                    onClick={() => onClose('admin')}
+                    onClick={() => { playSound('click'); onClose('admin'); }}
                     className="flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/10 hover:bg-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest transition-colors"
                 >
                     <Shield size={14} />
                     Admin Panel
                 </button>
                 <button
-                    onClick={() => onClose('logout')}
+                    onClick={() => { playSound('click'); onClose('logout'); }}
                     className="flex items-center gap-2 px-4 py-2 rounded-lg bg-red-500/10 hover:bg-red-500/20 text-red-400 text-xs font-bold uppercase tracking-widest transition-colors"
                 >
                     <Lock size={14} />

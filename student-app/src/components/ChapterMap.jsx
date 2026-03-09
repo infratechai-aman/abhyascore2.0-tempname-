@@ -1,7 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import { ChevronLeft, Settings, Lock } from 'lucide-react';
+import useSound from '../hooks/useSound';
 
 const ChapterMap = ({ selectedSub, chapters, setView, onChapterClick, assets }) => {
+    const { playSound } = useSound();
     const scrollRef = useRef(null);
 
     // Auto-scroll to bottom on mount (Start at Level 1)
@@ -18,7 +20,7 @@ const ChapterMap = ({ selectedSub, chapters, setView, onChapterClick, assets }) 
         >
             <div className="flex items-center justify-between px-4 sticky top-0 z-50 bg-[#050507]/95 backdrop-blur-xl border-b border-white/5 py-2 shadow-2xl">
                 <button
-                    onClick={() => setView('home')}
+                    onClick={() => { playSound('click'); setView('home'); }}
                     className="p-2 bg-white/5 rounded-xl border border-white/10 text-white hover:bg-white/10 transition-colors active:scale-95 backdrop-blur-md"
                 >
                     <ChevronLeft size={20} />
@@ -39,7 +41,14 @@ const ChapterMap = ({ selectedSub, chapters, setView, onChapterClick, assets }) 
                     <div key={ch.id} className={`flex flex-col items-center relative transition-transform ${ch.pos === 'left' ? '-translate-x-10 sm:-translate-x-12' : ch.pos === 'right' ? 'translate-x-10 sm:translate-x-12' : ''}`}>
                         <div className="relative group">
                             <div
-                                onClick={() => onChapterClick && onChapterClick(ch)}
+                                onClick={() => {
+                                    if (ch.locked) {
+                                        playSound('error');
+                                    } else {
+                                        playSound('click');
+                                        onChapterClick && onChapterClick(ch);
+                                    }
+                                }}
                                 className={`w-24 h-24 sm:w-28 sm:h-28 flex items-center justify-center relative z-10 transition-all duration-300 active:scale-90 cursor-pointer hover:scale-105 drop-shadow-2xl`}
                             >
                                 {/* Background Asset */}

@@ -1,8 +1,10 @@
 import React from 'react';
 import { Shield, Sword, Skull, X, Star } from 'lucide-react';
 import { DIFFICULTY_REWARDS } from '../data/questions';
+import useSound from '../hooks/useSound';
 
 const LevelSelector = ({ subject, chapter, onClose, onStart }) => {
+    const { playSound } = useSound();
     const levels = [
         {
             id: 'easy',
@@ -35,7 +37,7 @@ const LevelSelector = ({ subject, chapter, onClose, onStart }) => {
             <div className="w-full max-w-sm bg-[#0c0c10] border-t sm:border border-white/10 rounded-t-3xl sm:rounded-3xl p-5 sm:p-6 relative animate-in slide-in-from-bottom duration-300 shadow-2xl">
 
                 <button
-                    onClick={onClose}
+                    onClick={() => { playSound('click'); onClose(); }}
                     className="absolute right-4 top-4 p-2 bg-white/5 rounded-full text-white/40 hover:text-white transition-colors"
                 >
                     <X size={20} />
@@ -50,7 +52,7 @@ const LevelSelector = ({ subject, chapter, onClose, onStart }) => {
                     {levels.map((lvl) => (
                         <div
                             key={lvl.id}
-                            onClick={() => onStart(lvl.id)}
+                            onClick={() => { playSound('pop'); onStart(lvl.id); }}
                             className={`relative overflow-hidden group border ${lvl.color} p-3 sm:p-4 rounded-xl cursor-pointer active:scale-95 transition-all hover:bg-white/5`}
                         >
                             <div className={`absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l ${lvl.gradient} opacity-20 group-hover:opacity-30 transition-opacity`} />

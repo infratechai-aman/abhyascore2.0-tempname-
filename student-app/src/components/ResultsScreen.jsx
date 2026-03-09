@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Trophy, Home, Repeat, Share2, Star, Skull, Zap, Sparkles } from 'lucide-react';
 import { calculateResults } from '../utils/gameLogic';
+import useSound from '../hooks/useSound';
 
 const ResultsScreen = ({ questions, answers, onHome, onRetry }) => {
+    const { playSound } = useSound();
     const [results, setResults] = useState(null);
     const [showScore, setShowScore] = useState(false);
 
@@ -16,7 +18,10 @@ const ResultsScreen = ({ questions, answers, onHome, onRetry }) => {
         setResults(res);
 
         // Start Sequence
-        setTimeout(() => setShowScore(true), 100);
+        setTimeout(() => {
+            setShowScore(true);
+            if (res.stars > 0) playSound('win');
+        }, 100);
     }, [questions, answers]);
 
     // Score Counting Animation
@@ -52,6 +57,7 @@ const ResultsScreen = ({ questions, answers, onHome, onRetry }) => {
         let delay = 0;
         for (let i = 0; i < earnedStars; i++) {
             setTimeout(() => {
+                playSound('success');
                 setStarStates(prev => {
                     const next = [...prev];
                     next[i] = 1; // Pop
@@ -164,13 +170,13 @@ const ResultsScreen = ({ questions, answers, onHome, onRetry }) => {
                     {/* Action Buttons */}
                     <div className="flex gap-3">
                         <button
-                            onClick={onHome}
+                            onClick={() => { playSound('click'); onHome(); }}
                             className="flex-1 py-4 rounded-2xl bg-white/5 border border-white/10 text-white font-black italic uppercase tracking-wider hover:bg-white/10 active:scale-95 transition-all flex items-center justify-center gap-2 group"
                         >
                             <Home size={18} className="group-hover:-translate-x-1 transition-transform" /> Home
                         </button>
                         <button
-                            onClick={onRetry}
+                            onClick={() => { playSound('click'); onRetry(); }}
                             className="flex-1 py-4 rounded-2xl bg-blue-600 text-white font-black italic uppercase tracking-wider hover:bg-blue-500 active:scale-95 transition-all shadow-lg shadow-blue-900/40 flex items-center justify-center gap-2 group"
                         >
                             <Repeat size={18} className="group-hover:rotate-180 transition-transform duration-500" /> Retry

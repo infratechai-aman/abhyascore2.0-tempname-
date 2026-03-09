@@ -18,6 +18,7 @@ import MiniGamesMenu from './components/MiniGamesMenu';
 import RiddleCipher from './components/RiddleCipher';
 import MathMaze from './components/MathMaze';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
+import { SoundProvider } from './contexts/SoundContext';
 import { startTestSession, calculateResults, saveQuizResult, getUserProgress, saveChapterProgress } from './utils/gameLogic';
 import { getSubjectsForStream } from './utils/bossConfig';
 import { assembleBossExam, calculateBossResults, saveBossResult, getBossHistory, getRecentBossQuestionIds } from './utils/bossEngine';
@@ -701,7 +702,9 @@ const MainContent = () => {
 const App = () => {
   return (
     <AuthProvider>
-      <MainContent />
+      <SoundProvider>
+        <MainContent />
+      </SoundProvider>
     </AuthProvider>
   );
 };

@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Timer, ArrowRight } from 'lucide-react';
+import useSound from '../hooks/useSound';
 
 const QuizInterface = ({ questions, subject, onComplete, onExit, devMode }) => {
+    const { playSound } = useSound();
     const [currentQIndex, setCurrentQIndex] = useState(0);
     const [answers, setAnswers] = useState({}); // { questionId: optionId }
     const [timeLeft, setTimeLeft] = useState(25 * 60); // 25 minutes for 25 questions
@@ -29,10 +31,17 @@ const QuizInterface = ({ questions, subject, onComplete, onExit, devMode }) => {
     }, []);
 
     const handleOptionSelect = (optId) => {
+        const isCorrect = optId === (currentQ.correctAnswer || currentQ.answer);
+        if (devMode) {
+            playSound(isCorrect ? 'correct' : 'wrong');
+        } else {
+            playSound('click');
+        }
         setAnswers(prev => ({ ...prev, [currentQ.id]: optId }));
     };
 
     const handleNext = () => {
+        playSound('click');
         if (currentQIndex < questions.length - 1) {
             setCurrentQIndex(prev => prev + 1);
         } else {
@@ -127,7 +136,7 @@ const QuizInterface = ({ questions, subject, onComplete, onExit, devMode }) => {
             <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black via-black/95 to-transparent shrink-0">
                 <div className="max-w-2xl mx-auto flex gap-3">
                     <button
-                        onClick={onExit}
+                        onClick={() => { playSound('click'); onExit(); }}
                         className="px-5 sm:px-6 py-3 sm:py-3.5 rounded-xl font-black italic bg-white/5 border border-white/10 text-white/40 uppercase tracking-wider hover:bg-white/10 hover:text-white transition-colors text-sm sm:text-base"
                     >
                         Quit

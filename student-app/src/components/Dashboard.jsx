@@ -1,15 +1,21 @@
-import { Skull, Trophy, Lock } from 'lucide-react';
+import { Skull, Trophy, Lock, Brain } from 'lucide-react';
 import { getRank } from '../utils/rankUtils';
+import useSound from '../hooks/useSound';
 
 const Dashboard = ({ subjects, extraCards = [], assets, setSelectedSub, setView, stats }) => {
+    const { playSound } = useSound();
 
     const renderCard = (card) => {
         const isLocked = card.locked;
         const isPremiumOnly = card.premiumOnly && !stats.isPremium;
 
         const handleClick = () => {
-            if (isLocked || isPremiumOnly) return;
+            if (isLocked || isPremiumOnly) {
+                playSound('error');
+                return;
+            }
 
+            playSound('click');
             if (card.type === 'subject') {
                 setSelectedSub(card);
                 setView('map');
@@ -84,7 +90,7 @@ const Dashboard = ({ subjects, extraCards = [], assets, setSelectedSub, setView,
             {/* Default Failbacks if extraCards is empty (unseeded DB) */}
             {extraCards.length === 0 && (
                 <>
-                    <div onClick={() => setView('boss-select')} className="relative h-20 rounded-2xl border border-white/10 overflow-hidden cursor-pointer active:scale-[0.98] transition-all shadow-xl group bg-slate-900">
+                    <div onClick={() => { playSound('click'); setView('boss-select'); }} className="relative h-20 rounded-2xl border border-white/10 overflow-hidden cursor-pointer active:scale-[0.98] transition-all shadow-xl group bg-slate-900">
                         <div className="absolute inset-0 bg-gradient-to-r from-red-900/40 to-slate-900 transition-transform duration-700 group-hover:scale-105" />
                         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-transparent to-transparent" />
                         <div className="absolute inset-0 flex items-center px-5 justify-between">
@@ -108,7 +114,7 @@ const Dashboard = ({ subjects, extraCards = [], assets, setSelectedSub, setView,
                         </div>
                     </div>
 
-                    <div onClick={() => setView('minigames')} className="relative h-20 rounded-2xl border border-white/10 overflow-hidden cursor-pointer active:scale-[0.98] transition-all shadow-xl group bg-slate-900">
+                    <div onClick={() => { playSound('click'); setView('minigames'); }} className="relative h-20 rounded-2xl border border-white/10 overflow-hidden cursor-pointer active:scale-[0.98] transition-all shadow-xl group bg-slate-900">
                         <div className="absolute inset-0 bg-gradient-to-r from-indigo-900/40 to-slate-900 transition-transform duration-700 group-hover:scale-105" />
                         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-transparent to-transparent" />
                         <div className="absolute inset-0 flex items-center px-5 justify-between">
